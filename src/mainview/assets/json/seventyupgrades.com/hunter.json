@@ -1,0 +1,2746 @@
+{
+  "data": {
+    "getTalentData": {
+      "gameClass": "hunter",
+      "trees": [
+        {
+          "id": 361,
+          "icon": "ability_hunter_beasttaming",
+          "name": "Beast Mastery",
+          "talents": [
+            {
+              "id": 1382,
+              "icon": "spell_nature_ravenform",
+              "name": "Improved Aspect of the Hawk",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19552,
+                  "rank": "Rank 1",
+                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 3% for 12 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19553,
+                  "rank": "Rank 2",
+                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 6% for 12 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19554,
+                  "rank": "Rank 3",
+                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 9% for 12 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19555,
+                  "rank": "Rank 4",
+                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 12% for 12 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19556,
+                  "rank": "Rank 5",
+                  "description": "While Aspect of the Hawk is active, all normal ranged attacks have a 10% chance of increasing ranged attack speed by 15% for 12 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1389,
+              "icon": "spell_nature_reincarnation",
+              "name": "Endurance Training",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19583,
+                  "rank": "Rank 1",
+                  "description": "Increases the Health of your pets by 2% and your total health by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "health",
+                      "type": "multiply",
+                      "value": 0.01,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19584,
+                  "rank": "Rank 2",
+                  "description": "Increases the Health of your pets by 4% and your total health by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "health",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19585,
+                  "rank": "Rank 3",
+                  "description": "Increases the Health of your pets by 6% and your total health by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "health",
+                      "type": "multiply",
+                      "value": 0.03,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19586,
+                  "rank": "Rank 4",
+                  "description": "Increases the Health of your pets by 8% and your total health by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "health",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19587,
+                  "rank": "Rank 5",
+                  "description": "Increases the Health of your pets by 10% and your total health by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "health",
+                      "type": "multiply",
+                      "value": 0.05,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1624,
+              "icon": "ability_hunter_silenthunter",
+              "name": "Focused Fire",
+              "row": 1,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 35029,
+                  "rank": "Rank 1",
+                  "description": "All damage caused by you is increased by 1% while your pet is active and the critical strike chance of your Kill Command Ability is increased by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35030,
+                  "rank": "Rank 2",
+                  "description": "All damage caused by you is increased by 2% while your pet is active and the critical strike chance of your Kill Command Ability is increased by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1381,
+              "icon": "ability_hunter_aspectofthemonkey",
+              "name": "Improved Aspect of the Monkey",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19549,
+                  "rank": "Rank 1",
+                  "description": "Increases the Dodge bonus of your Aspect of the Monkey by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19550,
+                  "rank": "Rank 2",
+                  "description": "Increases the Dodge bonus of your Aspect of the Monkey by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19551,
+                  "rank": "Rank 3",
+                  "description": "Increases the Dodge bonus of your Aspect of the Monkey by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1395,
+              "icon": "inv_misc_pelt_bear_03",
+              "name": "Thick Hide",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19609,
+                  "rank": "Rank 1",
+                  "description": "Increases the armor rating of your pets by 7% and your armor contributions from items by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19610,
+                  "rank": "Rank 2",
+                  "description": "Increases the armor rating of your pets by 14% and your armor contributions from items by 7%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.07,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19612,
+                  "rank": "Rank 3",
+                  "description": "Increases the armor rating of your pets by 20% and your armor contributions from items by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1625,
+              "icon": "ability_hunter_beastsoothe",
+              "name": "Improved Revive Pet",
+              "row": 1,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 24443,
+                  "rank": "Rank 1",
+                  "description": "Revive Pet's casting time is reduced by 3 sec, mana cost is reduced by 20%, and increases the health your pet returns with by an additional 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19575,
+                  "rank": "Rank 2",
+                  "description": "Revive Pet's casting time is reduced by 6 sec, mana cost is reduced by 40%, and increases the health your pet returns with by an additional 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1384,
+              "icon": "ability_mount_jungletiger",
+              "name": "Pathfinding",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19559,
+                  "rank": "Rank 1",
+                  "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19560,
+                  "rank": "Rank 2",
+                  "description": "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1391,
+              "icon": "ability_druid_dash",
+              "name": "Bestial Swiftness",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19596,
+                  "rank": "Rank 1",
+                  "description": "Increases the outdoor movement speed of your pets by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1396,
+              "icon": "ability_bullrush",
+              "name": "Unleashed Fury",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19616,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage done by your pets by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19617,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage done by your pets by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19618,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage done by your pets by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19619,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage done by your pets by 16%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19620,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage done by your pets by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1385,
+              "icon": "ability_hunter_mendpet",
+              "name": "Improved Mend Pet",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19572,
+                  "rank": "Rank 1",
+                  "description": "Reduces the mana cost of your Mend Pet spell by 10% and gives the Mend Pet spell a 15% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19573,
+                  "rank": "Rank 2",
+                  "description": "Reduces the mana cost of your Mend Pet spell by 20% and gives the Mend Pet spell a 50% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1393,
+              "icon": "inv_misc_monsterclaw_04",
+              "name": "Ferocity",
+              "row": 3,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19598,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike chance of your pets by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19599,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical strike chance of your pets by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19600,
+                  "rank": "Rank 3",
+                  "description": "Increases the critical strike chance of your pets by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19601,
+                  "rank": "Rank 4",
+                  "description": "Increases the critical strike chance of your pets by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19602,
+                  "rank": "Rank 5",
+                  "description": "Increases the critical strike chance of your pets by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1388,
+              "icon": "classic_ability_druid_demoralizingroar",
+              "name": "Spirit Bond",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19578,
+                  "rank": "Rank 1",
+                  "description": "While your pet is active, you and your pet will regenerate 1% of total health every 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20895,
+                  "rank": "Rank 2",
+                  "description": "While your pet is active, you and your pet will regenerate 2% of total health every 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1387,
+              "icon": "ability_devour",
+              "name": "Intimidation",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19577,
+                  "rank": "Rank 1",
+                  "description": "Command your pet to intimidate the target on the next successful melee attack, causing a high amount of threat and stunning the target for 3 sec.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "1 min cooldown",
+                    "cost": "202 Mana",
+                    "range": "100 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1390,
+              "icon": "spell_nature_abolishmagic",
+              "name": "Bestial Discipline",
+              "row": 4,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19590,
+                  "rank": "Rank 1",
+                  "description": "Increases the Focus regeneration of your pets by 50%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19592,
+                  "rank": "Rank 2",
+                  "description": "Increases the Focus regeneration of your pets by 100%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1799,
+              "icon": "ability_hunter_animalhandler",
+              "name": "Animal Handler",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34453,
+                  "rank": "Rank 1",
+                  "description": "Increases your speed while mounted by 4% and your pet's chance to hit by 2%. The mounted movement speed increase does not stack with other effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34454,
+                  "rank": "Rank 2",
+                  "description": "Increases your speed while mounted by 8% and your pet's chance to hit by 4%. The mounted movement speed increase does not stack with other effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1397,
+              "icon": "inv_misc_monsterclaw_03",
+              "name": "Frenzy",
+              "row": 5,
+              "col": 2,
+              "requires": 1393,
+              "ranks": [
+                {
+                  "id": 19621,
+                  "rank": "Rank 1",
+                  "description": "Gives your pet a 20% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19622,
+                  "rank": "Rank 2",
+                  "description": "Gives your pet a 40% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19623,
+                  "rank": "Rank 3",
+                  "description": "Gives your pet a 60% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19624,
+                  "rank": "Rank 4",
+                  "description": "Gives your pet a 80% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19625,
+                  "rank": "Rank 5",
+                  "description": "Gives your pet a 100% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1800,
+              "icon": "ability_hunter_ferociousinspiration",
+              "name": "Ferocious Inspiration",
+              "row": 6,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34455,
+                  "rank": "Rank 1",
+                  "description": "When your pet scores a critical hit, all party members have all damage increased by 1% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34459,
+                  "rank": "Rank 2",
+                  "description": "When your pet scores a critical hit, all party members have all damage increased by 2% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34460,
+                  "rank": "Rank 3",
+                  "description": "When your pet scores a critical hit, all party members have all damage increased by 3% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1386,
+              "icon": "ability_druid_ferociousbite",
+              "name": "Bestial Wrath",
+              "row": 6,
+              "col": 1,
+              "requires": 1387,
+              "ranks": [
+                {
+                  "id": 19574,
+                  "rank": "Rank 1",
+                  "description": "Send your pet into a rage causing 50% additional damage for 18 sec. While enraged, the beast cannot be stopped unless killed.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "2 min cooldown",
+                    "cost": "338 Mana",
+                    "range": "100 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1801,
+              "icon": "ability_hunter_catlikereflexes",
+              "name": "Catlike Reflexes",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34462,
+                  "rank": "Rank 1",
+                  "description": "Increases your pet's chance to dodge by 3% and your chance to dodge by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34464,
+                  "rank": "Rank 2",
+                  "description": "Increases your pet's chance to dodge by 6% and your chance to dodge by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34465,
+                  "rank": "Rank 3",
+                  "description": "Increases your pet's chance to dodge by 9% and your chance to dodge by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1802,
+              "icon": "ability_hunter_serpentswiftness",
+              "name": "Serpent's Swiftness",
+              "row": 7,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34466,
+                  "rank": "Rank 1",
+                  "description": "Increases ranged combat attack speed by 4% and your pet's melee attack speed by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34467,
+                  "rank": "Rank 2",
+                  "description": "Increases ranged combat attack speed by 8% and your pet's melee attack speed by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34468,
+                  "rank": "Rank 3",
+                  "description": "Increases ranged combat attack speed by 12% and your pet's melee attack speed by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34469,
+                  "rank": "Rank 4",
+                  "description": "Increases ranged combat attack speed by 16% and your pet's melee attack speed by 16%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34470,
+                  "rank": "Rank 5",
+                  "description": "Increases ranged combat attack speed by 20% and your pet's melee attack speed by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 2116,
+              "icon": "ability_hunter_beastwithin",
+              "name": "The Beast Within",
+              "row": 8,
+              "col": 1,
+              "requires": 1386,
+              "ranks": [
+                {
+                  "id": 34471,
+                  "rank": "Rank 1",
+                  "description": "When your pet is under the effects of Bestial Wrath, you also go into a rage causing 10% additional damage and reducing mana costs of all spells by 20% for 18 sec. While enraged, you do not feel pity or remorse or fear and you cannot be stopped unless killed.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        },
+        {
+          "id": 363,
+          "icon": "ability_marksmanship",
+          "name": "Marksmanship",
+          "talents": [
+            {
+              "id": 1341,
+              "icon": "spell_frost_stun",
+              "name": "Improved Concussive Shot",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19407,
+                  "rank": "Rank 1",
+                  "description": "Gives your Concussive Shot a 4% chance to stun the target for 3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19412,
+                  "rank": "Rank 2",
+                  "description": "Gives your Concussive Shot a 8% chance to stun the target for 3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19413,
+                  "rank": "Rank 3",
+                  "description": "Gives your Concussive Shot a 12% chance to stun the target for 3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19414,
+                  "rank": "Rank 4",
+                  "description": "Gives your Concussive Shot a 16% chance to stun the target for 3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19415,
+                  "rank": "Rank 5",
+                  "description": "Gives your Concussive Shot a 20% chance to stun the target for 3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1344,
+              "icon": "ability_searingarrow",
+              "name": "Lethal Shots",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19426,
+                  "rank": "Rank 1",
+                  "description": "Increases your critical strike chance with ranged weapons by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedCrit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19427,
+                  "rank": "Rank 2",
+                  "description": "Increases your critical strike chance with ranged weapons by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedCrit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19429,
+                  "rank": "Rank 3",
+                  "description": "Increases your critical strike chance with ranged weapons by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedCrit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19430,
+                  "rank": "Rank 4",
+                  "description": "Increases your critical strike chance with ranged weapons by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedCrit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19431,
+                  "rank": "Rank 5",
+                  "description": "Increases your critical strike chance with ranged weapons by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedCrit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1343,
+              "icon": "ability_hunter_snipershot",
+              "name": "Improved Hunter's Mark",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19421,
+                  "rank": "Rank 1",
+                  "description": "Causes 20% of your Hunter's Mark ability's base attack power to apply to melee attack power as well.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19422,
+                  "rank": "Rank 2",
+                  "description": "Causes 40% of your Hunter's Mark ability's base attack power to apply to melee attack power as well.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19423,
+                  "rank": "Rank 3",
+                  "description": "Causes 60% of your Hunter's Mark ability's base attack power to apply to melee attack power as well.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19424,
+                  "rank": "Rank 4",
+                  "description": "Causes 80% of your Hunter's Mark ability's base attack power to apply to melee attack power as well.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19425,
+                  "rank": "Rank 5",
+                  "description": "Causes 100% of your Hunter's Mark ability's base attack power to apply to melee attack power as well.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1342,
+              "icon": "spell_frost_wizardmark",
+              "name": "Efficiency",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19416,
+                  "rank": "Rank 1",
+                  "description": "Reduces the Mana cost of your Shots and Stings by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19417,
+                  "rank": "Rank 2",
+                  "description": "Reduces the Mana cost of your Shots and Stings by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19418,
+                  "rank": "Rank 3",
+                  "description": "Reduces the Mana cost of your Shots and Stings by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19419,
+                  "rank": "Rank 4",
+                  "description": "Reduces the Mana cost of your Shots and Stings by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19420,
+                  "rank": "Rank 5",
+                  "description": "Reduces the Mana cost of your Shots and Stings by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1818,
+              "icon": "ability_hunter_goforthethroat",
+              "name": "Go for the Throat",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34950,
+                  "rank": "Rank 1",
+                  "description": "Your ranged critical hits cause your pet to generate 25 Focus.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34954,
+                  "rank": "Rank 2",
+                  "description": "Your ranged critical hits cause your pet to generate 50 Focus.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1346,
+              "icon": "ability_impalingbolt",
+              "name": "Improved Arcane Shot",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19454,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Arcane Shot by 0.2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19455,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Arcane Shot by 0.4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19456,
+                  "rank": "Rank 3",
+                  "description": "Reduces the cooldown of your Arcane Shot by 0.6 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19457,
+                  "rank": "Rank 4",
+                  "description": "Reduces the cooldown of your Arcane Shot by 0.8 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19458,
+                  "rank": "Rank 5",
+                  "description": "Reduces the cooldown of your Arcane Shot by 1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1345,
+              "icon": "inv_spear_07",
+              "name": "Aimed Shot",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19434,
+                  "rank": "Rank 1",
+                  "description": "An aimed shot that increases ranged damage by 870 and reduces healing done to that target by 50%. Lasts 10 sec.",
+                  "spell": {
+                    "castTime": "3 sec cast",
+                    "cooldown": "2 min cooldown",
+                    "cost": "75 Mana",
+                    "range": "5-35 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1819,
+              "icon": "ability_hunter_rapidkilling",
+              "name": "Rapid Killing",
+              "row": 2,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34948,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Rapid Fire ability by 1 min.  In addition, after killing an opponent that yields experience or honor, your next Aimed Shot, Arcane Shot or Auto Shot causes 10% additional damage.  Lasts 20 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34949,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Rapid Fire ability by 2 min.  In addition, after killing an opponent that yields experience or honor, your next Aimed Shot, Arcane Shot or Auto Shot causes 20% additional damage.  Lasts 20 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1348,
+              "icon": "ability_hunter_quickshot",
+              "name": "Improved Stings",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19464,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage done by your Serpent Sting and Wyvern Sting by 6%, increases the mana drained by your Viper Sting by 6%, and reduces the chance Stings will be dispelled by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19465,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage done by your Serpent Sting and Wyvern Sting by 12%, increases the mana drained by your Viper Sting by 12%, and reduces the chance Stings will be dispelled by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19466,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage done by your Serpent Sting and Wyvern Sting by 18%, increases the mana drained by your Viper Sting by 18%, and reduces the chance Stings will be dispelled by 18%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19467,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage done by your Serpent Sting and Wyvern Sting by 24%, increases the mana drained by your Viper Sting by 24%, and reduces the chance Stings will be dispelled by 24%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19468,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage done by your Serpent Sting and Wyvern Sting by 30%, increases the mana drained by your Viper Sting by 30%, and reduces the chance Stings will be dispelled by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1349,
+              "icon": "ability_piercedamage",
+              "name": "Mortal Shots",
+              "row": 3,
+              "col": 2,
+              "requires": 1345,
+              "ranks": [
+                {
+                  "id": 19485,
+                  "rank": "Rank 1",
+                  "description": "Increases your ranged weapon critical strike damage bonus by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19487,
+                  "rank": "Rank 2",
+                  "description": "Increases your ranged weapon critical strike damage bonus by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19488,
+                  "rank": "Rank 3",
+                  "description": "Increases your ranged weapon critical strike damage bonus by 18%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19489,
+                  "rank": "Rank 4",
+                  "description": "Increases your ranged weapon critical strike damage bonus by 24%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19490,
+                  "rank": "Rank 5",
+                  "description": "Increases your ranged weapon critical strike damage bonus by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1351,
+              "icon": "spell_arcane_starfire",
+              "name": "Concussive Barrage",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 35100,
+                  "rank": "Rank 1",
+                  "description": "Your successful Auto Shot attacks have a 2% chance to Daze the target for 4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35102,
+                  "rank": "Rank 2",
+                  "description": "Your successful Auto Shot attacks have a 4% chance to Daze the target for 4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35103,
+                  "rank": "Rank 3",
+                  "description": "Your successful Auto Shot attacks have a 6% chance to Daze the target for 4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1353,
+              "icon": "ability_golemstormbolt",
+              "name": "Scatter Shot",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19503,
+                  "rank": "Rank 1",
+                  "description": "Requires Ranged Weapon<br>A short-range shot that deals 50% weapon damage and confuses the target for 4 sec. Any damage caused will remove the effect. Turns off your attack when used.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "30 sec cooldown",
+                    "cost": "202 Mana",
+                    "range": "15 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1347,
+              "icon": "ability_upgrademoonglaive",
+              "name": "Barrage",
+              "row": 4,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19461,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage done by your Multi-Shot and Volley spells by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19462,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage done by your Multi-Shot and Volley spells by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 24691,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage done by your Multi-Shot and Volley spells by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1804,
+              "icon": "ability_hunter_combatexperience",
+              "name": "Combat Experience",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34475,
+                  "rank": "Rank 1",
+                  "description": "Increases your total Agility by 1% and your total Intellect by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.01,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "intellect",
+                      "type": "multiply",
+                      "value": 0.03,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34476,
+                  "rank": "Rank 2",
+                  "description": "Increases your total Agility by 2% and your total Intellect by 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "intellect",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1362,
+              "icon": "inv_weapon_rifle_06",
+              "name": "Ranged Weapon Specialization",
+              "row": 5,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19507,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage you deal with ranged weapons by 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19508,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage you deal with ranged weapons by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19509,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage you deal with ranged weapons by 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19510,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage you deal with ranged weapons by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19511,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage you deal with ranged weapons by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1806,
+              "icon": "ability_hunter_zenarchery",
+              "name": "Careful Aim",
+              "row": 6,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34482,
+                  "rank": "Rank 1",
+                  "description": "Increases your ranged attack power by an amount equal to 15% of your total Intellect.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedAttackPower",
+                      "type": "multiplyIntellect",
+                      "value": 1.15,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34483,
+                  "rank": "Rank 2",
+                  "description": "Increases your ranged attack power by an amount equal to 30% of your total Intellect.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedAttackPower",
+                      "type": "multiplyIntellect",
+                      "value": 1.3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34484,
+                  "rank": "Rank 3",
+                  "description": "Increases your ranged attack power by an amount equal to 45% of your total Intellect.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedAttackPower",
+                      "type": "multiplyIntellect",
+                      "value": 1.45,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1361,
+              "icon": "ability_trueshot",
+              "name": "Trueshot Aura",
+              "row": 6,
+              "col": 1,
+              "requires": 1353,
+              "ranks": [
+                {
+                  "id": 19506,
+                  "rank": "Rank 1",
+                  "description": "Increases the attack power of party members within 45 yards by 50. Lasts until cancelled.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": null,
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1821,
+              "icon": "ability_upgrademoonglaive",
+              "name": "Improved Barrage",
+              "row": 6,
+              "col": 2,
+              "requires": 1347,
+              "ranks": [
+                {
+                  "id": 35104,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike chance of your Multi-Shot ability by 4% and gives you a 33% chance to avoid interruption caused by damage while channeling Volley.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35110,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical strike chance of your Multi-Shot ability by 8% and gives you a 66% chance to avoid interruption caused by damage while channeling Volley.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35111,
+                  "rank": "Rank 3",
+                  "description": "Increases the critical strike chance of your Multi-Shot ability by 12% and gives you a 100% chance to avoid interruption caused by damage while channeling Volley.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1807,
+              "icon": "ability_hunter_mastermarksman",
+              "name": "Master Marksman",
+              "row": 7,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34485,
+                  "rank": "Rank 1",
+                  "description": "Increases your ranged attack power by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedAttackPower",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34486,
+                  "rank": "Rank 2",
+                  "description": "Increases your ranged attack power by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedAttackPower",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34487,
+                  "rank": "Rank 3",
+                  "description": "Increases your ranged attack power by 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedAttackPower",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34488,
+                  "rank": "Rank 4",
+                  "description": "Increases your ranged attack power by 8%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedAttackPower",
+                      "type": "multiply",
+                      "value": 0.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34489,
+                  "rank": "Rank 5",
+                  "description": "Increases your ranged attack power by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "rangedAttackPower",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1808,
+              "icon": "ability_theblackarrow",
+              "name": "Silencing Shot",
+              "row": 8,
+              "col": 1,
+              "requires": 2128,
+              "ranks": [
+                {
+                  "id": 34490,
+                  "rank": "Rank 1",
+                  "description": "A shot that deals 50% weapon damage and Silences the target for 3 sec.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "20 sec cooldown",
+                    "cost": "202 Mana",
+                    "range": "5-35 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        },
+        {
+          "id": 362,
+          "icon": "ability_hunter_swiftstrike",
+          "name": "Survival",
+          "talents": [
+            {
+              "id": 1623,
+              "icon": "inv_misc_head_dragon_black",
+              "name": "Monster Slaying",
+              "row": 0,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 24293,
+                  "rank": "Rank 1",
+                  "description": "Increases all damage caused against Beast, Giants and Dragonkin targets by 1% and increases critical damage caused against Beasts, Giants, and Dragonkin targets by an additional 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 24294,
+                  "rank": "Rank 2",
+                  "description": "Increases all damage caused against Beast, Giants and Dragonkin targets by 2% and increases critical damage caused against Beasts, Giants, and Dragonkin targets by an additional 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 24295,
+                  "rank": "Rank 3",
+                  "description": "Increases all damage caused against Beast, Giants and Dragonkin targets by 3% and increases critical damage caused against Beasts, Giants, and Dragonkin targets by an additional 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1301,
+              "icon": "spell_holy_prayerofhealing",
+              "name": "Humanoid Slaying",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19151,
+                  "rank": "Rank 1",
+                  "description": "Increases all damage caused against Humanoid targets by 1% and increases critical damage caused against Humanoid targets by an additional 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19152,
+                  "rank": "Rank 2",
+                  "description": "Increases all damage caused against Humanoid targets by 2% and increases critical damage caused against Humanoid targets by an additional 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19153,
+                  "rank": "Rank 3",
+                  "description": "Increases all damage caused against Humanoid targets by 3% and increases critical damage caused against Humanoid targets by an additional 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1820,
+              "icon": "ability_townwatch",
+              "name": "Hawk Eye",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19498,
+                  "rank": "Rank 1",
+                  "description": "Increases the range of your ranged weapons by 2 yards.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19499,
+                  "rank": "Rank 2",
+                  "description": "Increases the range of your ranged weapons by 4 yards.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19500,
+                  "rank": "Rank 3",
+                  "description": "Increases the range of your ranged weapons by 6 yards.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1621,
+              "icon": "ability_racial_bloodrage",
+              "name": "Savage Strikes",
+              "row": 0,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19159,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike chance of Raptor Strike and Mongoose Bite by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19160,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical strike chance of Raptor Strike and Mongoose Bite by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1304,
+              "icon": "spell_nature_stranglevines",
+              "name": "Entrapment",
+              "row": 1,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19184,
+                  "rank": "Rank 1",
+                  "description": "Gives your Immolation Trap, Frost Trap, Explosive Trap, and Snake Trap a 8% chance to entrap the target, preventing them from moving for 4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19387,
+                  "rank": "Rank 2",
+                  "description": "Gives your Immolation Trap, Frost Trap, Explosive Trap, and Snake Trap a 16% chance to entrap the target, preventing them from moving for 4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19388,
+                  "rank": "Rank 3",
+                  "description": "Gives your Immolation Trap, Frost Trap, Explosive Trap, and Snake Trap a 25% chance to entrap the target, preventing them from moving for 4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1311,
+              "icon": "ability_parry",
+              "name": "Deflection",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19295,
+                  "rank": "Rank 1",
+                  "description": "Increases your Parry chance by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19297,
+                  "rank": "Rank 2",
+                  "description": "Increases your Parry chance by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19298,
+                  "rank": "Rank 3",
+                  "description": "Increases your Parry chance by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19301,
+                  "rank": "Rank 4",
+                  "description": "Increases your Parry chance by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19300,
+                  "rank": "Rank 5",
+                  "description": "Increases your Parry chance by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1305,
+              "icon": "ability_rogue_trip",
+              "name": "Improved Wing Clip",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19228,
+                  "rank": "Rank 1",
+                  "description": "Gives your Wing Clip ability a 7% chance to immobilize the target for 5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19232,
+                  "rank": "Rank 2",
+                  "description": "Gives your Wing Clip ability a 14% chance to immobilize the target for 5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19233,
+                  "rank": "Rank 3",
+                  "description": "Gives your Wing Clip ability a 20% chance to immobilize the target for 5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1306,
+              "icon": "spell_nature_timestop",
+              "name": "Clever Traps",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19239,
+                  "rank": "Rank 1",
+                  "description": "Increases the duration of Freezing and Frost trap effects by 15%, the damage of Immolation and Explosive trap effects by 15%, and the number of snakes summoned from Snake Traps by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19245,
+                  "rank": "Rank 2",
+                  "description": "Increases the duration of Freezing and Frost trap effects by 30%, the damage of Immolation and Explosive trap effects by 30%, and the number of snakes summoned from Snake Traps by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1622,
+              "icon": "spell_shadow_twilight",
+              "name": "Survivalist",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19255,
+                  "rank": "Rank 1",
+                  "description": "Increases total health by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "health",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19256,
+                  "rank": "Rank 2",
+                  "description": "Increases total health by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "health",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19257,
+                  "rank": "Rank 3",
+                  "description": "Increases total health by 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "health",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19258,
+                  "rank": "Rank 4",
+                  "description": "Increases total health by 8%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "health",
+                      "type": "multiply",
+                      "value": 0.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19259,
+                  "rank": "Rank 5",
+                  "description": "Increases total health by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "health",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1308,
+              "icon": "ability_whirlwind",
+              "name": "Deterrence",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19263,
+                  "rank": "Rank 1",
+                  "description": "When activated, increases your Dodge and Parry chance by 25% for 10 sec.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "5 min cooldown",
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1322,
+              "icon": "ability_ensnare",
+              "name": "Trap Mastery",
+              "row": 3,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19376,
+                  "rank": "Rank 1",
+                  "description": "Decreases the chance enemies will resist trap effects by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19377,
+                  "rank": "Rank 2",
+                  "description": "Decreases the chance enemies will resist trap effects by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1310,
+              "icon": "ability_kick",
+              "name": "Surefooted",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19290,
+                  "rank": "Rank 1",
+                  "description": "Increases hit chance by 1% and increases the chance movement impairing effects will be resisted by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19294,
+                  "rank": "Rank 2",
+                  "description": "Increases hit chance by 2% and increases the chance movement impairing effects will be resisted by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 24283,
+                  "rank": "Rank 3",
+                  "description": "Increases hit chance by 3% and increases the chance movement impairing effects will be resisted by 15%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1309,
+              "icon": "ability_rogue_feigndeath",
+              "name": "Improved Feign Death",
+              "row": 3,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19286,
+                  "rank": "Rank 1",
+                  "description": "Reduces the chance your Feign Death ability will be resisted by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19287,
+                  "rank": "Rank 2",
+                  "description": "Reduces the chance your Feign Death ability will be resisted by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1810,
+              "icon": "ability_hunter_survivalinstincts",
+              "name": "Survival Instincts",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34494,
+                  "rank": "Rank 1",
+                  "description": "Reduces all damage taken by 2% and increases attack power by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "rangedAttackPower",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34496,
+                  "rank": "Rank 2",
+                  "description": "Reduces all damage taken by 4% and increases attack power by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "rangedAttackPower",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1321,
+              "icon": "spell_holy_blessingofstamina",
+              "name": "Killer Instinct",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19370,
+                  "rank": "Rank 1",
+                  "description": "Increases your critical strike chance with all attacks by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19371,
+                  "rank": "Rank 2",
+                  "description": "Increases your critical strike chance with all attacks by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19373,
+                  "rank": "Rank 3",
+                  "description": "Increases your critical strike chance with all attacks by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1312,
+              "icon": "ability_warrior_challange",
+              "name": "Counterattack",
+              "row": 4,
+              "col": 2,
+              "requires": 1308,
+              "ranks": [
+                {
+                  "id": 19306,
+                  "rank": "Rank 1",
+                  "description": "A strike that becomes active after parrying an opponent's attack. This attack deals 40 damage and immobilizes the target for 5 sec. Counterattack cannot be blocked, dodged, or parried.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "5 sec cooldown",
+                    "cost": "45 Mana",
+                    "range": "Melee Range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1809,
+              "icon": "ability_hunter_resourcefulness",
+              "name": "Resourcefulness",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34491,
+                  "rank": "Rank 1",
+                  "description": "Reduces the mana cost of all traps and melee abilities by 20% and reduces the cooldown of all traps by 2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34492,
+                  "rank": "Rank 2",
+                  "description": "Reduces the mana cost of all traps and melee abilities by 40% and reduces the cooldown of all traps by 4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34493,
+                  "rank": "Rank 3",
+                  "description": "Reduces the mana cost of all traps and melee abilities by 60% and reduces the cooldown of all traps by 6 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1303,
+              "icon": "spell_nature_invisibilty",
+              "name": "Lightning Reflexes",
+              "row": 5,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 19168,
+                  "rank": "Rank 1",
+                  "description": "Increases your Agility by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.03,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19180,
+                  "rank": "Rank 2",
+                  "description": "Increases your Agility by 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 19181,
+                  "rank": "Rank 3",
+                  "description": "Increases your Agility by 9%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.09,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 24296,
+                  "rank": "Rank 4",
+                  "description": "Increases your Agility by 12%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.12,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 24297,
+                  "rank": "Rank 5",
+                  "description": "Increases your Agility by 15%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.15,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1811,
+              "icon": "ability_hunter_thrillofthehunt",
+              "name": "Thrill of the Hunt",
+              "row": 6,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34497,
+                  "rank": "Rank 1",
+                  "description": "Gives you a 33% chance to regain 40% of the mana cost of any shot when it critically hits.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34498,
+                  "rank": "Rank 2",
+                  "description": "Gives you a 66% chance to regain 40% of the mana cost of any shot when it critically hits.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34499,
+                  "rank": "Rank 3",
+                  "description": "Gives you a 100% chance to regain 40% of the mana cost of any shot when it critically hits.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1325,
+              "icon": "inv_spear_02",
+              "name": "Wyvern Sting",
+              "row": 6,
+              "col": 1,
+              "requires": 1321,
+              "ranks": [
+                {
+                  "id": 19386,
+                  "rank": "Rank 1",
+                  "description": "A stinging shot that puts the target to sleep for 12 sec. Any damage will cancel the effect. When the target wakes up, the Sting causes 300 Nature damage over 12 sec. Only one Sting per Hunter can be active on the target at a time.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "2 min cooldown",
+                    "cost": "115 Mana",
+                    "range": "5-35 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1812,
+              "icon": "ability_rogue_findweakness",
+              "name": "Expose Weakness",
+              "row": 6,
+              "col": 2,
+              "requires": 1303,
+              "ranks": [
+                {
+                  "id": 34500,
+                  "rank": "Rank 1",
+                  "description": "Your ranged criticals have a 33% chance to apply an Expose Weakness effect to the target. Expose Weakness increases the Attack Power of all attackers against that target by 25% of your Agility for 7 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34502,
+                  "rank": "Rank 2",
+                  "description": "Your ranged criticals have a 66% chance to apply an Expose Weakness effect to the target. Expose Weakness increases the Attack Power of all attackers against that target by 25% of your Agility for 7 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34503,
+                  "rank": "Rank 3",
+                  "description": "Your ranged criticals have a 100% chance to apply an Expose Weakness effect to the target. Expose Weakness increases the Attack Power of all attackers against that target by 25% of your Agility for 7 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1813,
+              "icon": "ability_hunter_mastertactitian",
+              "name": "Master Tactician",
+              "row": 7,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 34506,
+                  "rank": "Rank 1",
+                  "description": "Your successful ranged attacks have a 6% chance to increase your critical strike chance with all attacks by 2% for 8 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34507,
+                  "rank": "Rank 2",
+                  "description": "Your successful ranged attacks have a 6% chance to increase your critical strike chance with all attacks by 4% for 8 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34508,
+                  "rank": "Rank 3",
+                  "description": "Your successful ranged attacks have a 6% chance to increase your critical strike chance with all attacks by 6% for 8 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34838,
+                  "rank": "Rank 4",
+                  "description": "Your successful ranged attacks have a 6% chance to increase your critical strike chance with all attacks by 8% for 8 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 34839,
+                  "rank": "Rank 5",
+                  "description": "Your successful ranged attacks have a 6% chance to increase your critical strike chance with all attacks by 10% for 8 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1814,
+              "icon": "ability_hunter_readiness",
+              "name": "Readiness",
+              "row": 8,
+              "col": 1,
+              "requires": 2122,
+              "ranks": [
+                {
+                  "id": 23989,
+                  "rank": "Rank 1",
+                  "description": "When activated, this ability immediately finishes the cooldown on your other Hunter abilities.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "5 min cooldown",
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        }
+      ],
+      "__typename": "TalentData"
+    }
+  }
+}

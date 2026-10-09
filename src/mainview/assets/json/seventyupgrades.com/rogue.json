@@ -1,0 +1,2845 @@
+{
+  "data": {
+    "getTalentData": {
+      "gameClass": "rogue",
+      "trees": [
+        {
+          "id": 182,
+          "icon": "ability_rogue_eviscerate",
+          "name": "Assassination",
+          "talents": [
+            {
+              "id": 276,
+              "icon": "ability_rogue_eviscerate",
+              "name": "Improved Eviscerate",
+              "row": 0,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14162,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage done by your Eviscerate ability by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14163,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage done by your Eviscerate ability by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14164,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage done by your Eviscerate ability by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 272,
+              "icon": "ability_fiegndead",
+              "name": "Remorseless Attacks",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14144,
+                  "rank": "Rank 1",
+                  "description": "After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Mutilate, Hemorrhage, Ambush, or Ghostly Strike. Lasts 20 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14148,
+                  "rank": "Rank 2",
+                  "description": "After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Mutilate, Hemorrhage, Ambush, or Ghostly Strike. Lasts 20 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 270,
+              "icon": "ability_racial_bloodrage",
+              "name": "Malice",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14138,
+                  "rank": "Rank 1",
+                  "description": "Increases your critical strike chance by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14139,
+                  "rank": "Rank 2",
+                  "description": "Increases your critical strike chance by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14140,
+                  "rank": "Rank 3",
+                  "description": "Increases your critical strike chance by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14141,
+                  "rank": "Rank 4",
+                  "description": "Increases your critical strike chance by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14142,
+                  "rank": "Rank 5",
+                  "description": "Increases your critical strike chance by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 273,
+              "icon": "ability_druid_disembowel",
+              "name": "Ruthlessness",
+              "row": 1,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14156,
+                  "rank": "Rank 1",
+                  "description": "Gives your finishing moves a 20% chance to add a combo point to your target.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14160,
+                  "rank": "Rank 2",
+                  "description": "Gives your finishing moves a 40% chance to add a combo point to your target.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14161,
+                  "rank": "Rank 3",
+                  "description": "Gives your finishing moves a 60% chance to add a combo point to your target.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 274,
+              "icon": "spell_shadow_deathscream",
+              "name": "Murder",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14158,
+                  "rank": "Rank 1",
+                  "description": "Increases all damage caused against Humanoid, Giant, Beast, and Dragonkin targets by 1%",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14159,
+                  "rank": "Rank 2",
+                  "description": "Increases all damage caused against Humanoid, Giant, Beast, and Dragonkin targets by 2%",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 277,
+              "icon": "ability_backstab",
+              "name": "Puncturing Wounds",
+              "row": 1,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13733,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike chance of your Backstab ability by 10%, and the critical strike chance of your Mutilate ability by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13865,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical strike chance of your Backstab ability by 20%, and the critical strike chance of your Mutilate ability by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13866,
+                  "rank": "Rank 3",
+                  "description": "Increases the critical strike chance of your Backstab ability by 30%, and the critical strike chance of your Mutilate ability by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 281,
+              "icon": "ability_warrior_decisivestrike",
+              "name": "Relentless Strikes",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14179,
+                  "rank": "Rank 1",
+                  "description": "Your finishing moves have a 20% chance per combo point to restore 25 energy.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 278,
+              "icon": "ability_warrior_riposte",
+              "name": "Improved Expose Armor",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14168,
+                  "rank": "Rank 1",
+                  "description": "Increases the armor reduced by your Expose Armor ability by an additional 25%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14169,
+                  "rank": "Rank 2",
+                  "description": "Increases the armor reduced by your Expose Armor ability by an additional 50%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 269,
+              "icon": "ability_criticalstrike",
+              "name": "Lethality",
+              "row": 2,
+              "col": 2,
+              "requires": 270,
+              "ranks": [
+                {
+                  "id": 14128,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, Mutilate, Shiv, and Hemorrhage abilites by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14132,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, Mutilate, Shiv, and Hemorrhage abilites by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14135,
+                  "rank": "Rank 3",
+                  "description": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, Mutilate, Shiv, and Hemorrhage abilites by 18%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14136,
+                  "rank": "Rank 4",
+                  "description": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, Mutilate, Shiv, and Hemorrhage abilites by 24%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14137,
+                  "rank": "Rank 5",
+                  "description": "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, Mutilate, Shiv, and Hemorrhage abilites by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 682,
+              "icon": "ability_rogue_feigndeath",
+              "name": "Vile Poisons",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16513,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage dealt by your poisons and Envenom ability by 4% and gives your poisons an additional 8% chance to resist dispel effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16514,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage dealt by your poisons and Envenom ability by 8% and gives your poisons an additional 16% chance to resist dispel effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16515,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage dealt by your poisons and Envenom ability by 12% and gives your poisons an additional 24% chance to resist dispel effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16719,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage dealt by your poisons and Envenom ability by 16% and gives your poisons an additional 32% chance to resist dispel effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16720,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage dealt by your poisons and Envenom ability by 20% and gives your poisons an additional 40% chance to resist dispel effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 268,
+              "icon": "ability_poisons",
+              "name": "Improved Poisons",
+              "row": 3,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14113,
+                  "rank": "Rank 1",
+                  "description": "Increases the chance to apply poisons to your target by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14114,
+                  "rank": "Rank 2",
+                  "description": "Increases the chance to apply poisons to your target by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14115,
+                  "rank": "Rank 3",
+                  "description": "Increases the chance to apply poisons to your target by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14116,
+                  "rank": "Rank 4",
+                  "description": "Increases the chance to apply poisons to your target by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14117,
+                  "rank": "Rank 5",
+                  "description": "Increases the chance to apply poisons to your target by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1721,
+              "icon": "ability_rogue_fleetfooted",
+              "name": "Fleet Footed",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31208,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to resist movement impairing effects by 5% and increases your movement speed by 8%. This does not stack with other movement speed increasing effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31209,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to resist movement impairing effects by 10% and increases your movement speed by 15%. This does not stack with other movement speed increasing effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 280,
+              "icon": "spell_ice_lament",
+              "name": "Cold Blood",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14177,
+                  "rank": "Rank 1",
+                  "description": "When activated, increases the critical strike chance of your next offensive ability by 100%.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "3 min cooldown",
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 279,
+              "icon": "ability_rogue_kidneyshot",
+              "name": "Improved Kidney Shot",
+              "row": 4,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14174,
+                  "rank": "Rank 1",
+                  "description": "While affected by your Kidney Shot ability, target receives an additional 3% damage from all sources.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14175,
+                  "rank": "Rank 2",
+                  "description": "While affected by your Kidney Shot ability, target receives an additional 6% damage from all sources.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14176,
+                  "rank": "Rank 3",
+                  "description": "While affected by your Kidney Shot ability, target receives an additional 9% damage from all sources.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1762,
+              "icon": "ability_rogue_quickrecovery",
+              "name": "Quick Recovery",
+              "row": 4,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31244,
+                  "rank": "Rank 1",
+                  "description": "All healing effects on you are increased by 10%. In addition, your finishing moves cost 40% less Energy when they fail to hit.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31245,
+                  "rank": "Rank 2",
+                  "description": "All healing effects on you are increased by 20%. In addition, your finishing moves cost 80% less Energy when they fail to hit.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 283,
+              "icon": "spell_shadow_chilltouch",
+              "name": "Seal Fate",
+              "row": 5,
+              "col": 1,
+              "requires": 280,
+              "ranks": [
+                {
+                  "id": 14186,
+                  "rank": "Rank 1",
+                  "description": "Your critical strikes from abilities that add combo points have a 20% chance to add an additional combo point.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14190,
+                  "rank": "Rank 2",
+                  "description": "Your critical strikes from abilities that add combo points have a 40% chance to add an additional combo point.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14193,
+                  "rank": "Rank 3",
+                  "description": "Your critical strikes from abilities that add combo points have a 60% chance to add an additional combo point.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14194,
+                  "rank": "Rank 4",
+                  "description": "Your critical strikes from abilities that add combo points have a 80% chance to add an additional combo point.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14195,
+                  "rank": "Rank 5",
+                  "description": "Your critical strikes from abilities that add combo points have a 100% chance to add an additional combo point.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1715,
+              "icon": "ability_creature_poison_06",
+              "name": "Master Poisoner",
+              "row": 5,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31226,
+                  "rank": "Rank 1",
+                  "description": "Reduces the chance your poisons will be resisted by 5% and increases your chance to resist Poison effects by an additional 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31227,
+                  "rank": "Rank 2",
+                  "description": "Reduces the chance your poisons will be resisted by 10% and increases your chance to resist Poison effects by an additional 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 382,
+              "icon": "spell_nature_earthbindtotem",
+              "name": "Vigor",
+              "row": 6,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14983,
+                  "rank": "Rank 1",
+                  "description": "Increases your maximum Energy by 10.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1723,
+              "icon": "ability_rogue_deadenednerves",
+              "name": "Deadened Nerves",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31380,
+                  "rank": "Rank 1",
+                  "description": "Decreases all physical damage taken by 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31382,
+                  "rank": "Rank 2",
+                  "description": "Decreases all physical damage taken by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31383,
+                  "rank": "Rank 3",
+                  "description": "Decreases all physical damage taken by 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31384,
+                  "rank": "Rank 4",
+                  "description": "Decreases all physical damage taken by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31385,
+                  "rank": "Rank 5",
+                  "description": "Decreases all physical damage taken by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1718,
+              "icon": "ability_rogue_findweakness",
+              "name": "Find Weakness",
+              "row": 7,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31233,
+                  "rank": "Rank 1",
+                  "description": "Your finishing moves increase the damage of all offensive abilities by 2% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31239,
+                  "rank": "Rank 2",
+                  "description": "Your finishing moves increase the damage of all offensive abilities by 4% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31240,
+                  "rank": "Rank 3",
+                  "description": "Your finishing moves increase the damage of all offensive abilities by 6% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31241,
+                  "rank": "Rank 4",
+                  "description": "Your finishing moves increase the damage of all offensive abilities by 8% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31242,
+                  "rank": "Rank 5",
+                  "description": "Your finishing moves increase the damage of all offensive abilities by 10% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1719,
+              "icon": "ability_rogue_shadowstrikes",
+              "name": "Mutilate",
+              "row": 8,
+              "col": 1,
+              "requires": 382,
+              "ranks": [
+                {
+                  "id": 1329,
+                  "rank": "Rank 1",
+                  "description": "Requires Daggers<br>Instantly attacks with both weapons for an additional 44 with each weapon. Damage is increased by 50% against Poisoned targets. Must be behind the target. Awards 2 combo points.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": null,
+                    "cost": "60 Energy",
+                    "range": "Melee Range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        },
+        {
+          "id": 181,
+          "icon": "ability_backstab",
+          "name": "Combat",
+          "talents": [
+            {
+              "id": 203,
+              "icon": "ability_gouge",
+              "name": "Improved Gouge",
+              "row": 0,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13741,
+                  "rank": "Rank 1",
+                  "description": "Increases the effect duration of your Gouge ability by 0.5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13793,
+                  "rank": "Rank 2",
+                  "description": "Increases the effect duration of your Gouge ability by 1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13792,
+                  "rank": "Rank 3",
+                  "description": "Increases the effect duration of your Gouge ability by 1.5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 201,
+              "icon": "spell_shadow_ritualofsacrifice",
+              "name": "Improved Sinister Strike",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13732,
+                  "rank": "Rank 1",
+                  "description": "Reduces the Energy cost of your Sinister Strike ability by 3.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13863,
+                  "rank": "Rank 2",
+                  "description": "Reduces the Energy cost of your Sinister Strike ability by 5.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 186,
+              "icon": "spell_nature_invisibilty",
+              "name": "Lightning Reflexes",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13712,
+                  "rank": "Rank 1",
+                  "description": "Increases your Dodge chance by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13788,
+                  "rank": "Rank 2",
+                  "description": "Increases your Dodge chance by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13789,
+                  "rank": "Rank 3",
+                  "description": "Increases your Dodge chance by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13790,
+                  "rank": "Rank 4",
+                  "description": "Increases your Dodge chance by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13791,
+                  "rank": "Rank 5",
+                  "description": "Increases your Dodge chance by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1827,
+              "icon": "ability_rogue_slicedice",
+              "name": "Improved Slice and Dice",
+              "row": 1,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14165,
+                  "rank": "Rank 1",
+                  "description": "Increases the duration of your Slice and Dice ability by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14166,
+                  "rank": "Rank 2",
+                  "description": "Increases the duration of your Slice and Dice ability by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14167,
+                  "rank": "Rank 3",
+                  "description": "Increases the duration of your Slice and Dice ability by 45%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 187,
+              "icon": "ability_parry",
+              "name": "Deflection",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13713,
+                  "rank": "Rank 1",
+                  "description": "Increases your Parry chance by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13853,
+                  "rank": "Rank 2",
+                  "description": "Increases your Parry chance by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13854,
+                  "rank": "Rank 3",
+                  "description": "Increases your Parry chance by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13855,
+                  "rank": "Rank 4",
+                  "description": "Increases your Parry chance by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13856,
+                  "rank": "Rank 5",
+                  "description": "Increases your Parry chance by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 181,
+              "icon": "ability_marksmanship",
+              "name": "Precision",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13705,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to hit with weapons by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13832,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to hit with weapons by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13843,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to hit with weapons by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13844,
+                  "rank": "Rank 4",
+                  "description": "Increases your chance to hit with weapons by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13845,
+                  "rank": "Rank 5",
+                  "description": "Increases your chance to hit with weapons by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 204,
+              "icon": "spell_shadow_shadowward",
+              "name": "Endurance",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13742,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Sprint and Evasion abilities by 45 sec",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13872,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Sprint and Evasion abilities by 1.5 min.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 301,
+              "icon": "ability_warrior_challange",
+              "name": "Riposte",
+              "row": 2,
+              "col": 1,
+              "requires": 187,
+              "ranks": [
+                {
+                  "id": 14251,
+                  "rank": "Rank 1",
+                  "description": "A strike that becomes active after parrying an opponent's attack. This attack deals 150% weapon damage and disarms the target for 6 sec.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "6 sec cooldown",
+                    "cost": "10 Energy",
+                    "range": "Melee Range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 222,
+              "icon": "ability_rogue_sprint",
+              "name": "Improved Sprint",
+              "row": 2,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13743,
+                  "rank": "Rank 1",
+                  "description": "Gives a 50% chance to remove all movement imparing effects when you activate your Sprint ability.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13875,
+                  "rank": "Rank 2",
+                  "description": "Gives a 100% chance to remove all movement imparing effects when you activate your Sprint ability.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 206,
+              "icon": "ability_kick",
+              "name": "Improved Kick",
+              "row": 3,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13754,
+                  "rank": "Rank 1",
+                  "description": "Gives your Kick ability a 50% chance to silence the target for 2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13867,
+                  "rank": "Rank 2",
+                  "description": "Gives your Kick ability a 100% chance to silence the target for 2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 182,
+              "icon": "inv_weapon_shortblade_05",
+              "name": "Dagger Specialization",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13706,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to get a critical strike with Daggers by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "12"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13804,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to get a critical strike with Daggers by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "12"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13805,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to get a critical strike with Daggers by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "12"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13806,
+                  "rank": "Rank 4",
+                  "description": "Increases your chance to get a critical strike with Daggers by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "12"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13807,
+                  "rank": "Rank 5",
+                  "description": "Increases your chance to get a critical strike with Daggers by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "12"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 221,
+              "icon": "ability_dualwield",
+              "name": "Dual Wield Specialization",
+              "row": 3,
+              "col": 2,
+              "requires": 181,
+              "ranks": [
+                {
+                  "id": 13715,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage done by your offhand weapon by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13848,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage done by your offhand weapon by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13849,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage done by your offhand weapon by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13851,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage done by your offhand weapon by 40%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13852,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage done by your offhand weapon by 50%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 184,
+              "icon": "inv_mace_01",
+              "name": "Mace Specialization",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13709,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage dealt by your critical strikes with maces by 1%, and gives you a 1% chance to stun your target for 3 sec with a mace.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13800,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage dealt by your critical strikes with maces by 2%, and gives you a 2% chance to stun your target for 3 sec with a mace.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13801,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage dealt by your critical strikes with maces by 3%, and gives you a 3% chance to stun your target for 3 sec with a mace.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13802,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage dealt by your critical strikes with maces by 4%, and gives you a 4% chance to stun your target for 3 sec with a mace.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13803,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage dealt by your critical strikes with maces by 5%, and gives you a 5% chance to stun your target for 3 sec with a mace.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 223,
+              "icon": "ability_warrior_punishingblow",
+              "name": "Blade Flurry",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13877,
+                  "rank": "Rank 1",
+                  "description": "Increases your attack speed by 20%. In addition, attacks strike an additional nearby opponent. Lasts 15 sec.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "2 min cooldown",
+                    "cost": "25 Energy",
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 242,
+              "icon": "inv_sword_27",
+              "name": "Sword Specialization",
+              "row": 4,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13960,
+                  "rank": "Rank 1",
+                  "description": "Gives you a 1% chance to get an extra attack on the same target after dealing damage with your Sword.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13961,
+                  "rank": "Rank 2",
+                  "description": "Gives you a 2% chance to get an extra attack on the same target after dealing damage with your Sword.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13962,
+                  "rank": "Rank 3",
+                  "description": "Gives you a 3% chance to get an extra attack on the same target after dealing damage with your Sword.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13963,
+                  "rank": "Rank 4",
+                  "description": "Gives you a 4% chance to get an extra attack on the same target after dealing damage with your Sword.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13964,
+                  "rank": "Rank 5",
+                  "description": "Gives you a 5% chance to get an extra attack on the same target after dealing damage with your Sword.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 183,
+              "icon": "inv_gauntlets_04",
+              "name": "Fist Weapon Specialization",
+              "row": 4,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13707,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to get a critical strike with Fist Weapons by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "10"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13966,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to get a critical strike with Fist Weapons by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "10"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13967,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to get a critical strike with Fist Weapons by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "10"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13968,
+                  "rank": "Rank 4",
+                  "description": "Increases your chance to get a critical strike with Fist Weapons by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "10"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13969,
+                  "rank": "Rank 5",
+                  "description": "Increases your chance to get a critical strike with Fist Weapons by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "10"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1706,
+              "icon": "ability_rogue_bladetwisting",
+              "name": "Blade Twisting",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31124,
+                  "rank": "Rank 1",
+                  "description": "Gives your Sinister Strike, Backstab, Gouge and Shiv abilities a 10% chance to Daze the target for 8 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31126,
+                  "rank": "Rank 2",
+                  "description": "Gives your Sinister Strike, Backstab, Gouge and Shiv abilities a 20% chance to Daze the target for 8 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1703,
+              "icon": "spell_holy_blessingofstrength",
+              "name": "Weapon Expertise",
+              "row": 5,
+              "col": 1,
+              "requires": 223,
+              "ranks": [
+                {
+                  "id": 30919,
+                  "rank": "Rank 1",
+                  "description": "Increases your expertise by 5.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "expertise",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30920,
+                  "rank": "Rank 2",
+                  "description": "Increases your expertise by 10.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "expertise",
+                      "type": "add",
+                      "value": 10,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1122,
+              "icon": "ability_racial_avatar",
+              "name": "Aggression",
+              "row": 5,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 18427,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 18428,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 18429,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1705,
+              "icon": "ability_warrior_revenge",
+              "name": "Vitality",
+              "row": 6,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31122,
+                  "rank": "Rank 1",
+                  "description": "Increases your total Stamina by 2% and your total Agility by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.01,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31123,
+                  "rank": "Rank 2",
+                  "description": "Increases your total Stamina by 4% and your total Agility by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 205,
+              "icon": "spell_shadow_shadowworddominate",
+              "name": "Adrenaline Rush",
+              "row": 6,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13750,
+                  "rank": "Rank 1",
+                  "description": "Increases your Energy regeneration rate by 100% for 15 sec.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "5 min cooldown",
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1707,
+              "icon": "ability_rogue_nervesofsteel",
+              "name": "Nerves of Steel",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31130,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to resist Stun and Fear effects by an additional 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31131,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to resist Stun and Fear effects by an additional 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1825,
+              "icon": "inv_weapon_shortblade_38",
+              "name": "Combat Potency",
+              "row": 7,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 35541,
+                  "rank": "Rank 1",
+                  "description": "Gives your successful off-hand melee attacks a 20% chance to generate 3 Energy.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35550,
+                  "rank": "Rank 2",
+                  "description": "Gives your successful off-hand melee attacks a 20% chance to generate 6 Energy.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35551,
+                  "rank": "Rank 3",
+                  "description": "Gives your successful off-hand melee attacks a 20% chance to generate 9 Energy.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35552,
+                  "rank": "Rank 4",
+                  "description": "Gives your successful off-hand melee attacks a 20% chance to generate 12 Energy.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35553,
+                  "rank": "Rank 5",
+                  "description": "Gives your successful off-hand melee attacks a 20% chance to generate 15 Energy.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1709,
+              "icon": "ability_rogue_surpriseattack",
+              "name": "Surprise Attacks",
+              "row": 8,
+              "col": 1,
+              "requires": 205,
+              "ranks": [
+                {
+                  "id": 32601,
+                  "rank": "Rank 1",
+                  "description": "Your finishing moves can no longer be dodged, and the damage dealt by your Sinister Strike, Backstab, Shiv and Gouge abilities is increased by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        },
+        {
+          "id": 183,
+          "icon": "ability_stealth",
+          "name": "Subtlety",
+          "talents": [
+            {
+              "id": 241,
+              "icon": "spell_shadow_charm",
+              "name": "Master of Deception",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13958,
+                  "rank": "Rank 1",
+                  "description": "Reduces the chance enemies have to detect you while in Stealth mode.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13970,
+                  "rank": "Rank 2",
+                  "description": "Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 1).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13971,
+                  "rank": "Rank 3",
+                  "description": "Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 2).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13972,
+                  "rank": "Rank 4",
+                  "description": "Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 3).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13973,
+                  "rank": "Rank 5",
+                  "description": "Reduces the chance enemies have to detect you while in Stealth mode. More effective than Master of Deception (Rank 4).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 261,
+              "icon": "ability_warrior_warcry",
+              "name": "Opportunity",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14057,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, Mutilate, and Ambush abilities by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14072,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, Mutilate, and Ambush abilities by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14073,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, Mutilate, and Ambush abilities by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14074,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, Mutilate, and Ambush abilities by 16%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14075,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage dealt when striking from behind with your Backstab, Garrote, Mutilate, and Ambush abilities by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1700,
+              "icon": "ability_rogue_feint",
+              "name": "Sleight of Hand",
+              "row": 1,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30892,
+                  "rank": "Rank 1",
+                  "description": "Reduces the chance you are critically hit by melee and ranged attacks by 1% and increases the threat reduced by your Feint ability by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30893,
+                  "rank": "Rank 2",
+                  "description": "Reduces the chance you are critically hit by melee and ranged attacks by 2% and increases the threat reduced by your Feint ability by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 262,
+              "icon": "ability_sap",
+              "name": "Dirty Tricks",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14076,
+                  "rank": "Rank 1",
+                  "description": "Increases the range of your Blind and Sap abilities by 2 yards and reduces the energy cost of your Blind and Sap abilities by 25%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14094,
+                  "rank": "Rank 2",
+                  "description": "Increases the range of your Blind and Sap abilities by 5 yards and reduces the energy cost of your Blind and Sap abilities by 50%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 244,
+              "icon": "ability_stealth",
+              "name": "Camouflage",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13975,
+                  "rank": "Rank 1",
+                  "description": "Increases your speed while stealthed by 3% and reduces the cooldown of your Stealth ability by 1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14062,
+                  "rank": "Rank 2",
+                  "description": "Increases your speed while stealthed by 6% and reduces the cooldown of your Stealth ability by 2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14063,
+                  "rank": "Rank 3",
+                  "description": "Increases your speed while stealthed by 9% and reduces the cooldown of your Stealth ability by 3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14064,
+                  "rank": "Rank 4",
+                  "description": "Increases your speed while stealthed by 12% and reduces the cooldown of your Stealth ability by 4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14065,
+                  "rank": "Rank 5",
+                  "description": "Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 245,
+              "icon": "spell_shadow_fumble",
+              "name": "Initiative",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13976,
+                  "rank": "Rank 1",
+                  "description": "Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13979,
+                  "rank": "Rank 2",
+                  "description": "Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13980,
+                  "rank": "Rank 3",
+                  "description": "Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 303,
+              "icon": "spell_shadow_curse",
+              "name": "Ghostly Strike",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14278,
+                  "rank": "Rank 1",
+                  "description": "A strike that deals 125% weapon damage and increases your chance to dodge by 15% for 7 sec. Awards 1 combo point.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "20 sec cooldown",
+                    "cost": "40 Energy",
+                    "range": "Melee Range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 263,
+              "icon": "ability_rogue_ambush",
+              "name": "Improved Ambush",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14079,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike chance of your Ambush ability by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14080,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical strike chance of your Ambush ability by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14081,
+                  "rank": "Rank 3",
+                  "description": "Increases the critical strike chance of your Ambush ability by 45%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 246,
+              "icon": "spell_nature_mirrorimage",
+              "name": "Setup",
+              "row": 3,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13983,
+                  "rank": "Rank 1",
+                  "description": "Gives you a 15% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14070,
+                  "rank": "Rank 2",
+                  "description": "Gives you a 30% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14071,
+                  "rank": "Rank 3",
+                  "description": "Gives you a 45% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 247,
+              "icon": "spell_magic_lesserinvisibilty",
+              "name": "Elusiveness",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 13981,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14066,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Vanish and Blind abilities by 1.5 min.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1123,
+              "icon": "inv_sword_17",
+              "name": "Serrated Blades",
+              "row": 3,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14171,
+                  "rank": "Rank 1",
+                  "description": "Causes your attacks to ignore 186 of your target's Armor and increases the damage dealt by your Rupture ability by 10%.  The amount of Armor reduced increases with your level.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14172,
+                  "rank": "Rank 2",
+                  "description": "Causes your attacks to ignore 373 of your target's Armor and increases the damage dealt by your Rupture ability by 20%.  The amount of Armor reduced increases with your level.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14173,
+                  "rank": "Rank 3",
+                  "description": "Causes your attacks to ignore 560 of your target's Armor and increases the damage dealt by your Rupture ability by 30%.  The amount of Armor reduced increases with your level.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1701,
+              "icon": "ability_ambush",
+              "name": "Heightened Senses",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30894,
+                  "rank": "Rank 1",
+                  "description": "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30895,
+                  "rank": "Rank 2",
+                  "description": "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%. More effective than Heightened Senses (Rank 1).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 284,
+              "icon": "spell_shadow_antishadow",
+              "name": "Preparation",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14185,
+                  "rank": "Rank 1",
+                  "description": "When activated, this ability immediately finishes the cooldown on your Evasion, Sprint, Vanish, Cold Blood, Shadowstep and Premeditation abilities.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "10 min cooldown",
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 265,
+              "icon": "spell_shadow_summonsuccubus",
+              "name": "Dirty Deeds",
+              "row": 4,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 14082,
+                  "rank": "Rank 1",
+                  "description": "Reduces the Energy Cost of your Cheap Shot and Garrote abilities by 10. Additionally, your special abilities cause 10% more damage against targets below 35% health.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 14083,
+                  "rank": "Rank 2",
+                  "description": "Reduces the Energy Cost of your Cheap Shot and Garrote abilities by 20. Additionally, your special abilities cause 20% more damage against targets below 35% health.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 681,
+              "icon": "spell_shadow_lifedrain",
+              "name": "Hemorrhage",
+              "row": 4,
+              "col": 3,
+              "requires": 1123,
+              "ranks": [
+                {
+                  "id": 16511,
+                  "rank": "Rank 1",
+                  "description": "Requires Melee Weapon<br>An instant strike that deals 110% weapon damage and causes the target to hemorrhage, increasing any Physical damage dealt to the target by up to 11.  Lasts 10 charges or 15 sec.  Awards 1 combo point.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": null,
+                    "cost": "35 Energy",
+                    "range": "Melee Range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1713,
+              "icon": "ability_rogue_masterofsubtlety",
+              "name": "Master of Subtlety",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31221,
+                  "rank": "Rank 1",
+                  "description": "Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 4% damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31222,
+                  "rank": "Rank 2",
+                  "description": "Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 7% damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31223,
+                  "rank": "Rank 3",
+                  "description": "Attacks made while stealthed and for 6 seconds after breaking stealth cause an additional 10% damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1702,
+              "icon": "inv_weapon_crossbow_11",
+              "name": "Deadliness",
+              "row": 5,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30902,
+                  "rank": "Rank 1",
+                  "description": "Increases your Attack Power by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30903,
+                  "rank": "Rank 2",
+                  "description": "Increases your Attack Power by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30904,
+                  "rank": "Rank 3",
+                  "description": "Increases your Attack Power by 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30905,
+                  "rank": "Rank 4",
+                  "description": "Increases your Attack Power by 8%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30906,
+                  "rank": "Rank 5",
+                  "description": "Increases your Attack Power by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1711,
+              "icon": "ability_rogue_envelopingshadows",
+              "name": "Enveloping Shadows",
+              "row": 6,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31211,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to avoid area of effect attacks by an additional 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31212,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to avoid area of effect attacks by an additional 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31213,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to avoid area of effect attacks by an additional 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 381,
+              "icon": "spell_shadow_possession",
+              "name": "Premeditation",
+              "row": 6,
+              "col": 1,
+              "requires": 284,
+              "ranks": [
+                {
+                  "id": 14183,
+                  "rank": "Rank 1",
+                  "description": "When used, adds 2 combo points to your target. You must add to or use those combo points within 10 sec or the combo points are lost.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "2 min cooldown",
+                    "cost": null,
+                    "range": "30 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1722,
+              "icon": "ability_rogue_cheatdeath",
+              "name": "Cheat Death",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31228,
+                  "rank": "Rank 1",
+                  "description": "You have a 33% chance to completely avoid any damaging attack that would otherwise kill you and reduce all damage taken by 90% for 3 sec.  This effect cannot occur more than once per minute.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31229,
+                  "rank": "Rank 2",
+                  "description": "You have a 66% chance to completely avoid any damaging attack that would otherwise kill you and reduce all damage taken by 90% for 3 sec.  This effect cannot occur more than once per minute.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31230,
+                  "rank": "Rank 3",
+                  "description": "You have a 100% chance to completely avoid any damaging attack that would otherwise kill you and reduce all damage taken by 90% for 3 sec.  This effect cannot occur more than once per minute.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1712,
+              "icon": "ability_rogue_sinistercalling",
+              "name": "Sinister Calling",
+              "row": 7,
+              "col": 1,
+              "requires": 381,
+              "ranks": [
+                {
+                  "id": 31216,
+                  "rank": "Rank 1",
+                  "description": "Increases your total Agility by 3% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.03,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31217,
+                  "rank": "Rank 2",
+                  "description": "Increases your total Agility by 6% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31218,
+                  "rank": "Rank 3",
+                  "description": "Increases your total Agility by 9% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.09,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31219,
+                  "rank": "Rank 4",
+                  "description": "Increases your total Agility by 12% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 8%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.12,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31220,
+                  "rank": "Rank 5",
+                  "description": "Increases your total Agility by 15% and increases the percentage damage bonus of Backstab and Hemorrhage by an additional 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "agility",
+                      "type": "multiply",
+                      "value": 0.15,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1714,
+              "icon": "ability_rogue_shadowstep",
+              "name": "Shadowstep",
+              "row": 8,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 36554,
+                  "rank": "Rank 1",
+                  "description": "Attempts to step through the shadows and reappear behind your enemy and increases movement speed by 70% for 3 sec. The damage of your next ability is increased by 20% and the threat caused is reduced by 50%.  Lasts 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        }
+      ],
+      "__typename": "TalentData"
+    }
+  }
+}

@@ -1,0 +1,2825 @@
+{
+  "data": {
+    "getTalentData": {
+      "gameClass": "shaman",
+      "trees": [
+        {
+          "id": 261,
+          "icon": "spell_nature_lightning",
+          "name": "Elemental",
+          "talents": [
+            {
+              "id": 564,
+              "icon": "spell_nature_wispsplode",
+              "name": "Convection",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16039,
+                  "rank": "Rank 1",
+                  "description": "Reduces the mana cost of your Shock, Lightning Bolt and Chain Lightning spells by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16109,
+                  "rank": "Rank 2",
+                  "description": "Reduces the mana cost of your Shock, Lightning Bolt and Chain Lightning spells by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16110,
+                  "rank": "Rank 3",
+                  "description": "Reduces the mana cost of your Shock, Lightning Bolt and Chain Lightning spells by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16111,
+                  "rank": "Rank 4",
+                  "description": "Reduces the mana cost of your Shock, Lightning Bolt and Chain Lightning spells by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16112,
+                  "rank": "Rank 5",
+                  "description": "Reduces the mana cost of your Shock, Lightning Bolt and Chain Lightning spells by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 563,
+              "icon": "spell_fire_fireball",
+              "name": "Concussion",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16035,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16105,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16106,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16107,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16108,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 572,
+              "icon": "spell_nature_stoneclawtotem",
+              "name": "Earth's Grasp",
+              "row": 1,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16043,
+                  "rank": "Rank 1",
+                  "description": "Increases the health of your Stoneclaw Totem by 25% and the radius of your Earthbind Totem by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16130,
+                  "rank": "Rank 2",
+                  "description": "Increases the health of your Stoneclaw Totem by 50% and the radius of your Earthbind Totem by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1640,
+              "icon": "spell_nature_spiritarmor",
+              "name": "Elemental Warding",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 28996,
+                  "rank": "Rank 1",
+                  "description": "Reduces damage taken from Fire, Frost and Nature effects by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 28997,
+                  "rank": "Rank 2",
+                  "description": "Reduces damage taken from Fire, Frost and Nature effects by 7%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 28998,
+                  "rank": "Rank 3",
+                  "description": "Reduces damage taken from Fire, Frost and Nature effects by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 561,
+              "icon": "spell_fire_immolation",
+              "name": "Call of Flame",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16038,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage done by your Fire Totems by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16160,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage done by your Fire Totems by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16161,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage done by your Fire Totems by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 574,
+              "icon": "spell_shadow_manaburn",
+              "name": "Elemental Focus",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16164,
+                  "rank": "Rank 1",
+                  "description": "After landing a critical strike with a Fire, Frost, or Nature damage spell, you enter a Clearcasting state.  The Clearcasting state reduces the mana cost of your next 2 damage spells by 40%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 575,
+              "icon": "spell_frost_frostward",
+              "name": "Reverberation",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16040,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Shock spells by 0.2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16113,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Shock spells by 0.4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16114,
+                  "rank": "Rank 3",
+                  "description": "Reduces the cooldown of your Shock spells by 0.6 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16115,
+                  "rank": "Rank 4",
+                  "description": "Reduces the cooldown of your Shock spells by 0.8 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16116,
+                  "rank": "Rank 5",
+                  "description": "Reduces the cooldown of your Shock spells by 1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 562,
+              "icon": "spell_nature_callstorm",
+              "name": "Call of Thunder",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16041,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16117,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16118,
+                  "rank": "Rank 3",
+                  "description": "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16119,
+                  "rank": "Rank 4",
+                  "description": "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16120,
+                  "rank": "Rank 5",
+                  "description": "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 567,
+              "icon": "spell_fire_sealoffire",
+              "name": "Improved Fire Nova Totem",
+              "row": 3,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16086,
+                  "rank": "Rank 1",
+                  "description": "Reduces the delay before your Fire Nova Totem activates by 1 sec. and decreases the threat generated by your Magma Totem by 25%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16544,
+                  "rank": "Rank 2",
+                  "description": "Reduces the delay before your Fire Nova Totem activates by 2 sec. and decreases the threat generated by your Magma Totem by 50%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1642,
+              "icon": "spell_shadow_soulleech_2",
+              "name": "Eye of the Storm",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29062,
+                  "rank": "Rank 1",
+                  "description": "Gives you a 33% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29064,
+                  "rank": "Rank 2",
+                  "description": "Gives your a 66% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29065,
+                  "rank": "Rank 3",
+                  "description": "Gives your a 100% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1645,
+              "icon": "classic_spell_fire_elementaldevastation",
+              "name": "Elemental Devastation",
+              "row": 3,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30160,
+                  "rank": "Rank 1",
+                  "description": "Your offensive spell crits will increase your chance to get a critical strike with melee attacks by 3% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29179,
+                  "rank": "Rank 2",
+                  "description": "Your offensive spell crits will increase your chance to get a critical strike with melee attacks by 6% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29180,
+                  "rank": "Rank 3",
+                  "description": "Your offensive spell crits will increase your chance to get a critical strike with melee attacks by 9% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1641,
+              "icon": "spell_nature_stormreach",
+              "name": "Storm Reach",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 28999,
+                  "rank": "Rank 1",
+                  "description": "Increases the range of your Lightning Bolt and Chain Lightning spells by 3 yards.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29000,
+                  "rank": "Rank 2",
+                  "description": "Increases the range of your Lightning Bolt and Chain Lightning spells by 6 yards.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 565,
+              "icon": "spell_fire_volcano",
+              "name": "Elemental Fury",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16089,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike damage bonus of your Searing, Magma, and Fire Nova Totems and your Fire, Frost, and Nature spells by 100%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1682,
+              "icon": "spell_nature_unrelentingstorm",
+              "name": "Unrelenting Storm",
+              "row": 4,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30664,
+                  "rank": "Rank 1",
+                  "description": "Regenerate mana equal to 2% of your Intellect every 5 sec, even while casting.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "mp5",
+                      "type": "multiplyIntellect",
+                      "value": 1.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30665,
+                  "rank": "Rank 2",
+                  "description": "Regenerate mana equal to 4% of your Intellect every 5 sec, even while casting.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "mp5",
+                      "type": "multiplyIntellect",
+                      "value": 1.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30666,
+                  "rank": "Rank 3",
+                  "description": "Regenerate mana equal to 6% of your Intellect every 5 sec, even while casting.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "mp5",
+                      "type": "multiplyIntellect",
+                      "value": 1.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30667,
+                  "rank": "Rank 4",
+                  "description": "Regenerate mana equal to 8% of your Intellect every 5 sec, even while casting.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "mp5",
+                      "type": "multiplyIntellect",
+                      "value": 1.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30668,
+                  "rank": "Rank 5",
+                  "description": "Regenerate mana equal to 10% of your Intellect every 5 sec, even while casting.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "mp5",
+                      "type": "multiplyIntellect",
+                      "value": 1.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1685,
+              "icon": "spell_nature_elementalprecision_1",
+              "name": "Elemental Precision",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30672,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to hit with Fire, Frost, and Nature spells by 2% and reduces the threat caused by Fire, Frost, and Nature spells by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellHit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30673,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to hit with Fire, Frost, and Nature spells by 4% and reduces the threat caused by Fire, Frost, and Nature spells by 7%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellHit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30674,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to hit with Fire, Frost, and Nature spells by 6% and reduces the threat caused by Fire, Frost, and Nature spells by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellHit",
+                      "type": "add",
+                      "value": 6,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 721,
+              "icon": "spell_lightning_lightningbolt01",
+              "name": "Lightning Mastery",
+              "row": 5,
+              "col": 2,
+              "requires": 562,
+              "ranks": [
+                {
+                  "id": 16578,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cast time of your Lightning Bolt and Chain Lightning spells by 0.1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16579,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cast time of your Lightning Bolt and Chain Lightning spells by 0.2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16580,
+                  "rank": "Rank 3",
+                  "description": "Reduces the cast time of your Lightning Bolt and Chain Lightning spells by 0.3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16581,
+                  "rank": "Rank 4",
+                  "description": "Reduces the cast time of your Lightning Bolt and Chain Lightning spells by 0.4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16582,
+                  "rank": "Rank 5",
+                  "description": "Reduces the cast time of your Lightning Bolt and Chain Lightning spells by 0.5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 573,
+              "icon": "spell_nature_wispheal",
+              "name": "Elemental Mastery",
+              "row": 6,
+              "col": 1,
+              "requires": 565,
+              "ranks": [
+                {
+                  "id": 16166,
+                  "rank": "Rank 1",
+                  "description": "When activated, this spell gives your next Fire, Frost, or Nature damage spell a 100% critical strike chance and reduces the mana cost by 100%.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "3 min cooldown",
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1683,
+              "icon": "spell_nature_elementalshields",
+              "name": "Elemental Shields",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30669,
+                  "rank": "Rank 1",
+                  "description": "Reduces the chance you will be critically hit by melee and ranged attacks by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30670,
+                  "rank": "Rank 2",
+                  "description": "Reduces the chance you will be critically hit by melee and ranged attacks by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30671,
+                  "rank": "Rank 3",
+                  "description": "Reduces the chance you will be critically hit by melee and ranged attacks by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1686,
+              "icon": "spell_nature_lightningoverload",
+              "name": "Lightning Overload",
+              "row": 7,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30675,
+                  "rank": "Rank 1",
+                  "description": "Gives your Lightning Bolt and Chain Lightning spells a 4% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30678,
+                  "rank": "Rank 2",
+                  "description": "Gives your Lightning Bolt and Chain Lightning spells a 8% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30679,
+                  "rank": "Rank 3",
+                  "description": "Gives your Lightning Bolt and Chain Lightning spells a 12% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30680,
+                  "rank": "Rank 4",
+                  "description": "Gives your Lightning Bolt and Chain Lightning spells a 16% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30681,
+                  "rank": "Rank 5",
+                  "description": "Gives your Lightning Bolt and Chain Lightning spells a 20% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1687,
+              "icon": "spell_fire_totemofwrath",
+              "name": "Totem of Wrath",
+              "row": 8,
+              "col": 1,
+              "requires": 2068,
+              "ranks": [
+                {
+                  "id": 30706,
+                  "rank": "Rank 1",
+                  "description": "Tools: Fire Totem<br>Summons a Totem of Wrath with 5 health at the feet of the caster. The totem increases the chance to hit and critically hit with spells by 3% to all party members if they are within 20 yards. Lasts 2 min.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": null,
+                    "cost": "110 Mana",
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        },
+        {
+          "id": 263,
+          "icon": "spell_nature_lightningshield",
+          "name": "Enhancement",
+          "talents": [
+            {
+              "id": 614,
+              "icon": "spell_shadow_grimward",
+              "name": "Ancestral Knowledge",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 17485,
+                  "rank": "Rank 1",
+                  "description": "Increases your maximum Mana by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "mana",
+                      "type": "multiply",
+                      "value": 0.01,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 17486,
+                  "rank": "Rank 2",
+                  "description": "Increases your maximum Mana by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "mana",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 17487,
+                  "rank": "Rank 3",
+                  "description": "Increases your maximum Mana by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "mana",
+                      "type": "multiply",
+                      "value": 0.03,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 17488,
+                  "rank": "Rank 4",
+                  "description": "Increases your maximum Mana by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "mana",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 17489,
+                  "rank": "Rank 5",
+                  "description": "Increases your maximum Mana by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "mana",
+                      "type": "multiply",
+                      "value": 0.05,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 612,
+              "icon": "inv_shield_06",
+              "name": "Shield Specialization",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16253,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to block attacks with a shield by 1% and increases the amount blocked by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "block",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "blockValue",
+                      "type": "multiply",
+                      "value": 0.05,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16298,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to block attacks with a shield by 2% and increases the amount blocked by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "block",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "blockValue",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16299,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to block attacks with a shield by 3% and increases the amount blocked by 15%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "block",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "blockValue",
+                      "type": "multiply",
+                      "value": 0.15,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16300,
+                  "rank": "Rank 4",
+                  "description": "Increases your chance to block attacks with a shield by 4% and increases the amount blocked by 20%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "block",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "blockValue",
+                      "type": "multiply",
+                      "value": 0.2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16301,
+                  "rank": "Rank 5",
+                  "description": "Increases your chance to block attacks with a shield by 5% and increases the amount blocked by 25%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "block",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "blockValue",
+                      "type": "multiply",
+                      "value": 0.25,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 609,
+              "icon": "spell_nature_stoneskintotem",
+              "name": "Guardian Totems",
+              "row": 1,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16258,
+                  "rank": "Rank 1",
+                  "description": "Increases the amount of damage reduced by your Stoneskin Totem and Windwall Totem by 10% and reduces the cooldown of your Grounding Totem by 1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16293,
+                  "rank": "Rank 2",
+                  "description": "Increases the amount of damage reduced by your Stoneskin Totem and Windwall Totem by 20% and reduces the cooldown of your Grounding Totem by 2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 613,
+              "icon": "ability_thunderbolt",
+              "name": "Thundering Strikes",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16255,
+                  "rank": "Rank 1",
+                  "description": "Improves your chance to get a critical strike with your weapon attacks by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16302,
+                  "rank": "Rank 2",
+                  "description": "Improves your chance to get a critical strike with your weapon attacks by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16303,
+                  "rank": "Rank 3",
+                  "description": "Improves your chance to get a critical strike with your weapon attacks by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16304,
+                  "rank": "Rank 4",
+                  "description": "Improves your chance to get a critical strike with your weapon attacks by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16305,
+                  "rank": "Rank 5",
+                  "description": "Improves your chance to get a critical strike with your weapon attacks by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 605,
+              "icon": "spell_nature_spiritwolf",
+              "name": "Improved Ghost Wolf",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16262,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cast time of your Ghost Wolf spell by 1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16287,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cast time of your Ghost Wolf spell by 2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 607,
+              "icon": "spell_nature_lightningshield",
+              "name": "Improved Lightning Shield",
+              "row": 1,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16261,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage done by your Lightning Shield orbs by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16290,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage done by your Lightning Shield orbs by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16291,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage done by your Lightning Shield orbs by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 610,
+              "icon": "spell_nature_earthbindtotem",
+              "name": "Enhancing Totems",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16259,
+                  "rank": "Rank 1",
+                  "description": "Increases the effect of your Strength of Earth and Grace of Air Totems by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16295,
+                  "rank": "Rank 2",
+                  "description": "Increases the effect of your Strength of Earth and Grace of Air Totems by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 617,
+              "icon": "spell_nature_elementalabsorption",
+              "name": "Shamanistic Focus",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 43338,
+                  "rank": "Rank 1",
+                  "description": "After landing a melee critical strike, you enter a Focused state. The Focused state reduces the mana cost of your next Shock spell by 60%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 601,
+              "icon": "spell_nature_mirrorimage",
+              "name": "Anticipation",
+              "row": 2,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16254,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to dodge by an additional 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16271,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to dodge by an additional 2%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16272,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to dodge by an additional 3%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16273,
+                  "rank": "Rank 4",
+                  "description": "Increases your chance to dodge by an additional 4%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16274,
+                  "rank": "Rank 5",
+                  "description": "Increases your chance to dodge by an additional 5%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "dodge",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 602,
+              "icon": "ability_ghoulfrenzy",
+              "name": "Flurry",
+              "row": 3,
+              "col": 1,
+              "requires": 613,
+              "ranks": [
+                {
+                  "id": 16256,
+                  "rank": "Rank 1",
+                  "description": "Increases your attack speed by 10% for your next 3 swings after dealing a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16281,
+                  "rank": "Rank 2",
+                  "description": "Increases your attack speed by 15% for your next 3 swings after dealing a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16282,
+                  "rank": "Rank 3",
+                  "description": "Increases your attack speed by 20% for your next 3 swings after dealing a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16283,
+                  "rank": "Rank 4",
+                  "description": "Increases your attack speed by 25% for your next 3 swings after dealing a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16284,
+                  "rank": "Rank 5",
+                  "description": "Increases your attack speed by 30% for your next 3 swings after dealing a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 615,
+              "icon": "spell_holy_devotion",
+              "name": "Toughness",
+              "row": 3,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16252,
+                  "rank": "Rank 1",
+                  "description": "Increases your armor value from items by 2% and reduces the duration of movement slowing effects on you by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16306,
+                  "rank": "Rank 2",
+                  "description": "Increases your armor value from items by 4% and reduces the duration of movement slowing effects on you by 20%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16307,
+                  "rank": "Rank 3",
+                  "description": "Increases your armor value from items by 6% and reduces the duration of movement slowing effects on you by 30%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16308,
+                  "rank": "Rank 4",
+                  "description": "Increases your armor value from items by 8% and reduces the duration of movement slowing effects on you by 40%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16309,
+                  "rank": "Rank 5",
+                  "description": "Increases your armor value from items by 10% and reduces the duration of movement slowing effects on you by 50%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1647,
+              "icon": "spell_fire_enchantweapon",
+              "name": "Improved Weapon Totems",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29192,
+                  "rank": "Rank 1",
+                  "description": "Increases the melee attack power bonus of your Windfury Totem by 15% and increases the damage caused by your Flametongue Totem by 6%",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29193,
+                  "rank": "Rank 2",
+                  "description": "Increases the melee attack power bonus of your Windfury Totem by 30% and increases the damage caused by your Flametongue Totem by 12%",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 616,
+              "icon": "ability_parry",
+              "name": "Spirit Weapons",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16268,
+                  "rank": "Rank 1",
+                  "description": "Gives a chance to parry enemy melee attacks and reduces the threat generated by your melee attacks by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 611,
+              "icon": "spell_fire_flametounge",
+              "name": "Elemental Weapons",
+              "row": 4,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16266,
+                  "rank": "Rank 1",
+                  "description": "Increases the melee attack power bonus of your Rockbiter Weapon by 7%, your Windfury Weapon effect by 13% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29079,
+                  "rank": "Rank 2",
+                  "description": "Increases the melee attack power bonus of your Rockbiter Weapon by 14%, your Windfury Weapon effect by 27% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29080,
+                  "rank": "Rank 3",
+                  "description": "Increases the melee attack power bonus of your Rockbiter Weapon by 20%, your Windfury Weapon effect by 40% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1691,
+              "icon": "spell_nature_mentalquickness",
+              "name": "Mental Quickness",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30812,
+                  "rank": "Rank 1",
+                  "description": "Reduces the mana cost of your instant cast spells by 2% and increases your spell damage and healing by an amount equal to 10% of your attack power.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellDamage",
+                      "type": "multiplyAttackPower",
+                      "value": 1.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30813,
+                  "rank": "Rank 2",
+                  "description": "Reduces the mana cost of your instant cast spells by 4% and increases your spell damage and healing by an amount equal to 20% of your attack power.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellDamage",
+                      "type": "multiplyAttackPower",
+                      "value": 1.2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30814,
+                  "rank": "Rank 3",
+                  "description": "Reduces the mana cost of your instant cast spells by 6% and increases your spell damage and healing by an amount equal to 30% of your attack power.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellDamage",
+                      "type": "multiplyAttackPower",
+                      "value": 1.3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1643,
+              "icon": "ability_hunter_swiftstrike",
+              "name": "Weapon Mastery",
+              "row": 5,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29082,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage you deal with all weapons by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29084,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage you deal with all weapons by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29086,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage you deal with all weapons by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29087,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage you deal with all weapons by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29088,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage you deal with all weapons by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1692,
+              "icon": "ability_dualwieldspecialization",
+              "name": "Dual Wield Specialization",
+              "row": 6,
+              "col": 0,
+              "requires": 2076,
+              "ranks": [
+                {
+                  "id": 30816,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to hit while dual wielding by an additional 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "0",
+                          "4",
+                          "10",
+                          "12"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30818,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to hit while dual wielding by an additional 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "0",
+                          "4",
+                          "10",
+                          "12"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30819,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to hit while dual wielding by an additional 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 6,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "0",
+                          "4",
+                          "10",
+                          "12"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1690,
+              "icon": "ability_dualwield",
+              "name": "Dual Wield",
+              "row": 6,
+              "col": 1,
+              "requires": 616,
+              "ranks": [
+                {
+                  "id": 30798,
+                  "rank": "Rank 1",
+                  "description": "Allows one-hand and off-hand weapons to be equipped in the off-hand.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 901,
+              "icon": "spell_holy_sealofmight",
+              "name": "Stormstrike",
+              "row": 6,
+              "col": 2,
+              "requires": 611,
+              "ranks": [
+                {
+                  "id": 17364,
+                  "rank": "Rank 1",
+                  "description": "Instantly attack with both weapons. In addition, the next 2 sources of Nature damage dealt to the target are increased by 20%. Lasts 12 sec.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "10 sec cooldown",
+                    "cost": "236 Mana",
+                    "range": "Melee Range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1689,
+              "icon": "spell_nature_unleashedrage",
+              "name": "Unleashed Rage",
+              "row": 7,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30802,
+                  "rank": "Rank 1",
+                  "description": "Causes your critical hits with melee attacks to increase all party members' attack power by 2% if within 20 yards of the Shaman. Lasts 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30808,
+                  "rank": "Rank 2",
+                  "description": "Causes your critical hits with melee attacks to increase all party members' attack power by 4% if within 20 yards of the Shaman. Lasts 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30809,
+                  "rank": "Rank 3",
+                  "description": "Causes your critical hits with melee attacks to increase all party members' attack power by 6% if within 20 yards of the Shaman. Lasts 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30810,
+                  "rank": "Rank 4",
+                  "description": "Causes your critical hits with melee attacks to increase all party members' attack power by 8% if within 20 yards of the Shaman. Lasts 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30811,
+                  "rank": "Rank 5",
+                  "description": "Causes your critical hits with melee attacks to increase all party members' attack power by 10% if within 20 yards of the Shaman. Lasts 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1693,
+              "icon": "spell_nature_shamanrage",
+              "name": "Shamanistic Rage",
+              "row": 8,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30823,
+                  "rank": "Rank 1",
+                  "description": "Reduces all damage taken by 30% and gives your successful melee attacks a chance to regenerate mana equal to 15% of your attack power.  Lasts 30 sec.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "2 min cooldown",
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        },
+        {
+          "id": 262,
+          "icon": "spell_nature_magicimmunity",
+          "name": "Restoration",
+          "talents": [
+            {
+              "id": 586,
+              "icon": "spell_nature_magicimmunity",
+              "name": "Improved Healing Wave",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16182,
+                  "rank": "Rank 1",
+                  "description": "Reduces the casting time of your Healing Wave spell by 0.1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16226,
+                  "rank": "Rank 2",
+                  "description": "Reduces the casting time of your Healing Wave spell by 0.2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16227,
+                  "rank": "Rank 3",
+                  "description": "Reduces the casting time of your Healing Wave spell by 0.3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16228,
+                  "rank": "Rank 4",
+                  "description": "Reduces the casting time of your Healing Wave spell by 0.4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16229,
+                  "rank": "Rank 5",
+                  "description": "Reduces the casting time of your Healing Wave spell by 0.5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 593,
+              "icon": "spell_frost_manarecharge",
+              "name": "Tidal Focus",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16179,
+                  "rank": "Rank 1",
+                  "description": "Reduces the Mana cost of your healing spells by 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16214,
+                  "rank": "Rank 2",
+                  "description": "Reduces the Mana cost of your healing spells by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16215,
+                  "rank": "Rank 3",
+                  "description": "Reduces the Mana cost of your healing spells by 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16216,
+                  "rank": "Rank 4",
+                  "description": "Reduces the Mana cost of your healing spells by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16217,
+                  "rank": "Rank 5",
+                  "description": "Reduces the Mana cost of your healing spells by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 589,
+              "icon": "spell_nature_reincarnation",
+              "name": "Improved Reincarnation",
+              "row": 1,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16184,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Reincarnation spell by 10 min and increases the amount of health and mana you reincarnate with by an additional 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16209,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Reincarnation spell by 20 min and increases the amount of health and mana you reincarnate with by an additional 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 581,
+              "icon": "spell_nature_undyingstrength",
+              "name": "Ancestral Healing",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16176,
+                  "rank": "Rank 1",
+                  "description": "Increases your target's armor value by 8% for 15 sec after getting a critical effect from one of your healing spells.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16235,
+                  "rank": "Rank 2",
+                  "description": "Increases your target's armor value by 16% for 15 sec after getting a critical effect from one of your healing spells.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16240,
+                  "rank": "Rank 3",
+                  "description": "Increases your target's armor value by 25% for 15 sec after getting a critical effect from one of your healing spells.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 595,
+              "icon": "spell_nature_moonglow",
+              "name": "Totemic Focus",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16173,
+                  "rank": "Rank 1",
+                  "description": "Reduces the Mana cost of your totems by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16222,
+                  "rank": "Rank 2",
+                  "description": "Reduces the Mana cost of your totems by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16223,
+                  "rank": "Rank 3",
+                  "description": "Reduces the Mana cost of your totems by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16224,
+                  "rank": "Rank 4",
+                  "description": "Reduces the Mana cost of your totems by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16225,
+                  "rank": "Rank 5",
+                  "description": "Reduces the Mana cost of your totems by 25%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 583,
+              "icon": "spell_frost_stun",
+              "name": "Nature's Guidance",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16180,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to hit with melee attacks and spells by 1%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "spellHit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16196,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to hit with melee attacks and spells by 2%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "spellHit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16198,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to hit with melee attacks and spells by 3%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "spellHit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 587,
+              "icon": "spell_nature_healingwavelesser",
+              "name": "Healing Focus",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16181,
+                  "rank": "Rank 1",
+                  "description": "Gives you a 14% chance to avoid interruption caused by damage while casting any Shaman healing spell.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16230,
+                  "rank": "Rank 2",
+                  "description": "Gives you a 28% chance to avoid interruption caused by damage while casting any Shaman healing spell.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16232,
+                  "rank": "Rank 3",
+                  "description": "Gives you a 42% chance to avoid interruption caused by damage while casting any Shaman healing spell.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16233,
+                  "rank": "Rank 4",
+                  "description": "Gives you a 56% chance to avoid interruption caused by damage while casting any Shaman healing spell.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16234,
+                  "rank": "Rank 5",
+                  "description": "Gives you a 70% chance to avoid interruption caused by damage while casting any Shaman healing spell.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 582,
+              "icon": "spell_nature_nullward",
+              "name": "Totemic Mastery",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16189,
+                  "rank": "Rank 1",
+                  "description": "The radius of your totems that affect friendly targets is increased to 30 yd.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1646,
+              "icon": "spell_nature_healingtouch",
+              "name": "Healing Grace",
+              "row": 2,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29187,
+                  "rank": "Rank 1",
+                  "description": "Reduces the threat generated by your healing spells by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29189,
+                  "rank": "Rank 2",
+                  "description": "Reduces the threat generated by your healing spells by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29191,
+                  "rank": "Rank 3",
+                  "description": "Reduces the threat generated by your healing spells by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 588,
+              "icon": "spell_nature_manaregentotem",
+              "name": "Restorative Totems",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16187,
+                  "rank": "Rank 1",
+                  "description": "Increases the effect of your Mana Spring and Healing Stream Totems by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16205,
+                  "rank": "Rank 2",
+                  "description": "Increases the effect of your Mana Spring and Healing Stream Totems by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16206,
+                  "rank": "Rank 3",
+                  "description": "Increases the effect of your Mana Spring and Healing Stream Totems by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16207,
+                  "rank": "Rank 4",
+                  "description": "Increases the effect of your Mana Spring and Healing Stream Totems by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16208,
+                  "rank": "Rank 5",
+                  "description": "Increases the effect of your Mana Spring and Healing Stream Totems by 25%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 594,
+              "icon": "spell_nature_tranquility",
+              "name": "Tidal Mastery",
+              "row": 3,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16194,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical effect chance of your healing and lightning spells by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16218,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical effect chance of your healing and lightning spells by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16219,
+                  "rank": "Rank 3",
+                  "description": "Increases the critical effect chance of your healing and lightning spells by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16220,
+                  "rank": "Rank 4",
+                  "description": "Increases the critical effect chance of your healing and lightning spells by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16221,
+                  "rank": "Rank 5",
+                  "description": "Increases the critical effect chance of your healing and lightning spells by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1648,
+              "icon": "classic_spell_nature_healingway",
+              "name": "Healing Way",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29206,
+                  "rank": "Rank 1",
+                  "description": "Your Healing Wave spells have a 33% chance to increase the effect of subsequent Healing Wave spells on that target by 6% for 15 sec. This effect will stack up to 3 times.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29205,
+                  "rank": "Rank 2",
+                  "description": "Your Healing Wave spells have a 66% chance to increase the effect of subsequent Healing Wave spells on that target by 6% for 15 sec. This effect will stack up to 3 times.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29202,
+                  "rank": "Rank 3",
+                  "description": "Your Healing Wave spells have a 100% chance to increase the effect of subsequent Healing Wave spells on that target by 6% for 15 sec. This effect will stack up to 3 times.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 591,
+              "icon": "spell_nature_ravenform",
+              "name": "Nature's Swiftness",
+              "row": 4,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16188,
+                  "rank": "Rank 1",
+                  "description": "When activated, your next Nature spell with a casting time less then 10 sec becomes an instant cast spell.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "3 min cooldown",
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1695,
+              "icon": "spell_nature_focusedmind",
+              "name": "Focused Mind",
+              "row": 4,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30864,
+                  "rank": "Rank 1",
+                  "description": "Reduces the duration of any Silence or Interrupt effects used against the Shaman by 5%. This effect does not stack with other similar effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30865,
+                  "rank": "Rank 2",
+                  "description": "Reduces the duration of any Silence or Interrupt effects used against the Shaman by 10%. This effect does not stack with other similar effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30866,
+                  "rank": "Rank 3",
+                  "description": "Reduces the duration of any Silence or Interrupt effects used against the Shaman by 15%. This effect does not stack with other similar effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 592,
+              "icon": "spell_frost_wizardmark",
+              "name": "Purification",
+              "row": 5,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16178,
+                  "rank": "Rank 1",
+                  "description": "Increases the effectiveness of your healing spells by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16210,
+                  "rank": "Rank 2",
+                  "description": "Increases the effectiveness of your healing spells by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16211,
+                  "rank": "Rank 3",
+                  "description": "Increases the effectiveness of your healing spells by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16212,
+                  "rank": "Rank 4",
+                  "description": "Increases the effectiveness of your healing spells by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16213,
+                  "rank": "Rank 5",
+                  "description": "Increases the effectiveness of your healing spells by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 590,
+              "icon": "spell_frost_summonwaterelemental",
+              "name": "Mana Tide Totem",
+              "row": 6,
+              "col": 1,
+              "requires": 588,
+              "ranks": [
+                {
+                  "id": 16190,
+                  "rank": "Rank 1",
+                  "description": "Tools: Water Totem<br>Summons a Mana Tide Totem with 5 health at the feet of the caster for 12 sec that restores 6% of total mana every 3 seconds to group members within 20 yards.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "5 min cooldown",
+                    "cost": "66 Mana",
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1699,
+              "icon": "spell_nature_natureguardian",
+              "name": "Nature's Guardian",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30881,
+                  "rank": "Rank 1",
+                  "description": "Whenever a damaging attack is taken that reduces you below 30% health, you have a 10% chance to heal 10% of your total health and reduce your threat level on that target. 5 second cooldown.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30883,
+                  "rank": "Rank 2",
+                  "description": "Whenever a damaging attack is taken that reduces you below 30% health, you have a 20% chance to heal 10% of your total health and reduce your threat level on that target. 5 second cooldown.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30884,
+                  "rank": "Rank 3",
+                  "description": "Whenever a damaging attack is taken that reduces you below 30% health, you have a 30% chance to heal 10% of your total health and reduce your threat level on that target. 5 second cooldown.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30885,
+                  "rank": "Rank 4",
+                  "description": "Whenever a damaging attack is taken that reduces you below 30% health, you have a 40% chance to heal 10% of your total health and reduce your threat level on that target. 5 second cooldown.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30886,
+                  "rank": "Rank 5",
+                  "description": "Whenever a damaging attack is taken that reduces you below 30% health, you have a 50% chance to heal 10% of your total health and reduce your threat level on that target. 5 second cooldown.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1696,
+              "icon": "spell_nature_natureblessing",
+              "name": "Nature's Blessing",
+              "row": 7,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30867,
+                  "rank": "Rank 1",
+                  "description": "Increases your spell damage and healing by an amount equal to 10% of your Intellect.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellDamage",
+                      "type": "multiplyIntellect",
+                      "value": 1.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30868,
+                  "rank": "Rank 2",
+                  "description": "Increases your spell damage and healing by an amount equal to 20% of your Intellect.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellDamage",
+                      "type": "multiplyIntellect",
+                      "value": 1.2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30869,
+                  "rank": "Rank 3",
+                  "description": "Increases your spell damage and healing by an amount equal to 30% of your Intellect.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellDamage",
+                      "type": "multiplyIntellect",
+                      "value": 1.3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1697,
+              "icon": "spell_nature_healingwavegreater",
+              "name": "Improved Chain Heal",
+              "row": 7,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 30872,
+                  "rank": "Rank 1",
+                  "description": "Increases the amount healed by your Chain Heal spell by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 30873,
+                  "rank": "Rank 2",
+                  "description": "Increases the amount healed by your Chain Heal spell by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1698,
+              "icon": "spell_nature_skinofearth",
+              "name": "Earth Shield",
+              "row": 8,
+              "col": 1,
+              "requires": 2072,
+              "ranks": [
+                {
+                  "id": 974,
+                  "rank": "Rank 1",
+                  "description": "Protects the target with an earthen shield, giving a 30% chance of ignoring spell interruption when damaged and causing melee attacks to heal the shielded target for 150. This effect can only occur once every few seconds. 10 charges. Lasts 10 min. This shield can only be placed on one target at a time.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": null,
+                    "cost": "285 Mana",
+                    "range": "40 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        }
+      ],
+      "__typename": "TalentData"
+    }
+  }
+}

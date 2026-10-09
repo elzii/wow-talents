@@ -1,0 +1,190 @@
+[
+  [
+    "improved wrath",
+    "spell_nature_abolishmagic"
+  ],
+  [
+    "nature's grasp",
+    "spell_nature_natureswrath"
+  ],
+  [
+    "improved nature's grasp",
+    "spell_nature_natureswrath"
+  ],
+  [
+    "improved entangling roots",
+    "spell_nature_stranglevines"
+  ],
+  [
+    "improved moonfire",
+    "spell_nature_starfall"
+  ],
+  [
+    "natural weapons",
+    "inv_staff_01"
+  ],
+  [
+    "natural shapeshifter",
+    "spell_nature_wispsplode"
+  ],
+  [
+    "improved thorns",
+    "spell_nature_thorns"
+  ],
+  [
+    "omen of clarity",
+    "spell_nature_crystalball"
+  ],
+  [
+    "nature's reach",
+    "spell_nature_naturetouchgrow"
+  ],
+  [
+    "vengeance",
+    "spell_nature_purge"
+  ],
+  [
+    "improved starfire",
+    "spell_arcane_starfire"
+  ],
+  [
+    "nature's grace",
+    "spell_nature_naturesblessing"
+  ],
+  [
+    "moonglow",
+    "spell_nature_sentinal"
+  ],
+  [
+    "moonfury",
+    "spell_nature_moonglow"
+  ],
+  [
+    "moonkin form",
+    "spell_nature_forceofnature"
+  ],
+  [
+    "ferocity",
+    "ability_hunter_pet_hyena"
+  ],
+  [
+    "feral aggression",
+    "ability_druid_demoralizingroar"
+  ],
+  [
+    "feral instinct",
+    "ability_ambush"
+  ],
+  [
+    "brutal impact",
+    "ability_druid_bash"
+  ],
+  [
+    "thick hide",
+    "inv_misc_pelt_bear_03"
+  ],
+  [
+    "feline swiftness",
+    "spell_nature_spiritwolf"
+  ],
+  [
+    "feral charge",
+    "ability_hunter_pet_bear"
+  ],
+  [
+    "sharpened claws",
+    "inv_misc_monsterclaw_04"
+  ],
+  [
+    "improved shred",
+    "spell_shadow_vampiricaura"
+  ],
+  [
+    "predatory strikes",
+    "ability_hunter_pet_cat"
+  ],
+  [
+    "blood frenzy",
+    "ability_ghoulfrenzy"
+  ],
+  [
+    "primal fury",
+    "ability_racial_cannibalize"
+  ],
+  [
+    "savage fury",
+    "ability_druid_ravage"
+  ],
+  [
+    "faerie fire (feral)",
+    "spell_nature_faeriefire"
+  ],
+  [
+    "heart of the wild",
+    "spell_holy_blessingofagility"
+  ],
+  [
+    "leader of the pack",
+    "spell_nature_unyeildingstamina"
+  ],
+  [
+    "improved mark of the wild",
+    "spell_nature_regeneration"
+  ],
+  [
+    "furor",
+    "spell_holy_blessingofstamina"
+  ],
+  [
+    "improved healing touch",
+    "spell_nature_healingtouch"
+  ],
+  [
+    "nature's focus",
+    "spell_nature_healingwavegreater"
+  ],
+  [
+    "improved enrage",
+    "ability_druid_enrage"
+  ],
+  [
+    "reflection",
+    "spell_frost_windwalkon"
+  ],
+  [
+    "insect swarm",
+    "spell_nature_insectswarm"
+  ],
+  [
+    "subtlety",
+    "ability_eyeoftheowl"
+  ],
+  [
+    "tranquil spirit",
+    "spell_holy_elunesgrace"
+  ],
+  [
+    "improved rejuvenation",
+    "spell_nature_rejuvenation"
+  ],
+  [
+    "nature's swiftness",
+    "spell_nature_ravenform"
+  ],
+  [
+    "gift of nature",
+    "spell_nature_protectionformnature"
+  ],
+  [
+    "improved tranquility",
+    "spell_nature_tranquility"
+  ],
+  [
+    "improved regrowth",
+    "spell_nature_resistnature"
+  ],
+  [
+    "swiftmend",
+    "inv_relics_idolofrejuvenation"
+  ]
+]

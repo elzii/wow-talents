@@ -1,0 +1,178 @@
+[
+  [
+    "divine strength",
+    "ability_golemthunderclap"
+  ],
+  [
+    "divine intellect",
+    "spell_nature_sleep"
+  ],
+  [
+    "spiritual focus",
+    "spell_arcane_blink"
+  ],
+  [
+    "improved seal of righteousness",
+    "ability_thunderbolt"
+  ],
+  [
+    "healing light",
+    "spell_holy_holybolt"
+  ],
+  [
+    "consecration",
+    "spell_holy_innerfire"
+  ],
+  [
+    "improved lay on hands",
+    "spell_holy_layonhands"
+  ],
+  [
+    "unyielding faith",
+    "spell_holy_unyieldingfaith"
+  ],
+  [
+    "illumination",
+    "spell_holy_greaterheal"
+  ],
+  [
+    "improved blessing of wisdom",
+    "spell_holy_sealofwisdom"
+  ],
+  [
+    "divine favor",
+    "spell_holy_heal"
+  ],
+  [
+    "lasting judgement",
+    "spell_holy_healingaura"
+  ],
+  [
+    "holy power",
+    "spell_holy_power"
+  ],
+  [
+    "holy shock",
+    "spell_holy_searinglight"
+  ],
+  [
+    "improved devotion aura",
+    "spell_holy_devotionaura"
+  ],
+  [
+    "redoubt",
+    "ability_defend"
+  ],
+  [
+    "precision",
+    "ability_rogue_ambush"
+  ],
+  [
+    "guardian's favor",
+    "spell_holy_sealofprotection"
+  ],
+  [
+    "toughness",
+    "spell_holy_devotion"
+  ],
+  [
+    "blessing of kings",
+    "spell_magic_magearmor"
+  ],
+  [
+    "improved righteous fury",
+    "spell_holy_sealoffury"
+  ],
+  [
+    "shield specialization",
+    "inv_shield_06"
+  ],
+  [
+    "anticipation",
+    "spell_magic_lesserinvisibilty"
+  ],
+  [
+    "improved hammer of justice",
+    "spell_holy_sealofmight"
+  ],
+  [
+    "improved concentration aura",
+    "spell_holy_mindsooth"
+  ],
+  [
+    "blessing of sanctuary",
+    "spell_nature_lightningshield"
+  ],
+  [
+    "reckoning",
+    "spell_holy_blessingofstrength"
+  ],
+  [
+    "one-handed weapon specialization",
+    "inv_sword_20"
+  ],
+  [
+    "holy shield",
+    "spell_holy_blessingofprotection"
+  ],
+  [
+    "improved blessing of might",
+    "spell_holy_fistofjustice"
+  ],
+  [
+    "benediction",
+    "spell_frost_windwalkon"
+  ],
+  [
+    "improved judgement",
+    "spell_holy_righteousfury"
+  ],
+  [
+    "improved seal of the crusader",
+    "spell_holy_holysmite"
+  ],
+  [
+    "deflection",
+    "ability_parry"
+  ],
+  [
+    "vindication",
+    "spell_holy_vindication"
+  ],
+  [
+    "conviction",
+    "spell_holy_retributionaura"
+  ],
+  [
+    "seal of command",
+    "ability_warrior_innerrage"
+  ],
+  [
+    "pursuit of justice",
+    "spell_holy_persuitofjustice"
+  ],
+  [
+    "eye for an eye",
+    "spell_holy_eyeforaneye"
+  ],
+  [
+    "improved retribution aura",
+    "spell_holy_auraoflight"
+  ],
+  [
+    "two-handed weapon specialization",
+    "inv_hammer_04"
+  ],
+  [
+    "sanctity aura",
+    "spell_holy_mindvision"
+  ],
+  [
+    "vengeance",
+    "ability_racial_avatar"
+  ],
+  [
+    "repentance",
+    "spell_holy_prayerofhealing"
+  ]
+]

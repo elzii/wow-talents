@@ -1,0 +1,2905 @@
+{
+  "data": {
+    "getTalentData": {
+      "gameClass": "warrior",
+      "trees": [
+        {
+          "id": 161,
+          "icon": "ability_rogue_eviscerate",
+          "name": "Arms",
+          "talents": [
+            {
+              "id": 124,
+              "icon": "ability_rogue_ambush",
+              "name": "Improved Heroic Strike",
+              "row": 0,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12282,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cost of your Heroic Strike ability by 1 rage point.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12663,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cost of your Heroic Strike ability by 2 rage points.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12664,
+                  "rank": "Rank 3",
+                  "description": "Reduces the cost of your Heroic Strike ability by 3 rage points.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 130,
+              "icon": "ability_parry",
+              "name": "Deflection",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16462,
+                  "rank": "Rank 1",
+                  "description": "Increases your Parry chance by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16463,
+                  "rank": "Rank 2",
+                  "description": "Increases your Parry chance by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16464,
+                  "rank": "Rank 3",
+                  "description": "Increases your Parry chance by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16465,
+                  "rank": "Rank 4",
+                  "description": "Increases your Parry chance by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16466,
+                  "rank": "Rank 5",
+                  "description": "Increases your Parry chance by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 127,
+              "icon": "ability_gouge",
+              "name": "Improved Rend",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12286,
+                  "rank": "Rank 1",
+                  "description": "Increases the bleed damage done by your Rend ability by 25%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12658,
+                  "rank": "Rank 2",
+                  "description": "Increases the bleed damage done by your Rend ability by 50%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12659,
+                  "rank": "Rank 3",
+                  "description": "Increases the bleed damage done by your Rend ability by 75%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 126,
+              "icon": "ability_warrior_charge",
+              "name": "Improved Charge",
+              "row": 1,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12285,
+                  "rank": "Rank 1",
+                  "description": "Increases the amount of rage generated by your Charge ability by 3.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12697,
+                  "rank": "Rank 2",
+                  "description": "Increases the amount of rage generated by your Charge ability by 6.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 641,
+              "icon": "spell_magic_magearmor",
+              "name": "Iron Will",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12300,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to resist stun and charm effects by 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12959,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to resist stun and charm effects by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12960,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to resist stun and charm effects by 9%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12961,
+                  "rank": "Rank 4",
+                  "description": "Increases your chance to resist stun and charm effects by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12962,
+                  "rank": "Rank 5",
+                  "description": "Increases your chance to resist stun and charm effects by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 128,
+              "icon": "ability_thunderclap",
+              "name": "Improved Thunder Clap",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12287,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cost of your Thunder Clap ability by 1 rage point and increases the damage by 40% and the slowing effect by an additional 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12665,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cost of your Thunder Clap ability by 2 rage points and increases the damage by 70% and the slowing effect by an additional 7%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12666,
+                  "rank": "Rank 3",
+                  "description": "Reduces the cost of your Thunder Clap ability by 4 rage points and increases the damage by 100% and the slowing effect by an additional 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 131,
+              "icon": "inv_sword_05",
+              "name": "Improved Overpower",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12290,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike chance of your Overpower ability by 25%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12963,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical strike chance of your Overpower ability by 50%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 137,
+              "icon": "spell_holy_blessingofstamina",
+              "name": "Anger Management",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12296,
+                  "rank": "Rank 1",
+                  "description": "Generates 1 rage per 3 seconds.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 121,
+              "icon": "ability_backstab",
+              "name": "Deep Wounds",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12834,
+                  "rank": "Rank 1",
+                  "description": "Your critical strikes cause the opponent to bleed, dealing 20% of your melee weapon's average damage over 12 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12849,
+                  "rank": "Rank 2",
+                  "description": "Your critical strikes cause the opponent to bleed, dealing 40% of your melee weapon's average damage over 12 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12867,
+                  "rank": "Rank 3",
+                  "description": "Your critical strikes cause the opponent to bleed, dealing 60% of your melee weapon's average damage over 12 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 136,
+              "icon": "inv_axe_09",
+              "name": "Two-Handed Weapon Specialization",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12163,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage you deal with two-handed melee weapons by 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12711,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage you deal with two-handed melee weapons by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12712,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage you deal with two-handed melee weapons by 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12713,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage you deal with two-handed melee weapons by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12714,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage you deal with two-handed melee weapons by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 662,
+              "icon": "ability_searingarrow",
+              "name": "Impale",
+              "row": 3,
+              "col": 2,
+              "requires": 121,
+              "ranks": [
+                {
+                  "id": 16493,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16494,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 132,
+              "icon": "inv_axe_06",
+              "name": "Poleaxe Specialization",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12700,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to get a critical strike with Axes and Polearms by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "0",
+                          "1",
+                          "6"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12781,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to get a critical strike with Axes and Polearms by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "0",
+                          "1",
+                          "6"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12783,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to get a critical strike with Axes and Polearms by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "0",
+                          "1",
+                          "6"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12784,
+                  "rank": "Rank 4",
+                  "description": "Increases your chance to get a critical strike with Axes and Polearms by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "0",
+                          "1",
+                          "6"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12785,
+                  "rank": "Rank 5",
+                  "description": "Increases your chance to get a critical strike with Axes and Polearms by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": {
+                        "attribute": "weaponType",
+                        "type": "eq",
+                        "value": [
+                          "0",
+                          "1",
+                          "6"
+                        ],
+                        "__typename": "TalentStatCondition"
+                      },
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 133,
+              "icon": "spell_shadow_deathpact",
+              "name": "Death Wish",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12292,
+                  "rank": "Rank 1",
+                  "description": "When activated, increases your physical damage by 20% and makes you immune to Fear effects, but increases all damage taken by 5%. Lasts 30 sec.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "3 min cooldown",
+                    "cost": "10 Rage",
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 125,
+              "icon": "inv_mace_01",
+              "name": "Mace Specialization",
+              "row": 4,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12284,
+                  "rank": "Rank 1",
+                  "description": "Gives your melee attacks a chance to stun your target for 3 sec and generate 7 rage when using a Mace.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12701,
+                  "rank": "Rank 2",
+                  "description": "Gives your melee attacks a chance to stun your target for 3 sec and generate 7 rage when using a Mace. More effective than Mace Specialization (Rank 1).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12702,
+                  "rank": "Rank 3",
+                  "description": "Gives your melee attacks a chance to stun your target for 3 sec and generate 7 rage when using a Mace. More effective than Mace Specialization (Rank 2).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12703,
+                  "rank": "Rank 4",
+                  "description": "Gives your melee attacks a chance to stun your target for 3 sec and generate 7 rage when using a Mace. More effective than Mace Specialization (Rank 3).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12704,
+                  "rank": "Rank 5",
+                  "description": "Gives your melee attacks a chance to stun your target for 3 sec and generate 7 rage when using a Mace. More effective than Mace Specialization (Rank 4).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 123,
+              "icon": "inv_sword_27",
+              "name": "Sword Specialization",
+              "row": 4,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12281,
+                  "rank": "Rank 1",
+                  "description": "Gives you a 1% chance to get an extra attack on the same target after dealing damage with your Sword.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12812,
+                  "rank": "Rank 2",
+                  "description": "Gives you a 2% chance to get an extra attack on the same target after dealing damage with your Sword.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12813,
+                  "rank": "Rank 3",
+                  "description": "Gives you a 3% chance to get an extra attack on the same target after dealing damage with your Sword.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12814,
+                  "rank": "Rank 4",
+                  "description": "Gives you a 4% chance to get an extra attack on the same target after dealing damage with your Sword.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12815,
+                  "rank": "Rank 5",
+                  "description": "Gives you a 5% chance to get an extra attack on the same target after dealing damage with your Sword.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 134,
+              "icon": "ability_rogue_sprint",
+              "name": "Improved Intercept",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29888,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Intercept ability by 5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29889,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Intercept ability by 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 129,
+              "icon": "ability_shockwave",
+              "name": "Improved Hamstring",
+              "row": 5,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12289,
+                  "rank": "Rank 1",
+                  "description": "Gives your Hamstring ability a 5% chance to immobilize the target for 5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12668,
+                  "rank": "Rank 2",
+                  "description": "Gives your Hamstring ability a 10% chance to immobilize the target for 5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 23695,
+                  "rank": "Rank 3",
+                  "description": "Gives your Hamstring ability a 15% chance to immobilize the target for 5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1662,
+              "icon": "ability_warrior_improveddisciplines",
+              "name": "Improved Disciplines",
+              "row": 5,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29723,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Retaliation, Recklessness and Shield Wall abilities by 4 min and increases their duration by 2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29724,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Retaliation, Recklessness and Shield Wall abilities by 7 min and increases their duration by 4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29725,
+                  "rank": "Rank 3",
+                  "description": "Reduces the cooldown of your Retaliation, Recklessness and Shield Wall abilities by 10 min and increases their duration by 6 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1664,
+              "icon": "ability_warrior_bloodfrenzy",
+              "name": "Blood Frenzy",
+              "row": 6,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29836,
+                  "rank": "Rank 1",
+                  "description": "Your Rend and Deep Wounds abilities also increase all melee damage caused to that target by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29859,
+                  "rank": "Rank 2",
+                  "description": "Your Rend and Deep Wounds abilities also increase all melee damage caused to that target by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 135,
+              "icon": "ability_warrior_savageblow",
+              "name": "Mortal Strike",
+              "row": 6,
+              "col": 1,
+              "requires": 133,
+              "ranks": [
+                {
+                  "id": 12294,
+                  "rank": "Rank 1",
+                  "description": "A vicious strike that deals weapon damage plus 85 and wounds the target, reducing the effectiveness of any healing by 50% for 10 sec.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": null,
+                    "cost": "30 Rage",
+                    "range": "Melee Range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1663,
+              "icon": "ability_hunter_harass",
+              "name": "Second Wind",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29834,
+                  "rank": "Rank 1",
+                  "description": "Whenever you are struck by a Stun or Immobilize effect you will generate 10 rage and 5% of your total health over 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29838,
+                  "rank": "Rank 2",
+                  "description": "Whenever you are struck by a Stun or Immobilize effect you will generate 20 rage and 10% of your total health over 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1824,
+              "icon": "ability_warrior_savageblow",
+              "name": "Improved Mortal Strike",
+              "row": 7,
+              "col": 1,
+              "requires": 135,
+              "ranks": [
+                {
+                  "id": 35446,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Mortal Strike ability by 0.2 sec and increases the damage it causes by 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35448,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Mortal Strike ability by 0.4 sec and increases the damage it causes by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35449,
+                  "rank": "Rank 3",
+                  "description": "Reduces the cooldown of your Mortal Strike ability by 0.6 sec and increases the damage it causes by 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35450,
+                  "rank": "Rank 4",
+                  "description": "Reduces the cooldown of your Mortal Strike ability by 0.8 sec and increases the damage it causes by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35451,
+                  "rank": "Rank 5",
+                  "description": "Reduces the cooldown of your Mortal Strike ability by 1 sec and increases the damage it causes by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1661,
+              "icon": "ability_warrior_endlessrage",
+              "name": "Endless Rage",
+              "row": 8,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29623,
+                  "rank": "Rank 1",
+                  "description": "You generate 25% more rage from damage dealt.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        },
+        {
+          "id": 164,
+          "icon": "ability_warrior_innerrage",
+          "name": "Fury",
+          "talents": [
+            {
+              "id": 158,
+              "icon": "spell_nature_purge",
+              "name": "Booming Voice",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12321,
+                  "rank": "Rank 1",
+                  "description": "Increases the area of effect and duration of your Battle Shout, Demoralizing Shout, and Commanding Shout by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12835,
+                  "rank": "Rank 2",
+                  "description": "Increases the area of effect and duration of your Battle Shout, Demoralizing Shout, and Commanding Shout by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12836,
+                  "rank": "Rank 3",
+                  "description": "Increases the area of effect and duration of your Battle Shout, Demoralizing Shout, and Commanding Shout by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12837,
+                  "rank": "Rank 4",
+                  "description": "Increases the area of effect and duration of your Battle Shout, Demoralizing Shout, and Commanding Shout by 40%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12838,
+                  "rank": "Rank 5",
+                  "description": "Increases the area of effect and duration of your Battle Shout, Demoralizing Shout, and Commanding Shout by 50%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 157,
+              "icon": "ability_rogue_eviscerate",
+              "name": "Cruelty",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12320,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12852,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12853,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12855,
+                  "rank": "Rank 4",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12856,
+                  "rank": "Rank 5",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 161,
+              "icon": "ability_warrior_warcry",
+              "name": "Improved Demoralizing Shout",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12324,
+                  "rank": "Rank 1",
+                  "description": "Increases the melee attack power reduction of your Demoralizing Shout by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12876,
+                  "rank": "Rank 2",
+                  "description": "Increases the melee attack power reduction of your Demoralizing Shout by 16%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12877,
+                  "rank": "Rank 3",
+                  "description": "Increases the melee attack power reduction of your Demoralizing Shout by 24%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12878,
+                  "rank": "Rank 4",
+                  "description": "Increases the melee attack power reduction of your Demoralizing Shout by 32%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12879,
+                  "rank": "Rank 5",
+                  "description": "Increases the melee attack power reduction of your Demoralizing Shout by 40%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 159,
+              "icon": "spell_nature_stoneclawtotem",
+              "name": "Unbridled Wrath",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12322,
+                  "rank": "Rank 1",
+                  "description": "Gives you a chance to generate an additional rage point when you deal melee damage with a weapon.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12999,
+                  "rank": "Rank 2",
+                  "description": "Gives you a chance to generate an additional rage point when you deal melee damage with a weapon.  Effect occurs more often than Unbridled Wrath (Rank 1).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13000,
+                  "rank": "Rank 3",
+                  "description": "Gives you a chance to generate an additional rage point when you deal melee damage with a weapon.  Effect occurs more often than Unbridled Wrath (Rank 2).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13001,
+                  "rank": "Rank 4",
+                  "description": "Gives you a chance to generate an additional rage point when you deal melee damage with a weapon.  Effect occurs more often than Unbridled Wrath (Rank 3).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13002,
+                  "rank": "Rank 5",
+                  "description": "Gives you a chance to generate an additional rage point when you deal melee damage with a weapon.  Effect occurs more often than Unbridled Wrath (Rank 4).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 166,
+              "icon": "ability_warrior_cleave",
+              "name": "Improved Cleave",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12329,
+                  "rank": "Rank 1",
+                  "description": "Increases the bonus damage done by your Cleave ability by 40%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12950,
+                  "rank": "Rank 2",
+                  "description": "Increases the bonus damage done by your Cleave ability by 80%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20496,
+                  "rank": "Rank 3",
+                  "description": "Increases the bonus damage done by your Cleave ability by 120%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 160,
+              "icon": "spell_shadow_deathscream",
+              "name": "Piercing Howl",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12323,
+                  "rank": "Rank 1",
+                  "description": "Causes all enemies near the warrior to be dazed, reducing movement speed by 50% for 6 sec.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": null,
+                    "cost": "10 Rage",
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 661,
+              "icon": "spell_shadow_summonimp",
+              "name": "Blood Craze",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16487,
+                  "rank": "Rank 1",
+                  "description": "Regenerates 1% of your total health over 6 sec after being the victim of a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16489,
+                  "rank": "Rank 2",
+                  "description": "Regenerates 2% of your total health over 6 sec after being the victim of a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16492,
+                  "rank": "Rank 3",
+                  "description": "Regenerates 3% of your total health over 6 sec after being the victim of a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 154,
+              "icon": "spell_nature_focusedmind",
+              "name": "Commanding Presence",
+              "row": 2,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12318,
+                  "rank": "Rank 1",
+                  "description": "Increases the melee attack power bonus of your Battle Shout and the health bonus of your Commanding Shout by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12857,
+                  "rank": "Rank 2",
+                  "description": "Increases the melee attack power bonus of your Battle Shout and the health bonus of your Commanding Shout by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12858,
+                  "rank": "Rank 3",
+                  "description": "Increases the melee attack power bonus of your Battle Shout and the health bonus of your Commanding Shout by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12860,
+                  "rank": "Rank 4",
+                  "description": "Increases the melee attack power bonus of your Battle Shout and the health bonus of your Commanding Shout by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12861,
+                  "rank": "Rank 5",
+                  "description": "Increases the melee attack power bonus of your Battle Shout and the health bonus of your Commanding Shout by 25%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1581,
+              "icon": "ability_dualwield",
+              "name": "Dual Wield Specialization",
+              "row": 3,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 23584,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage done by your offhand weapon by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 23585,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage done by your offhand weapon by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 23586,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage done by your offhand weapon by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 23587,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage done by your offhand weapon by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 23588,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage done by your offhand weapon by 25%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1542,
+              "icon": "inv_sword_48",
+              "name": "Improved Execute",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20502,
+                  "rank": "Rank 1",
+                  "description": "Reduces the Rage cost of your Execute ability by 2.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20503,
+                  "rank": "Rank 2",
+                  "description": "Reduces the Rage cost of your Execute ability by 5.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 155,
+              "icon": "spell_shadow_unholyfrenzy",
+              "name": "Enrage",
+              "row": 3,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12317,
+                  "rank": "Rank 1",
+                  "description": "Gives you a 5% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13045,
+                  "rank": "Rank 2",
+                  "description": "Gives you a 10% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13046,
+                  "rank": "Rank 3",
+                  "description": "Gives you a 15% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13047,
+                  "rank": "Rank 4",
+                  "description": "Gives you a 20% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 13048,
+                  "rank": "Rank 5",
+                  "description": "Gives you a 25% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 168,
+              "icon": "ability_warrior_decisivestrike",
+              "name": "Improved Slam",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12862,
+                  "rank": "Rank 1",
+                  "description": "Decreases the casting time of your Slam ability by 0.5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12330,
+                  "rank": "Rank 2",
+                  "description": "Decreases the casting time of your Slam ability by 1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 165,
+              "icon": "ability_rogue_slicedice",
+              "name": "Sweeping Strikes",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12328,
+                  "rank": "Rank 1",
+                  "description": "Your next 10 melee weapon swings strike an additional nearby opponent.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "30 sec cooldown",
+                    "cost": "30 Rage",
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1543,
+              "icon": "ability_warrior_weaponmastery",
+              "name": "Weapon Mastery",
+              "row": 4,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20504,
+                  "rank": "Rank 1",
+                  "description": "Reduces the chance for your attacks to be dodged by 1% and reduces the duration of all Disarm effects used against you by 25%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20505,
+                  "rank": "Rank 2",
+                  "description": "Reduces the chance for your attacks to be dodged by 2% and reduces the duration of all Disarm effects used against you by 50%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1541,
+              "icon": "spell_nature_ancestralguardian",
+              "name": "Improved Berserker Rage",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20500,
+                  "rank": "Rank 1",
+                  "description": "The Berserker Rage ability will generate 5 rage when used.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20501,
+                  "rank": "Rank 2",
+                  "description": "The Berserker Rage ability will generate 10 rage when used.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 156,
+              "icon": "ability_ghoulfrenzy",
+              "name": "Flurry",
+              "row": 5,
+              "col": 2,
+              "requires": 155,
+              "ranks": [
+                {
+                  "id": 12319,
+                  "rank": "Rank 1",
+                  "description": "Increases your attack speed by 5% for your next 3 swings after dealing a melee critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12971,
+                  "rank": "Rank 2",
+                  "description": "Increases your attack speed by 10% for your next 3 swings after dealing a melee critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12972,
+                  "rank": "Rank 3",
+                  "description": "Increases your attack speed by 15% for your next 3 swings after dealing a melee critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12973,
+                  "rank": "Rank 4",
+                  "description": "Increases your attack speed by 20% for your next 3 swings after dealing a melee critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12974,
+                  "rank": "Rank 5",
+                  "description": "Increases your attack speed by 25% for your next 3 swings after dealing a melee critical strike.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1657,
+              "icon": "ability_marksmanship",
+              "name": "Precision",
+              "row": 6,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29590,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to hit with melee weapons by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29591,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to hit with melee weapons by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29592,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to hit with melee weapons by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 167,
+              "icon": "spell_nature_bloodlust",
+              "name": "Bloodthirst",
+              "row": 6,
+              "col": 1,
+              "requires": 165,
+              "ranks": [
+                {
+                  "id": 23881,
+                  "rank": "Rank 1",
+                  "description": "Instantly attack the target causing 217 damage. In addition, the next 5 successful melee attacks will restore 10 health. This effect lasts 8 sec. Damage is based on your attack power.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "6 sec cooldown",
+                    "cost": "30 Rage",
+                    "range": "Melee Range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1655,
+              "icon": "ability_whirlwind",
+              "name": "Improved Whirlwind",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29721,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Whirlwind ability by 1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29776,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Whirlwind ability by 2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1658,
+              "icon": "ability_racial_avatar",
+              "name": "Improved Berserker Stance",
+              "row": 7,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29759,
+                  "rank": "Rank 1",
+                  "description": "Increases attack power by 2% and reduces threat caused by 2% while in Berserker Stance.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29760,
+                  "rank": "Rank 2",
+                  "description": "Increases attack power by 4% and reduces threat caused by 4% while in Berserker Stance.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29761,
+                  "rank": "Rank 3",
+                  "description": "Increases attack power by 6% and reduces threat caused by 6% while in Berserker Stance.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29762,
+                  "rank": "Rank 4",
+                  "description": "Increases attack power by 8% and reduces threat caused by 8% while in Berserker Stance.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29763,
+                  "rank": "Rank 5",
+                  "description": "Increases attack power by 10% and reduces threat caused by 10% while in Berserker Stance.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "attackPower",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1659,
+              "icon": "ability_warrior_rampage",
+              "name": "Rampage",
+              "row": 8,
+              "col": 1,
+              "requires": 167,
+              "ranks": [
+                {
+                  "id": 29801,
+                  "rank": "Rank 1",
+                  "description": "Warrior goes on a rampage, increasing attack power by 30 and causing most successful melee attacks to increase attack power by an additional 30. This effect will stack up to 5 times. Lasts 30 sec. This ability can only be used after scoring a critical hit.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": null,
+                    "cost": "20 Rage",
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        },
+        {
+          "id": 163,
+          "icon": "inv_shield_06",
+          "name": "Protection",
+          "talents": [
+            {
+              "id": 142,
+              "icon": "ability_racial_bloodrage",
+              "name": "Improved Bloodrage",
+              "row": 0,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12301,
+                  "rank": "Rank 1",
+                  "description": "Increases the instant rage generated by your Bloodrage ability by 3.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12818,
+                  "rank": "Rank 2",
+                  "description": "Increases the instant rage generated by your Bloodrage ability by 6.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 141,
+              "icon": "spell_nature_enchantarmor",
+              "name": "Tactical Mastery",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12295,
+                  "rank": "Rank 1",
+                  "description": "You retain up to an additional 5 of your rage points when you change stances. Also greatly increases the threat generated by your Bloodthirst and Mortal Strike abilities when you are in Defensive Stance.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12676,
+                  "rank": "Rank 2",
+                  "description": "You retain up to an additional 10 of your rage points when you change stances. Also greatly increases the threat generated by your Bloodthirst and Mortal Strike abilities when you are in Defensive Stance (More effective than Rank 1).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12677,
+                  "rank": "Rank 3",
+                  "description": "You retain up to an additional 15 of your rage points when you change stances. Also greatly increases the threat generated by your Bloodthirst and Mortal Strike abilities when you are in Defensive Stance (More effective than Rank 2).",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 138,
+              "icon": "spell_nature_mirrorimage",
+              "name": "Anticipation",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12297,
+                  "rank": "Rank 1",
+                  "description": "Increases your Defense skill by 4.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "defense",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12750,
+                  "rank": "Rank 2",
+                  "description": "Increases your Defense skill by 8.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "defense",
+                      "type": "add",
+                      "value": 8,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12751,
+                  "rank": "Rank 3",
+                  "description": "Increases your Defense skill by 12.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "defense",
+                      "type": "add",
+                      "value": 12,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12752,
+                  "rank": "Rank 4",
+                  "description": "Increases your Defense skill by 16.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "defense",
+                      "type": "add",
+                      "value": 16,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12753,
+                  "rank": "Rank 5",
+                  "description": "Increases your Defense skill by 20.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "defense",
+                      "type": "add",
+                      "value": 20,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1601,
+              "icon": "inv_shield_06",
+              "name": "Shield Specialization",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12298,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to block attacks with a shield by 1% and has a 20% chance to generate 1 rage when a block occurs.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "block",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12724,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to block attacks with a shield by 2% and has a 40% chance to generate 1 rage when a block occurs.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "block",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12725,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to block attacks with a shield by 3% and has a 60% chance to generate 1 rage when a block occurs.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "block",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12726,
+                  "rank": "Rank 4",
+                  "description": "Increases your chance to block attacks with a shield by 4% and has a 80% chance to generate 1 rage when a block occurs.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "block",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12727,
+                  "rank": "Rank 5",
+                  "description": "Increases your chance to block attacks with a shield by 5% and has a 100% chance to generate 1 rage when a block occurs.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "block",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 140,
+              "icon": "spell_holy_devotion",
+              "name": "Toughness",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12299,
+                  "rank": "Rank 1",
+                  "description": "Increases your armor value from items by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12761,
+                  "rank": "Rank 2",
+                  "description": "Increases your armor value from items by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12762,
+                  "rank": "Rank 3",
+                  "description": "Increases your armor value from items by 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12763,
+                  "rank": "Rank 4",
+                  "description": "Increases your armor value from items by 8%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12764,
+                  "rank": "Rank 5",
+                  "description": "Increases your armor value from items by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 153,
+              "icon": "spell_holy_ashestoashes",
+              "name": "Last Stand",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12975,
+                  "rank": "Rank 1",
+                  "description": "When activated, this ability temporarily grants you 30% of your maximum hit points for 20 sec. After the effect expires, the hit points are lost.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "8 min cooldown",
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 145,
+              "icon": "ability_defend",
+              "name": "Improved Shield Block",
+              "row": 2,
+              "col": 1,
+              "requires": 1601,
+              "ranks": [
+                {
+                  "id": 12945,
+                  "rank": "Rank 1",
+                  "description": "Allows your Shield Block ability to block an additional attack, and increases the duration by 1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 147,
+              "icon": "ability_warrior_revenge",
+              "name": "Improved Revenge",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12797,
+                  "rank": "Rank 1",
+                  "description": "Gives your Revenge ability a 15% chance to stun the target for 3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12799,
+                  "rank": "Rank 2",
+                  "description": "Gives your Revenge ability a 30% chance to stun the target for 3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12800,
+                  "rank": "Rank 3",
+                  "description": "Gives your Revenge ability a 45% chance to stun the target for 3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 144,
+              "icon": "ability_warrior_innerrage",
+              "name": "Defiance",
+              "row": 2,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12303,
+                  "rank": "Rank 1",
+                  "description": "Increases the threat generated by your attacks by 5% while in Defensive Stance and increases your expertise by 2.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "expertise",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12788,
+                  "rank": "Rank 2",
+                  "description": "Increases the threat generated by your attacks by 10% while in Defensive Stance and increases your expertise by 4.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "expertise",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12789,
+                  "rank": "Rank 3",
+                  "description": "Increases the threat generated by your attacks by 15% while in Defensive Stance and increases your expertise by 6.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "expertise",
+                      "type": "add",
+                      "value": 6,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 146,
+              "icon": "ability_warrior_sunder",
+              "name": "Improved Sunder Armor",
+              "row": 3,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12308,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cost of your Sunder Armor and Devastate abilities by 1 rage point.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12810,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cost of your Sunder Armor and Devastate abilities by 2 rage points.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12811,
+                  "rank": "Rank 3",
+                  "description": "Reduces the cost of your Sunder Armor and Devastate abilities by 3 rage points.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 151,
+              "icon": "ability_warrior_disarm",
+              "name": "Improved Disarm",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12313,
+                  "rank": "Rank 1",
+                  "description": "Increases the duration of your Disarm ability by 1 secs.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12804,
+                  "rank": "Rank 2",
+                  "description": "Increases the duration of your Disarm ability by 2 secs.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12807,
+                  "rank": "Rank 3",
+                  "description": "Increases the duration of your Disarm ability by 3 secs.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 143,
+              "icon": "spell_nature_reincarnation",
+              "name": "Improved Taunt",
+              "row": 3,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12302,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Taunt ability by 1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12765,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Taunt ability by 2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 150,
+              "icon": "ability_warrior_shieldwall",
+              "name": "Improved Shield Wall",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12312,
+                  "rank": "Rank 1",
+                  "description": "Increases the effect duration of your Shield Wall ability by 3 secs.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12803,
+                  "rank": "Rank 2",
+                  "description": "Increases the effect duration of your Shield Wall ability by 5 secs.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 152,
+              "icon": "ability_thunderbolt",
+              "name": "Concussion Blow",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12809,
+                  "rank": "Rank 1",
+                  "description": "Requires Melee Weapon<br>Stuns the opponent for 5 sec.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "45 sec cooldown",
+                    "cost": "15 Rage",
+                    "range": "Melee Range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 149,
+              "icon": "ability_warrior_shieldbash",
+              "name": "Improved Shield Bash",
+              "row": 4,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 12311,
+                  "rank": "Rank 1",
+                  "description": "Gives your Shield Bash ability a 50% chance to silence the target for 3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 12958,
+                  "rank": "Rank 2",
+                  "description": "Gives your Shield Bash ability a 100% chance to silence the target for 3 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1654,
+              "icon": "ability_warrior_shieldmastery",
+              "name": "Shield Mastery",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29598,
+                  "rank": "Rank 1",
+                  "description": "Increases the amount of damage absorbed by your shield by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "blockValue",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "blockValueBonus",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29599,
+                  "rank": "Rank 2",
+                  "description": "Increases the amount of damage absorbed by your shield by 20%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "blockValue",
+                      "type": "multiply",
+                      "value": 0.2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "blockValueBonus",
+                      "type": "multiply",
+                      "value": 0.2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29600,
+                  "rank": "Rank 3",
+                  "description": "Increases the amount of damage absorbed by your shield by 30%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "blockValue",
+                      "type": "multiply",
+                      "value": 0.3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "blockValueBonus",
+                      "type": "multiply",
+                      "value": 0.3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 702,
+              "icon": "inv_sword_20",
+              "name": "One-Handed Weapon Specialization",
+              "row": 5,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 16538,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage you deal with One-Handed Melee weapons by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16539,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage you deal with One-Handed Melee weapons by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16540,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage you deal with One-Handed Melee weapons by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16541,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage you deal with One-Handed Melee weapons by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 16542,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage you deal with One-Handed Melee weapons by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1652,
+              "icon": "ability_warrior_defensivestance",
+              "name": "Improved Defensive Stance",
+              "row": 6,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29593,
+                  "rank": "Rank 1",
+                  "description": "Reduces all spell damage taken while in Defensive Stance by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29594,
+                  "rank": "Rank 2",
+                  "description": "Reduces all spell damage taken while in Defensive Stance by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29595,
+                  "rank": "Rank 3",
+                  "description": "Reduces all spell damage taken while in Defensive Stance by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 148,
+              "icon": "inv_shield_05",
+              "name": "Shield Slam",
+              "row": 6,
+              "col": 1,
+              "requires": 152,
+              "ranks": [
+                {
+                  "id": 23922,
+                  "rank": "Rank 1",
+                  "description": "Slam the target with your shield, causing 225 to 235 damage, modified by your shield block value, and dispels 1 magic effect on the target. Also causes a high amount of threat.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "6 sec cooldown",
+                    "cost": "20 Rage",
+                    "range": "Melee Range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1660,
+              "icon": "ability_warrior_focusedrage",
+              "name": "Focused Rage",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29787,
+                  "rank": "Rank 1",
+                  "description": "Reduces the rage cost of all your offensive abilities by 1.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29790,
+                  "rank": "Rank 2",
+                  "description": "Reduces the rage cost of all your offensive abilities by 2.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29792,
+                  "rank": "Rank 3",
+                  "description": "Reduces the rage cost of all your offensive abilities by 3.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1653,
+              "icon": "inv_helmet_21",
+              "name": "Vitality",
+              "row": 7,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 29140,
+                  "rank": "Rank 1",
+                  "description": "Increases your total Stamina by 1% and your total Strength by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.01,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "strength",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29143,
+                  "rank": "Rank 2",
+                  "description": "Increases your total Stamina by 2% and your total Strength by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "strength",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29144,
+                  "rank": "Rank 3",
+                  "description": "Increases your total Stamina by 3% and your total Strength by 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.03,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "strength",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29145,
+                  "rank": "Rank 4",
+                  "description": "Increases your total Stamina by 4% and your total Strength by 8%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "strength",
+                      "type": "multiply",
+                      "value": 0.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 29146,
+                  "rank": "Rank 5",
+                  "description": "Increases your total Stamina by 5% and your total Strength by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.05,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "strength",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1666,
+              "icon": "inv_sword_11",
+              "name": "Devastate",
+              "row": 8,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20243,
+                  "rank": "Rank 1",
+                  "description": "Requires One-Handed Melee Weapon<br>Sunder the target's armor causing the Sunder Armor effect.  In addition, causes 50% of weapon damage plus 15 for each application of Sunder Armor on the target.  The Sunder Armor effect can stack up to 5 times.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": null,
+                    "cost": "15 Rage",
+                    "range": "Melee Range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        }
+      ],
+      "__typename": "TalentData"
+    }
+  }
+}

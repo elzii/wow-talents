@@ -1,0 +1,190 @@
+[
+  [
+    "unbreakable will",
+    "spell_magic_magearmor"
+  ],
+  [
+    "wand specialization",
+    "inv_wand_01"
+  ],
+  [
+    "silent resolve",
+    "spell_nature_manaregentotem"
+  ],
+  [
+    "improved power word: fortitude",
+    "spell_holy_wordfortitude"
+  ],
+  [
+    "improved power word: shield",
+    "spell_holy_powerwordshield"
+  ],
+  [
+    "martyrdom",
+    "spell_nature_tranquility"
+  ],
+  [
+    "inner focus",
+    "spell_frost_windwalkon"
+  ],
+  [
+    "meditation",
+    "spell_nature_sleep"
+  ],
+  [
+    "improved inner fire",
+    "spell_holy_innerfire"
+  ],
+  [
+    "mental agility",
+    "ability_hibernation"
+  ],
+  [
+    "improved mana burn",
+    "spell_shadow_manaburn"
+  ],
+  [
+    "mental strength",
+    "spell_nature_enchantarmor"
+  ],
+  [
+    "divine spirit",
+    "spell_holy_divinespirit"
+  ],
+  [
+    "force of will",
+    "spell_nature_slowingtotem"
+  ],
+  [
+    "power infusion",
+    "spell_holy_powerinfusion"
+  ],
+  [
+    "healing focus",
+    "spell_holy_healingfocus"
+  ],
+  [
+    "improved renew",
+    "spell_holy_renew"
+  ],
+  [
+    "holy specialization",
+    "spell_holy_sealofsalvation"
+  ],
+  [
+    "spell warding",
+    "spell_holy_spellwarding"
+  ],
+  [
+    "divine fury",
+    "spell_holy_sealofwrath"
+  ],
+  [
+    "holy nova",
+    "spell_holy_holynova"
+  ],
+  [
+    "blessed recovery",
+    "spell_holy_blessedrecovery"
+  ],
+  [
+    "inspiration",
+    "spell_holy_layonhands"
+  ],
+  [
+    "holy reach",
+    "spell_holy_purify"
+  ],
+  [
+    "improved healing",
+    "spell_holy_heal02"
+  ],
+  [
+    "searing light",
+    "spell_holy_searinglightpriest"
+  ],
+  [
+    "improved prayer of healing",
+    "spell_holy_prayerofhealing02"
+  ],
+  [
+    "spirit of redemption",
+    "inv_enchant_essenceeternallarge"
+  ],
+  [
+    "spiritual guidance",
+    "spell_holy_spiritualguidence"
+  ],
+  [
+    "spiritual healing",
+    "spell_nature_moonglow"
+  ],
+  [
+    "lightwell",
+    "spell_holy_summonlightwell"
+  ],
+  [
+    "spirit tap",
+    "spell_shadow_requiem"
+  ],
+  [
+    "blackout",
+    "spell_shadow_gathershadows"
+  ],
+  [
+    "shadow affinity",
+    "spell_shadow_shadowward"
+  ],
+  [
+    "improved shadow word: pain",
+    "spell_shadow_shadowwordpain"
+  ],
+  [
+    "shadow focus",
+    "spell_shadow_burningspirit"
+  ],
+  [
+    "improved psychic scream",
+    "spell_shadow_psychicscream"
+  ],
+  [
+    "improved mind blast",
+    "spell_shadow_unholyfrenzy"
+  ],
+  [
+    "mind flay",
+    "spell_shadow_siphonmana"
+  ],
+  [
+    "improved fade",
+    "spell_magic_lesserinvisibilty"
+  ],
+  [
+    "shadow reach",
+    "spell_shadow_chilltouch"
+  ],
+  [
+    "shadow weaving",
+    "spell_shadow_blackplague"
+  ],
+  [
+    "silence",
+    "spell_shadow_impphaseshift"
+  ],
+  [
+    "vampiric embrace",
+    "spell_shadow_unsummonbuilding"
+  ],
+  [
+    "improved vampiric embrace",
+    "spell_shadow_improvedvampiricembrace"
+  ],
+  [
+    "darkness",
+    "spell_shadow_twilight"
+  ],
+  [
+    "shadowform",
+    "spell_shadow_shadowform"
+  ]
+]

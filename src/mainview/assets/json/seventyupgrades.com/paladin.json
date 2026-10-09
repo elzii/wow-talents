@@ -1,0 +1,2926 @@
+{
+  "data": {
+    "getTalentData": {
+      "gameClass": "paladin",
+      "trees": [
+        {
+          "id": 382,
+          "icon": "spell_holy_holybolt",
+          "name": "Holy",
+          "talents": [
+            {
+              "id": 1450,
+              "icon": "ability_golemthunderclap",
+              "name": "Divine Strength",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20262,
+                  "rank": "Rank 1",
+                  "description": "Increases your total Strength by 2%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "strength",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20263,
+                  "rank": "Rank 2",
+                  "description": "Increases your total Strength by 4%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "strength",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20264,
+                  "rank": "Rank 3",
+                  "description": "Increases your total Strength by 6%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "strength",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20265,
+                  "rank": "Rank 4",
+                  "description": "Increases your total Strength by 8%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "strength",
+                      "type": "multiply",
+                      "value": 0.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20266,
+                  "rank": "Rank 5",
+                  "description": "Increases your total Strength by 10%",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "strength",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1449,
+              "icon": "spell_nature_sleep",
+              "name": "Divine Intellect",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20257,
+                  "rank": "Rank 1",
+                  "description": "Increases your total Intellect by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "intellect",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20258,
+                  "rank": "Rank 2",
+                  "description": "Increases your total Intellect by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "intellect",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20259,
+                  "rank": "Rank 3",
+                  "description": "Increases your total Intellect by 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "intellect",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20260,
+                  "rank": "Rank 4",
+                  "description": "Increases your total Intellect by 8%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "intellect",
+                      "type": "multiply",
+                      "value": 0.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20261,
+                  "rank": "Rank 5",
+                  "description": "Increases your total Intellect by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "intellect",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1432,
+              "icon": "spell_arcane_blink",
+              "name": "Spiritual Focus",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20205,
+                  "rank": "Rank 1",
+                  "description": "Gives your Flash of Light and Holy Light spells a 14% chance to not lose casting time when you take damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20206,
+                  "rank": "Rank 2",
+                  "description": "Gives your Flash of Light and Holy Light spells a 28% chance to not lose casting time when you take damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20207,
+                  "rank": "Rank 3",
+                  "description": "Gives your Flash of Light and Holy Light spells a 42% chance to not lose casting time when you take damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20209,
+                  "rank": "Rank 4",
+                  "description": "Gives your Flash of Light and Holy Light spells a 56% chance to not lose casting time when you take damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20208,
+                  "rank": "Rank 5",
+                  "description": "Gives your Flash of Light and Holy Light spells a 70% chance to not lose casting time when you take damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1463,
+              "icon": "ability_thunderbolt",
+              "name": "Improved Seal of Righteousness",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20224,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20225,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20330,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 9%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20331,
+                  "rank": "Rank 4",
+                  "description": "Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20332,
+                  "rank": "Rank 5",
+                  "description": "Increases the damage done by your Seal of Righteousness and Judgement of Righteousness by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1444,
+              "icon": "spell_holy_holybolt",
+              "name": "Healing Light",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20237,
+                  "rank": "Rank 1",
+                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20238,
+                  "rank": "Rank 2",
+                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20239,
+                  "rank": "Rank 3",
+                  "description": "Increases the amount healed by your Holy Light and Flash of Light spells by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1435,
+              "icon": "spell_holy_auramastery",
+              "name": "Aura Mastery",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31821,
+                  "rank": "Rank 1",
+                  "description": "Increases the radius of your Auras to 40 yards.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1443,
+              "icon": "spell_holy_layonhands",
+              "name": "Improved Lay on Hands",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20234,
+                  "rank": "Rank 1",
+                  "description": "Gives the target of your Lay on Hands spell a 15% bonus to their armor value from items for 2 min. In addition, the cooldown for your Lay on Hands spell is reduced by 10 min.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20235,
+                  "rank": "Rank 2",
+                  "description": "Gives the target of your Lay on Hands spell a 30% bonus to their armor value from items for 2 min. In addition, the cooldown for your Lay on Hands spell is reduced by 20 min.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1628,
+              "icon": "spell_holy_unyieldingfaith",
+              "name": "Unyielding Faith",
+              "row": 2,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 9453,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to resist Fear and Disorient effects by an additional 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 25836,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to resist Fear and Disorient effects by an additional 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1461,
+              "icon": "spell_holy_greaterheal",
+              "name": "Illumination",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20210,
+                  "rank": "Rank 1",
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 20% chance to gain Mana equal to 60% of the base cost of your spell.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20212,
+                  "rank": "Rank 2",
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 40% chance to gain Mana equal to 60% of the base cost of your spell.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20213,
+                  "rank": "Rank 3",
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 60% chance to gain Mana equal to 60% of the base cost of your spell.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20214,
+                  "rank": "Rank 4",
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 80% chance to gain Mana equal to 60% of the base cost of your spell.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20215,
+                  "rank": "Rank 5",
+                  "description": "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 100% chance to gain Mana equal to 60% of the base cost of your spell.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1446,
+              "icon": "spell_holy_sealofwisdom",
+              "name": "Improved Blessing of Wisdom",
+              "row": 3,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20244,
+                  "rank": "Rank 1",
+                  "description": "Increases the effect of your Blessing of Wisdom spell by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20245,
+                  "rank": "Rank 2",
+                  "description": "Increases the effect of your Blessing of Wisdom spell by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1742,
+              "icon": "spell_holy_pureofheart",
+              "name": "Pure of Heart",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31822,
+                  "rank": "Rank 1",
+                  "description": "Increases your resistance to Curse and Disease effects by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31823,
+                  "rank": "Rank 2",
+                  "description": "Increases your resistance to Curse and Disease effects by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31824,
+                  "rank": "Rank 3",
+                  "description": "Increases your resistance to Curse and Disease effects by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1433,
+              "icon": "spell_holy_heal",
+              "name": "Divine Favor",
+              "row": 4,
+              "col": 1,
+              "requires": 1461,
+              "ranks": [
+                {
+                  "id": 20216,
+                  "rank": "Rank 1",
+                  "description": "When activated, gives your next Flash of Light, Holy Light, or Holy Shock spell a 100% critical effect chance.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "2 min cooldown",
+                    "cost": "88 Mana",
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1465,
+              "icon": "spell_holy_healingaura",
+              "name": "Sanctified Light",
+              "row": 4,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20359,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike chance of your Holy Light spell by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20360,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical strike chance of your Holy Light spell by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20361,
+                  "rank": "Rank 3",
+                  "description": "Increases the critical strike chance of your Holy Light spell by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1743,
+              "icon": "spell_holy_purifyingpower",
+              "name": "Purifying Power",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31825,
+                  "rank": "Rank 1",
+                  "description": "Reduces the mana cost of your Cleanse and Consecration spells by 5% and increases the critical strike chance of your Exorcism and Holy Wrath spells by 10%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31826,
+                  "rank": "Rank 2",
+                  "description": "Reduces the mana cost of your Cleanse and Consecration spells by 10% and increases the critical strike chance of your Exorcism and Holy Wrath spells by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1627,
+              "icon": "spell_holy_power",
+              "name": "Holy Power",
+              "row": 5,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 5923,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical effect chance of your Holy spells by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 5924,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical effect chance of your Holy spells by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 5925,
+                  "rank": "Rank 3",
+                  "description": "Increases the critical effect chance of your Holy spells by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 5926,
+                  "rank": "Rank 4",
+                  "description": "Increases the critical effect chance of your Holy spells by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 25829,
+                  "rank": "Rank 5",
+                  "description": "Increases the critical effect chance of your Holy spells by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1745,
+              "icon": "spell_holy_lightsgrace",
+              "name": "Light's Grace",
+              "row": 6,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31833,
+                  "rank": "Rank 1",
+                  "description": "Gives your Holy Light spell a 33% chance to reduce the cast time of your next Holy Light spell by 0.5 sec. This effect lasts 15 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31835,
+                  "rank": "Rank 2",
+                  "description": "Gives your Holy Light spell a 66% chance to reduce the cast time of your next Holy Light spell by 0.5 sec. This effect lasts 15 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31836,
+                  "rank": "Rank 3",
+                  "description": "Gives your Holy Light spell a 100% chance to reduce the cast time of your next Holy Light spell by 0.5 sec. This effect lasts 15 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1502,
+              "icon": "spell_holy_searinglight",
+              "name": "Holy Shock",
+              "row": 6,
+              "col": 1,
+              "requires": 1433,
+              "ranks": [
+                {
+                  "id": 20473,
+                  "rank": "Rank 1",
+                  "description": "Blasts the target with Holy energy, causing 204 to 220 Holy damage to an enemy, or 204 to 220 healing to an ally.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "15 sec cooldown",
+                    "cost": "335 Mana",
+                    "range": "20 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1744,
+              "icon": "spell_holy_blessedlife",
+              "name": "Blessed Life",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31828,
+                  "rank": "Rank 1",
+                  "description": "All attacks against you have a 4% chance to cause half damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31829,
+                  "rank": "Rank 2",
+                  "description": "All attacks against you have a 7% chance to cause half damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31830,
+                  "rank": "Rank 3",
+                  "description": "All attacks against you have a 10% chance to cause half damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1746,
+              "icon": "spell_holy_holyguidance",
+              "name": "Holy Guidance",
+              "row": 7,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31837,
+                  "rank": "Rank 1",
+                  "description": "Increases your spell damage and healing by 7% of your total Intellect.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellDamage",
+                      "type": "multiplyIntellect",
+                      "value": 1.07,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31838,
+                  "rank": "Rank 2",
+                  "description": "Increases your spell damage and healing by 14% of your total Intellect.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellDamage",
+                      "type": "multiplyIntellect",
+                      "value": 1.14,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31839,
+                  "rank": "Rank 3",
+                  "description": "Increases your spell damage and healing by 21% of your total Intellect.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellDamage",
+                      "type": "multiplyIntellect",
+                      "value": 1.21,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31840,
+                  "rank": "Rank 4",
+                  "description": "Increases your spell damage and healing by 28% of your total Intellect.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellDamage",
+                      "type": "multiplyIntellect",
+                      "value": 1.28,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31841,
+                  "rank": "Rank 5",
+                  "description": "Increases your spell damage and healing by 35% of your total Intellect.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "spellDamage",
+                      "type": "multiplyIntellect",
+                      "value": 1.35,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1747,
+              "icon": "spell_holy_divineillumination",
+              "name": "Divine Illumination",
+              "row": 8,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31842,
+                  "rank": "Rank 1",
+                  "description": "Reduces the mana cost of all spells by 50% for 15 sec.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": "3 min cooldown",
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        },
+        {
+          "id": 383,
+          "icon": "spell_holy_devotionaura",
+          "name": "Protection",
+          "talents": [
+            {
+              "id": 1422,
+              "icon": "spell_holy_devotionaura",
+              "name": "Improved Devotion Aura",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20138,
+                  "rank": "Rank 1",
+                  "description": "Increases the armor bonus of your Devotion Aura by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20139,
+                  "rank": "Rank 2",
+                  "description": "Increases the armor bonus of your Devotion Aura by 16%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20140,
+                  "rank": "Rank 3",
+                  "description": "Increases the armor bonus of your Devotion Aura by 24%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20141,
+                  "rank": "Rank 4",
+                  "description": "Increases the armor bonus of your Devotion Aura by 32%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20142,
+                  "rank": "Rank 5",
+                  "description": "Increases the armor bonus of your Devotion Aura by 40%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1421,
+              "icon": "ability_defend",
+              "name": "Redoubt",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20127,
+                  "rank": "Rank 1",
+                  "description": "Damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 6%.  Lasts 10 sec or 5 blocks.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20130,
+                  "rank": "Rank 2",
+                  "description": "Damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 12%.  Lasts 10 sec or 5 blocks.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20135,
+                  "rank": "Rank 3",
+                  "description": "Damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 18%.  Lasts 10 sec or 5 blocks.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20136,
+                  "rank": "Rank 4",
+                  "description": "Damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 24%.  Lasts 10 sec or 5 blocks.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20137,
+                  "rank": "Rank 5",
+                  "description": "Damaging melee and ranged attacks against you have a 10% chance to increase your chance to block by 30%.  Lasts 10 sec or 5 blocks.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1630,
+              "icon": "ability_rogue_ambush",
+              "name": "Precision",
+              "row": 1,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20189,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to hit with melee weapons and spells by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "spellHit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20192,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to hit with melee weapons and spells by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "spellHit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20193,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to hit with melee weapons and spells by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "hit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "spellHit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1425,
+              "icon": "spell_holy_sealofprotection",
+              "name": "Guardian's Favor",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20174,
+                  "rank": "Rank 1",
+                  "description": "Reduces the cooldown of your Blessing of Protection by 60 sec and increases the duration of your Blessing of Freedom by 2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20175,
+                  "rank": "Rank 2",
+                  "description": "Reduces the cooldown of your Blessing of Protection by 120 sec and increases the duration of your Blessing of Freedom by 4 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1423,
+              "icon": "spell_holy_devotion",
+              "name": "Toughness",
+              "row": 1,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20143,
+                  "rank": "Rank 1",
+                  "description": "Increases your armor value from items by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20144,
+                  "rank": "Rank 2",
+                  "description": "Increases your armor value from items by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20145,
+                  "rank": "Rank 3",
+                  "description": "Increases your armor value from items by 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20146,
+                  "rank": "Rank 4",
+                  "description": "Increases your armor value from items by 8%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20147,
+                  "rank": "Rank 5",
+                  "description": "Increases your armor value from items by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "armor",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1442,
+              "icon": "spell_magic_magearmor",
+              "name": "Blessing of Kings",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20217,
+                  "rank": "Rank 1",
+                  "description": "Places a Blessing on the friendly target, increasing total stats by 10% for 10 min. Players may only have one Blessing on them per Paladin at any one time.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": null,
+                    "cost": "177 Mana",
+                    "range": "30 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1501,
+              "icon": "spell_holy_sealoffury",
+              "name": "Improved Righteous Fury",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20468,
+                  "rank": "Rank 1",
+                  "description": "While Righteous Fury is active, all damage taken is reduced by 2% and increases the amount of threat generated by your Righteous Fury spell by 16%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20469,
+                  "rank": "Rank 2",
+                  "description": "While Righteous Fury is active, all damage taken is reduced by 4% and increases the amount of threat generated by your Righteous Fury spell by 33%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20470,
+                  "rank": "Rank 3",
+                  "description": "While Righteous Fury is active, all damage taken is reduced by 6% and increases the amount of threat generated by your Righteous Fury spell by 50%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1424,
+              "icon": "inv_shield_06",
+              "name": "Shield Specialization",
+              "row": 2,
+              "col": 2,
+              "requires": 1421,
+              "ranks": [
+                {
+                  "id": 20148,
+                  "rank": "Rank 1",
+                  "description": "Increases the amount of damage absorbed by your shield by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "blockValue",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "blockValueBonus",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20149,
+                  "rank": "Rank 2",
+                  "description": "Increases the amount of damage absorbed by your shield by 20%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "blockValue",
+                      "type": "multiply",
+                      "value": 0.2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "blockValueBonus",
+                      "type": "multiply",
+                      "value": 0.2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20150,
+                  "rank": "Rank 3",
+                  "description": "Increases the amount of damage absorbed by your shield by 30%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "blockValue",
+                      "type": "multiply",
+                      "value": 0.3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "blockValueBonus",
+                      "type": "multiply",
+                      "value": 0.3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1629,
+              "icon": "spell_magic_lesserinvisibilty",
+              "name": "Anticipation",
+              "row": 2,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20096,
+                  "rank": "Rank 1",
+                  "description": "Increases your Defense skill by 4.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "defense",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20097,
+                  "rank": "Rank 2",
+                  "description": "Increases your Defense skill by 8.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "defense",
+                      "type": "add",
+                      "value": 8,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20098,
+                  "rank": "Rank 3",
+                  "description": "Increases your Defense skill by 12.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "defense",
+                      "type": "add",
+                      "value": 12,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20099,
+                  "rank": "Rank 4",
+                  "description": "Increases your Defense skill by 16.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "defense",
+                      "type": "add",
+                      "value": 16,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20100,
+                  "rank": "Rank 5",
+                  "description": "Increases your Defense skill by 20.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "defense",
+                      "type": "add",
+                      "value": 20,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1748,
+              "icon": "spell_holy_stoicism",
+              "name": "Stoicism",
+              "row": 3,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31844,
+                  "rank": "Rank 1",
+                  "description": "Increases your resistance to Stun effects by an additional 5% and reduces the chance your spells will be dispelled by an additional 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31845,
+                  "rank": "Rank 2",
+                  "description": "Increases your resistance to Stun effects by an additional 10% and reduces the chance your spells will be dispelled by an additional 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1521,
+              "icon": "spell_holy_sealofmight",
+              "name": "Improved Hammer of Justice",
+              "row": 3,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20487,
+                  "rank": "Rank 1",
+                  "description": "Decreases the cooldown of your Hammer of Justice spell by 5 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20488,
+                  "rank": "Rank 2",
+                  "description": "Decreases the cooldown of your Hammer of Justice spell by 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20489,
+                  "rank": "Rank 3",
+                  "description": "Decreases the cooldown of your Hammer of Justice spell by 15 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1626,
+              "icon": "spell_holy_mindsooth",
+              "name": "Improved Concentration Aura",
+              "row": 3,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20254,
+                  "rank": "Rank 1",
+                  "description": "Increases the effect of your Concentration Aura by an additional 5% and reduces the duration of any Silence or Interrupt effect used against an affected group member by 10%.  The duration reduction does not stack with any other effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20255,
+                  "rank": "Rank 2",
+                  "description": "Increases the effect of your Concentration Aura by an additional 10% and reduces the duration of any Silence or Interrupt effect used against an affected group member by 20%.  The duration reduction does not stack with any other effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20256,
+                  "rank": "Rank 3",
+                  "description": "Increases the effect of your Concentration Aura by an additional 15% and reduces the duration of any Silence or Interrupt effect used against an affected group member by 30%.  The duration reduction does not stack with any other effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1749,
+              "icon": "spell_holy_improvedresistanceauras",
+              "name": "Spell Warding",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31846,
+                  "rank": "Rank 1",
+                  "description": "All spell damage taken is reduced by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31847,
+                  "rank": "Rank 2",
+                  "description": "All spell damage taken is reduced by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1431,
+              "icon": "spell_nature_lightningshield",
+              "name": "Blessing of Sanctuary",
+              "row": 4,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20911,
+                  "rank": "Rank 1",
+                  "description": "Places a Blessing on the friendly target, reducing damage dealt from all sources by up to 10 for 10 min.  In addition, when the target blocks a melee attack the attacker will take 14 Holy damage. Players may only have one Blessing on them per Paladin at any one time.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": null,
+                    "cost": "60 Mana",
+                    "range": "30 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1426,
+              "icon": "spell_holy_blessingofstrength",
+              "name": "Reckoning",
+              "row": 4,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20177,
+                  "rank": "Rank 1",
+                  "description": "Gives you a 2% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20179,
+                  "rank": "Rank 2",
+                  "description": "Gives you a 4% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20181,
+                  "rank": "Rank 3",
+                  "description": "Gives you a 6% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20180,
+                  "rank": "Rank 4",
+                  "description": "Gives you a 8% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20182,
+                  "rank": "Rank 5",
+                  "description": "Gives you a 10% chance after being hit by any damaging attack that the next 4 weapon swings within 8 sec will generate an additional attack.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1750,
+              "icon": "spell_holy_divineintervention",
+              "name": "Sacred Duty",
+              "row": 5,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31848,
+                  "rank": "Rank 1",
+                  "description": "Increases your total Stamina by 3%, reduces the cooldown of your Divine Shield spell by 30 sec and reduces the attack speed penalty by 50%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.03,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31849,
+                  "rank": "Rank 2",
+                  "description": "Increases your total Stamina by 6%, reduces the cooldown of your Divine Shield spell by 60 sec and reduces the attack speed penalty by 100%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1429,
+              "icon": "inv_sword_20",
+              "name": "One-Handed Weapon Specialization",
+              "row": 5,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20196,
+                  "rank": "Rank 1",
+                  "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20197,
+                  "rank": "Rank 2",
+                  "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20198,
+                  "rank": "Rank 3",
+                  "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20199,
+                  "rank": "Rank 4",
+                  "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20200,
+                  "rank": "Rank 5",
+                  "description": "Increases all damage you deal when a one-handed melee weapon is equipped by 5%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1829,
+              "icon": "classic_spell_holy_blessingofprotection",
+              "name": "Improved Holy Shield",
+              "row": 6,
+              "col": 0,
+              "requires": 1430,
+              "ranks": [
+                {
+                  "id": 41021,
+                  "rank": "Rank 1",
+                  "description": "Increases damage caused by your Holy Shield by 10% and increases the number of charges of your Holy Shield by 2.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 41026,
+                  "rank": "Rank 2",
+                  "description": "Increases damage caused by your Holy Shield by 20% and increases the number of charges of your Holy Shield by 4.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1430,
+              "icon": "classic_spell_holy_blessingofprotection",
+              "name": "Holy Shield",
+              "row": 6,
+              "col": 1,
+              "requires": 1431,
+              "ranks": [
+                {
+                  "id": 20925,
+                  "rank": "Rank 1",
+                  "description": "Increases chance to block by 30% for 10 sec and deals 59 Holy damage for each attack blocked while active. Damage caused by Holy Shield causes 35% additional threat. Each block expends a charge. 4 charges.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "10 sec cooldown",
+                    "cost": "135 Mana",
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1751,
+              "icon": "spell_holy_ardentdefender",
+              "name": "Ardent Defender",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31850,
+                  "rank": "Rank 1",
+                  "description": "When you have less than 35% health, all damage taken is reduced by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31851,
+                  "rank": "Rank 2",
+                  "description": "When you have less than 35% health, all damage taken is reduced by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31852,
+                  "rank": "Rank 3",
+                  "description": "When you have less than 35% health, all damage taken is reduced by 18%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31853,
+                  "rank": "Rank 4",
+                  "description": "When you have less than 35% health, all damage taken is reduced by 24%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31854,
+                  "rank": "Rank 5",
+                  "description": "When you have less than 35% health, all damage taken is reduced by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1753,
+              "icon": "spell_holy_weaponmastery",
+              "name": "Combat Expertise",
+              "row": 7,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31858,
+                  "rank": "Rank 1",
+                  "description": "Increases your expertise by 1 and your total Stamina by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "expertise",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.02,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31859,
+                  "rank": "Rank 2",
+                  "description": "Increases your expertise by 2 and your total Stamina by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "expertise",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.04,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31860,
+                  "rank": "Rank 3",
+                  "description": "Increases your expertise by 3 and your total Stamina by 6%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "expertise",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.06,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31861,
+                  "rank": "Rank 4",
+                  "description": "Increases your expertise by 4 and your total Stamina by 8%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "expertise",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.08,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31862,
+                  "rank": "Rank 5",
+                  "description": "Increases your expertise by 5 and your total Stamina by 10%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "expertise",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "stamina",
+                      "type": "multiply",
+                      "value": 0.1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1754,
+              "icon": "spell_holy_avengersshield",
+              "name": "Avenger's Shield",
+              "row": 8,
+              "col": 1,
+              "requires": 1430,
+              "ranks": [
+                {
+                  "id": 31935,
+                  "rank": "Rank 1",
+                  "description": "Hurls a holy shield at the enemy, dealing 270 to 330 Holy damage, dazing them and then jumping to nearby enemies. Affects 3 total targets. Lasts 6 sec.",
+                  "spell": {
+                    "castTime": "1 sec cast",
+                    "cooldown": "30 sec cooldown",
+                    "cost": "500 Mana",
+                    "range": "30 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        },
+        {
+          "id": 381,
+          "icon": "spell_holy_auraoflight",
+          "name": "Retribution",
+          "talents": [
+            {
+              "id": 1401,
+              "icon": "spell_holy_fistofjustice",
+              "name": "Improved Blessing of Might",
+              "row": 0,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20042,
+                  "rank": "Rank 1",
+                  "description": "Increases the melee attack power bonus of your Blessing of Might by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20045,
+                  "rank": "Rank 2",
+                  "description": "Increases the melee attack power bonus of your Blessing of Might by 8%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20046,
+                  "rank": "Rank 3",
+                  "description": "Increases the melee attack power bonus of your Blessing of Might by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20047,
+                  "rank": "Rank 4",
+                  "description": "Increases the melee attack power bonus of your Blessing of Might by 16%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20048,
+                  "rank": "Rank 5",
+                  "description": "Increases the melee attack power bonus of your Blessing of Might by 20%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1407,
+              "icon": "spell_frost_windwalkon",
+              "name": "Benediction",
+              "row": 0,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20101,
+                  "rank": "Rank 1",
+                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20102,
+                  "rank": "Rank 2",
+                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20103,
+                  "rank": "Rank 3",
+                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 9%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20104,
+                  "rank": "Rank 4",
+                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20105,
+                  "rank": "Rank 5",
+                  "description": "Reduces the Mana cost of your Judgement and Seal spells by 15%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1631,
+              "icon": "spell_holy_righteousfury",
+              "name": "Improved Judgement",
+              "row": 1,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 25956,
+                  "rank": "Rank 1",
+                  "description": "Decreases the cooldown of your Judgement spell by 1 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 25957,
+                  "rank": "Rank 2",
+                  "description": "Decreases the cooldown of your Judgement spell by 2 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1464,
+              "icon": "spell_holy_holysmite",
+              "name": "Improved Seal of the Crusader",
+              "row": 1,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20335,
+                  "rank": "Rank 1",
+                  "description": "In addition to the normal effect, your Judgement of the Crusader spell will also increase the critical strike chance of all attacks made against that target by an additional 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20336,
+                  "rank": "Rank 2",
+                  "description": "In addition to the normal effect, your Judgement of the Crusader spell will also increase the critical strike chance of all attacks made against that target by an additional 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20337,
+                  "rank": "Rank 3",
+                  "description": "In addition to the normal effect, your Judgement of the Crusader spell will also increase the critical strike chance of all attacks made against that target by an additional 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1403,
+              "icon": "ability_parry",
+              "name": "Deflection",
+              "row": 1,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20060,
+                  "rank": "Rank 1",
+                  "description": "Increases your Parry chance by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20061,
+                  "rank": "Rank 2",
+                  "description": "Increases your Parry chance by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20062,
+                  "rank": "Rank 3",
+                  "description": "Increases your Parry chance by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20063,
+                  "rank": "Rank 4",
+                  "description": "Increases your Parry chance by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20064,
+                  "rank": "Rank 5",
+                  "description": "Increases your Parry chance by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "parry",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1633,
+              "icon": "spell_holy_vindication",
+              "name": "Vindication",
+              "row": 2,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 9452,
+                  "rank": "Rank 1",
+                  "description": "Gives the Paladin's damaging melee attacks a chance to reduce the target's attributes by 5% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 26016,
+                  "rank": "Rank 2",
+                  "description": "Gives the Paladin's damaging melee attacks a chance to reduce the target's attributes by 10% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 26021,
+                  "rank": "Rank 3",
+                  "description": "Gives the Paladin's damaging melee attacks a chance to reduce the target's attributes by 15% for 10 sec.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1411,
+              "icon": "spell_holy_retributionaura",
+              "name": "Conviction",
+              "row": 2,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20117,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 1%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20118,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 2%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20119,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 3%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20120,
+                  "rank": "Rank 4",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 4%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 4,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20121,
+                  "rank": "Rank 5",
+                  "description": "Increases your chance to get a critical strike with melee weapons by 5%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 5,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1481,
+              "icon": "ability_warrior_innerrage",
+              "name": "Seal of Command",
+              "row": 2,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20375,
+                  "rank": "Rank 1",
+                  "description": "Gives the Paladin a chance to deal additional Holy damage equal to 70% of normal weapon damage. Only one Seal can be active on the Paladin at any one time. Lasts 30 sec.<br><br>Unleashing this Seal's energy will judge an enemy, instantly causing 68 to 73 Holy damage, 137 to 146 if the target is stunned or incapacitated.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": null,
+                    "cost": "65 Mana",
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1634,
+              "icon": "spell_holy_persuitofjustice",
+              "name": "Pursuit of Justice",
+              "row": 2,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 26022,
+                  "rank": "Rank 1",
+                  "description": "Reduces the chance you'll be hit by spells by 1% and increases movement and mounted movement speed by 5%.  This does not stack with other movement speed increasing effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 26023,
+                  "rank": "Rank 2",
+                  "description": "Reduces the chance you'll be hit by spells by 2% and increases movement and mounted movement speed by 10%.  This does not stack with other movement speed increasing effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 44414,
+                  "rank": "Rank 3",
+                  "description": "Reduces the chance you'll be hit by spells by 3% and increases movement and mounted movement speed by 15%.  This does not stack with other movement speed increasing effects.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1632,
+              "icon": "spell_holy_eyeforaneye",
+              "name": "Eye for an Eye",
+              "row": 3,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 9799,
+                  "rank": "Rank 1",
+                  "description": "All spell criticals against you cause 15% of the damage taken to the caster as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 25988,
+                  "rank": "Rank 2",
+                  "description": "All spell criticals against you cause 30% of the damage taken to the caster as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1405,
+              "icon": "spell_holy_auraoflight",
+              "name": "Improved Retribution Aura",
+              "row": 3,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20091,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage done by your Retribution Aura by 25%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20092,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage done by your Retribution Aura by 50%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1755,
+              "icon": "spell_holy_crusade",
+              "name": "Crusade",
+              "row": 3,
+              "col": 3,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31866,
+                  "rank": "Rank 1",
+                  "description": "Increases all damage caused against Humanoids, Demons, Undead and Elementals by 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31867,
+                  "rank": "Rank 2",
+                  "description": "Increases all damage caused against Humanoids, Demons, Undead and Elementals by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31868,
+                  "rank": "Rank 3",
+                  "description": "Increases all damage caused against Humanoids, Demons, Undead and Elementals by 3%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1410,
+              "icon": "inv_hammer_04",
+              "name": "Two-Handed Weapon Specialization",
+              "row": 4,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20111,
+                  "rank": "Rank 1",
+                  "description": "Increases the damage you deal with two-handed melee weapons by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20112,
+                  "rank": "Rank 2",
+                  "description": "Increases the damage you deal with two-handed melee weapons by 4%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20113,
+                  "rank": "Rank 3",
+                  "description": "Increases the damage you deal with two-handed melee weapons by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1409,
+              "icon": "spell_holy_mindvision",
+              "name": "Sanctity Aura",
+              "row": 4,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20218,
+                  "rank": "Rank 1",
+                  "description": "Increases Holy damage done by party members within 30 yards by 10%. Players may only have one Aura on them per Paladin at any one time.",
+                  "spell": {
+                    "castTime": "Instant",
+                    "cooldown": null,
+                    "cost": null,
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1756,
+              "icon": "spell_holy_mindvision",
+              "name": "Improved Sanctity Aura",
+              "row": 4,
+              "col": 3,
+              "requires": 1409,
+              "ranks": [
+                {
+                  "id": 31869,
+                  "rank": "Rank 1",
+                  "description": "The amount of damage caused by targets affected by Sanctity Aura is increased by 1%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31870,
+                  "rank": "Rank 2",
+                  "description": "The amount of damage caused by targets affected by Sanctity Aura is increased by 2%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1402,
+              "icon": "ability_racial_avatar",
+              "name": "Vengeance",
+              "row": 5,
+              "col": 1,
+              "requires": 1411,
+              "ranks": [
+                {
+                  "id": 20049,
+                  "rank": "Rank 1",
+                  "description": "Gives you a 1% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell or ability. This effect stacks up to 3 times",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20056,
+                  "rank": "Rank 2",
+                  "description": "Gives you a 2% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell or ability. This effect stacks up to 3 times",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20057,
+                  "rank": "Rank 3",
+                  "description": "Gives you a 3% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell or ability. This effect stacks up to 3 times",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20058,
+                  "rank": "Rank 4",
+                  "description": "Gives you a 4% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell or ability. This effect stacks up to 3 times",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 20059,
+                  "rank": "Rank 5",
+                  "description": "Gives you a 5% bonus to Physical and Holy damage you deal for 30 sec after dealing a critical strike from a weapon swing, spell or ability. This effect stacks up to 3 times",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1758,
+              "icon": "spell_holy_righteousfury",
+              "name": "Sanctified Judgement",
+              "row": 5,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31876,
+                  "rank": "Rank 1",
+                  "description": "Gives your Judgement spell a 33% chance to return 80% of the mana cost of the judged seal.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31877,
+                  "rank": "Rank 2",
+                  "description": "Gives your Judgement spell a 66% chance to return 80% of the mana cost of the judged seal.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31878,
+                  "rank": "Rank 3",
+                  "description": "Gives your Judgement spell a 100% chance to return 80% of the mana cost of the judged seal.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1761,
+              "icon": "spell_holy_holysmite",
+              "name": "Sanctified Seals",
+              "row": 6,
+              "col": 0,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 32043,
+                  "rank": "Rank 1",
+                  "description": "Increases your chance to critically hit with all spells and melee attacks by 1% and reduces the chance your Seals will be dispelled by 33%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 1,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35396,
+                  "rank": "Rank 2",
+                  "description": "Increases your chance to critically hit with all spells and melee attacks by 2% and reduces the chance your Seals will be dispelled by 66%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 2,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 35397,
+                  "rank": "Rank 3",
+                  "description": "Increases your chance to critically hit with all spells and melee attacks by 3% and reduces the chance your Seals will be dispelled by 100%.",
+                  "spell": null,
+                  "stats": [
+                    {
+                      "stat": "crit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    },
+                    {
+                      "stat": "spellCrit",
+                      "type": "add",
+                      "value": 3,
+                      "condition": null,
+                      "__typename": "TalentStat"
+                    }
+                  ],
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1441,
+              "icon": "spell_holy_prayerofhealing",
+              "name": "Repentance",
+              "row": 6,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 20066,
+                  "rank": "Rank 1",
+                  "description": "Puts the enemy target in a state of meditation, incapacitating them for up to 6 sec. Any damage caused will awaken the target. Only works against Humanoids.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "1 min cooldown",
+                    "cost": "60 Mana",
+                    "range": "20 yd range",
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1757,
+              "icon": "spell_holy_divinepurpose",
+              "name": "Divine Purpose",
+              "row": 6,
+              "col": 2,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 31871,
+                  "rank": "Rank 1",
+                  "description": "Melee and ranged critical strikes against you cause 4% less damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31872,
+                  "rank": "Rank 2",
+                  "description": "Melee and ranged critical strikes against you cause 7% less damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31873,
+                  "rank": "Rank 3",
+                  "description": "Melee and ranged critical strikes against you cause 10% less damage.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1759,
+              "icon": "spell_holy_fanaticism",
+              "name": "Fanaticism",
+              "row": 7,
+              "col": 1,
+              "requires": 1441,
+              "ranks": [
+                {
+                  "id": 31879,
+                  "rank": "Rank 1",
+                  "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 3% and reduces threat caused by all actions by 6%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31880,
+                  "rank": "Rank 2",
+                  "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 6% and reduces threat caused by all actions by 12%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31881,
+                  "rank": "Rank 3",
+                  "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 9% and reduces threat caused by all actions by 18%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31882,
+                  "rank": "Rank 4",
+                  "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 12% and reduces threat caused by all actions by 24%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                },
+                {
+                  "id": 31883,
+                  "rank": "Rank 5",
+                  "description": "Increases the critical strike chance of all Judgements capable of a critical hit by 15% and reduces threat caused by all actions by 30%.",
+                  "spell": null,
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            },
+            {
+              "id": 1823,
+              "icon": "spell_holy_crusaderstrike",
+              "name": "Crusader Strike",
+              "row": 8,
+              "col": 1,
+              "requires": null,
+              "ranks": [
+                {
+                  "id": 35395,
+                  "rank": "Rank 1",
+                  "description": "Requires Melee Weapon<br>An instant strike that causes weapon damage plus 110% weapon damage and refreshes all Judgements on the target.",
+                  "spell": {
+                    "castTime": "Instant cast",
+                    "cooldown": "6 sec cooldown",
+                    "cost": "236 Mana",
+                    "range": null,
+                    "__typename": "TalentSpell"
+                  },
+                  "stats": null,
+                  "__typename": "TalentRank"
+                }
+              ],
+              "__typename": "Talent"
+            }
+          ],
+          "__typename": "TalentTree"
+        }
+      ],
+      "__typename": "TalentData"
+    }
+  }
+}

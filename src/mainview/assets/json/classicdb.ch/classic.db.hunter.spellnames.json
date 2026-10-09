@@ -1,0 +1,186 @@
+[
+  [
+    "improved aspect of the hawk",
+    "spell_nature_ravenform"
+  ],
+  [
+    "endurance training",
+    "spell_nature_reincarnation"
+  ],
+  [
+    "improved eyes of the beast",
+    "ability_eyeoftheowl"
+  ],
+  [
+    "improved aspect of the monkey",
+    "ability_hunter_aspectofthemonkey"
+  ],
+  [
+    "thick hide",
+    "inv_misc_pelt_bear_03"
+  ],
+  [
+    "improved revive pet",
+    "ability_hunter_beastsoothe"
+  ],
+  [
+    "pathfinding",
+    "ability_mount_jungletiger"
+  ],
+  [
+    "bestial swiftness",
+    "ability_druid_dash"
+  ],
+  [
+    "unleashed fury",
+    "ability_bullrush"
+  ],
+  [
+    "improved mend pet",
+    "ability_hunter_mendpet"
+  ],
+  [
+    "ferocity",
+    "inv_misc_monsterclaw_04"
+  ],
+  [
+    "spirit bond",
+    "ability_druid_demoralizingroar"
+  ],
+  [
+    "intimidation",
+    "ability_devour"
+  ],
+  [
+    "bestial discipline",
+    "spell_nature_abolishmagic"
+  ],
+  [
+    "frenzy",
+    "inv_misc_monsterclaw_03"
+  ],
+  [
+    "bestial wrath",
+    "ability_druid_ferociousbite"
+  ],
+  [
+    "improved concussive shot",
+    "spell_frost_stun"
+  ],
+  [
+    "efficiency",
+    "spell_frost_wizardmark"
+  ],
+  [
+    "improved hunter's mark",
+    "ability_hunter_snipershot"
+  ],
+  [
+    "lethal shots",
+    "ability_searingarrow"
+  ],
+  [
+    "aimed shot",
+    "inv_spear_07"
+  ],
+  [
+    "improved arcane shot",
+    "ability_impalingbolt"
+  ],
+  [
+    "hawk eye",
+    "ability_townwatch"
+  ],
+  [
+    "improved serpent sting",
+    "ability_hunter_quickshot"
+  ],
+  [
+    "mortal shots",
+    "ability_piercedamage"
+  ],
+  [
+    "scatter shot",
+    "ability_golemstormbolt"
+  ],
+  [
+    "barrage",
+    "ability_upgrademoonglaive"
+  ],
+  [
+    "improved scorpid sting",
+    "ability_hunter_criticalshot"
+  ],
+  [
+    "ranged weapon specialization",
+    "inv_weapon_rifle_06"
+  ],
+  [
+    "trueshot aura",
+    "ability_trueshot"
+  ],
+  [
+    "monster slaying",
+    "inv_misc_head_dragon_black"
+  ],
+  [
+    "humanoid slaying",
+    "spell_holy_prayerofhealing"
+  ],
+  [
+    "deflection",
+    "ability_parry"
+  ],
+  [
+    "entrapment",
+    "spell_nature_stranglevines"
+  ],
+  [
+    "savage strikes",
+    "ability_racial_bloodrage"
+  ],
+  [
+    "improved wing clip",
+    "ability_rogue_trip"
+  ],
+  [
+    "clever traps",
+    "spell_nature_timestop"
+  ],
+  [
+    "survivalist",
+    "spell_shadow_twilight"
+  ],
+  [
+    "deterrence",
+    "ability_whirlwind"
+  ],
+  [
+    "trap mastery",
+    "ability_ensnare"
+  ],
+  [
+    "surefooted",
+    "ability_kick"
+  ],
+  [
+    "improved feign death",
+    "ability_rogue_feigndeath"
+  ],
+  [
+    "killer instinct",
+    "spell_holy_blessingofstamina"
+  ],
+  [
+    "counterattack",
+    "ability_warrior_challange"
+  ],
+  [
+    "lightning reflexes",
+    "spell_nature_invisibilty"
+  ],
+  [
+    "wyvern sting",
+    "inv_spear_02"
+  ]
+]

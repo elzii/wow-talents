@@ -1,0 +1,206 @@
+[
+  [
+    "improved eviscerate",
+    "ability_rogue_eviscerate"
+  ],
+  [
+    "remorseless attacks",
+    "ability_fiegndead"
+  ],
+  [
+    "malice",
+    "ability_racial_bloodrage"
+  ],
+  [
+    "ruthlessness",
+    "ability_druid_disembowel"
+  ],
+  [
+    "murder",
+    "spell_shadow_deathscream"
+  ],
+  [
+    "improved slice and dice",
+    "ability_rogue_slicedice"
+  ],
+  [
+    "relentless strikes",
+    "ability_warrior_decisivestrike"
+  ],
+  [
+    "improved expose armor",
+    "ability_warrior_riposte"
+  ],
+  [
+    "lethality",
+    "ability_criticalstrike"
+  ],
+  [
+    "vile poisons",
+    "ability_rogue_feigndeath"
+  ],
+  [
+    "improved poisons",
+    "ability_poisons"
+  ],
+  [
+    "cold blood",
+    "spell_ice_lament"
+  ],
+  [
+    "improved kidney shot",
+    "ability_rogue_kidneyshot"
+  ],
+  [
+    "seal fate",
+    "spell_shadow_chilltouch"
+  ],
+  [
+    "vigor",
+    "spell_nature_earthbindtotem"
+  ],
+  [
+    "improved gouge",
+    "ability_gouge"
+  ],
+  [
+    "improved sinister strike",
+    "spell_shadow_ritualofsacrifice"
+  ],
+  [
+    "lightning reflexes",
+    "spell_nature_invisibilty"
+  ],
+  [
+    "improved backstab",
+    "ability_backstab"
+  ],
+  [
+    "deflection",
+    "ability_parry"
+  ],
+  [
+    "precision",
+    "ability_marksmanship"
+  ],
+  [
+    "endurance",
+    "spell_shadow_shadowward"
+  ],
+  [
+    "riposte",
+    "ability_warrior_challange"
+  ],
+  [
+    "improved sprint",
+    "ability_rogue_sprint"
+  ],
+  [
+    "improved kick",
+    "ability_kick"
+  ],
+  [
+    "dagger specialization",
+    "inv_weapon_shortblade_05"
+  ],
+  [
+    "dual wield specialization",
+    "ability_dualwield"
+  ],
+  [
+    "mace specialization",
+    "inv_mace_01"
+  ],
+  [
+    "blade flurry",
+    "ability_warrior_punishingblow"
+  ],
+  [
+    "sword specialization",
+    "inv_sword_27"
+  ],
+  [
+    "fist weapon specialization",
+    "inv_gauntlets_04"
+  ],
+  [
+    "weapon expertise",
+    "spell_holy_blessingofstrength"
+  ],
+  [
+    "aggression",
+    "ability_racial_avatar"
+  ],
+  [
+    "adrenaline rush",
+    "spell_shadow_shadowworddominate"
+  ],
+  [
+    "master of deception",
+    "spell_shadow_charm"
+  ],
+  [
+    "opportunity",
+    "ability_warrior_warcry"
+  ],
+  [
+    "sleight of hand",
+    "ability_rogue_feint"
+  ],
+  [
+    "elusiveness",
+    "spell_magic_lesserinvisibilty"
+  ],
+  [
+    "camouflage",
+    "ability_stealth"
+  ],
+  [
+    "initiative",
+    "spell_shadow_fumble"
+  ],
+  [
+    "ghostly strike",
+    "spell_shadow_curse"
+  ],
+  [
+    "improved ambush",
+    "ability_rogue_ambush"
+  ],
+  [
+    "setup",
+    "spell_nature_mirrorimage"
+  ],
+  [
+    "improved sap",
+    "ability_sap"
+  ],
+  [
+    "serrated blades",
+    "inv_sword_17"
+  ],
+  [
+    "heightened senses",
+    "ability_ambush"
+  ],
+  [
+    "preparation",
+    "spell_shadow_antishadow"
+  ],
+  [
+    "dirty deeds",
+    "spell_shadow_summonsuccubus"
+  ],
+  [
+    "hemorrhage",
+    "spell_shadow_lifedrain"
+  ],
+  [
+    "deadliness",
+    "inv_weapon_crossbow_11"
+  ],
+  [
+    "premeditation",
+    "spell_shadow_possession"
+  ]
+]

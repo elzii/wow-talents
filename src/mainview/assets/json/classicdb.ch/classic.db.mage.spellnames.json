@@ -1,0 +1,82 @@
+[
+  [
+    "arcane focus",
+    "spell_holy_devotion"
+  ],
+  [
+    "improved arcane missiles",
+    "spell_nature_starfall"
+  ],
+  [
+    "arcane concentration",
+    "spell_shadow_manaburn"
+  ],
+  [
+    "magic attunement",
+    "spell_nature_abolishmagic"
+  ],
+  [
+    "arcane resilience",
+    "spell_arcane_arcaneresilience"
+  ],
+  [
+    "improved mana shield",
+    "spell_shadow_detectlesserinvisibility"
+  ],
+  [
+    "improved counterspell",
+    "spell_frost_iceshock"
+  ],
+  [
+    "arcane meditation",
+    "spell_shadow_siphonmana"
+  ],
+  [
+    "presence of mind",
+    "spell_nature_enchantarmor"
+  ],
+  [
+    "improved frostbolt",
+    "spell_frost_frostbolt02"
+  ],
+  [
+    "ice shards",
+    "spell_frost_iceshard"
+  ],
+  [
+    "frostbite",
+    "spell_frost_frostarmor"
+  ],
+  [
+    "improved frost nova",
+    "spell_frost_freezingbreath"
+  ],
+  [
+    "piercing ice",
+    "spell_frost_frostbolt"
+  ],
+  [
+    "cold snap",
+    "spell_frost_wizardmark"
+  ],
+  [
+    "improved blizzard",
+    "spell_frost_icestorm"
+  ],
+  [
+    "arctic reach",
+    "spell_shadow_darkritual"
+  ],
+  [
+    "shatter",
+    "spell_frost_frostshock"
+  ],
+  [
+    "ice block",
+    "spell_frost_frost"
+  ],
+  [
+    "improved cone of cold",
+    "spell_frost_glacier"
+  ]
+]
