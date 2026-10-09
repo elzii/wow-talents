@@ -1,20 +1,20 @@
 import React, { useState, useMemo, useEffect } from "react";
 import {
-  AllClassDataType,
   CharacterClasses,
   ClassData,
   PointsObject,
-  TalentTreeData
+  TalentData
 } from "../types";
 import { calculateTreePoints } from "./utils";
 import { TalentTree } from "./components/TalentTree";
 import { Tooltip } from "./components/Tooltip";
 import { ClassSelector } from "./components/ClassSelector";
+import { TalentPickerModal } from "./components/TalentPickerModal";
 
 import { allClassesData as classicData } from "./talents/classic";
 import { allClassesData as tbcData } from "./talents/tbc";
 import { allClassesData as foreverData } from "./talents/forever";
-import { customClassData } from "./talents/custom/custom";
+import { customClassData as initialCustomClassData } from "./talents/custom/custom";
 
 type WoWVersion = "classic" | "tbc" | "forever";
 
@@ -44,6 +44,21 @@ export const App: React.FC = () => {
   const [tooltipData, setTooltipData] = useState<any>(null);
   const [notification, setNotification] = useState<string | null>(null);
 
+  // Dynamic custom class state (allows user ability replacements)
+  const [customClassState, setCustomClassState] = useState<ClassData>(() => {
+    try {
+      const saved = localStorage.getItem("wow_custom_class_data");
+      if (saved) return JSON.parse(saved);
+    } catch (e) {}
+    return initialCustomClassData;
+  });
+
+  // Target slot for picker modal
+  const [pickerSlot, setPickerSlot] = useState<{
+    treeIndex: number;
+    talent: TalentData;
+  } | null>(null);
+
   const maxPoints = useMemo(() => {
     if (selectedClass === "Custom") return 51;
     if (wowVersion === "tbc") return 61;
@@ -52,7 +67,7 @@ export const App: React.FC = () => {
 
   const currentClassData = useMemo<ClassData>(() => {
     if (selectedClass === "Custom") {
-      return customClassData;
+      return customClassState;
     }
 
     let source = foreverData;
@@ -61,8 +76,8 @@ export const App: React.FC = () => {
 
     const data = (source as any)[selectedClass];
     if (data) return data;
-    return customClassData;
-  }, [wowVersion, selectedClass]);
+    return customClassState;
+  }, [wowVersion, selectedClass, customClassState]);
 
   // Reset points on class or version change
   useEffect(() => {
@@ -75,18 +90,6 @@ export const App: React.FC = () => {
 
   const pointsLeft = maxPoints - totalPoints;
   const requiredLevel = totalPoints > 0 ? totalPoints + 9 : 10;
-
-  // Calculate points per tree and count of trees that have at least 1 point
-  const treePointCounts = useMemo(() => {
-    if (!currentClassData?.talentTrees) return [0, 0, 0];
-    return currentClassData.talentTrees.map((tree) =>
-      calculateTreePoints(tree, points)
-    );
-  }, [currentClassData, points]);
-
-  const treesWithPointsCount = useMemo(() => {
-    return treePointCounts.filter((cnt) => cnt > 0).length;
-  }, [treePointCounts]);
 
   const findTalentById = (id: number) => {
     for (const tree of currentClassData.talentTrees) {
@@ -115,33 +118,11 @@ export const App: React.FC = () => {
     }
 
     const treePoints = calculateTreePoints(tree, points);
+    const requiredTreePoints = talent.minPointsRequired ?? talent.y * 5;
 
-    // Custom class rules
-    if (selectedClass === "Custom") {
-      // 10-point milestone requires points in at least 2 trees
-      if (talent.minPointsRequired === 10 && treesWithPointsCount < 2) {
-        showNotification("Requires points invested in at least 2 trees to unlock!");
-        return;
-      }
-      // 20-point milestone requires points in at least 2 trees
-      if (talent.minPointsRequired === 20 && treesWithPointsCount < 2) {
-        showNotification("Requires points invested in at least 2 trees to unlock!");
-        return;
-      }
-      // 40-point capstone requires points across all trees (or >= 40 total points)
-      if (talent.minPointsRequired === 40 && totalPoints < 40) {
-        showNotification("Requires at least 40 points total to unlock capstone!");
-        return;
-      }
-      if (treePoints < talent.y * 5) {
-        showNotification(`Requires ${talent.y * 5} points in this tree.`);
-        return;
-      }
-    } else {
-      if (treePoints < talent.minPointsRequired) {
-        showNotification(`Requires ${talent.minPointsRequired} points in ${tree.name}`);
-        return;
-      }
+    if (treePoints < requiredTreePoints) {
+      showNotification(`Requires ${requiredTreePoints} points in ${tree.name}`);
+      return;
     }
 
     if (talent.requirements?.talentId) {
@@ -184,7 +165,8 @@ export const App: React.FC = () => {
     const prospectiveTreePoints = calculateTreePoints(tree, newPoints);
     const hasInvalidHigherTier = tree.talents.some((t) => {
       const rank = newPoints[t.id] || 0;
-      return rank > 0 && prospectiveTreePoints < t.y * 5;
+      const req = t.minPointsRequired ?? t.y * 5;
+      return rank > 0 && prospectiveTreePoints < req;
     });
 
     if (hasInvalidHigherTier) {
@@ -212,6 +194,62 @@ export const App: React.FC = () => {
 
   const handleResetAll = () => {
     setPoints({});
+  };
+
+  // Replace talent in Custom class slot
+  const handleReplaceCustomTalent = (newTalent: TalentData) => {
+    if (!pickerSlot) return;
+    const { treeIndex, talent: oldSlot } = pickerSlot;
+
+    // Clear points spent on this slot if replacing
+    if (points[oldSlot.id]) {
+      setPoints((prev) => {
+        const next = { ...prev };
+        delete next[oldSlot.id];
+        return next;
+      });
+    }
+
+    setCustomClassState((prev) => {
+      const newTrees = prev.talentTrees.map((tree, tIdx) => {
+        if (tIdx !== treeIndex) return tree;
+        const updatedTalents = tree.talents.map((t) => {
+          if (t.x === oldSlot.x && t.y === oldSlot.y) {
+            return {
+              ...t,
+              id: newTalent.id,
+              name: newTalent.name,
+              maxRank: newTalent.maxRank || t.maxRank,
+              iconName: newTalent.iconName,
+              spellIds: newTalent.spellIds || [newTalent.id],
+              descriptions: newTalent.descriptions || [],
+              sourceClass: newTalent.sourceClass,
+              sourceTree: newTalent.sourceTree
+            };
+          }
+          return t;
+        });
+        return { ...tree, talents: updatedTalents };
+      });
+
+      const updatedData = { ...prev, talentTrees: newTrees };
+      try {
+        localStorage.setItem("wow_custom_class_data", JSON.stringify(updatedData));
+      } catch (e) {}
+      return updatedData;
+    });
+
+    showNotification(`Replaced with ${newTalent.name}!`);
+    setPickerSlot(null);
+  };
+
+  const handleResetCustomClassToDefault = () => {
+    setCustomClassState(initialCustomClassData);
+    try {
+      localStorage.removeItem("wow_custom_class_data");
+    } catch (e) {}
+    setPoints({});
+    showNotification("Custom class reset to template default!");
   };
 
   const handleExportBuild = () => {
@@ -326,19 +364,25 @@ export const App: React.FC = () => {
         onSelectClass={setSelectedClass}
       />
 
-      {/* Custom Class Banner */}
+      {/* Custom Class Banner & Controls */}
       {selectedClass === "Custom" && (
         <div className="mb-4 p-3 bg-fuchsia-950/40 border border-fuchsia-800/60 rounded-xl flex items-center justify-between text-xs text-fuchsia-200">
           <div>
             <span className="font-bold text-fuchsia-300 mr-2">
-              ✨ Custom Hybrid Class:
+              ✨ Custom Class Builder:
             </span>
-            Pick and combine abilities across classes. Requires investing points
-            in at least 2 trees to unlock 10 and 20 pt tiers, and 40 points total for capstones.
+            Modeled with full Mage-sized trees (17-19 abilities per tree).
+            <span className="ml-1 text-yellow-300 font-semibold underline">
+              Long-press / hold any talent icon
+            </span>{" "}
+            to open the search popup and customize with any ability!
           </div>
-          <div className="font-semibold text-fuchsia-300">
-            Active Trees with Points: {treesWithPointsCount} / 3
-          </div>
+          <button
+            onClick={handleResetCustomClassToDefault}
+            className="px-2.5 py-1 bg-fuchsia-900/60 hover:bg-fuchsia-800 border border-fuchsia-700 rounded text-fuchsia-200 font-semibold transition"
+          >
+            Reset Tree Layout
+          </button>
         </div>
       )}
 
@@ -365,7 +409,9 @@ export const App: React.FC = () => {
             maxPoints={maxPoints}
             setTooltipData={setTooltipData}
             isCustomClass={selectedClass === "Custom"}
-            treesWithPointsCount={treesWithPointsCount}
+            onSlotLongPress={(treeIndex, talent) => {
+              setPickerSlot({ treeIndex, talent });
+            }}
           />
         ))}
       </div>
@@ -380,10 +426,17 @@ export const App: React.FC = () => {
           treeName={tooltipData.treeName}
           treePoints={tooltipData.treePoints}
           isCustomClass={selectedClass === "Custom"}
-          treesWithPointsCount={treesWithPointsCount}
           totalPoints={totalPoints}
         />
       )}
+
+      {/* Custom Ability Picker Modal */}
+      <TalentPickerModal
+        isOpen={Boolean(pickerSlot)}
+        onClose={() => setPickerSlot(null)}
+        onSelectTalent={handleReplaceCustomTalent}
+        targetSlot={pickerSlot}
+      />
     </div>
   );
 };

@@ -8,6 +8,8 @@ interface Props {
   onRefund: (talentId: number) => void;
   canSpend: boolean;
   iconName?: string;
+  isCustomClass?: boolean;
+  onLongPress?: () => void;
 }
 
 export const TalentIcon: React.FC<Props> = ({
@@ -16,7 +18,9 @@ export const TalentIcon: React.FC<Props> = ({
   onSpend,
   onRefund,
   canSpend,
-  iconName
+  iconName,
+  isCustomClass = false,
+  onLongPress
 }) => {
   const rank = points[talent.id] || 0;
   const isMaxRank = rank === talent.maxRank;
@@ -46,6 +50,37 @@ export const TalentIcon: React.FC<Props> = ({
 
   const [imgError, setImgError] = React.useState(false);
 
+  // Long press detection (500ms)
+  const timerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
+  const isLongPressTriggered = React.useRef(false);
+
+  const startPress = (e: React.MouseEvent | React.TouchEvent) => {
+    if (!isCustomClass || !onLongPress) return;
+    // Only primary click/touch
+    if ("button" in e && e.button !== 0) return;
+    isLongPressTriggered.current = false;
+    timerRef.current = setTimeout(() => {
+      isLongPressTriggered.current = true;
+      onLongPress();
+    }, 450);
+  };
+
+  const endPress = () => {
+    if (timerRef.current) {
+      clearTimeout(timerRef.current);
+      timerRef.current = null;
+    }
+  };
+
+  const handleClick = (e: React.MouseEvent) => {
+    if (isLongPressTriggered.current) {
+      e.preventDefault();
+      e.stopPropagation();
+      return;
+    }
+    onSpend(talent.id);
+  };
+
   return (
     <div
       className="relative w-14 h-14 select-none group"
@@ -53,13 +88,19 @@ export const TalentIcon: React.FC<Props> = ({
         e.preventDefault();
         onRefund(talent.id);
       }}
+      onMouseDown={startPress}
+      onMouseUp={endPress}
+      onMouseLeave={endPress}
+      onTouchStart={startPress}
+      onTouchEnd={endPress}
     >
       <div
         className={`w-full h-full bg-gray-900 border-2 rounded-md flex items-center justify-center cursor-pointer transition-all duration-150 overflow-hidden ${borderColor} ${
-          locked ? "opacity-60" : "hover:scale-105"
+          locked ? "opacity-60" : "hover:scale-105 active:scale-95"
         }`}
-        onClick={() => onSpend(talent.id)}
+        onClick={handleClick}
         style={filterStyles}
+        title={isCustomClass ? "Click to spend, Right-click to refund, Hold/Long-press to customize ability" : undefined}
       >
         {iconUrl && !imgError ? (
           <img

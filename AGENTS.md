@@ -45,17 +45,17 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
 - Downloaded and saved all missing Forever icons into `src/mainview/assets/icons/all/`.
 - Generated typed datasets under `src/mainview/talents/forever/`.
 
-### 4. 10th "Custom" Class Builder
+### 4. 10th "Custom" Class Builder & Dynamic Ability Picker
 - Added a 10th selectable class: **Custom** (`src/mainview/talents/custom/custom.ts`).
-- Created 3 custom specializations combining iconic talents across martial, arcane, shadow, nature, and holy trees:
-  - *Tree I: Martial Power*
-  - *Tree II: Arcane & Shadow*
-  - *Tree III: Holy & Nature*
-- Enforces strict milestone rules:
-  - Total point cap of **51 talent points**.
-  - **10-Point Tier**: Requires spending points in at least 2 trees to unlock.
-  - **20-Point Tier**: Requires spending points in at least 2 trees to unlock.
-  - **40-Point Capstone**: Requires spending 40 points total across trees to unlock.
+- **Mage Template Architecture**:
+  - Expanded all 3 custom trees (*Martial Power*, *Arcane & Shadow*, *Holy & Nature*) to match the full Mage tree topology (17–19 abilities per tree across 7 tiers).
+  - Uses standard tier unlocks (`minPointsRequired = y * 5`) and prerequisites matching the Mage template.
+- **Interactive Ability Replacement & Long-Press Picker**:
+  - **Long-Press Detection**: Holding any talent node in the Custom class for ~450ms opens the dynamic ability picker popup (`TalentPickerModal.tsx`).
+  - **Combobox Search**: Live keyword search across ability names, classes, or specializations, with a class dropdown filter.
+  - **6x4 Grid of Abilities**: Renders a 24-item paged grid with hover tooltips showing rank info and spell descriptions from the 728-ability master pool (`allTalentsPool.json`).
+  - **Slot Replacement**: Clicking an ability swaps it into that exact tree slot, preserving coordinates, tier constraints, and automatically saving the configuration to `localStorage`.
+  - Includes a "Reset Tree Layout" button to restore the base template at any time.
 
 ### 5. macOS Native Menu & System Shortcuts
 - Configured native `ApplicationMenu` in `src/bun/index.ts`:

@@ -15,7 +15,7 @@ interface Props {
   maxPoints: number;
   setTooltipData: (data: any) => void;
   isCustomClass?: boolean;
-  treesWithPointsCount?: number;
+  onSlotLongPress?: (treeIndex: number, talent: TalentData) => void;
 }
 
 export const TalentTree: React.FC<Props> = ({
@@ -30,7 +30,7 @@ export const TalentTree: React.FC<Props> = ({
   classData,
   index,
   isCustomClass = false,
-  treesWithPointsCount = 0
+  onSlotLongPress
 }) => {
   const treePoints = calculateTreePoints(treeData, points);
   const [treeElement, setTreeElement] = useState<HTMLDivElement | null>(null);
@@ -40,23 +40,9 @@ export const TalentTree: React.FC<Props> = ({
     const currentRank = points[talent.id] || 0;
     if (currentRank >= talent.maxRank) return false;
 
-    // Custom class rules
-    if (isCustomClass) {
-      if (talent.minPointsRequired === 10 && treesWithPointsCount < 2) {
-        return false;
-      }
-      if (talent.minPointsRequired === 20 && treesWithPointsCount < 2) {
-        return false;
-      }
-      if (talent.minPointsRequired === 40 && totalPoints < 40) {
-        return false;
-      }
-      // Standard in-tree tier requirement
-      if (treePoints < talent.y * 5) return false;
-    } else {
-      const requiredTreePoints = talent.minPointsRequired;
-      if (treePoints < requiredTreePoints) return false;
-    }
+    // Follow standard tree points required: minPointsRequired (y * 5)
+    const requiredTreePoints = talent.minPointsRequired ?? talent.y * 5;
+    if (treePoints < requiredTreePoints) return false;
 
     if (talent.requirements?.talentId) {
       const depRank = points[talent.requirements.talentId] || 0;
@@ -67,7 +53,7 @@ export const TalentTree: React.FC<Props> = ({
   };
 
   const bgUrl = isCustomClass
-    ? ""
+    ? `assets/icons/bg/mage_${index}.jpg`
     : `assets/icons/bg/${classData.name?.toLowerCase()}_${index}.jpg`;
 
   return (
@@ -108,7 +94,7 @@ export const TalentTree: React.FC<Props> = ({
             return (
               <div
                 className="relative flex items-center justify-center"
-                key={`${talent.id}-${talent.name}`}
+                key={`${talent.id}-${talent.name}-${talent.x}-${talent.y}`}
                 style={{
                   gridColumn: talent.x + 1,
                   gridRow: talent.y + 1
@@ -122,7 +108,6 @@ export const TalentTree: React.FC<Props> = ({
                     treeName: treeData.name,
                     treePoints,
                     isCustomClass,
-                    treesWithPointsCount,
                     totalPoints
                   });
                 }}
@@ -135,6 +120,8 @@ export const TalentTree: React.FC<Props> = ({
                   onRefund={onRefund}
                   canSpend={canSpend(talent)}
                   iconName={talent.iconName}
+                  isCustomClass={isCustomClass}
+                  onLongPress={() => onSlotLongPress?.(index, talent)}
                 />
               </div>
             );

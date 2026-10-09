@@ -10,7 +10,6 @@ export interface TooltipProps {
   treePoints?: number;
   aboveCursor?: boolean;
   isCustomClass?: boolean;
-  treesWithPointsCount?: number;
   totalPoints?: number;
 }
 
@@ -23,7 +22,6 @@ export const Tooltip: React.FC<TooltipProps> = ({
   treePoints,
   aboveCursor,
   isCustomClass,
-  treesWithPointsCount = 0,
   totalPoints = 0
 }) => {
   const tooltipRef = useRef<HTMLDivElement>(null);
@@ -60,18 +58,6 @@ export const Tooltip: React.FC<TooltipProps> = ({
         .find((t) => t.id === talent.requirements?.talentId)
     : null;
 
-  // Custom milestone checks
-  let customMilestoneWarning = "";
-  if (isCustomClass) {
-    if (talent.minPointsRequired === 10 && treesWithPointsCount < 2) {
-      customMilestoneWarning = "Requires points invested in at least 2 talent trees to unlock.";
-    } else if (talent.minPointsRequired === 20 && treesWithPointsCount < 2) {
-      customMilestoneWarning = "Requires points invested in at least 2 talent trees to unlock.";
-    } else if (talent.minPointsRequired === 40 && totalPoints < 40) {
-      customMilestoneWarning = "Requires 40 points invested across all trees to unlock capstone.";
-    }
-  }
-
   const cleanDescription = (raw: string) => {
     if (!raw) return "";
     return raw
@@ -87,6 +73,8 @@ export const Tooltip: React.FC<TooltipProps> = ({
     nextRank && talent.descriptions[rank]
       ? cleanDescription(talent.descriptions[rank])
       : "";
+
+  const requiredTreePoints = talent.minPointsRequired ?? talent.y * 5;
 
   return (
     <div
@@ -132,18 +120,17 @@ export const Tooltip: React.FC<TooltipProps> = ({
         </p>
       )}
 
-      {!isCustomClass &&
-        treeName &&
+      {treeName &&
         treePoints !== undefined &&
-        talent.minPointsRequired > treePoints && (
+        requiredTreePoints > treePoints && (
           <p className="mt-2 text-red-400 text-xs">
-            Requires {talent.minPointsRequired} points in {treeName}
+            Requires {requiredTreePoints} points in {treeName}
           </p>
         )}
 
-      {customMilestoneWarning && (
-        <p className="mt-2 text-red-400 text-xs font-semibold">
-          {customMilestoneWarning}
+      {isCustomClass && (
+        <p className="mt-2 text-[10px] text-fuchsia-300/80 italic border-t border-fuchsia-900/40 pt-1">
+          💡 Long-press / hold to replace ability
         </p>
       )}
     </div>
