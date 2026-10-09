@@ -1,74 +1,65 @@
 import React from 'react';
-import { allClassesData, classBorderColors, classColors, classCoreColors, classFGColors } from '../talents/classic';
-import { getClassIconByClassName } from '../utils';
-
-export type availableClasses = keyof typeof allClassesData;
+import { CharacterClasses } from '../../types';
+import { getClassIconByClassName } from '../utils/getClassIconByClassName';
 
 export interface ClassSelectorProps {
-    // availableClasses: availableClasses[];
-    availableClasses: string[];
-    selectedClass: string;
-    onSelectClass: (className: string) => void;
+  availableClasses: CharacterClasses[];
+  selectedClass: CharacterClasses;
+  onSelectClass: (className: CharacterClasses) => void;
 }
 
-export const ClassSelector = ({ availableClasses, selectedClass, onSelectClass }: ClassSelectorProps) => {
-    return (
-        <div className="bg-black bg-opacity-20 p-4 rounded-t-lg flex justify-center items-center gap-4 mb-4">
-            {availableClasses.map(className => {
-                const bgImageURL = String(getClassIconByClassName(className));
-                const coreClassColor = classCoreColors[className]
-                const isSelected = selectedClass === className;
-                const classTextColor = !isSelected ? classFGColors[className] : `text-white`;
-                return <button
-                    key={className}
-                    onClick={() => onSelectClass(className)}
-                    className={`relative w-32 h-16 rounded-lg transition-all duration-200 ${selectedClass === className ? classBorderColors[className] : `hover:ring-${classCoreColors[className]}`} ring-4 ring-transparent`}
-                    aria-label={`Select ${className} class`}
-                    style={{
-                        position: 'relative',
-                        overflow: 'hidden',
-                        borderStyle: 'solid',
-                        borderWidth: selectedClass === className ? '4px' : '0px',
-                        // borderColor: 'red',
-                        // backgroundColor: selectedClass === className ? classColors[className] : 'transparent',   
-                        //     backgroundImage: `url(${bgImageURL})`,
-                        //     backgroundSize: 'cover',
-                        //     backgroundPosition: 'center',
-                        //     backgroundRepeat: 'no-repeat',
-                        //     filter: selectedClass === className ? 'none' : 'brightness(80%)'
-                    }}
-                >
-                    <img src={getClassIconByClassName(className)} alt={`${className} icon`} className="w-full h-full object-cover rounded-lg transition-all" style={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        minWidth: '100%',
-                        height: '100%',
-                        borderRadius: 'inherit',
-                        filter: selectedClass === className ? 'blur(2px) brightness(80%) grayscale(50%)' : 'blur(6px) brightness(50%) grayscale(70%)',
-                    }} />
-                    <div className={`w-full h-full rounded-lg flex items-center justify-center`}>
-                        {/* <span className="text-4xl font-extrabold text-white-900 opacity-80" style={{
-                            WebkitTextStrokeColor: 'black',
-                            WebkitTextStrokeWidth: '1px'
-                        }}>{className.charAt(0)}</span> */}
-                    </div>
-                    <span className={`absolute 
-                    top-1/2
-                    left-1/2
-                    -translate-x-1/2
-                    -translate-y-1/2
-                    text-2xl
-                    font-black
-                    ${classTextColor}
-                    `}
-                        style={{
-                            ...(selectedClass !== className ? { opacity: 0.64, textShadow: `2px 2px 4px rgba(0, 0, 0, 0.8)` } : { opacity: 1.0, textShadow: `2px 2px 4px rgba(0, 0, 0, 0.88)` }),
-                        }}>
-                        {className}
-                    </span>
-                </button>
-            })}
-        </div>
-    );
+const classColorMap: Record<string, string> = {
+  Druid: "border-amber-600 hover:border-amber-400",
+  Hunter: "border-green-600 hover:border-green-400",
+  Mage: "border-sky-400 hover:border-sky-300",
+  Paladin: "border-pink-400 hover:border-pink-300",
+  Priest: "border-gray-200 hover:border-white",
+  Rogue: "border-yellow-400 hover:border-yellow-300",
+  Shaman: "border-blue-600 hover:border-blue-400",
+  Warlock: "border-purple-600 hover:border-purple-400",
+  Warrior: "border-amber-800 hover:border-amber-600",
+  Custom: "border-fuchsia-500 hover:border-fuchsia-400 shadow-fuchsia-500/20"
+};
+
+export const ClassSelector: React.FC<ClassSelectorProps> = ({
+  availableClasses,
+  selectedClass,
+  onSelectClass
+}) => {
+  return (
+    <div className="bg-gray-900/80 backdrop-blur border border-gray-800 p-2.5 rounded-xl flex flex-wrap justify-center items-center gap-2 mb-4 shadow-lg">
+      {availableClasses.map((className) => {
+        const isSelected = selectedClass === className;
+        const iconSrc = getClassIconByClassName(className);
+        const borderColor = classColorMap[className] || "border-gray-600";
+
+        return (
+          <button
+            key={className}
+            onClick={() => onSelectClass(className)}
+            className={`relative px-3 py-1.5 rounded-lg border-2 transition-all duration-150 flex items-center gap-2 overflow-hidden ${borderColor} ${
+              isSelected
+                ? "bg-gray-800/90 ring-2 ring-yellow-400 scale-105 shadow-md"
+                : "bg-gray-950/60 opacity-80 hover:opacity-100 hover:scale-102"
+            }`}
+          >
+            {iconSrc && (
+              <img
+                src={iconSrc}
+                alt={className}
+                className="w-5 h-5 rounded object-cover"
+              />
+            )}
+            <span
+              className={`text-xs font-bold tracking-wide ${
+                isSelected ? "text-yellow-300" : "text-gray-300"
+              }`}
+            >
+              {className}
+            </span>
+          </button>
+        );
+      })}
+    </div>
+  );
 };
