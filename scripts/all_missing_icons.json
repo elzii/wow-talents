@@ -1,0 +1,137 @@
+[
+  {
+    "icon": "ability_druid_mangle2",
+    "cls": "druid",
+    "ver": "tbc"
+  },
+  {
+    "icon": "ability_paladin_enlightenedjudgements",
+    "cls": "paladin",
+    "ver": "forever"
+  },
+  {
+    "icon": "spell_holy_penance",
+    "cls": "priest",
+    "ver": "forever"
+  },
+  {
+    "icon": "spell_holy_sealofvengeance",
+    "cls": "priest",
+    "ver": "forever"
+  },
+  {
+    "icon": "spell_holy_prayerofmendingtga",
+    "cls": "priest",
+    "ver": "forever"
+  },
+  {
+    "icon": "spell_holy_blindingheal",
+    "cls": "priest",
+    "ver": "forever"
+  },
+  {
+    "icon": "spell_shadow_devouringplague",
+    "cls": "priest",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_rogue_deadlybrew",
+    "cls": "rogue",
+    "ver": "forever"
+  },
+  {
+    "icon": "spell_shaman_lavaburst",
+    "cls": "shaman",
+    "ver": "forever"
+  },
+  {
+    "icon": "spell_shaman_improvedstormstrike",
+    "cls": "shaman",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_shaman_stormstrike",
+    "cls": "shaman",
+    "ver": "forever"
+  },
+  {
+    "icon": "spell_nature_riptide",
+    "cls": "shaman",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_shaman_watershield",
+    "cls": "shaman",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_deathknight_hemorrhagicfever",
+    "cls": "warlock",
+    "ver": "forever"
+  },
+  {
+    "icon": "spell_shadow_unstableaffliction_2",
+    "cls": "warlock",
+    "ver": "forever"
+  },
+  {
+    "icon": "inv_elemental_primal_shadow",
+    "cls": "warlock",
+    "ver": "forever"
+  },
+  {
+    "icon": "inv_ability_soulharvesterwarlock_demonicsoul",
+    "cls": "warlock",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_demonhunter_chaoticimprint_fire",
+    "cls": "warlock",
+    "ver": "forever"
+  },
+  {
+    "icon": "spell_shadow_felmending",
+    "cls": "warlock",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_warlock_randomizesuccubusincubus",
+    "cls": "warlock",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_warlock_baneofhavoc",
+    "cls": "warlock",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_mage_moltenarmor",
+    "cls": "warlock",
+    "ver": "forever"
+  },
+  {
+    "icon": "garrison_weaponupgrade",
+    "cls": "warrior",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_warrior_incite",
+    "cls": "warrior",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_warrior_secondwind",
+    "cls": "warrior",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_warrior_shieldcharge",
+    "cls": "warrior",
+    "ver": "forever"
+  },
+  {
+    "icon": "ability_warrior_shieldguard",
+    "cls": "warrior",
+    "ver": "forever"
+  }
+]
