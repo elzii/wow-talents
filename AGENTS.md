@@ -72,6 +72,13 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
 - Configured application icon in `electrobun.config.ts` using `assets/appIcon.iconset` (retina resolutions from 16x16 to 512x512).
 - Successfully verified native compilation producing `build/dev-macos-arm64/WoWTalentCalculator-dev.app`.
 
+### 8. Static WebApp Generator (`build/static`)
+- Created `scripts/build_static.ts` (`bun run static`) to compile the application as a standalone, zero-dependency static web application into `build/static/`:
+  - Compiles minified CSS via Tailwind CSS CLI.
+  - Bundles browser-targeted, minified JavaScript via `Bun.build` (`build/static/index.js`).
+  - Copies `index.html` and the full `assets/` directory (icons, crests, textures).
+  - Can be served with `bun run serve` or hosted on GitHub Pages, Cloudflare Pages, S3, or any static HTTP web server.
+
 ---
 
 ## TODO / Roadmap
