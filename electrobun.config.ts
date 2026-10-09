@@ -21,7 +21,8 @@ export default {
       "src/mainview/assets": "views/mainview/assets"
     },
     mac: {
-      bundleCEF: false
+      bundleCEF: false,
+      icons: "assets/appIcon.iconset"
     },
     linux: {
       bundleCEF: false
