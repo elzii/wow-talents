@@ -1,5 +1,11 @@
 # AGENTS.md — Development History & Architecture Guide
 
+## Mandatory Agent Instruction
+> [!IMPORTANT]
+> **RULE:** Every AI agent working on this repository **MUST** update this file (`AGENTS.md`) at the end of every prompt session / set of changes to document what was done, architecture updates, and current project status.
+
+---
+
 ## Overview
 
 This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator built using **ElectroBun**, **Bun**, **React 19**, **TypeScript**, and **Tailwind CSS**. It was ported from an Electron-based application (`wow-talent-calc`) with major additions including the **"WoW - Forever"** game version and a **10th "Custom" Class Builder**.
@@ -13,7 +19,7 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
   - `src/bun/index.ts`: Electrobun main process creating the native `BrowserWindow` loading `views://mainview/index.html`.
   - `src/mainview/`: React 19 frontend application bundled with Bun and styled with Tailwind CSS and Radix UI.
   - `electrobun.config.ts`: Configuration defining entrypoints, asset copy mapping, and target platform settings.
-- **Asset Migration**:
+- **Asset Migration & Icon Generation**:
   - Copied 33MB of spell icons, class crests, and background tree textures from the legacy Electron repository into `src/mainview/assets/`.
   - Configured high-resolution macOS application icons (`appIcon.iconset` & `AppIcon.icns`).
 
@@ -51,7 +57,18 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
   - **20-Point Tier**: Requires spending points in at least 2 trees to unlock.
   - **40-Point Capstone**: Requires spending 40 points total across trees to unlock.
 
-### 5. Desktop Application Packaging
+### 5. macOS Native Menu & System Shortcuts
+- Configured native `ApplicationMenu` in `src/bun/index.ts`:
+  - `⌘Q` / Quit with application role and accelerator.
+  - `⌘H` / Hide application, Hide Others, Show All.
+  - Standard Edit menu (`⌘Z`, `⇧⌘Z`, `⌘X`, `⌘C`, `⌘V`, `⌘A`), View (`^⌘F`), and Window controls (`⌘M`, `⌘W`).
+
+### 6. Icon Auditing & Comprehensive Asset Ingestion
+- Executed automated cross-check across all 504 unique talent references across Classic, TBC, Forever, and Custom datasets.
+- Downloaded all missing icons (including Warlock, Priest, Shaman, Rogue, Warrior, Paladin, and Druid icons like `ability_deathknight_hemorrhagicfever`, `spell_shadow_unstableaffliction_2`, `inv_elemental_primal_shadow`, `spell_holy_penance`, `spell_shaman_lavaburst`, etc.) using `chrome-devtools-mcp` browser execution directly from Wowhead asset servers.
+- Verified **0 remaining missing icons** across all classes and game versions.
+
+### 7. Desktop Application Packaging
 - Configured application icon in `electrobun.config.ts` using `assets/appIcon.iconset` (retina resolutions from 16x16 to 512x512).
 - Successfully verified native compilation producing `build/dev-macos-arm64/WoWTalentCalculator-dev.app`.
 
