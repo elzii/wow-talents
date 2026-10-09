@@ -1,0 +1,73 @@
+# AGENTS.md — Development History & Architecture Guide
+
+## Overview
+
+This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator built using **ElectroBun**, **Bun**, **React 19**, **TypeScript**, and **Tailwind CSS**. It was ported from an Electron-based application (`wow-talent-calc`) with major additions including the **"WoW - Forever"** game version and a **10th "Custom" Class Builder**.
+
+---
+
+## What Was Done
+
+### 1. Porting from Electron to ElectroBun
+- **Project Structure**:
+  - `src/bun/index.ts`: Electrobun main process creating the native `BrowserWindow` loading `views://mainview/index.html`.
+  - `src/mainview/`: React 19 frontend application bundled with Bun and styled with Tailwind CSS and Radix UI.
+  - `electrobun.config.ts`: Configuration defining entrypoints, asset copy mapping, and target platform settings.
+- **Asset Migration**:
+  - Copied 33MB of spell icons, class crests, and background tree textures from the legacy Electron repository into `src/mainview/assets/`.
+  - Configured high-resolution macOS application icons (`appIcon.iconset` & `AppIcon.icns`).
+
+### 2. Talent Tree Schema Refinements
+- Unified schemas under `src/types/index.ts`:
+  - `ClassData`, `TalentTreeData`, and `TalentData`.
+  - Added structured prerequisites: `requirements: { talentId, talentRank, talentName }`.
+  - Normalized tier constraints (`minPointsRequired = y * 5`).
+  - Added cross-tree and custom class metadata support (`sourceClass`, `sourceTree`).
+
+### 3. Crawled and Implemented "WoW - Forever"
+- Used `chrome-devtools-mcp` to inspect and crawl the live Wowhead Forever talent calculators across all 9 original classes:
+  1. Druid (`https://www.wowhead.com/forever/talent-calc/druid`)
+  2. Hunter (`https://www.wowhead.com/forever/talent-calc/hunter`)
+  3. Mage (`https://www.wowhead.com/forever/talent-calc/mage`)
+  4. Paladin (`https://www.wowhead.com/forever/talent-calc/paladin`)
+  5. Priest (`https://www.wowhead.com/forever/talent-calc/priest`)
+  6. Rogue (`https://www.wowhead.com/forever/talent-calc/rogue`)
+  7. Shaman (`https://www.wowhead.com/forever/talent-calc/shaman`)
+  8. Warlock (`https://www.wowhead.com/forever/talent-calc/warlock`)
+  9. Warrior (`https://www.wowhead.com/forever/talent-calc/warrior`)
+- Extracted talent nodes (`.ctc-tree-box` & `.ctc-tree-talent`), coordinates (`data-row`, `data-col`), max ranks, spell descriptions from `window.g_spells`, and resolved prerequisite trees.
+- Downloaded and saved all missing Forever icons into `src/mainview/assets/icons/all/`.
+- Generated typed datasets under `src/mainview/talents/forever/`.
+
+### 4. 10th "Custom" Class Builder
+- Added a 10th selectable class: **Custom** (`src/mainview/talents/custom/custom.ts`).
+- Created 3 custom specializations combining iconic talents across martial, arcane, shadow, nature, and holy trees:
+  - *Tree I: Martial Power*
+  - *Tree II: Arcane & Shadow*
+  - *Tree III: Holy & Nature*
+- Enforces strict milestone rules:
+  - Total point cap of **51 talent points**.
+  - **10-Point Tier**: Requires spending points in at least 2 trees to unlock.
+  - **20-Point Tier**: Requires spending points in at least 2 trees to unlock.
+  - **40-Point Capstone**: Requires spending 40 points total across trees to unlock.
+
+### 5. Desktop Application Packaging
+- Configured application icon in `electrobun.config.ts` using `assets/appIcon.iconset` (retina resolutions from 16x16 to 512x512).
+- Successfully verified native compilation producing `build/dev-macos-arm64/WoWTalentCalculator-dev.app`.
+
+---
+
+## TODO / Roadmap
+
+### 1. GitHub Actions Release Workflow
+- [ ] Create `.github/workflows/release.yml` triggered on git tag pushes (e.g., `v*.*.*`).
+- [ ] Set up multi-platform CI build runners (`macos-latest`, `ubuntu-latest`, `windows-latest`).
+- [ ] Run `bun run build` / `electrobun build --env stable` on each runner.
+- [ ] Automatically package DMG / Zip / Tarball artifacts.
+- [ ] Generate and upload release assets to GitHub Releases using `softprops/action-gh-release`.
+
+### 2. Hutch Integration for Over-the-Air (OTA) Updates
+- [ ] Configure `electrobun.config.ts` release bucket endpoint (`config.release.bucketUrl`).
+- [ ] Implement `hutch` updater ingestion logic in `src/bun/index.ts` to check for new versions on startup.
+- [ ] Generate `update.json` and bsdiff delta patches during CI workflow.
+- [ ] Add in-app update notification and prompt for seamless user downloads and app restart.
