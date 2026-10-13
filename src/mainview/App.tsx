@@ -13,6 +13,7 @@ import { TalentPickerModal } from "./components/TalentPickerModal";
 import { ColorPickerModal } from "./components/ColorPickerModal";
 import { TreeCopyModal } from "./components/TreeCopyModal";
 import { LegacyCalculator } from "./components/LegacyCalculator";
+import { RacialBenefits } from "./components/RacialBenefits";
 
 import { allClassesData as classicData } from "./talents/classic";
 import { allClassesData as tbcData } from "./talents/tbc";
@@ -49,6 +50,18 @@ export const App: React.FC = () => {
 
   // Legacy points calculator toggle (enabled by default for Forever)
   const [showLegacyCalc, setShowLegacyCalc] = useState<boolean>(true);
+
+  // Selected race for racial benefits (defaults to Undead)
+  const [selectedRace, setSelectedRace] = useState<string>(() => {
+    return localStorage.getItem("wow_selected_race") || "Undead";
+  });
+
+  const handleSelectRace = (race: string) => {
+    setSelectedRace(race);
+    try {
+      localStorage.setItem("wow_selected_race", race);
+    } catch (e) {}
+  };
 
   // Dynamic custom class state (allows user ability replacements and tree custom colors)
   const [customClassState, setCustomClassState] = useState<ClassData>(() => {
@@ -458,6 +471,8 @@ export const App: React.FC = () => {
           availableClasses={standardClasses}
           selectedClass={selectedClass}
           onSelectClass={setSelectedClass}
+          selectedRace={selectedRace}
+          onSelectRace={handleSelectRace}
         />
 
         {/* Main Trees Area */}
@@ -485,6 +500,9 @@ export const App: React.FC = () => {
             />
           ))}
         </div>
+
+        {/* Racial Benefits dependent on selected race */}
+        <RacialBenefits selectedRace={selectedRace} />
 
         {/* Custom Class Banner & Controls at the bottom */}
         {selectedClass === "Custom" && (

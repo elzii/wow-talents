@@ -18,7 +18,7 @@ export const priestData: ClassData = {
             402174
           ],
           "descriptions": [
-            "Launches a volley of holy light at the target, causing <!--ppl30:39:42:29-->45 Holy damage to an enemy, or <!--ppl30:39:126:87-->134 healing to an ally, instantly and every 1 sec for 2 sec."
+            "Launches a volley of holy light at the target, causing 45 Holy damage to an enemy, or 134 healing to an ally, instantly and every 1 sec for 2 sec."
           ]
         },
         {
@@ -29,21 +29,21 @@ export const priestData: ClassData = {
           "maxRank": 5,
           "minPointsRequired": 20,
           "iconName": "spell_holy_holyprotection",
+          "requirements": {
+            "talentName": "Soul Warding",
+            "talentRank": 1,
+            "talentId": 402000
+          },
           "spellIds": [
             425280
           ],
           "descriptions": [
-            "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 2% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 5 sec.",
-            "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 4% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 5 sec.",
-            "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 6% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 5 sec.",
-            "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 8% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 5 sec.",
+            "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 2% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 1 sec.",
+            "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 4% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 2 sec.",
+            "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 6% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 3 sec.",
+            "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 8% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 4 sec.",
             "Your heals from Flash Heal, Binding Heal, Lesser Heal, Heal, Greater Heal, and Penance gain 10% increased critical strike chance when cast on targets with Weakened Soul, and reduce the remaining duration of Weakened Soul on their target by 5 sec."
-          ],
-          "requirements": {
-            "talentId": 402000,
-            "talentRank": 1
-          },
-          "talentLink": "Soul Warding"
+          ]
         },
         {
           "id": 10060,
@@ -53,17 +53,17 @@ export const priestData: ClassData = {
           "maxRank": 1,
           "minPointsRequired": 30,
           "iconName": "spell_holy_powerinfusion",
+          "requirements": {
+            "talentName": "Penance",
+            "talentRank": 1,
+            "talentId": 402174
+          },
           "spellIds": [
             10060
           ],
           "descriptions": [
             "Infuses the target with power, increasing their spell damage and healing done by 20% for 15 sec."
-          ],
-          "requirements": {
-            "talentId": 402174,
-            "talentRank": 1
-          },
-          "talentLink": "Penance"
+          ]
         },
         {
           "id": 18551,
@@ -77,11 +77,11 @@ export const priestData: ClassData = {
             18551
           ],
           "descriptions": [
-            "Increases your maximum Mana by 2%.",
-            "Increases your maximum Mana by 4%.",
-            "Increases your maximum Mana by 6%.",
-            "Increases your maximum Mana by 8%.",
-            "Increases your maximum Mana by 10%."
+            "Increases your total Intellect by 3%.",
+            "Increases your total Intellect by 6%.",
+            "Increases your total Intellect by 9%.",
+            "Increases your total Intellect by 12%.",
+            "Increases your total Intellect by 15%."
           ]
         },
         {
@@ -96,8 +96,8 @@ export const priestData: ClassData = {
             14750
           ],
           "descriptions": [
-            "Reduces the casting time of your Mana Burn spell by 0.25 secs.",
-            "Reduces the casting time of your Mana Burn spell by 0.5 sec."
+            "Reduces the casting time of your Mana Burn spell by 0.5 sec.",
+            "Reduces the casting time of your Mana Burn spell by 1.0 sec."
           ]
         },
         {
@@ -108,17 +108,17 @@ export const priestData: ClassData = {
           "maxRank": 1,
           "minPointsRequired": 15,
           "iconName": "spell_holy_pureofheart",
+          "requirements": {
+            "talentName": "Improved Power Word: Shield",
+            "talentRank": 3,
+            "talentId": 14748
+          },
           "spellIds": [
             402000
           ],
           "descriptions": [
             "Reduces the cooldown on your Power Word: Shield spell by 4 sec and reduces its mana cost by 15%."
-          ],
-          "requirements": {
-            "talentId": 14748,
-            "talentRank": 3
-          },
-          "talentLink": "Improved Power Word: Shield"
+          ]
         },
         {
           "id": 431622,
@@ -149,9 +149,9 @@ export const priestData: ClassData = {
             14747
           ],
           "descriptions": [
-            "Increases the Armor bonus of your Inner Fire spell by 10%.",
-            "Increases the Armor bonus of your Inner Fire spell by 20%.",
-            "Increases the Armor bonus of your Inner Fire spell by 30%."
+            "Increases the Armor bonus of your Inner Fire spell by 15% and increases its total charges by 4.",
+            "Increases the Armor bonus of your Inner Fire spell by 30% and increases its total charges by 8.",
+            "Increases the Armor bonus of your Inner Fire spell by 45% and increases its total charges by 12."
           ]
         },
         {
@@ -166,9 +166,9 @@ export const priestData: ClassData = {
             14520
           ],
           "descriptions": [
-            "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 10%.",
-            "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 20%.",
-            "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 30%."
+            "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 3%.",
+            "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 7%.",
+            "Reduces the mana cost of your Smite, Holy Fire, and instant cast spells by 10%."
           ]
         },
         {
@@ -183,9 +183,9 @@ export const priestData: ClassData = {
             14521
           ],
           "descriptions": [
-            "Allows 5% of your Mana regeneration to continue while casting.",
-            "Allows 10% of your Mana regeneration to continue while casting.",
-            "Allows 15% of your Mana regeneration to continue while casting."
+            "Allows 17% of your Mana regeneration to continue while casting.",
+            "Allows 33% of your Mana regeneration to continue while casting.",
+            "Allows 50% of your Mana regeneration to continue while casting."
           ]
         },
         {
@@ -215,8 +215,8 @@ export const priestData: ClassData = {
             14531
           ],
           "descriptions": [
-            "Gives you a 50% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike.  The Focused Casting effect prevents you from losing casting time when taking damage and increases resistance to Interrupt effects by 10%.",
-            "Gives you a 100% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike.  The Focused Casting effect prevents you from losing casting time when taking damage and increases resistance to Interrupt effects by 20%."
+            "Gives you a 50% chance to gain Focused Casting for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage and increases your resistance to Interrupt effects by 20%.",
+            "Gives you a 100% chance to gain Focused Casting for 6 sec after being the victim of a melee or ranged critical strike. The Focused Casting effect prevents you from losing casting time when taking damage and increases your resistance to Interrupt effects by 20%."
           ]
         },
         {
@@ -231,9 +231,9 @@ export const priestData: ClassData = {
             14748
           ],
           "descriptions": [
-            "Increases the damage absorbed by your Power Word: Shield by 5%.",
-            "Increases the damage absorbed by your Power Word: Shield by 10%.",
-            "Increases the damage absorbed by your Power Word: Shield by 15%."
+            "Increases the damage absorbed by your Power Word: Shield by 7%.",
+            "Increases the damage absorbed by your Power Word: Shield by 14%.",
+            "Increases the damage absorbed by your Power Word: Shield by 20%."
           ]
         },
         {
@@ -265,11 +265,11 @@ export const priestData: ClassData = {
             1225132
           ],
           "descriptions": [
-            "Increases the damage and healing of your instant cast spells by 5%.",
-            "Increases the damage and healing of your instant cast spells by 10%.",
-            "Increases the damage and healing of your instant cast spells by 15%.",
-            "Increases the damage and healing of your instant cast spells by 20%.",
-            "Increases the damage and healing of your instant cast spells by 25%."
+            "Increases the damage and healing of your instant cast spells by 1%.",
+            "Increases the damage and healing of your instant cast spells by 2%.",
+            "Increases the damage and healing of your instant cast spells by 3%.",
+            "Increases the damage and healing of your instant cast spells by 4%.",
+            "Increases the damage and healing of your instant cast spells by 5%."
           ]
         },
         {
@@ -317,11 +317,11 @@ export const priestData: ClassData = {
             1309969
           ],
           "descriptions": [
-            "Your Smite and Penance spells deal 3% increased damage to targets afflicted with your Holy Fire.",
+            "Your Smite and Penance spells deal 2% increased damage to targets afflicted with your Holy Fire.",
+            "Your Smite and Penance spells deal 4% increased damage to targets afflicted with your Holy Fire.",
             "Your Smite and Penance spells deal 6% increased damage to targets afflicted with your Holy Fire.",
-            "Your Smite and Penance spells deal 9% increased damage to targets afflicted with your Holy Fire.",
-            "Your Smite and Penance spells deal 12% increased damage to targets afflicted with your Holy Fire.",
-            "Your Smite and Penance spells deal 15% increased damage to targets afflicted with your Holy Fire."
+            "Your Smite and Penance spells deal 8% increased damage to targets afflicted with your Holy Fire.",
+            "Your Smite and Penance spells deal 10% increased damage to targets afflicted with your Holy Fire."
           ]
         }
       ]
@@ -337,17 +337,17 @@ export const priestData: ClassData = {
           "maxRank": 1,
           "minPointsRequired": 30,
           "iconName": "spell_holy_prayerofmendingtga",
+          "requirements": {
+            "talentName": "Spirit of Redemption",
+            "talentRank": 1,
+            "talentId": 20711
+          },
           "spellIds": [
             401859
           ],
           "descriptions": [
-            "Places a spell on the target that heals them for [(172 + (Healing * <!--bc-->0.42899999<!--bc-->)) * (<!--sp1225132:0-->1<!--sp1225132--> * <!--sp14898:0-->1<!--sp14898-->)] the next time they take damage or receive non-periodic healing. When the heal occurs, Prayer of Mending jumps to a party or raid member within 20 yards. Jumps up to 5 times and lasts 30 sec after each jump. This spell can only be placed on one target at a time per caster."
-          ],
-          "requirements": {
-            "talentId": 20711,
-            "talentRank": 1
-          },
-          "talentLink": "Spirit of Redemption"
+            "Places a spell on the target that heals them for [(172 + (Healing * 0.42899999)) * (1 * 1)] the next time they take damage or receive non-periodic healing. When the heal occurs, Prayer of Mending jumps to a party or raid member within 20 yards. Jumps up to 5 times and lasts 30 sec after each jump. This spell can only be placed on one target at a time per caster."
+          ]
         },
         {
           "id": 14898,
@@ -361,9 +361,9 @@ export const priestData: ClassData = {
             14898
           ],
           "descriptions": [
-            "Increases the amount healed by your spells by 2%.",
-            "Increases the amount healed by your spells by 4%.",
-            "Increases the amount healed by your spells by 6%."
+            "Increases the amount healed by your spells by 3%.",
+            "Increases the amount healed by your spells by 7%.",
+            "Increases the amount healed by your spells by 10%."
           ]
         },
         {
@@ -378,11 +378,11 @@ export const priestData: ClassData = {
             14901
           ],
           "descriptions": [
-            "Increases spell damage and healing by up to 5% of your total Spirit.",
-            "Increases spell damage and healing by up to 10% of your total Spirit.",
-            "Increases spell damage and healing by up to 15% of your total Spirit.",
-            "Increases spell damage and healing by up to 20% of your total Spirit.",
-            "Increases spell damage and healing by up to 25% of your total Spirit."
+            "Increases your spell healing by up to 5% of your total Spirit and your spell damage by up to 1% of your total Spirit.",
+            "Increases your spell healing by up to 10% of your total Spirit and your spell damage by up to 3% of your total Spirit.",
+            "Increases your spell healing by up to 15% of your total Spirit and your spell damage by up to 5% of your total Spirit.",
+            "Increases your spell healing by up to 20% of your total Spirit and your spell damage by up to 6% of your total Spirit.",
+            "Increases your spell healing by up to 25% of your total Spirit and your spell damage by up to 8% of your total Spirit."
           ]
         },
         {
@@ -412,8 +412,8 @@ export const priestData: ClassData = {
             1317006
           ],
           "descriptions": [
-            "When you cast a healing spell, gain Mana equal to 10% of the base cost of the spell if your previous heal was a different spell.",
-            "When you cast a healing spell, gain Mana equal to 20% of the base cost of the spell if your previous heal was a different spell."
+            "When you cast a healing spell, gain Mana equal to 5% of the base cost of the spell if your previous heal was a different spell.",
+            "When you cast a healing spell, gain Mana equal to 10% of the base cost of the spell if your previous heal was a different spell."
           ]
         },
         {
@@ -428,7 +428,7 @@ export const priestData: ClassData = {
             401937
           ],
           "descriptions": [
-            "Heals a friendly target and the caster for <!--ppl25:31:247:220-->236 to 284. Low threat."
+            "Heals a friendly target and the caster for 236 to 284. Low threat."
           ]
         },
         {
@@ -439,18 +439,18 @@ export const priestData: ClassData = {
           "maxRank": 2,
           "minPointsRequired": 15,
           "iconName": "spell_holy_searinglightpriest",
+          "requirements": {
+            "talentName": "Divine Fury",
+            "talentRank": 5,
+            "talentId": 18530
+          },
           "spellIds": [
             14909
           ],
           "descriptions": [
-            "Increases the damage of your Smite and Holy Fire spells by 5%.",
-            "Increases the damage of your Smite and Holy Fire spells by 10%."
-          ],
-          "requirements": {
-            "talentId": 18530,
-            "talentRank": 5
-          },
-          "talentLink": "Divine Fury"
+            "Increases your Holy damage done by 2%, and gives a 5% chance each time your Holy Fire spell deals periodic damage for your next Holy Nova to cost no Mana.",
+            "Increases your Holy damage done by 5%, and gives a 10% chance each time your Holy Fire spell deals periodic damage for your next Holy Nova to cost no Mana."
+          ]
         },
         {
           "id": 14912,
@@ -464,9 +464,9 @@ export const priestData: ClassData = {
             14912
           ],
           "descriptions": [
-            "Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 5%.",
-            "Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 10%.",
-            "Reduces the Mana cost of your Lesser Heal, Heal, and Greater Heal spells by 15%."
+            "Reduces the Mana cost of your Lesser Heal, Heal, Greater Heal, Penance, and Prayer of Mending spells by 5%.",
+            "Reduces the Mana cost of your Lesser Heal, Heal, Greater Heal, Penance, and Prayer of Mending spells by 10%.",
+            "Reduces the Mana cost of your Lesser Heal, Heal, Greater Heal, Penance, and Prayer of Mending spells by 15%."
           ]
         },
         {
@@ -497,9 +497,9 @@ export const priestData: ClassData = {
             14892
           ],
           "descriptions": [
-            "Increases your target's armor by 8% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-            "Increases your target's armor by 16% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell.",
-            "Increases your target's armor by 25% for 15 sec after getting a critical effect from your Flash Heal, Heal, Greater Heal, or Prayer of Healing spell."
+            "Your non-periodic critical heals increase your target's Armor by 8% for 15 sec.",
+            "Your non-periodic critical heals increase your target's Armor by 17% for 15 sec.",
+            "Your non-periodic critical heals increase your target's Armor by 25% for 15 sec."
           ]
         },
         {
@@ -514,9 +514,9 @@ export const priestData: ClassData = {
             27811
           ],
           "descriptions": [
-            "After being struck by a melee or ranged critical hit, heal 8% of the damage taken over 6 sec.",
-            "After being struck by a melee or ranged critical hit, heal 16% of the damage taken over 6 sec.",
-            "After being struck by a melee or ranged critical hit, heal 25% of the damage taken over 6 sec."
+            "After being struck by a melee or ranged critical hit, or suffering more than 30% of your maximum Health from a single attack, heal 8% of the damage taken over 6 sec. Refreshing this effect carries over any remaining healing.",
+            "After being struck by a melee or ranged critical hit, or suffering more than 30% of your maximum Health from a single attack, heal 17% of the damage taken over 6 sec. Refreshing this effect carries over any remaining healing.",
+            "After being struck by a melee or ranged critical hit, or suffering more than 30% of your maximum Health from a single attack, heal 25% of the damage taken over 6 sec. Refreshing this effect carries over any remaining healing."
           ]
         },
         {
@@ -531,7 +531,7 @@ export const priestData: ClassData = {
             15237
           ],
           "descriptions": [
-            "Causes an explosion of holy light around the caster, causing <!--ppl20:26:27:20-->26 to 30 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for <!--ppl20:26:51:40-->50 to 57. These effects cause no threat."
+            "Causes an explosion of holy light around the caster, causing 26 to 30 Holy damage to all enemy targets within 10 yards and healing all party members within 10 yards for 50 to 57. These effects cause no threat."
           ]
         },
         {
@@ -546,11 +546,11 @@ export const priestData: ClassData = {
             18530
           ],
           "descriptions": [
-            "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.1 sec.",
-            "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.2 sec.",
-            "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.3 sec.",
-            "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.4 sec.",
-            "Reduces the casting time of your Smite, Holy Fire, Heal and Greater Heal spells by 0.5 sec."
+            "Reduces the casting time of your Smite, Holy Fire, Heal, and Greater Heal spells by 0.1 sec.",
+            "Reduces the casting time of your Smite, Holy Fire, Heal, and Greater Heal spells by 0.2 sec.",
+            "Reduces the casting time of your Smite, Holy Fire, Heal, and Greater Heal spells by 0.3 sec.",
+            "Reduces the casting time of your Smite, Holy Fire, Heal, and Greater Heal spells by 0.4 sec.",
+            "Reduces the casting time of your Smite, Holy Fire, Heal, and Greater Heal spells by 0.5 sec."
           ]
         },
         {
@@ -601,9 +601,9 @@ export const priestData: ClassData = {
             14913
           ],
           "descriptions": [
-            "Gives you a 70% chance to avoid interruption caused by damage while casting any spell.",
-            "Gives you a 140% chance to avoid interruption caused by damage while casting any spell.",
-            "Gives you a 210% chance to avoid interruption caused by damage while casting any spell."
+            "Gives you a 23% chance to avoid interruption caused by damage while casting any spell.",
+            "Gives you a 47% chance to avoid interruption caused by damage while casting any spell.",
+            "Gives you a 70% chance to avoid interruption caused by damage while casting any spell."
           ]
         },
         {
@@ -638,17 +638,17 @@ export const priestData: ClassData = {
           "maxRank": 1,
           "minPointsRequired": 30,
           "iconName": "spell_shadow_shadowform",
+          "requirements": {
+            "talentName": "Vampiric Embrace",
+            "talentRank": 1,
+            "talentId": 15286
+          },
           "spellIds": [
             15473
           ],
           "descriptions": [
             "Assume Shadowform, increasing your Shadow damage by 10%, reducing the Mana cost of all Shadow spells by 50%, increasing the critical strike damage bonus of your Shadow spells by 100%, and reducing Physical damage taken by you by 15%. However, you may not cast healing spells while in this form."
-          ],
-          "requirements": {
-            "talentId": 15286,
-            "talentRank": 1
-          },
-          "talentLink": "Vampiric Embrace"
+          ]
         },
         {
           "id": 15259,
@@ -662,11 +662,11 @@ export const priestData: ClassData = {
             15259
           ],
           "descriptions": [
-            "Increases your Shadow spell damage by 2%.",
-            "Increases your Shadow spell damage by 4%.",
-            "Increases your Shadow spell damage by 6%.",
-            "Increases your Shadow spell damage by 8%.",
-            "Increases your Shadow spell damage by 10%."
+            "Increases your Shadow damage done by 2%.",
+            "Increases your Shadow damage done by 4%.",
+            "Increases your Shadow damage done by 6%.",
+            "Increases your Shadow damage done by 8%.",
+            "Increases your Shadow damage done by 10%."
           ]
         },
         {
@@ -681,8 +681,8 @@ export const priestData: ClassData = {
             1309950
           ],
           "descriptions": [
-            "Reduces the mana cost of your Devouring Plague by 25%.<br /><br />Targets that die while Devouring Plague is active spreads it, jumping to a nearby enemy within 10 yds for the remaining duration.",
-            "Reduces the mana cost of your Devouring Plague by 50%.<br /><br />Targets that die while Devouring Plague is active spreads it, jumping to a nearby enemy within 10 yds for the remaining duration."
+            "Reduces the mana cost of your Devouring Plague by 25%.  Targets that die while Devouring Plague is active spreads it, jumping to a nearby enemy within 5 yds for the remaining duration.",
+            "Reduces the mana cost of your Devouring Plague by 50%.  Targets that die while Devouring Plague is active spreads it, jumping to a nearby enemy within 10 yds for the remaining duration."
           ]
         },
         {
@@ -712,9 +712,9 @@ export const priestData: ClassData = {
             15257
           ],
           "descriptions": [
-            "Your Shadow damage spells have a 100% chance to increase the Shadow damage you deal by 2% for 15 sec, stacking up to 5 times.",
-            "Your Shadow damage spells have a 200% chance to increase the Shadow damage you deal by 4% for 15 sec, stacking up to 5 times.",
-            "Your Shadow damage spells have a 300% chance to increase the Shadow damage you deal by 6% for 15 sec, stacking up to 5 times."
+            "Your Shadow damage spells have a 33% chance to increase the Shadow damage you deal by 2% for 15 sec, stacking up to 5 times.",
+            "Your Shadow damage spells have a 67% chance to increase the Shadow damage you deal by 2% for 15 sec, stacking up to 5 times.",
+            "Your Shadow damage spells have a 100% chance to increase the Shadow damage you deal by 2% for 15 sec, stacking up to 5 times."
           ]
         },
         {
@@ -756,18 +756,18 @@ export const priestData: ClassData = {
           "maxRank": 2,
           "minPointsRequired": 10,
           "iconName": "spell_shadow_soulleech_2",
+          "requirements": {
+            "talentName": "Mind Flay",
+            "talentRank": 1,
+            "talentId": 15407
+          },
           "spellIds": [
             1225139
           ],
           "descriptions": [
-            "Your Mind Flay now deals 10% more damage, gains 10 yards increased range, but slows the target's movement speed by 40%.",
-            "Your Mind Flay now deals 20% more damage, gains 10 yards increased range, but slows the target's movement speed by 80%."
-          ],
-          "requirements": {
-            "talentId": 15407,
-            "talentRank": 1
-          },
-          "talentLink": "Mind Flay"
+            "Your Mind Flay now deals 10% more damage, gains 5 yards increased range, but slows the target's movement speed by 35%.",
+            "Your Mind Flay now deals 20% more damage, gains 10 yards increased range, but slows the target's movement speed by 20%."
+          ]
         },
         {
           "id": 15407,
@@ -781,7 +781,7 @@ export const priestData: ClassData = {
             15407
           ],
           "descriptions": [
-            "Assault the target's mind with Shadow energy, causing 63 Shadow damage over 3 sec  and slowing their movement speed by <!--sp1225139:0-->50<!--sp1225139-->%."
+            "Assault the target's mind with Shadow energy, causing 63 Shadow damage over 3 sec  and slowing their movement speed by 50%."
           ]
         },
         {
@@ -811,18 +811,18 @@ export const priestData: ClassData = {
           "maxRank": 2,
           "minPointsRequired": 10,
           "iconName": "spell_shadow_psychicscream",
+          "requirements": {
+            "talentName": "Blackout",
+            "talentRank": 5,
+            "talentId": 15326
+          },
           "spellIds": [
             15392
           ],
           "descriptions": [
             "Reduces the cooldown of your Psychic Scream spell by 2 sec.",
             "Reduces the cooldown of your Psychic Scream spell by 4 sec."
-          ],
-          "requirements": {
-            "talentId": 15326,
-            "talentRank": 5
-          },
-          "talentLink": "Blackout"
+          ]
         },
         {
           "id": 17322,
@@ -868,9 +868,9 @@ export const priestData: ClassData = {
             15318
           ],
           "descriptions": [
-            "Reduces the threat generated by your Shadow spells by 8%.",
-            "Reduces the threat generated by your Shadow spells by 16%.",
-            "Reduces the threat generated by your Shadow spells by 25%."
+            "Reduces the threat generated by your Shadow spells by 10%.",
+            "Reduces the threat generated by your Shadow spells by 20%.",
+            "Reduces the threat generated by your Shadow spells by 30%."
           ]
         },
         {
@@ -904,11 +904,11 @@ export const priestData: ClassData = {
             15270
           ],
           "descriptions": [
-            "Gives you a 20% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Mana will regenerate at a 50% rate while casting.  Lasts 15 sec.",
-            "Gives you a 40% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Mana will regenerate at a 50% rate while casting.  Lasts 15 sec.",
-            "Gives you a 60% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Mana will regenerate at a 50% rate while casting.  Lasts 15 sec.",
-            "Gives you a 80% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Mana will regenerate at a 50% rate while casting.  Lasts 15 sec.",
-            "Gives you a 100% chance to gain a 100% bonus to your Spirit after killing a target that yields experience.  For the duration, your Mana will regenerate at a 50% rate while casting.  Lasts 15 sec."
+            "Gives you a 20% chance to increase your Spirit by 100% for 15 sec after killing a non-trivial target or when an enemy afflicted by your Vampiric Embrace dies. For the duration, 50% of your Mana regeneration will continue while casting.",
+            "Gives you a 40% chance to increase your Spirit by 100% for 15 sec after killing a non-trivial target or when an enemy afflicted by your Vampiric Embrace dies. For the duration, 50% of your Mana regeneration will continue while casting.",
+            "Gives you a 60% chance to increase your Spirit by 100% for 15 sec after killing a non-trivial target or when an enemy afflicted by your Vampiric Embrace dies. For the duration, 50% of your Mana regeneration will continue while casting.",
+            "Gives you a 80% chance to increase your Spirit by 100% for 15 sec after killing a non-trivial target or when an enemy afflicted by your Vampiric Embrace dies. For the duration, 50% of your Mana regeneration will continue while casting.",
+            "Gives you a 100% chance to increase your Spirit by 100% for 15 sec after killing a non-trivial target or when an enemy afflicted by your Vampiric Embrace dies. For the duration, 50% of your Mana regeneration will continue while casting."
           ]
         },
         {
@@ -923,11 +923,11 @@ export const priestData: ClassData = {
             15260
           ],
           "descriptions": [
-            "Reduces your target's chance to resist your Shadow spells by 2%.",
-            "Reduces your target's chance to resist your Shadow spells by 4%.",
-            "Reduces your target's chance to resist your Shadow spells by 6%.",
-            "Reduces your target's chance to resist your Shadow spells by 8%.",
-            "Reduces your target's chance to resist your Shadow spells by 10%."
+            "Improves your chance to hit with Shadow spells by 1%.",
+            "Improves your chance to hit with Shadow spells by 2%.",
+            "Improves your chance to hit with Shadow spells by 3%.",
+            "Improves your chance to hit with Shadow spells by 4%.",
+            "Improves your chance to hit with Shadow spells by 5%."
           ]
         },
         {
@@ -942,7 +942,7 @@ export const priestData: ClassData = {
             1310076
           ],
           "descriptions": [
-            "Increases Shadow Word: Death's critical strike chance on targets at or below 10% health by 15%.",
+            "Increases Shadow Word: Death's critical strike chance on targets at or below 20% health by 15%.",
             "Increases Shadow Word: Death's critical strike chance on targets at or below 20% health by 30%."
           ]
         }

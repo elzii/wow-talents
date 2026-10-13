@@ -24,7 +24,7 @@ export type CharacterClasses =
   | "Custom";
 
 export interface TalentRequirement {
-  talentId: number;
+  talentId?: number;
   talentRank: number;
   talentName?: string;
 }

@@ -116,6 +116,20 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
   - Unified the main talent calculator with the visual aesthetic of the Legacy Points Calculator: styled in a padded, inset container (`bg-neutral-950/90 border border-gray-800 rounded-2xl shadow-2xl p-6`).
   - Placed the `ClassSelector` at the top of the container and relocated the 'Custom Class Builder' toolbar to the bottom inside the container.
 
+### 11. Authentic Forever Tooltips Re-Scraping, Race Selector & Racial Benefits
+- **Exact Wowhead Forever Tooltips Re-Scraped**:
+  - Re-scraped all 1,314 rank tooltips across all 9 classes directly from live Wowhead Forever (`nether.wowhead.com/forever/tooltip/spell/<id>?def=<defId>&rank=<rank>`).
+  - Restored true Forever-specific talent values and percentages (e.g. Warlock *Pandemic* 33%/67%/100%, Druid *Improved Wrath* 10%/20%/30%/40%/50% Mana cost reduction, *Nature's Grace*, etc.).
+  - Synchronized descriptions into `allTalentsPool.json` and `allTreesCatalog.json`.
+- **Race Selector Dropdown (`ClassSelector.tsx`)**:
+  - Refactored the Class Selector bar: classes right-justified, and a new custom Race dropdown left-justified.
+  - Defaults to "Undead" and persists choice in `localStorage`.
+  - Scraped all 10 playable races from Wowhead Forever (`Human`, `Gnome`, `Night Elf`, `High Order Skyborne`, `Orc`, `Undead`, `Tauren`, `Troll`, `Windshaper Skyborne`, `Dwarf`) with official race icons and male portrait artwork.
+- **Racial Benefits Panel (`RacialBenefits.tsx`)**:
+  - Created a dedicated racial benefits component positioned directly below the 3 talent trees inside the main inset container.
+  - Dynamically renders all 4 racial traits for the selected race with authentic spell icons, trait names, and full ability descriptions.
+  - Downloaded and synchronized all 46 racial ability icons into `src/mainview/assets/icons/all/` supporting both `.jpg` and `.png` extensions.
+
 ---
 
 ## TODO / Roadmap

@@ -14,17 +14,17 @@ export const warriorData: ClassData = {
           "maxRank": 1,
           "minPointsRequired": 30,
           "iconName": "ability_warrior_savageblow",
+          "requirements": {
+            "talentName": "Sweeping Strikes",
+            "talentRank": 1,
+            "talentId": 12292
+          },
           "spellIds": [
             12294
           ],
           "descriptions": [
             "A vicious strike that deals weapon damage plus 85 and wounds the target, reducing the effectiveness of any healing by 50% for 10 sec."
-          ],
-          "requirements": {
-            "talentId": 12292,
-            "talentRank": 1
-          },
-          "talentLink": "Sweeping Strikes"
+          ]
         },
         {
           "id": 12289,
@@ -55,11 +55,11 @@ export const warriorData: ClassData = {
             1290261
           ],
           "descriptions": [
-            "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Polearm:</span> Increases your<br />    critical strike chance by 5%.<br /><br />    <span style=\"color: #FFFFFF\">Mace/Staff:</span> Your attacks ignore<br />    15% of your target's armor.<br /><br />    <span style=\"color: #FFFFFF\">Sword:</span> Your successful melee <br />    attacks have a 5% chance to <br />    trigger an extra attack on the <br />    target.",
-            "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Polearm:</span> Increases your<br />    critical strike chance by 10%.<br /><br />    <span style=\"color: #FFFFFF\">Mace/Staff:</span> Your attacks ignore<br />    30% of your target's armor.<br /><br />    <span style=\"color: #FFFFFF\">Sword:</span> Your successful melee <br />    attacks have a 10% chance to <br />    trigger an extra attack on the <br />    target.",
-            "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Polearm:</span> Increases your<br />    critical strike chance by 15%.<br /><br />    <span style=\"color: #FFFFFF\">Mace/Staff:</span> Your attacks ignore<br />    45% of your target's armor.<br /><br />    <span style=\"color: #FFFFFF\">Sword:</span> Your successful melee <br />    attacks have a 15% chance to <br />    trigger an extra attack on the <br />    target.",
-            "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Polearm:</span> Increases your<br />    critical strike chance by 20%.<br /><br />    <span style=\"color: #FFFFFF\">Mace/Staff:</span> Your attacks ignore<br />    60% of your target's armor.<br /><br />    <span style=\"color: #FFFFFF\">Sword:</span> Your successful melee <br />    attacks have a 20% chance to <br />    trigger an extra attack on the <br />    target.",
-            "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Polearm:</span> Increases your<br />    critical strike chance by 25%.<br /><br />    <span style=\"color: #FFFFFF\">Mace/Staff:</span> Your attacks ignore<br />    75% of your target's armor.<br /><br />    <span style=\"color: #FFFFFF\">Sword:</span> Your successful melee <br />    attacks have a 25% chance to <br />    trigger an extra attack on the <br />    target."
+            "Gives your melee weapon attacks a benefit depending on the weapon.      Axe/Polearm: Increases your     critical strike chance by 1%.      Mace/Staff: Your attacks ignore     3% of your target's armor.      Sword: Your successful melee      attacks have a 1% chance to      trigger an extra attack on the      target.",
+            "Gives your melee weapon attacks a benefit depending on the weapon.      Axe/Polearm: Increases your     critical strike chance by 2%.      Mace/Staff: Your attacks ignore     6% of your target's armor.      Sword: Your successful melee      attacks have a 2% chance to      trigger an extra attack on the      target.",
+            "Gives your melee weapon attacks a benefit depending on the weapon.      Axe/Polearm: Increases your     critical strike chance by 3%.      Mace/Staff: Your attacks ignore     9% of your target's armor.      Sword: Your successful melee      attacks have a 3% chance to      trigger an extra attack on the      target.",
+            "Gives your melee weapon attacks a benefit depending on the weapon.      Axe/Polearm: Increases your     critical strike chance by 4%.      Mace/Staff: Your attacks ignore     12% of your target's armor.      Sword: Your successful melee      attacks have a 4% chance to      trigger an extra attack on the      target.",
+            "Gives your melee weapon attacks a benefit depending on the weapon.      Axe/Polearm: Increases your     critical strike chance by 5%.      Mace/Staff: Your attacks ignore     15% of your target's armor.      Sword: Your successful melee      attacks have a 5% chance to      trigger an extra attack on the      target."
           ]
         },
         {
@@ -85,18 +85,18 @@ export const warriorData: ClassData = {
           "maxRank": 2,
           "minPointsRequired": 15,
           "iconName": "ability_searingarrow",
+          "requirements": {
+            "talentName": "Deep Wounds",
+            "talentRank": 3,
+            "talentId": 12834
+          },
           "spellIds": [
             16493
           ],
           "descriptions": [
-            "Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by 10%.",
-            "Increases the critical strike damage bonus of your abilities in Battle, Defensive, and Berserker stance by 20%."
-          ],
-          "requirements": {
-            "talentId": 12834,
-            "talentRank": 3
-          },
-          "talentLink": "Deep Wounds"
+            "Increases the critical strike damage bonus of your abilities by 10%.",
+            "Increases the critical strike damage bonus of your abilities by 20%."
+          ]
         },
         {
           "id": 12163,
@@ -110,9 +110,9 @@ export const warriorData: ClassData = {
             12163
           ],
           "descriptions": [
+            "Increases the damage you deal with two-handed melee weapons by 1%.",
             "Increases the damage you deal with two-handed melee weapons by 2%.",
-            "Increases the damage you deal with two-handed melee weapons by 4%.",
-            "Increases the damage you deal with two-handed melee weapons by 6%."
+            "Increases the damage you deal with two-handed melee weapons by 3%."
           ]
         },
         {
@@ -138,19 +138,19 @@ export const warriorData: ClassData = {
           "maxRank": 3,
           "minPointsRequired": 10,
           "iconName": "ability_backstab",
+          "requirements": {
+            "talentName": "Improved Rend",
+            "talentRank": 3,
+            "talentId": 12286
+          },
           "spellIds": [
             12834
           ],
           "descriptions": [
-            "Your critical strikes cause the opponent to bleed, dealing 20% of your melee weapon's average damage over 12 sec.",
-            "Your critical strikes cause the opponent to bleed, dealing 40% of your melee weapon's average damage over 12 sec.",
-            "Your critical strikes cause the opponent to bleed, dealing 60% of your melee weapon's average damage over 12 sec."
-          ],
-          "requirements": {
-            "talentId": 12286,
-            "talentRank": 3
-          },
-          "talentLink": "Improved Rend"
+            "Your critical strikes cause your opponent to Bleed, dealing 20% of your melee weapon's average damage over 12 sec.",
+            "Your critical strikes cause your opponent to Bleed, dealing 40% of your melee weapon's average damage over 12 sec.",
+            "Your critical strikes cause your opponent to Bleed, dealing 60% of your melee weapon's average damage over 12 sec."
+          ]
         },
         {
           "id": 12296,
@@ -160,17 +160,17 @@ export const warriorData: ClassData = {
           "maxRank": 1,
           "minPointsRequired": 10,
           "iconName": "spell_holy_blessingofstamina",
+          "requirements": {
+            "talentName": "Improved Tactical Mastery",
+            "talentRank": 5,
+            "talentId": 12295
+          },
           "spellIds": [
             12296
           ],
           "descriptions": [
             "Generates 1 Rage every 3 sec while in combat, and reduces Rage loss while out of combat by 30%."
-          ],
-          "requirements": {
-            "talentId": 12295,
-            "talentRank": 5
-          },
-          "talentLink": "Improved Tactical Mastery"
+          ]
         },
         {
           "id": 12290,
@@ -200,10 +200,10 @@ export const warriorData: ClassData = {
             12295
           ],
           "descriptions": [
-            "Tactical Mastery lets you retain up to an additional 15 Rage when you change stances.",
-            "Tactical Mastery lets you retain up to an additional 15 Rage when you change stances.",
-            "Tactical Mastery lets you retain up to an additional 15 Rage when you change stances.",
-            "Tactical Mastery lets you retain up to an additional 15 Rage when you change stances.",
+            "Tactical Mastery lets you retain up to an additional 3 Rage when you change stances.",
+            "Tactical Mastery lets you retain up to an additional 6 Rage when you change stances.",
+            "Tactical Mastery lets you retain up to an additional 9 Rage when you change stances.",
+            "Tactical Mastery lets you retain up to an additional 12 Rage when you change stances.",
             "Tactical Mastery lets you retain up to an additional 15 Rage when you change stances."
           ]
         },
@@ -219,8 +219,8 @@ export const warriorData: ClassData = {
             12285
           ],
           "descriptions": [
-            "Increases the amount of rage generated by your Charge ability by 3.",
-            "Increases the amount of rage generated by your Charge ability by 6."
+            "Increases the Rage generated by your Charge ability by 3.",
+            "Increases the Rage generated by your Charge ability by 6."
           ]
         },
         {
@@ -235,9 +235,9 @@ export const warriorData: ClassData = {
             12286
           ],
           "descriptions": [
-            "Increases the bleed damage done by your Rend ability by 15%.",
-            "Increases the bleed damage done by your Rend ability by 25%.",
-            "Increases the bleed damage done by your Rend ability by 35%."
+            "Increases the Bleed damage done by your Rend ability by 12%.",
+            "Increases the Bleed damage done by your Rend ability by 23%.",
+            "Increases the Bleed damage done by your Rend ability by 35%."
           ]
         },
         {
@@ -271,9 +271,9 @@ export const warriorData: ClassData = {
             12282
           ],
           "descriptions": [
-            "Reduces the cost of your Heroic Strike ability by 1 rage point.",
-            "Reduces the cost of your Heroic Strike ability by 2 rage points.",
-            "Reduces the cost of your Heroic Strike ability by 3 rage points."
+            "Reduces the cost of your Heroic Strike ability by 1 Rage.",
+            "Reduces the cost of your Heroic Strike ability by 2 Rage.",
+            "Reduces the cost of your Heroic Strike ability by 3 Rage."
           ]
         },
         {
@@ -288,11 +288,11 @@ export const warriorData: ClassData = {
             1289682
           ],
           "descriptions": [
-            "Your Main Hand melee attacks against enemies afflicted by your Rend have a 3% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
-            "Your Main Hand melee attacks against enemies afflicted by your Rend have a 6% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
-            "Your Main Hand melee attacks against enemies afflicted by your Rend have a 9% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
+            "Your Main Hand melee attacks against enemies afflicted by your Rend have a 4% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
+            "Your Main Hand melee attacks against enemies afflicted by your Rend have a 8% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
             "Your Main Hand melee attacks against enemies afflicted by your Rend have a 12% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
-            "Your Main Hand melee attacks against enemies afflicted by your Rend have a 15% chance to allow the use of your Overpower ability on the target. Lasts 6 sec."
+            "Your Main Hand melee attacks against enemies afflicted by your Rend have a 16% chance to allow the use of your Overpower ability on the target. Lasts 6 sec.",
+            "Your Main Hand melee attacks against enemies afflicted by your Rend have a 20% chance to allow the use of your Overpower ability on the target. Lasts 6 sec."
           ]
         },
         {
@@ -307,8 +307,8 @@ export const warriorData: ClassData = {
             12862
           ],
           "descriptions": [
-            "Decreases the casting time of your Slam ability by 0.5 sec.",
-            "Decreases the casting time of your Slam ability by 1 sec."
+            "Reduces the global cooldown and cast time of your Slam ability by 0.25 sec. In addition, Slam no longer interrupts or delays your melee swing and Slam's cooldown is reduced by 3.0 sec.",
+            "Reduces the global cooldown and cast time of your Slam ability by 0.50 sec. In addition, Slam no longer interrupts or delays your melee swing and Slam's cooldown is reduced by 3.0 sec."
           ]
         }
       ]
@@ -355,21 +355,21 @@ export const warriorData: ClassData = {
           "maxRank": 5,
           "minPointsRequired": 25,
           "iconName": "ability_ghoulfrenzy",
+          "requirements": {
+            "talentName": "Death Wish",
+            "talentRank": 1,
+            "talentId": 12328
+          },
           "spellIds": [
             12319
           ],
           "descriptions": [
-            "Increases your attack speed by 10% for your next 3 swings after dealing a melee critical strike.",
-            "Increases your attack speed by 15% for your next 3 swings after dealing a melee critical strike.",
-            "Increases your attack speed by 20% for your next 3 swings after dealing a melee critical strike.",
-            "Increases your attack speed by 25% for your next 3 swings after dealing a melee critical strike.",
-            "Increases your attack speed by 30% for your next 3 swings after dealing a melee critical strike."
-          ],
-          "requirements": {
-            "talentId": 12328,
-            "talentRank": 1
-          },
-          "talentLink": "Death Wish"
+            "Increases your melee attack speed by 5% for your next 3 swings after dealing a melee critical strike.",
+            "Increases your melee attack speed by 10% for your next 3 swings after dealing a melee critical strike.",
+            "Increases your melee attack speed by 15% for your next 3 swings after dealing a melee critical strike.",
+            "Increases your melee attack speed by 20% for your next 3 swings after dealing a melee critical strike.",
+            "Increases your melee attack speed by 25% for your next 3 swings after dealing a melee critical strike."
+          ]
         },
         {
           "id": 23881,
@@ -398,11 +398,11 @@ export const warriorData: ClassData = {
             12317
           ],
           "descriptions": [
-            "Gives you a 5% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.",
-            "Gives you a 10% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.",
-            "Gives you a 15% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.",
-            "Gives you a 20% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike.",
-            "Gives you a 25% melee damage bonus for 12 sec up to a maximum of 12 swings after being the victim of a critical strike."
+            "Gives you a 30% chance to deal 2% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+            "Gives you a 30% chance to deal 4% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+            "Gives you a 30% chance to deal 6% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+            "Gives you a 30% chance to deal 8% increased Physical damage for 12 sec after being the victim of any damaging attack.",
+            "Gives you a 30% chance to deal 10% increased Physical damage for 12 sec after being the victim of any damaging attack."
           ]
         },
         {
@@ -417,7 +417,7 @@ export const warriorData: ClassData = {
             20502
           ],
           "descriptions": [
-            "Reduces the Rage cost of your Execute ability by 2.",
+            "Reduces the Rage cost of your Execute ability by 3.",
             "Reduces the Rage cost of your Execute ability by 5."
           ]
         },
@@ -433,11 +433,11 @@ export const warriorData: ClassData = {
             23584
           ],
           "descriptions": [
-            "Increases the damage done by your offhand weapon by 5%.",
-            "Increases the damage done by your offhand weapon by 10%.",
-            "Increases the damage done by your offhand weapon by 15%.",
-            "Increases the damage done by your offhand weapon by 20%.",
-            "Increases the damage done by your offhand weapon by 25%."
+            "Increases the damage done by your off-hand weapon by 5% and the Rage generated by your off-hand attacks by 10%.",
+            "Increases the damage done by your off-hand weapon by 10% and the Rage generated by your off-hand attacks by 20%.",
+            "Increases the damage done by your off-hand weapon by 15% and the Rage generated by your off-hand attacks by 30%.",
+            "Increases the damage done by your off-hand weapon by 20% and the Rage generated by your off-hand attacks by 40%.",
+            "Increases the damage done by your off-hand weapon by 25% and the Rage generated by your off-hand attacks by 50%."
           ]
         },
         {
@@ -452,9 +452,9 @@ export const warriorData: ClassData = {
             16487
           ],
           "descriptions": [
-            "Regenerates 0% of your total Health over 6 sec after being the victim of a critical strike.",
-            "Regenerates 0% of your total Health over 6 sec after being the victim of a critical strike.",
-            "Regenerates 0% of your total Health over 6 sec after being the victim of a critical strike."
+            "Regenerates 1% of your total Health over 6 sec after being the victim of a critical strike or suffering more than 20% of your maximum Health from a single attack.",
+            "Regenerates 2% of your total Health over 6 sec after being the victim of a critical strike or suffering more than 20% of your maximum Health from a single attack.",
+            "Regenerates 3% of your total Health over 6 sec after being the victim of a critical strike or suffering more than 20% of your maximum Health from a single attack."
           ]
         },
         {
@@ -484,11 +484,11 @@ export const warriorData: ClassData = {
             12322
           ],
           "descriptions": [
-            "Gives you a 8% chance to generate an additional Rage point when you deal melee damage with a weapon.",
-            "Gives you a 16% chance to generate an additional Rage point when you deal melee damage with a weapon.",
-            "Gives you a 24% chance to generate an additional Rage point when you deal melee damage with a weapon.",
-            "Gives you a 32% chance to generate an additional Rage point when you deal melee damage with a weapon.",
-            "Gives you a 40% chance to generate an additional Rage point when you deal melee damage with a weapon."
+            "Gives you a 12% chance to generate 1 additional Rage when you deal melee damage with a weapon.",
+            "Gives you a 24% chance to generate 1 additional Rage when you deal melee damage with a weapon.",
+            "Gives you a 36% chance to generate 1 additional Rage when you deal melee damage with a weapon.",
+            "Gives you a 48% chance to generate 1 additional Rage when you deal melee damage with a weapon.",
+            "Gives you a 60% chance to generate 1 additional Rage when you deal melee damage with a weapon."
           ]
         },
         {
@@ -503,11 +503,11 @@ export const warriorData: ClassData = {
             12321
           ],
           "descriptions": [
-            "Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by 10%.",
-            "Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by 20%.",
-            "Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by 30%.",
-            "Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by 40%.",
-            "Increases the area of effect and duration of your Battle Shout and Demoralizing Shout by 50%."
+            "Increases the area of effect of your Shouts by 10% and reduces their Rage cost by 5%.",
+            "Increases the area of effect of your Shouts by 20% and reduces their Rage cost by 10%.",
+            "Increases the area of effect of your Shouts by 30% and reduces their Rage cost by 15%.",
+            "Increases the area of effect of your Shouts by 40% and reduces their Rage cost by 20%.",
+            "Increases the area of effect of your Shouts by 50% and reduces their Rage cost by 25%."
           ]
         },
         {
@@ -522,11 +522,11 @@ export const warriorData: ClassData = {
             12320
           ],
           "descriptions": [
-            "Increases your chance to get a critical strike with melee weapons by 1%.",
-            "Increases your chance to get a critical strike with melee weapons by 2%.",
-            "Increases your chance to get a critical strike with melee weapons by 3%.",
-            "Increases your chance to get a critical strike with melee weapons by 4%.",
-            "Increases your chance to get a critical strike with melee weapons by 5%."
+            "Improves your chance to get a critical strike with melee attacks by 1%.",
+            "Improves your chance to get a critical strike with melee attacks by 2%.",
+            "Improves your chance to get a critical strike with melee attacks by 3%.",
+            "Improves your chance to get a critical strike with melee attacks by 4%.",
+            "Improves your chance to get a critical strike with melee attacks by 5%."
           ]
         },
         {
@@ -541,9 +541,9 @@ export const warriorData: ClassData = {
             1323963
           ],
           "descriptions": [
-            "Increases your chance to hit with off-hand attacks by 10%.",
-            "Increases your chance to hit with off-hand attacks by 20%.",
-            "Increases your chance to hit with off-hand attacks by 30%."
+            "Increases your chance to hit with off-hand attacks by 4%.",
+            "Increases your chance to hit with off-hand attacks by 7%.",
+            "Increases your chance to hit with off-hand attacks by 10%."
           ]
         },
         {
@@ -573,8 +573,8 @@ export const warriorData: ClassData = {
             20500
           ],
           "descriptions": [
-            "The Berserker Rage ability will generate 5 rage when used.",
-            "The Berserker Rage ability will generate 10 rage when used."
+            "Your Berserker Rage ability will instantly generate 5 Rage and has a 50% chance to remove all movement impairing effects when activated.",
+            "Your Berserker Rage ability will instantly generate 10 Rage and has a 100% chance to remove all movement impairing effects when activated."
           ]
         },
         {
@@ -589,11 +589,11 @@ export const warriorData: ClassData = {
             1323964
           ],
           "descriptions": [
-            "Increases the time before your Rage begins to decay after leaving combat by 0 sec.",
-            "Increases the time before your Rage begins to decay after leaving combat by 0 sec.",
-            "Increases the time before your Rage begins to decay after leaving combat by 0 sec.",
-            "Increases the time before your Rage begins to decay after leaving combat by 0 sec.",
-            "Increases the time before your Rage begins to decay after leaving combat by 0 sec."
+            "Increases the time before your Rage begins to decay after leaving combat by 2 sec.",
+            "Increases the time before your Rage begins to decay after leaving combat by 4 sec.",
+            "Increases the time before your Rage begins to decay after leaving combat by 6 sec.",
+            "Increases the time before your Rage begins to decay after leaving combat by 8 sec.",
+            "Increases the time before your Rage begins to decay after leaving combat by 10 sec."
           ]
         },
         {
@@ -604,18 +604,18 @@ export const warriorData: ClassData = {
           "maxRank": 2,
           "minPointsRequired": 25,
           "iconName": "racial_troll_berserk",
+          "requirements": {
+            "talentName": "Enrage",
+            "talentRank": 5,
+            "talentId": 12317
+          },
           "spellIds": [
             1323967
           ],
           "descriptions": [
-            "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 1% of your maximum Health.",
-            "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 2% of your maximum Health."
-          ],
-          "requirements": {
-            "talentId": 12317,
-            "talentRank": 5
-          },
-          "talentLink": "Enrage"
+            "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 0.5% of your maximum Health.",
+            "Your Enrage, Berserker Rage, Bloodrage, Death Wish, and Bloodthirst abilities cause your next 3 melee attacks to restore 1.0% of your maximum Health."
+          ]
         }
       ]
     },
@@ -630,17 +630,17 @@ export const warriorData: ClassData = {
           "maxRank": 1,
           "minPointsRequired": 30,
           "iconName": "inv_shield_05",
+          "requirements": {
+            "talentName": "Concussion Blow",
+            "talentRank": 1,
+            "talentId": 12809
+          },
           "spellIds": [
             23922
           ],
           "descriptions": [
             "Slam the target with your shield, causing 421 to 439 damage, increased by your Block Value, and has a 50% chance of dispelling 1 magic effect on the target. Causes a very high amount of threat."
-          ],
-          "requirements": {
-            "talentId": 12809,
-            "talentRank": 1
-          },
-          "talentLink": "Concussion Blow"
+          ]
         },
         {
           "id": 29787,
@@ -654,9 +654,9 @@ export const warriorData: ClassData = {
             29787
           ],
           "descriptions": [
-            "Reduces the rage cost of all your offensive abilities by 1.",
-            "Reduces the rage cost of all your offensive abilities by 2.",
-            "Reduces the rage cost of all your offensive abilities by 3."
+            "Reduces the Rage cost of your offensive abilities by 1.",
+            "Reduces the Rage cost of your offensive abilities by 2.",
+            "Reduces the Rage cost of your offensive abilities by 3."
           ]
         },
         {
@@ -690,8 +690,8 @@ export const warriorData: ClassData = {
             12311
           ],
           "descriptions": [
-            "Gives your Shield Bash ability a 50% chance to silence the target for 3 sec.",
-            "Gives your Shield Bash ability a 100% chance to silence the target for 3 sec."
+            "Gives your Shield Bash ability a 50% chance to Silence the target for 3 sec.",
+            "Gives your Shield Bash ability a 100% chance to Silence the target for 3 sec."
           ]
         },
         {
@@ -706,8 +706,8 @@ export const warriorData: ClassData = {
             12312
           ],
           "descriptions": [
-            "Increases the effect duration of your Shield Wall ability by 3 secs.",
-            "Increases the effect duration of your Shield Wall ability by 5 secs."
+            "Reduces the cooldown of your Shield Wall ability by 5.5 min.",
+            "Reduces the cooldown of your Shield Wall ability by 11.0 min."
           ]
         },
         {
@@ -752,9 +752,9 @@ export const warriorData: ClassData = {
             12313
           ],
           "descriptions": [
-            "Increases the duration of your Disarm ability by 1 secs.",
-            "Increases the duration of your Disarm ability by 2 secs.",
-            "Increases the duration of your Disarm ability by 3 secs."
+            "Reduces the cooldown of your Disarm ability by 7 secs.",
+            "Reduces the cooldown of your Disarm ability by 13 secs.",
+            "Reduces the cooldown of your Disarm ability by 20 secs."
           ]
         },
         {
@@ -769,9 +769,9 @@ export const warriorData: ClassData = {
             12308
           ],
           "descriptions": [
-            "Reduces the cost of your Sunder Armor ability by 1 rage point.",
-            "Reduces the cost of your Sunder Armor ability by 2 rage points.",
-            "Reduces the cost of your Sunder Armor ability by 3 rage points."
+            "Reduces the Rage cost of your Sunder Armor ability by 1.",
+            "Reduces the Rage cost of your Sunder Armor ability by 2.",
+            "Reduces the Rage cost of your Sunder Armor ability by 3."
           ]
         },
         {
@@ -786,9 +786,9 @@ export const warriorData: ClassData = {
             12797
           ],
           "descriptions": [
-            "Gives your Revenge ability a 15% chance to stun the target for 3 sec.",
-            "Gives your Revenge ability a 30% chance to stun the target for 3 sec.",
-            "Gives your Revenge ability a 45% chance to stun the target for 3 sec."
+            "Increases damage dealt by your Revenge ability by 20%.",
+            "Increases damage dealt by your Revenge ability by 40%.",
+            "Increases damage dealt by your Revenge ability by 60%."
           ]
         },
         {
@@ -814,18 +814,18 @@ export const warriorData: ClassData = {
           "maxRank": 2,
           "minPointsRequired": 10,
           "iconName": "ability_warrior_shieldguard",
+          "requirements": {
+            "talentName": "Shield Specialization",
+            "talentRank": 5,
+            "talentId": 12298
+          },
           "spellIds": [
             1310316
           ],
           "descriptions": [
-            "Grants you a 0% chance to generate 5 Rage when you Dodge or Parry while a shield is equipped.",
-            "Grants you a 0% chance to generate 5 Rage when you Dodge or Parry while a shield is equipped."
-          ],
-          "requirements": {
-            "talentId": 12298,
-            "talentRank": 5
-          },
-          "talentLink": "Shield Specialization"
+            "Grants you a 50% chance to generate 5 Rage when you Dodge or Parry while a shield is equipped.",
+            "Grants you a 100% chance to generate 5 Rage when you Dodge or Parry while a shield is equipped."
+          ]
         },
         {
           "id": 12287,
@@ -839,9 +839,9 @@ export const warriorData: ClassData = {
             12287
           ],
           "descriptions": [
-            "Reduces the cost of your Thunder Clap ability by 1 rage point.",
-            "Reduces the cost of your Thunder Clap ability by 2 rage points.",
-            "Reduces the cost of your Thunder Clap ability by 4 rage points."
+            "Reduces the Rage cost of your Thunder Clap ability by 2.",
+            "Reduces the Rage cost of your Thunder Clap ability by 4.",
+            "Reduces the Rage cost of your Thunder Clap ability by 6."
           ]
         },
         {
@@ -856,8 +856,8 @@ export const warriorData: ClassData = {
             12301
           ],
           "descriptions": [
-            "Increases the instant Rage generated by your Bloodrage ability by 2.",
-            "Increases the instant Rage generated by your Bloodrage ability by 5."
+            "Increases all the Rage generated by your Bloodrage ability by 25%.",
+            "Increases all the Rage generated by your Bloodrage ability by 50%."
           ]
         },
         {
@@ -872,11 +872,11 @@ export const warriorData: ClassData = {
             12297
           ],
           "descriptions": [
-            "Increases your Defense skill by 2.",
-            "Increases your Defense skill by 4.",
-            "Increases your Defense skill by 6.",
-            "Increases your Defense skill by 8.",
-            "Increases your Defense skill by 10."
+            "Increases your Defense Skill by 4.",
+            "Increases your Defense Skill by 8.",
+            "Increases your Defense Skill by 12.",
+            "Increases your Defense Skill by 16.",
+            "Increases your Defense Skill by 20."
           ]
         },
         {
@@ -891,11 +891,11 @@ export const warriorData: ClassData = {
             12298
           ],
           "descriptions": [
-            "Increases your chance to block attacks with a shield by 1% and has a 20% chance to generate 1 rage when a block occurs.",
-            "Increases your chance to block attacks with a shield by 2% and has a 40% chance to generate 1 rage when a block occurs.",
-            "Increases your chance to block attacks with a shield by 3% and has a 60% chance to generate 1 rage when a block occurs.",
-            "Increases your chance to block attacks with a shield by 4% and has a 80% chance to generate 1 rage when a block occurs.",
-            "Increases your chance to block attacks with a shield by 5% and has a 100% chance to generate 1 rage when a block occurs."
+            "Increases your chance to Block attacks with your shield by 1% and grants you a 20% chance to generate 5 Rage when you Block.",
+            "Increases your chance to Block attacks with your shield by 2% and grants you a 40% chance to generate 5 Rage when you Block.",
+            "Increases your chance to Block attacks with your shield by 3% and grants you a 60% chance to generate 5 Rage when you Block.",
+            "Increases your chance to Block attacks with your shield by 4% and grants you a 80% chance to generate 5 Rage when you Block.",
+            "Increases your chance to Block attacks with your shield by 5% and grants you a 100% chance to generate 5 Rage when you Block."
           ]
         },
         {
@@ -910,9 +910,9 @@ export const warriorData: ClassData = {
             12792
           ],
           "descriptions": [
-            "Increases the threat generated by your attacks by 5% while in Defensive Stance and increases your expertise by 2.",
-            "Increases the threat generated by your attacks by 10% while in Defensive Stance and increases your expertise by 4.",
-            "Increases the threat generated by your attacks by 15% while in Defensive Stance and increases your expertise by 6."
+            "Increases all threat generated in Defensive stance by an additional 5% while a shield is equipped.",
+            "Increases all threat generated in Defensive stance by an additional 10% while a shield is equipped.",
+            "Increases all threat generated in Defensive stance by an additional 15% while a shield is equipped."
           ]
         },
         {
@@ -927,11 +927,11 @@ export const warriorData: ClassData = {
             12962
           ],
           "descriptions": [
-            "Increases your chance to resist Stun and Charm effects by an additional 3%.",
-            "Increases your chance to resist Stun and Charm effects by an additional 6%.",
-            "Increases your chance to resist Stun and Charm effects by an additional 9%.",
-            "Increases your chance to resist Stun and Charm effects by an additional 12%.",
-            "Increases your chance to resist Stun and Charm effects by an additional 15%."
+            "Reduces the duration of Stun and Fear effects inflicted on you by 3%.",
+            "Reduces the duration of Stun and Fear effects inflicted on you by 6%.",
+            "Reduces the duration of Stun and Fear effects inflicted on you by 9%.",
+            "Reduces the duration of Stun and Fear effects inflicted on you by 12%.",
+            "Reduces the duration of Stun and Fear effects inflicted on you by 15%."
           ]
         }
       ]

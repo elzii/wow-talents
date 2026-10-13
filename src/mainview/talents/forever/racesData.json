@@ -1,0 +1,312 @@
+{
+  "Human": {
+    "id": "1-Human",
+    "name": "Human",
+    "iconName": "race_human_male",
+    "racials": [
+      {
+        "id": 20600,
+        "name": "Perception",
+        "iconName": "spell_nature_sleep",
+        "description": "Dramatically increases stealth detection for 20 sec."
+      },
+      {
+        "id": 20597,
+        "name": "Sword Specialization",
+        "iconName": "ability_meleedamage",
+        "description": "Increases your critical strike chance with all spells and attacks by 2% while you have a sword or two-handed sword equipped."
+      },
+      {
+        "id": 20598,
+        "name": "The Human Spirit",
+        "iconName": "inv_enchant_shardbrilliantsmall",
+        "description": "Spirit increased by 5%."
+      },
+      {
+        "id": 1259718,
+        "name": "Will to Survive",
+        "iconName": "spell_shadow_charm",
+        "description": "Instantly removes all Stun effects."
+      }
+    ]
+  },
+  "Gnome": {
+    "id": "7-Gnome",
+    "name": "Gnome",
+    "iconName": "race_gnome_male",
+    "racials": [
+      {
+        "id": 20593,
+        "name": "Engineering Specialization",
+        "iconName": "inv_misc_gear_01",
+        "description": "Your gnomish ingenuity reduces the rate of engineering devices failing or backfiring when you use them by 20%."
+      },
+      {
+        "id": 20589,
+        "name": "Escape Artist",
+        "iconName": "ability_rogue_trip",
+        "description": "Instantly escape the effects of any movement impairing effect and gain immunity to those effects for 3 sec."
+      },
+      {
+        "id": 1259813,
+        "name": "Eureka!",
+        "iconName": "inv_gnometoy",
+        "description": "Your next 3 non-periodic damaging abilities have their Rage cost reduced by 10% and deal 10% more damage."
+      },
+      {
+        "id": 1259802,
+        "name": "Expansive Mind",
+        "iconName": "inv_enchant_essenceeternallarge",
+        "description": "Maximum Rage increased by 5%."
+      }
+    ]
+  },
+  "Night Elf": {
+    "id": "4-Night Elf",
+    "name": "Night Elf",
+    "iconName": "race_nightelf_male",
+    "racials": [
+      {
+        "id": 1259799,
+        "name": "Elune's Light",
+        "iconName": "spell_nature_moonglow",
+        "description": "Increases your critical strike chance with all spells and attacks by 10% for 15 sec."
+      },
+      {
+        "id": 20582,
+        "name": "Quickness",
+        "iconName": "ability_racial_shadowmeld",
+        "description": "Dodge chance increased by 1% and movement speed increased by 2%. Night Elf Rogues and Druids are harder to detect in Stealth as if they were 1 level higher."
+      },
+      {
+        "id": 20580,
+        "name": "Shadowmeld",
+        "iconName": "ability_ambush",
+        "description": "Activate to slip into the shadows, reducing the chance for enemies to detect your presence. Lasts until cancelled or upon moving. Using this ability in combat discourages enemies from attacking you, but increases the cooldown to 2 min."
+      },
+      {
+        "id": 20585,
+        "name": "Wisp Spirit",
+        "iconName": "spell_nature_wispsplode",
+        "description": "Transform into a wisp upon death, increasing movement speed by 75%."
+      }
+    ]
+  },
+  "High Order Skyborne": {
+    "id": "95-High Order Skyborne",
+    "name": "High Order Skyborne",
+    "iconName": "race_skyborne_male",
+    "racials": [
+      {
+        "id": 1259707,
+        "name": "Elemental Insight",
+        "iconName": "achievement_raidprimalist_windelemental",
+        "description": "Damage dealt versus Elementals increased by 5%."
+      },
+      {
+        "id": 1259705,
+        "name": "Read Ley Line",
+        "iconName": "ability_mage_incantersabsorbtion",
+        "description": "Attempt to tap into the power of a nearby ley line, increasing your Health and Mana regeneration by 100%. Lasts 15 sec if no ley line is nearby, and 15 min if one is found."
+      },
+      {
+        "id": 1259416,
+        "name": "Walk on Air",
+        "iconName": "inv_elemental_primal_air",
+        "description": "Glide downward through the air for 10 sec while controlling your direction of travel."
+      },
+      {
+        "id": 1259710,
+        "name": "Wind Blessed",
+        "iconName": "inv_misc_volatileair",
+        "description": "Increases your spellcasting, melee, and ranged Haste by 1%."
+      }
+    ]
+  },
+  "Orc": {
+    "id": "2-Orc",
+    "name": "Orc",
+    "iconName": "race_orc_male",
+    "racials": [
+      {
+        "id": 20574,
+        "name": "Axe Specialization",
+        "iconName": "inv_axe_02",
+        "description": "Increases your critical strike chance with all spells and abilities by 1% while you have an axe or a two-handed axe equipped."
+      },
+      {
+        "id": 20572,
+        "name": "Blood Fury",
+        "iconName": "racial_orc_berserkerstrength",
+        "description": "Increases Attack Power and Spell Power by 10% for 15 sec."
+      },
+      {
+        "id": 20573,
+        "name": "Hardiness",
+        "iconName": "inv_helmet_23",
+        "description": "Duration of Stun effects on you reduced by 20%."
+      },
+      {
+        "id": 1299026,
+        "name": "Shatter Curse",
+        "iconName": "spell_nature_removecurse",
+        "description": "Instantly removes and grants immunity to all Curses and Banes, and reduces all Magical damage taken by 15% for 8 sec."
+      }
+    ]
+  },
+  "Undead": {
+    "id": "5-Undead",
+    "name": "Undead",
+    "iconName": "race_scourge_male",
+    "racials": [
+      {
+        "id": 20577,
+        "name": "Cannibalize",
+        "iconName": "ability_racial_cannibalize",
+        "description": "When activated, regenerates 7% of total Health and 7% of total Mana every 2 sec for 10 sec. Only works on Humanoid or Undead corpses within 5 yds. Any movement, action, or damage taken while Cannibalizing will cancel the effect."
+      },
+      {
+        "id": 1260189,
+        "name": "Touch of the Grave",
+        "iconName": "spell_shadow_fingerofdeath",
+        "description": "Your spells and attacks have a 5% chance to drain Health from the target, up to 5% of your maximum Health."
+      },
+      {
+        "id": 5227,
+        "name": "Underwater Breathing",
+        "iconName": "spell_shadow_demonbreath",
+        "description": "Underwater breath lasts 300% longer than normal."
+      },
+      {
+        "id": 7744,
+        "name": "Will of the Forsaken",
+        "iconName": "spell_shadow_raisedead",
+        "description": "Instantly removes all Charm, Fear and Sleep effects."
+      }
+    ]
+  },
+  "Tauren": {
+    "id": "6-Tauren",
+    "name": "Tauren",
+    "iconName": "race_tauren_male",
+    "racials": [
+      {
+        "id": 20552,
+        "name": "Cultivation",
+        "iconName": "inv_misc_flower_01",
+        "description": "Cultivate a nearby herb, growing a duplicate you can harvest without requiring Herbalism skill. Each herb may only be cultivated once."
+      },
+      {
+        "id": 20550,
+        "name": "Endurance",
+        "iconName": "spell_nature_unyeildingstamina",
+        "description": "Total Health increased by 5% and chance to hit increased by 1%."
+      },
+      {
+        "id": 1259918,
+        "name": "Plainsrunning",
+        "iconName": "achievement_zone_barrens_01",
+        "description": "Gain 1% increased movement speed every 5 sec spent moving, up to a maximum of 30% increase. Taking damage or standing still will reduce this effect."
+      },
+      {
+        "id": 20549,
+        "name": "War Stomp",
+        "iconName": "ability_warstomp",
+        "description": "Stuns up to 5 enemies within 8 yds for 2 sec."
+      }
+    ]
+  },
+  "Troll": {
+    "id": "8-Troll",
+    "name": "Troll",
+    "iconName": "race_troll_male",
+    "racials": [
+      {
+        "id": 20557,
+        "name": "Beast Slaying",
+        "iconName": "inv_misc_pelt_bear_ruin_02",
+        "description": "Damage dealt versus Beasts increased by 5%."
+      },
+      {
+        "id": 20554,
+        "name": "Berserking",
+        "iconName": "racial_troll_berserk",
+        "description": "Increases your spellcasting and attack speed by 10% for 10 sec."
+      },
+      {
+        "id": 1260270,
+        "name": "Rapid Regeneration",
+        "iconName": "ability_racial_regeneratin",
+        "description": "Regenerate 50% of your maximum Health over 6 sec. Any movement, action, or damage taken will cancel the effect."
+      },
+      {
+        "id": 20555,
+        "name": "Regeneration",
+        "iconName": "spell_nature_regenerate",
+        "description": "Health regeneration rate increased by 10%. In addition, 10% of total Health regeneration will continue during combat."
+      }
+    ]
+  },
+  "Windshaper Skyborne": {
+    "id": "96-Windshaper Skyborne",
+    "name": "Windshaper Skyborne",
+    "iconName": "race_skyborne_male",
+    "racials": [
+      {
+        "id": 1259707,
+        "name": "Elemental Insight",
+        "iconName": "achievement_raidprimalist_windelemental",
+        "description": "Damage dealt versus Elementals increased by 5%."
+      },
+      {
+        "id": 1259686,
+        "name": "Skysight",
+        "iconName": "ability_skyreach_lens_flare",
+        "description": "Attempt to draw power from a convergence of elements and receive its blessing, increasing your movement and mounted movement speeds by 10%. Lasts 30 sec if no elemental convergence is nearby, and 15 min if one is found."
+      },
+      {
+        "id": 1259416,
+        "name": "Walk on Air",
+        "iconName": "inv_elemental_primal_air",
+        "description": "Glide downward through the air for 10 sec while controlling your direction of travel."
+      },
+      {
+        "id": 1259710,
+        "name": "Wind Blessed",
+        "iconName": "inv_misc_volatileair",
+        "description": "Increases your spellcasting, melee, and ranged Haste by 1%."
+      }
+    ]
+  },
+  "Dwarf": {
+    "id": "3-Dwarf",
+    "name": "Dwarf",
+    "iconName": "race_dwarf_male",
+    "racials": [
+      {
+        "id": 1259721,
+        "name": "Big Game Hunter",
+        "iconName": "inv_weapon_rifle_05",
+        "description": "Damage dealt versus Beasts increased by 5%."
+      },
+      {
+        "id": 2481,
+        "name": "Find Treasure",
+        "iconName": "racial_dwarf_findtreasure",
+        "description": "Allows the dwarf to sense nearby treasure, making it appear on the minimap.  Lasts until canceled."
+      },
+      {
+        "id": 1259719,
+        "name": "Mace Specialization",
+        "iconName": "inv_hammer_05",
+        "description": "Increases your critical strike chance with all spells and attacks by 1% while you have a mace or two-handed mace equipped."
+      },
+      {
+        "id": 20594,
+        "name": "Stoneform",
+        "iconName": "spell_shadow_unholystrength",
+        "description": "Instantly removes and grants immunity to all Bleed, Poison, and Disease effects, and reduces all Physical damage taken by 10% for 8 sec."
+      }
+    ]
+  }
+}

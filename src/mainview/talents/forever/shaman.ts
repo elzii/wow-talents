@@ -14,17 +14,17 @@ export const shamanData: ClassData = {
           "maxRank": 1,
           "minPointsRequired": 30,
           "iconName": "spell_shaman_lavaburst",
+          "requirements": {
+            "talentName": "Lightning Overload",
+            "talentRank": 3,
+            "talentId": 408438
+          },
           "spellIds": [
             408490
           ],
           "descriptions": [
-            "You hurl molten lava at the target, dealing <!--ppl40:48:164:90-->150 to 192 Fire damage. If your Flame Shock is on the target, Lava Burst deals 20% increased damage."
-          ],
-          "requirements": {
-            "talentId": 408438,
-            "talentRank": 3
-          },
-          "talentLink": "Lightning Overload"
+            "You hurl molten lava at the target, dealing 150 to 192 Fire damage. If your Flame Shock is on the target, Lava Burst deals 20% increased damage."
+          ]
         },
         {
           "id": 408438,
@@ -38,9 +38,9 @@ export const shamanData: ClassData = {
             408438
           ],
           "descriptions": [
-            "Gives your Lightning Bolt and Chain Lightning spells a 10% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
-            "Gives your Lightning Bolt and Chain Lightning spells a 20% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
-            "Gives your Lightning Bolt and Chain Lightning spells a 30% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
+            "Gives your Lightning Bolt and Chain Lightning spells a 3% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+            "Gives your Lightning Bolt and Chain Lightning spells a 7% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat.",
+            "Gives your Lightning Bolt and Chain Lightning spells a 10% chance to cast a second, similar spell on the same target at no additional cost that causes half damage and no threat."
           ]
         },
         {
@@ -70,7 +70,7 @@ export const shamanData: ClassData = {
             28999
           ],
           "descriptions": [
-            "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 6 yards, and increases the range of your Flame Shock spell by 15 yards.",
+            "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 3 yards, and increases the range of your Flame Shock spell by 8 yards.",
             "Increases the range of your Lightning Bolt, Chain Lightning, Fire Nova, and Lava Burst spells by 6 yards, and increases the range of your Flame Shock spell by 15 yards."
           ]
         },
@@ -82,17 +82,17 @@ export const shamanData: ClassData = {
           "maxRank": 1,
           "minPointsRequired": 15,
           "iconName": "spell_nature_callstorm",
+          "requirements": {
+            "talentName": "Elemental Alacrity",
+            "talentRank": 3,
+            "talentId": 16578
+          },
           "spellIds": [
             16120
           ],
           "descriptions": [
             "Increases the critical strike chance of your Lightning Bolt and Chain Lightning spells by 3%."
-          ],
-          "requirements": {
-            "talentId": 16578,
-            "talentRank": 3
-          },
-          "talentLink": "Elemental Alacrity"
+          ]
         },
         {
           "id": 29062,
@@ -106,9 +106,9 @@ export const shamanData: ClassData = {
             29062
           ],
           "descriptions": [
-            "Gives you a 33% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike.  The Focused Casting effect prevents you from losing casting time when taking damage.",
-            "Gives you a 66% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike.  The Focused Casting effect prevents you from losing casting time when taking damage.",
-            "Gives you a 100% chance to gain the Focused Casting effect that lasts for 6 sec after being the victim of a melee or ranged critical strike.  The Focused Casting effect prevents you from losing casting time when taking damage."
+            "Reduces the pushback suffered from damaging attacks while casting Lightning Bolt, Chain Lightning, and Lava Burst by 23%.",
+            "Reduces the pushback suffered from damaging attacks while casting Lightning Bolt, Chain Lightning, and Lava Burst by 47%.",
+            "Reduces the pushback suffered from damaging attacks while casting Lightning Bolt, Chain Lightning, and Lava Burst by 70%."
           ]
         },
         {
@@ -124,7 +124,7 @@ export const shamanData: ClassData = {
           ],
           "descriptions": [
             "Increases the damage done by your Fire Nova spell by 10% and reduces its cooldown by 2 sec.",
-            "Increases the damage done by your Fire Nova spell by 20% and reduces its cooldown by 2 sec."
+            "Increases the damage done by your Fire Nova spell by 20% and reduces its cooldown by 4 sec."
           ]
         },
         {
@@ -139,9 +139,9 @@ export const shamanData: ClassData = {
             16578
           ],
           "descriptions": [
-            "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.2 sec.",
-            "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.4 sec.",
-            "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.6 sec."
+            "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.17 sec.",
+            "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.33 sec.",
+            "Reduces the cast time of your Lightning Bolt, Chain Lightning, and Lava Burst spells by 0.50 sec."
           ]
         },
         {
@@ -152,6 +152,11 @@ export const shamanData: ClassData = {
           "maxRank": 5,
           "minPointsRequired": 25,
           "iconName": "spell_fire_volcano",
+          "requirements": {
+            "talentName": "Call of Thunder",
+            "talentRank": 1,
+            "talentId": 16120
+          },
           "spellIds": [
             16089
           ],
@@ -161,12 +166,7 @@ export const shamanData: ClassData = {
             "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 60%.",
             "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 80%.",
             "Increases the critical strike damage bonus of your Searing and Magma Totems and your Fire, Frost, and Nature spells by 100%."
-          ],
-          "requirements": {
-            "talentId": 16120,
-            "talentRank": 1
-          },
-          "talentLink": "Call of Thunder"
+          ]
         },
         {
           "id": 16040,
@@ -184,7 +184,7 @@ export const shamanData: ClassData = {
             "Reduces the cooldown of your Shock spells by 0.4 sec.",
             "Reduces the cooldown of your Shock spells by 0.6 sec.",
             "Reduces the cooldown of your Shock spells by 0.8 sec.",
-            "Reduces the cooldown of your Shock spells by 1 sec."
+            "Reduces the cooldown of your Shock spells by 1.0 sec."
           ]
         },
         {
@@ -214,9 +214,9 @@ export const shamanData: ClassData = {
             30160
           ],
           "descriptions": [
-            "Your offensive spell crits will increase your chance to get a critical strike with melee attacks by 3% for 10 sec.",
-            "Your offensive spell crits will increase your chance to get a critical strike with melee attacks by 6% for 10 sec.",
-            "Your offensive spell crits will increase your chance to get a critical strike with melee attacks by 9% for 10 sec."
+            "Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by 3% for 10 sec.",
+            "Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by 6% for 10 sec.",
+            "Your offensive spell critical strikes will increase your chance to get a critical strike with melee attacks by 9% for 10 sec."
           ]
         },
         {
@@ -231,9 +231,9 @@ export const shamanData: ClassData = {
             16038
           ],
           "descriptions": [
-            "Increases the damage done by your Fire Totems by 5%.",
-            "Increases the damage done by your Fire Totems by 10%.",
-            "Increases the damage done by your Fire Totems by 15%."
+            "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 5%.",
+            "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 10%.",
+            "Increases the damage done by your Fire Totems and by your Flame Shock, Fire Nova, and Lava Burst spells by 15%."
           ]
         },
         {
@@ -248,9 +248,9 @@ export const shamanData: ClassData = {
             28996
           ],
           "descriptions": [
-            "Reduces damage taken from Fire, Frost and Nature effects by 4%.",
-            "Reduces damage taken from Fire, Frost and Nature effects by 7%.",
-            "Reduces damage taken from Fire, Frost and Nature effects by 10%."
+            "Reduces damage taken from Fire, Frost, and Nature effects by 3%.",
+            "Reduces damage taken from Fire, Frost, and Nature effects by 7%.",
+            "Reduces damage taken from Fire, Frost, and Nature effects by 10%."
           ]
         },
         {
@@ -265,11 +265,11 @@ export const shamanData: ClassData = {
             16035
           ],
           "descriptions": [
-            "Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by 1%.",
-            "Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by 2%.",
-            "Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by 3%.",
-            "Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by 4%.",
-            "Increases the damage done by your Lightning Bolt, Chain Lightning and Shock spells by 5%."
+            "Increases the damage done by your Lightning Bolt, Chain Lightning, and Earth Shock spells by 1%.",
+            "Increases the damage done by your Lightning Bolt, Chain Lightning, and Earth Shock spells by 2%.",
+            "Increases the damage done by your Lightning Bolt, Chain Lightning, and Earth Shock spells by 3%.",
+            "Increases the damage done by your Lightning Bolt, Chain Lightning, and Earth Shock spells by 4%.",
+            "Increases the damage done by your Lightning Bolt, Chain Lightning, and Earth Shock spells by 5%."
           ]
         },
         {
@@ -284,11 +284,11 @@ export const shamanData: ClassData = {
             16039
           ],
           "descriptions": [
-            "Reduces the mana cost of your Shock, Lightning Bolt and Chain Lightning spells by 2%.",
-            "Reduces the mana cost of your Shock, Lightning Bolt and Chain Lightning spells by 4%.",
-            "Reduces the mana cost of your Shock, Lightning Bolt and Chain Lightning spells by 6%.",
-            "Reduces the mana cost of your Shock, Lightning Bolt and Chain Lightning spells by 8%.",
-            "Reduces the mana cost of your Shock, Lightning Bolt and Chain Lightning spells by 10%."
+            "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 2%.",
+            "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 4%.",
+            "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 6%.",
+            "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 8%.",
+            "Reduces the mana cost of your Shock, Lightning Bolt, Lava Burst, and Chain Lightning spells by 10%."
           ]
         }
       ]
@@ -304,17 +304,17 @@ export const shamanData: ClassData = {
           "maxRank": 1,
           "minPointsRequired": 30,
           "iconName": "spell_nature_bloodlust",
+          "requirements": {
+            "talentName": "Mental Quickness",
+            "talentRank": 2,
+            "talentId": 30812
+          },
           "spellIds": [
             425336
           ],
           "descriptions": [
             "Increases your attack speed by 30% for 25 sec."
-          ],
-          "requirements": {
-            "talentId": 30812,
-            "talentRank": 2
-          },
-          "talentLink": "Mental Quickness"
+          ]
         },
         {
           "id": 408498,
@@ -343,18 +343,18 @@ export const shamanData: ClassData = {
           "maxRank": 2,
           "minPointsRequired": 20,
           "iconName": "spell_shaman_improvedstormstrike",
+          "requirements": {
+            "talentName": "Stormstrike",
+            "talentRank": 1,
+            "talentId": 17364
+          },
           "spellIds": [
             1223031
           ],
           "descriptions": [
-            "When you Stormstrike, you have a 10% chance to gain 25% mana regeneration while casting spells for 15 sec, and Stormstrike's cooldown has a 10% chance to reset each time you Dodge or Parry.",
-            "When you Stormstrike, you have a 20% chance to gain 50% mana regeneration while casting spells for 15 sec, and Stormstrike's cooldown has a 20% chance to reset each time you Dodge or Parry."
-          ],
-          "requirements": {
-            "talentId": 17364,
-            "talentRank": 1
-          },
-          "talentLink": "Stormstrike"
+            "When you Stormstrike, you have a 50% chance to gain 50% mana regeneration while casting spells for 15 sec, and Stormstrike's cooldown has a 50% chance to reset each time you Dodge or Parry.",
+            "When you Stormstrike, you have a 100% chance to gain 50% mana regeneration while casting spells for 15 sec, and Stormstrike's cooldown has a 100% chance to reset each time you Dodge or Parry."
+          ]
         },
         {
           "id": 17364,
@@ -414,11 +414,11 @@ export const shamanData: ClassData = {
             16252
           ],
           "descriptions": [
-            "Increases your armor value from items by 2%.",
-            "Increases your armor value from items by 4%.",
-            "Increases your armor value from items by 6%.",
-            "Increases your armor value from items by 8%.",
-            "Increases your armor value from items by 10%."
+            "Increases your Stamina by 2%.",
+            "Increases your Stamina by 4%.",
+            "Increases your Stamina by 6%.",
+            "Increases your Stamina by 8%.",
+            "Increases your Stamina by 10%."
           ]
         },
         {
@@ -429,21 +429,21 @@ export const shamanData: ClassData = {
           "maxRank": 5,
           "minPointsRequired": 15,
           "iconName": "ability_ghoulfrenzy",
+          "requirements": {
+            "talentName": "Mental Dexterity",
+            "talentRank": 3,
+            "talentId": 415140
+          },
           "spellIds": [
             16256
           ],
           "descriptions": [
+            "Increases your attack speed by 5% for your next 3 swings after dealing a melee critical strike.",
             "Increases your attack speed by 10% for your next 3 swings after dealing a melee critical strike.",
             "Increases your attack speed by 15% for your next 3 swings after dealing a melee critical strike.",
             "Increases your attack speed by 20% for your next 3 swings after dealing a melee critical strike.",
-            "Increases your attack speed by 25% for your next 3 swings after dealing a melee critical strike.",
-            "Increases your attack speed by 30% for your next 3 swings after dealing a melee critical strike."
-          ],
-          "requirements": {
-            "talentId": 415140,
-            "talentRank": 3
-          },
-          "talentLink": "Mental Dexterity"
+            "Increases your attack speed by 25% for your next 3 swings after dealing a melee critical strike."
+          ]
         },
         {
           "id": 16254,
@@ -457,9 +457,9 @@ export const shamanData: ClassData = {
             16254
           ],
           "descriptions": [
-            "Increases your chance to dodge by an additional 1%.",
             "Increases your chance to dodge by an additional 2%.",
-            "Increases your chance to dodge by an additional 3%."
+            "Increases your chance to dodge by an additional 4%.",
+            "Increases your chance to dodge by an additional 6%."
           ]
         },
         {
@@ -490,7 +490,7 @@ export const shamanData: ClassData = {
           ],
           "descriptions": [
             "Increases the melee attack power bonus of your Rockbiter Weapon by 7%, your Windfury Weapon effect by 13% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 5%.",
-            "Increases the melee attack power bonus of your Rockbiter Weapon by 14%, your Windfury Weapon effect by 27% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 10%.",
+            "Increases the melee attack power bonus of your Rockbiter Weapon by 13%, your Windfury Weapon effect by 27% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 10%.",
             "Increases the melee attack power bonus of your Rockbiter Weapon by 20%, your Windfury Weapon effect by 40% and increases the damage caused by your Flametongue Weapon and Frostbrand Weapon by 15%."
           ]
         },
@@ -523,8 +523,8 @@ export const shamanData: ClassData = {
             16262
           ],
           "descriptions": [
-            "Reduces the cast time of your Ghost Wolf spell by 1 sec.",
-            "Reduces the cast time of your Ghost Wolf spell by 2 sec."
+            "Reduces the cast time of your Ghost Wolf spell by 1.0 sec, and Ghost Wolf may be used indoors.",
+            "Reduces the cast time of your Ghost Wolf spell by 3.0 sec, and Ghost Wolf may be used indoors."
           ]
         },
         {
@@ -539,11 +539,11 @@ export const shamanData: ClassData = {
             16255
           ],
           "descriptions": [
-            "Improves your chance to get a critical strike with your weapon attacks by 1%.",
-            "Improves your chance to get a critical strike with your weapon attacks by 2%.",
-            "Improves your chance to get a critical strike with your weapon attacks by 3%.",
-            "Improves your chance to get a critical strike with your weapon attacks by 4%.",
-            "Improves your chance to get a critical strike with your weapon attacks by 5%."
+            "Improves your chance to get a critical strike with all spells and attacks by 1%.",
+            "Improves your chance to get a critical strike with all spells and attacks by 2%.",
+            "Improves your chance to get a critical strike with all spells and attacks by 3%.",
+            "Improves your chance to get a critical strike with all spells and attacks by 4%.",
+            "Improves your chance to get a critical strike with all spells and attacks by 5%."
           ]
         },
         {
@@ -574,9 +574,9 @@ export const shamanData: ClassData = {
             415140
           ],
           "descriptions": [
-            "Increases your Attack Power by an amount equal to 100% of your Intellect.",
-            "Increases your Attack Power by an amount equal to 200% of your Intellect.",
-            "Increases your Attack Power by an amount equal to 300% of your Intellect."
+            "Increases your Attack Power by an amount equal to 33% of your Intellect.",
+            "Increases your Attack Power by an amount equal to 67% of your Intellect.",
+            "Increases your Attack Power by an amount equal to 100% of your Intellect."
           ]
         },
         {
@@ -591,11 +591,11 @@ export const shamanData: ClassData = {
             17485
           ],
           "descriptions": [
-            "Increases your maximum Mana by 1%.",
-            "Increases your maximum Mana by 2%.",
-            "Increases your maximum Mana by 3%.",
-            "Increases your maximum Mana by 4%.",
-            "Increases your maximum Mana by 5%."
+            "Increases your Intellect by 2%.",
+            "Increases your Intellect by 4%.",
+            "Increases your Intellect by 6%.",
+            "Increases your Intellect by 8%.",
+            "Increases your Intellect by 10%."
           ]
         },
         {
@@ -627,17 +627,17 @@ export const shamanData: ClassData = {
           "maxRank": 1,
           "minPointsRequired": 30,
           "iconName": "spell_nature_riptide",
+          "requirements": {
+            "talentName": "Healing Way",
+            "talentRank": 3,
+            "talentId": 29206
+          },
           "spellIds": [
             408521
           ],
           "descriptions": [
-            "Heals a friendly target for <!--ppl40:48:480:370-->486 to 534, an additional 445 over 15 sec, and increases the effectiveness of your Chain Heal casts directly on that target by 25%."
-          ],
-          "requirements": {
-            "talentId": 29206,
-            "talentRank": 3
-          },
-          "talentLink": "Healing Way"
+            "Heals a friendly target for 486 to 534, an additional 445 over 15 sec, and increases the effectiveness of your Chain Heal casts directly on that target by 25%."
+          ]
         },
         {
           "id": 16178,
@@ -685,9 +685,9 @@ export const shamanData: ClassData = {
             29206
           ],
           "descriptions": [
-            "Your Healing Wave spells have a 33% chance to increase the effect of subsequent Healing Wave spells on that target by 6% for 15 sec.  This effect will stack up to 15001 times.",
-            "Your Healing Wave spells have a 66% chance to increase the effect of subsequent Healing Wave spells on that target by 6% for 15 sec.  This effect will stack up to 15001 times.",
-            "Your Healing Wave spells have a 100% chance to increase the effect of subsequent Healing Wave spells on that target by 6% for 15 sec.  This effect will stack up to 15001 times."
+            "Increases the amount healed by your Healing Wave spell by 8%.",
+            "Increases the amount healed by your Healing Wave spell by 17%.",
+            "Increases the amount healed by your Healing Wave spell by 25%."
           ]
         },
         {
@@ -717,11 +717,11 @@ export const shamanData: ClassData = {
             16173
           ],
           "descriptions": [
-            "Reduces the Mana cost of your totems by 5%.",
-            "Reduces the Mana cost of your totems by 10%.",
-            "Reduces the Mana cost of your totems by 15%.",
-            "Reduces the Mana cost of your totems by 20%.",
-            "Reduces the Mana cost of your totems by 25%."
+            "Reduces the Mana cost of your totems and any spells that summon or move them by 5%.",
+            "Reduces the Mana cost of your totems and any spells that summon or move them by 10%.",
+            "Reduces the Mana cost of your totems and any spells that summon or move them by 15%.",
+            "Reduces the Mana cost of your totems and any spells that summon or move them by 20%.",
+            "Reduces the Mana cost of your totems and any spells that summon or move them by 25%."
           ]
         },
         {
@@ -736,11 +736,11 @@ export const shamanData: ClassData = {
             16187
           ],
           "descriptions": [
-            "Increases the effect of your Mana Spring and Healing Stream Totems by 5%.",
-            "Increases the effect of your Mana Spring and Healing Stream Totems by 10%.",
-            "Increases the effect of your Mana Spring and Healing Stream Totems by 15%.",
-            "Increases the effect of your Mana Spring and Healing Stream Totems by 20%.",
-            "Increases the effect of your Mana Spring and Healing Stream Totems by 25%."
+            "Increases the effect of your Mana Spring Totem by 5% and increases the effect of your Healing Stream Totem by 10%.",
+            "Increases the effect of your Mana Spring Totem by 10% and increases the effect of your Healing Stream Totem by 20%.",
+            "Increases the effect of your Mana Spring Totem by 15% and increases the effect of your Healing Stream Totem by 30%.",
+            "Increases the effect of your Mana Spring Totem by 20% and increases the effect of your Healing Stream Totem by 40%.",
+            "Increases the effect of your Mana Spring Totem by 25% and increases the effect of your Healing Stream Totem by 50%."
           ]
         },
         {
@@ -756,7 +756,7 @@ export const shamanData: ClassData = {
           ],
           "descriptions": [
             "Increases your target's armor value by 8% for 15 sec after getting a critical effect from one of your healing spells.",
-            "Increases your target's armor value by 16% for 15 sec after getting a critical effect from one of your healing spells.",
+            "Increases your target's armor value by 17% for 15 sec after getting a critical effect from one of your healing spells.",
             "Increases your target's armor value by 25% for 15 sec after getting a critical effect from one of your healing spells."
           ]
         },
@@ -772,7 +772,7 @@ export const shamanData: ClassData = {
             408510
           ],
           "descriptions": [
-            "The caster is surrounded by 3 globes of water. When a spell, melee, or ranged attack hits the caster or when one of the caster's healing spells gets a critical result, 2% of maximum mana is restored to the caster, expending one water globe. Only one globe will activate every few seconds.  Lasts 10 min.<br /><br />Only one Elemental Shield can be active on the Shaman at any one time."
+            "The caster is surrounded by 3 globes of water. When a spell, melee, or ranged attack hits the caster or when one of the caster's healing spells gets a critical result, 2% of maximum mana is restored to the caster, expending one water globe. Only one globe will activate every few seconds.  Lasts 10 min.  Only one Elemental Shield can be active on the Shaman at any one time."
           ]
         },
         {
@@ -787,9 +787,9 @@ export const shamanData: ClassData = {
             16181
           ],
           "descriptions": [
-            "Gives you a 70% chance to avoid interruption caused by damage while casting any healing spell.",
-            "Gives you a 140% chance to avoid interruption caused by damage while casting any healing spell.",
-            "Gives you a 210% chance to avoid interruption caused by damage while casting any healing spell."
+            "Gives you a 23% chance to avoid interruption caused by damage while casting any healing spell.",
+            "Gives you a 47% chance to avoid interruption caused by damage while casting any healing spell.",
+            "Gives you a 70% chance to avoid interruption caused by damage while casting any healing spell."
           ]
         },
         {
@@ -804,9 +804,9 @@ export const shamanData: ClassData = {
             1223033
           ],
           "descriptions": [
-            "Allows 5% of your Mana regeneration to continue while casting.",
-            "Allows 10% of your Mana regeneration to continue while casting.",
-            "Allows 15% of your Mana regeneration to continue while casting."
+            "Allows 17% of your Mana regeneration to continue while casting.",
+            "Allows 33% of your Mana regeneration to continue while casting.",
+            "Allows 50% of your Mana regeneration to continue while casting."
           ]
         },
         {
@@ -821,11 +821,11 @@ export const shamanData: ClassData = {
             16179
           ],
           "descriptions": [
-            "Reduces the Mana cost of your healing spells by 1%.",
-            "Reduces the Mana cost of your healing spells by 2%.",
-            "Reduces the Mana cost of your healing spells by 3%.",
-            "Reduces the Mana cost of your healing spells by 4%.",
-            "Reduces the Mana cost of your healing spells by 5%."
+            "Reduces the Mana cost of your healing spells by 1% and improves your chance to hit by 1%.",
+            "Reduces the Mana cost of your healing spells by 2% and improves your chance to hit by 2%.",
+            "Reduces the Mana cost of your healing spells by 3% and improves your chance to hit by 3%.",
+            "Reduces the Mana cost of your healing spells by 4% and improves your chance to hit by 4%.",
+            "Reduces the Mana cost of your healing spells by 5% and improves your chance to hit by 5%."
           ]
         },
         {
@@ -840,9 +840,9 @@ export const shamanData: ClassData = {
             29187
           ],
           "descriptions": [
+            "Reduces the threat generated by your spells by 5%.",
             "Reduces the threat generated by your spells by 10%.",
-            "Reduces the threat generated by your spells by 20%.",
-            "Reduces the threat generated by your spells by 30%."
+            "Reduces the threat generated by your spells by 15%."
           ]
         },
         {
@@ -857,8 +857,8 @@ export const shamanData: ClassData = {
             16184
           ],
           "descriptions": [
-            "Reduces the cooldown of your Reincarnation spell by 10 min and increases the amount of health and mana you reincarnate with by an additional 10%.",
-            "Reduces the cooldown of your Reincarnation spell by 20 min and increases the amount of health and mana you reincarnate with by an additional 20%."
+            "Reduces the cooldown of your Reincarnation spell by 10 min, increases your maximum health by 2%, and increases the amount of health and Mana you reincarnate with by an additional 10%.",
+            "Reduces the cooldown of your Reincarnation spell by 20 min, increases your maximum health by 4%, and increases the amount of health and Mana you reincarnate with by an additional 20%."
           ]
         },
         {
@@ -873,11 +873,11 @@ export const shamanData: ClassData = {
             16194
           ],
           "descriptions": [
-            "Increases the critical effect chance of your healing and lightning spells by 1%.",
-            "Increases the critical effect chance of your healing and lightning spells by 2%.",
-            "Increases the critical effect chance of your healing and lightning spells by 3%.",
-            "Increases the critical effect chance of your healing and lightning spells by 4%.",
-            "Increases the critical effect chance of your healing and lightning spells by 5%."
+            "Increases the critical effect chance of your healing spells by 1%.",
+            "Increases the critical effect chance of your healing spells by 2%.",
+            "Increases the critical effect chance of your healing spells by 3%.",
+            "Increases the critical effect chance of your healing spells by 4%.",
+            "Increases the critical effect chance of your healing spells by 5%."
           ]
         },
         {
