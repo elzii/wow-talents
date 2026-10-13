@@ -190,3 +190,19 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
 - [x] Generate `update.json` and bsdiff delta patches during CI workflow.
 - [x] Add in-app update notification and prompt for seamless user downloads and app restart.
 - [x] Verify release pipeline and OTA manifest deployment with automated patch bump (`v1.0.3`).
+- [x] Fix ApplicationMenu event listeners, add native About dialog with dynamic semver, and verify live binary delta OTA patching (`v1.0.4`).
+
+### 16. macOS Native About Dialog, Menu Action Fix & Verified OTA Delta Patch (`v1.0.4`)
+- **Native About Dialog with Live Semver (`src/bun/index.ts`)**:
+  - Implemented dynamic version resolution in `showAboutDialog()` fetching `Updater.getLocalInfo().version` (with fallback to `version.json`).
+  - Added native informational Cocoa dialog displaying the active semver number (`Version: v1.0.4`) and application summary.
+  - Added Help menu with About and Check for Updates submenu items.
+- **ApplicationMenu Event Listener Fix (`src/bun/index.ts`)**:
+  - Resolved an event naming issue where `ApplicationMenu.on("action", ...)` failed to catch menu selections; attached `ApplicationMenu.on("application-menu-clicked", ...)` to properly dispatch "about" and "checkForUpdates".
+- **Enhanced Updater Diagnostics & Error Alerting (`src/bun/index.ts`)**:
+  - Added runtime logging for local version/hash and remote update status.
+  - Wrapped `downloadUpdate()` and `applyUpdate()` in error handling with native Cocoa alert fallback to prevent silent failures.
+- **End-to-End OTA Binary Delta Patch Verified (`v1.0.4`)**:
+  - Released `v1.0.4` via automated release script.
+  - Hutch generated a **33.55 KiB binary delta patch** (`stable-macos-arm64-1okk7sbbomztf-to-...patch`) between `v1.0.3` and `v1.0.4`.
+  - In-app updater successfully downloaded the lightweight delta, applied the update in-place, restarted, and confirmed the new version `v1.0.4` in the native About dialog.
