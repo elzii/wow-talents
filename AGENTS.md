@@ -130,6 +130,14 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
   - Dynamically renders all 4 racial traits for the selected race with authentic spell icons, trait names, and full ability descriptions.
   - Downloaded and synchronized all 46 racial ability icons into `src/mainview/assets/icons/all/` supporting both `.jpg` and `.png` extensions.
 
+### 12. Custom Slot Selection Fix & Live Tooltip Rank Updating
+- **Custom Ability Slot Application Fix (`App.tsx`)**:
+  - Fixed an issue where selecting an ability from `TalentPickerModal` did not visually replace the slot because the template's `isUnchosen: true` flag was preserved during replacement.
+  - Added explicit `isUnchosen: false` flag assignment in `handleReplaceCustomTalent`, enabling immediate slot update, icon display, hover tooltip, and point allocation.
+- **Real-Time Live Tooltip Updates on Point Allocation (`App.tsx`)**:
+  - Fixed an issue where tooltip text did not reflect rank increments or tree point changes without mouseout/hovering again.
+  - Made `<Tooltip>` derive its active `rank` directly and reactively from `points[tooltipData.talent.id] || 0` and compute dynamic `treePoints`, enabling real-time tooltip text, rank, and next-rank updates as points are clicked.
+
 ---
 
 ## TODO / Roadmap

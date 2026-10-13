@@ -247,7 +247,8 @@ export const App: React.FC = () => {
               spellIds: newTalent.spellIds || [newTalent.id],
               descriptions: newTalent.descriptions || [],
               sourceClass: newTalent.sourceClass,
-              sourceTree: newTalent.sourceTree
+              sourceTree: newTalent.sourceTree,
+              isUnchosen: false
             };
           }
           return t;
@@ -529,18 +530,28 @@ export const App: React.FC = () => {
       )}
 
       {/* Tooltip */}
-      {tooltipData && (
-        <Tooltip
-          classData={currentClassData}
-          talent={tooltipData.talent}
-          rank={tooltipData.rank}
-          position={tooltipData.position}
-          treeName={tooltipData.treeName}
-          treePoints={tooltipData.treePoints}
-          isCustomClass={selectedClass === "Custom"}
-          totalPoints={totalPoints}
-        />
-      )}
+      {tooltipData && (() => {
+        const activeRank = points[tooltipData.talent.id] || 0;
+        const matchingTree = currentClassData?.talentTrees?.find(
+          (t) => t.name === tooltipData.treeName
+        );
+        const dynamicTreePoints = matchingTree
+          ? calculateTreePoints(matchingTree, points)
+          : tooltipData.treePoints || 0;
+
+        return (
+          <Tooltip
+            classData={currentClassData}
+            talent={tooltipData.talent}
+            rank={activeRank}
+            position={tooltipData.position}
+            treeName={tooltipData.treeName}
+            treePoints={dynamicTreePoints}
+            isCustomClass={selectedClass === "Custom"}
+            totalPoints={totalPoints}
+          />
+        );
+      })()}
 
       {/* Custom Ability Picker Modal */}
       <TalentPickerModal

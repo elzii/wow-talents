@@ -38,6 +38,10 @@ This project is a high-performance desktop World of Warcraft Talent Calculator s
 - Main calculator layout matches `LegacyCalculator`: wrapped inside an inset container (`bg-neutral-950/90 border border-gray-800 rounded-2xl shadow-2xl p-6`).
 - `TalentPickerModal.tsx` implements a virtual scroller (`ITEM_HEIGHT = 80`) rendering 728 abilities smoothly and remembering the active class filter in `localStorage`.
 
+### E. Custom Slot Selection & Live Tooltip Rank Updates
+- **Custom Slot Application**: Fixed an issue where slot replacement preserved `isUnchosen: true`; setting `isUnchosen: false` now reveals the selected ability and allows point allocation.
+- **Live Tooltip Updates**: `<Tooltip>` now dynamically pulls active rank from `points[tooltipData.talent.id] || 0` and recalculates tree points reactively, updating rank descriptions live on click without unhovering.
+
 ---
 
 ## 3. Key Files Reference
