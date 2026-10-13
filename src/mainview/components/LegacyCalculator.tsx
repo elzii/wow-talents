@@ -361,21 +361,23 @@ export const LegacyCalculator: React.FC<LegacyCalculatorProps> = ({ onPointsChan
       {/* Floating Hover Tooltip */}
       {hoveredNode && (
         <div
-          className="fixed z-50 bg-gray-950/95 border border-yellow-600/70 p-3.5 rounded-lg shadow-2xl max-w-xs text-white text-xs pointer-events-none backdrop-blur animate-in fade-in duration-75"
+          className="fixed z-50 bg-gray-950/95 backdrop-blur border border-yellow-600/60 p-3.5 rounded-lg shadow-2xl max-w-sm text-white text-xs pointer-events-none transition-opacity duration-75 animate-in fade-in"
           style={{
-            left: Math.min(window.innerWidth - 300, hoveredNode.rect.right + 12),
-            top: Math.max(20, Math.min(window.innerHeight - 220, hoveredNode.rect.top))
+            left: Math.max(10, Math.min(window.innerWidth - 320, hoveredNode.rect.right + 12)),
+            top: Math.max(10, Math.min(window.innerHeight - 240, hoveredNode.rect.top))
           }}
         >
-          <div className="flex items-center justify-between gap-2 border-b border-gray-800 pb-1 mb-1.5">
-            <h4 className="font-bold text-yellow-300 text-sm">{hoveredNode.node.name}</h4>
-            <span className="text-[10px] bg-yellow-950 text-yellow-300 border border-yellow-800 px-1.5 py-0.2 rounded font-semibold">
+          <div className="flex items-center justify-between gap-2 border-b border-gray-700/80 pb-1.5 mb-2">
+            <h3 className="text-base font-bold text-yellow-300 leading-tight">
+              {hoveredNode.node.name}
+            </h3>
+            <span className="text-[10px] uppercase tracking-wider bg-yellow-900/40 text-yellow-300 px-1.5 py-0.5 rounded border border-yellow-700/50">
               {hoveredNode.tree.name}
             </span>
           </div>
 
-          <div className="text-gray-400 mb-1.5 font-medium">
-            Rank {points[hoveredNode.node.id] || 0} / {hoveredNode.node.maxRanks}
+          <div className="text-xs text-gray-300 mb-2 font-medium">
+            Rank {points[hoveredNode.node.id] || 0}/{hoveredNode.node.maxRanks}
           </div>
 
           {/* Current Rank Description */}
@@ -387,20 +389,19 @@ export const LegacyCalculator: React.FC<LegacyCalculatorProps> = ({ onPointsChan
             return (
               <div className="space-y-2">
                 {currentDesc && (
-                  <div>
-                    <div className="text-[10px] uppercase font-bold text-gray-400 mb-0.5">
-                      {rank > 0 ? "Current Effect:" : "Description:"}
-                    </div>
-                    <div className="text-green-300 leading-relaxed">{currentDesc}</div>
+                  <div className="text-xs text-green-300 leading-relaxed whitespace-pre-line mb-2">
+                    {currentDesc}
                   </div>
                 )}
 
-                {rank > 0 && nextDesc && (
-                  <div className="pt-1.5 border-t border-gray-800">
-                    <div className="text-[10px] uppercase font-bold text-gray-400 mb-0.5">
-                      Next Rank:
-                    </div>
-                    <div className="text-green-300 leading-relaxed">{nextDesc}</div>
+                {rank < hoveredNode.node.maxRanks && nextDesc && (
+                  <div className="pt-2 border-t border-gray-800">
+                    <p className="text-[11px] uppercase tracking-wide text-gray-400 mb-1 font-semibold">
+                      {rank === 0 ? "Description" : "Next Rank:"}
+                    </p>
+                    <p className="text-xs text-green-300 leading-relaxed whitespace-pre-line">
+                      {nextDesc}
+                    </p>
                   </div>
                 )}
               </div>
@@ -412,9 +413,9 @@ export const LegacyCalculator: React.FC<LegacyCalculatorProps> = ({ onPointsChan
             const treeSpent = treeSpentMap[hoveredNode.tree.id] || 0;
             if (hoveredNode.node.requiredSpent > treeSpent) {
               return (
-                <div className="mt-2 pt-1.5 border-t border-gray-800 text-red-400 text-[11px] font-semibold">
+                <p className="mt-2 text-red-400 text-xs">
                   Requires {hoveredNode.node.requiredSpent} points in {hoveredNode.tree.name}
-                </div>
+                </p>
               );
             }
             return null;
@@ -429,9 +430,9 @@ export const LegacyCalculator: React.FC<LegacyCalculatorProps> = ({ onPointsChan
                 const parentRank = points[parentNode.id] || 0;
                 if (parentRank < parentNode.maxRanks) {
                   return (
-                    <div className="mt-1 text-red-400 text-[11px] font-semibold">
-                      Requires {parentNode.maxRanks} rank(s) in {parentNode.name}
-                    </div>
+                    <p className="mt-2 text-red-400 text-xs">
+                      Requires {parentNode.maxRanks} pt(s) in {parentNode.name}
+                    </p>
                   );
                 }
               }
