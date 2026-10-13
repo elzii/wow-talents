@@ -79,6 +79,30 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
   - Copies `index.html` and the full `assets/` directory (icons, crests, textures).
   - Can be served with `bun run serve` or hosted on GitHub Pages, Cloudflare Pages, S3, or any static HTTP web server.
 
+### 9. Custom Class Overhaul, Color Wheel, Spec Copy, & Legacy Points Calculator
+- **Header & Subheader Restyle**:
+  - Replaced blue tones with pure dark neutral black/gray styling (`bg-neutral-900/90`, `border-neutral-800/90`, `bg-black/60`).
+- **Custom Class Unchosen Slots ('?')**:
+  - Preserved Mage topology (18, 17, 19 slots matching row/column & tier constraints).
+  - Slots start as empty square '?' unchosen nodes (`isUnchosen: true`).
+  - Regular left-click on an unchosen slot directly opens the ability picker without requiring a long press.
+  - Long-press (450ms) applies once an ability has been chosen for that slot.
+- **Custom Tree Color Customization & RGBA Picker**:
+  - Removed default background textures in Custom mode, replaced with contrasting solid background and white border (`border-2 border-white/70`).
+  - Created `ColorPickerModal.tsx` featuring an HTML5 color wheel, RGBA sliders, presets, and live preview.
+  - Right-click context menu on tree container offers "Change Color" and "Copy Class Tree".
+  - Color persists per tree in `localStorage`.
+- **Editable Tree Titles & Whole-Tree Spec Copy ('+')**:
+  - Tree titles ("Martial Power", etc.) are inline content-editable.
+  - Added a '+' button next to the reset button opening `TreeCopyModal.tsx`.
+  - Searchable list of all 27 class specs across all 9 classes with class crests and spec icons (`allTreesCatalog.json`).
+  - Copies all talents, positions, ranks, and tree name into the chosen custom slot.
+- **Legacy Points Calculator (WoW Forever)**:
+  - Added header toggle button (toggled ON by default for WoW Forever): `[⚡ Legacy Points Calculator]`.
+  - Scraped live node data and prerequisite edges from `https://www.wowhead.com/forever/legacy-calculator` into `src/mainview/talents/forever/legacyCalculatorData.json`.
+  - Downloaded all missing legacy icon assets (`achievement_profession_chefhat`, `inv_misc_basket_04`, `ability_hunter_huntervswild`, `inv_fishingchair`, `achievement_guild_ridelikethewind`, `achievement_bg_winwsg`, `spell_misc_emotionhappy`).
+  - Created `LegacyCalculator.tsx` rendering all 3 trees (*Professions*, *Adventure*, *Resourcefulness*) with 16 total account-wide points, 5/10 pt tier gating, edge prerequisite dependencies, and dynamic SVG connector arrows.
+
 ---
 
 ## TODO / Roadmap
