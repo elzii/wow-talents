@@ -69,13 +69,9 @@ jobs:
         run: |
           npx electrobun build --env=stable
 
-      - name: Pre-extract application bundle for standalone distribution
-        run: |
-          ELECTROBUN_INSTALLER_UI_AUTOCLOSE=true "./build/stable-macos-arm64/WoW Talent Calculator.app/Contents/MacOS/launcher" --bootstrap-install || true
-          rm -rf "./build/stable-macos-arm64/WoW Talent Calculator.app/Contents/MacOS/.cottontail-tmp"
-
       - name: Ad-hoc code sign application bundle and DMG
         run: |
+          rm -rf "./build/stable-macos-arm64/WoW Talent Calculator.app/Contents/MacOS/.cottontail-tmp" || true
           codesign --force --deep -s - "./build/stable-macos-arm64/WoW Talent Calculator.app"
           for dmg in artifacts/*.dmg build/stable-macos-arm64/*.dmg; do
             if [ -f "$dmg" ]; then
