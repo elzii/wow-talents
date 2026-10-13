@@ -9,7 +9,7 @@
     "start": "bun run build && bun run dev",
     "static": "bun run scripts/build_static.ts",
     "serve": "bunx serve build/static",
-    "install": "cp -rv ./build/stable-macos-arm64/WoW\\ Talent\\ Calculator.app /Applications/",
+    "install:app": "cp -rv ./build/stable-macos-arm64/WoW\\ Talent\\ Calculator.app /Applications/",
     "release": "bun run scripts/release.ts"
   },
   "dependencies": {
