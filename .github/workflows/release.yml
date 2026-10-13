@@ -47,6 +47,24 @@ jobs:
         run: |
           bun run static
 
+      - name: Prepare Hutch & Cottontail environment
+        run: |
+          # Trigger initial devkit & core download
+          npx electrobun build --help || true
+          
+          # Ensure Cottontail 0.5.0 directory has required binary symlink and stdlib
+          COTTONTAIL_050=$(find ~/.hutch/releases/cottontail/0.5.0 -name macos-arm64 -type d 2>/dev/null | head -n 1)
+          COTTONTAIL_071=$(find ~/.hutch/releases/cottontail/0.7.1 -name macos-arm64 -type d 2>/dev/null | head -n 1)
+          if [ -n "$COTTONTAIL_050" ]; then
+            mkdir -p "$COTTONTAIL_050/bin/cottontail-stdlib"
+            if [ -f "$COTTONTAIL_050/bin/cottontail" ]; then
+              ln -sf cottontail "$COTTONTAIL_050/bin/cottontail-core"
+            fi
+            if [ -n "$COTTONTAIL_071" ] && [ -d "$COTTONTAIL_071/bin/cottontail-stdlib" ]; then
+              cp -r "$COTTONTAIL_071/bin/cottontail-stdlib"/* "$COTTONTAIL_050/bin/cottontail-stdlib/" || true
+            fi
+          fi
+
       - name: Package Electrobun stable app & generate OTA update assets
         run: |
           npx electrobun build --env=stable

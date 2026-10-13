@@ -173,7 +173,7 @@ export const Tooltip: React.FC<TooltipProps> = ({
             </div>
           )}
 
-          {depTalent && talent.requirements && (
+          {!isCustomClass && depTalent && talent.requirements && (
             <p className="mt-2 text-red-400 text-xs">
               Requires {talent.requirements.talentRank} pt(s) in {depTalent.name}
             </p>

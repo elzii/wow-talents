@@ -9,7 +9,8 @@
     "start": "bun run build && bun run dev",
     "static": "bun run scripts/build_static.ts",
     "serve": "bunx serve build/static",
-    "export": "mkdir -p ~/Source/HTML/wow-talents && cp -rv build/static/* ~/Source/HTML/wow-talents/"
+    "install": "cp -rv ./build/stable-macos-arm64/WoW\\ Talent\\ Calculator.app /Applications/",
+    "release": "bun run scripts/release.ts"
   },
   "dependencies": {
     "@radix-ui/themes": "^3.3.0",

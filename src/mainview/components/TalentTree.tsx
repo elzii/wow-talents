@@ -51,7 +51,7 @@ export const TalentTree: React.FC<Props> = ({
     const requiredTreePoints = talent.minPointsRequired ?? talent.y * 5;
     if (treePoints < requiredTreePoints) return false;
 
-    if (talent.requirements?.talentId) {
+    if (!isCustomClass && talent.requirements?.talentId) {
       const depRank = points[talent.requirements.talentId] || 0;
       if (depRank < talent.requirements.talentRank) return false;
     }

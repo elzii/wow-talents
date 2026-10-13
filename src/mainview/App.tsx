@@ -148,7 +148,7 @@ export const App: React.FC = () => {
       return;
     }
 
-    if (talent.requirements?.talentId) {
+    if (selectedClass !== "Custom" && talent.requirements?.talentId) {
       const depRank = points[talent.requirements.talentId] || 0;
       if (depRank < talent.requirements.talentRank) {
         showNotification(
@@ -166,15 +166,17 @@ export const App: React.FC = () => {
     const currentRank = points[talentId] || 0;
     if (currentRank <= 0) return;
 
-    // Check if any spent talent depends directly on this one
-    const isDependedOn = currentClassData.talentTrees.some((tree) =>
-      tree.talents.some(
-        (t) => t.requirements?.talentId === talentId && (points[t.id] || 0) > 0
-      )
-    );
-    if (isDependedOn) {
-      showNotification("Cannot refund: another talent depends on this.");
-      return;
+    // Check if any spent talent depends directly on this one (non-custom mode)
+    if (selectedClass !== "Custom") {
+      const isDependedOn = currentClassData.talentTrees.some((tree) =>
+        tree.talents.some(
+          (t) => t.requirements?.talentId === talentId && (points[t.id] || 0) > 0
+        )
+      );
+      if (isDependedOn) {
+        showNotification("Cannot refund: another talent depends on this.");
+        return;
+      }
     }
 
     const newPoints = { ...points, [talentId]: currentRank - 1 };

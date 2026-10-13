@@ -20,10 +20,6 @@ export const customClassData: ClassData = {
             "Click to select an ability for this slot."
           ],
           "isUnchosen": true,
-          "requirements": {
-            "talentId": 12043,
-            "talentRank": 1
-          },
           "talentLink": "Presence of Mind"
         },
         {
@@ -95,10 +91,6 @@ export const customClassData: ClassData = {
             "Click to select an ability for this slot."
           ],
           "isUnchosen": true,
-          "requirements": {
-            "talentId": 11213,
-            "talentRank": 5
-          },
           "talentLink": "Arcane Concentration"
         },
         {
@@ -288,10 +280,6 @@ export const customClassData: ClassData = {
             "Click to select an ability for this slot."
           ],
           "isUnchosen": true,
-          "requirements": {
-            "talentId": 11115,
-            "talentRank": 3
-          },
           "talentLink": "Critical Mass"
         },
         {
@@ -363,10 +351,6 @@ export const customClassData: ClassData = {
             "Click to select an ability for this slot."
           ],
           "isUnchosen": true,
-          "requirements": {
-            "talentId": 11366,
-            "talentRank": 1
-          },
           "talentLink": "Pyroblast"
         },
         {
@@ -542,10 +526,6 @@ export const customClassData: ClassData = {
             "Click to select an ability for this slot."
           ],
           "isUnchosen": true,
-          "requirements": {
-            "talentId": 12472,
-            "talentRank": 1
-          },
           "talentLink": "Cold Snap"
         },
         {
@@ -575,10 +555,6 @@ export const customClassData: ClassData = {
             "Click to select an ability for this slot."
           ],
           "isUnchosen": true,
-          "requirements": {
-            "talentId": 1312002,
-            "talentRank": 1
-          },
           "talentLink": "Ice Lance"
         },
         {
