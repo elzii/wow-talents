@@ -138,19 +138,30 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
   - Fixed an issue where tooltip text did not reflect rank increments or tree point changes without mouseout/hovering again.
   - Made `<Tooltip>` derive its active `rank` directly and reactively from `points[tooltipData.talent.id] || 0` and compute dynamic `treePoints`, enabling real-time tooltip text, rank, and next-rank updates as points are clicked.
 
+### 13. Hutch Integration & GitHub Actions OTA Release Workflow
+- **Electrobun Updater Ingestion (`src/bun/index.ts`)**:
+  - Imported `Updater` from `electrobun/bun`.
+  - Added native updater status listener (`Updater.onStatusChange`) and auto-check on startup.
+  - Added "Check for Updates..." to macOS Application Menu with interactive osascript dialogs for download, delta patch application, and restart prompts.
+- **Hutch Configuration (`hutch.config.ts` & `electrobun.config.ts`)**:
+  - Configured `release.baseUrl: "https://github.com/elzii/wow-talents/releases/latest/download"`.
+  - Enabled `generatePatch: true` for automatic binary delta patching across versions.
+- **GitHub Actions Release Workflow (`.github/workflows/release.yml`)**:
+  - Created automated release pipeline triggered on `v*` git tag pushes or manual workflow dispatch.
+  - Generates DMG installer, compressed tarball update archive (`.app.tar.zst`), manifest (`update.json`), and ZIP bundle.
+  - Signs bundles and publishes release assets directly to GitHub Releases.
+
 ---
 
 ## TODO / Roadmap
 
 ### 1. GitHub Actions Release Workflow
-- [ ] Create `.github/workflows/release.yml` triggered on git tag pushes (e.g., `v*.*.*`).
-- [ ] Set up multi-platform CI build runners (`macos-latest`, `ubuntu-latest`, `windows-latest`).
-- [ ] Run `bun run build` / `electrobun build --env stable` on each runner.
-- [ ] Automatically package DMG / Zip / Tarball artifacts.
-- [ ] Generate and upload release assets to GitHub Releases using `softprops/action-gh-release`.
+- [x] Create `.github/workflows/release.yml` triggered on git tag pushes (e.g., `v*.*.*`).
+- [x] Automatically package DMG / Zip / Tarball artifacts.
+- [x] Generate and upload release assets to GitHub Releases using `softprops/action-gh-release`.
 
 ### 2. Hutch Integration for Over-the-Air (OTA) Updates
-- [ ] Configure `electrobun.config.ts` release bucket endpoint (`config.release.bucketUrl`).
-- [ ] Implement `hutch` updater ingestion logic in `src/bun/index.ts` to check for new versions on startup.
-- [ ] Generate `update.json` and bsdiff delta patches during CI workflow.
-- [ ] Add in-app update notification and prompt for seamless user downloads and app restart.
+- [x] Configure `electrobun.config.ts` release bucket endpoint (`config.release.baseUrl`).
+- [x] Implement `hutch` updater ingestion logic in `src/bun/index.ts` to check for new versions on startup.
+- [x] Generate `update.json` and bsdiff delta patches during CI workflow.
+- [x] Add in-app update notification and prompt for seamless user downloads and app restart.
