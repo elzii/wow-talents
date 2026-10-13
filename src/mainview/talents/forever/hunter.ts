@@ -1,4 +1,4 @@
-import { ClassData } from "../../../types";
+import { ClassData } from "../../types";
 
 export const hunterData: ClassData = {
   "name": "Hunter",
@@ -18,6 +18,10 @@ export const hunterData: ClassData = {
             19552
           ],
           "descriptions": [
+            "While Aspect of the Hawk is active, Auto Shot has a 2% chance of increasing ranged attack speed by 6% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 2% chance of increasing melee attack speed by 6% for 12 sec.",
+            "While Aspect of the Hawk is active, Auto Shot has a 4% chance of increasing ranged attack speed by 12% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 4% chance of increasing melee attack speed by 12% for 12 sec.",
+            "While Aspect of the Hawk is active, Auto Shot has a 6% chance of increasing ranged attack speed by 18% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 6% chance of increasing melee attack speed by 18% for 12 sec.",
+            "While Aspect of the Hawk is active, Auto Shot has a 8% chance of increasing ranged attack speed by 24% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 8% chance of increasing melee attack speed by 24% for 12 sec.",
             "While Aspect of the Hawk is active, Auto Shot has a 10% chance of increasing ranged attack speed by 30% for 12 sec. While Aspect of the Beast is active, all melee auto attacks have a 10% chance of increasing melee attack speed by 30% for 12 sec."
           ]
         },
@@ -53,7 +57,11 @@ export const hunterData: ClassData = {
             19621
           ],
           "descriptions": [
-            "Gives your pet a 20% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
+            "Gives your pet a 20% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+            "Gives your pet a 40% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+            "Gives your pet a 60% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+            "Gives your pet a 80% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike.",
+            "Gives your pet a 100% chance to gain a 30% attack speed increase for 8 sec after dealing a critical strike."
           ],
           "requirements": {
             "talentId": 19598,
@@ -73,7 +81,8 @@ export const hunterData: ClassData = {
             19590
           ],
           "descriptions": [
-            "Increases the Focus regeneration of your pets by 100% and allows 50% of your Mana regeneration to continue while casting."
+            "Increases the Focus regeneration of your pets by 10%.",
+            "Increases the Focus regeneration of your pets by 20%."
           ]
         },
         {
@@ -108,7 +117,8 @@ export const hunterData: ClassData = {
             19578
           ],
           "descriptions": [
-            "While your pet is active, you and your pet will regenerate 1% of total health every 5 sec."
+            "While your pet is active, you and your pet will regenerate 1% of total health every 10 sec.",
+            "While your pet is active, you and your pet will regenerate 2% of total health every 10 sec."
           ]
         },
         {
@@ -138,7 +148,11 @@ export const hunterData: ClassData = {
             19598
           ],
           "descriptions": [
-            "Increases the critical strike chance of your pets and hawks by 16%."
+            "Reduces the cost of your Maul, Swipe, Claw, and Rake abilities by 1 Rage or Energy.",
+            "Reduces the cost of your Maul, Swipe, Claw, and Rake abilities by 2 Rage or Energy.",
+            "Reduces the cost of your Maul, Swipe, Claw, and Rake abilities by 3 Rage or Energy.",
+            "Reduces the cost of your Maul, Swipe, Claw, and Rake abilities by 4 Rage or Energy.",
+            "Reduces the cost of your Maul, Swipe, Claw, and Rake abilities by 5 Rage or Energy."
           ]
         },
         {
@@ -153,7 +167,8 @@ export const hunterData: ClassData = {
             19572
           ],
           "descriptions": [
-            "Gives your Mend Pet spell a 50% chance of cleansing 1 Curse, Disease, Magic, or Poison effect from your pet each time it heals and reduces the Mana cost by 20%."
+            "Gives the Mend Pet spell a 15% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick.",
+            "Gives the Mend Pet spell a 50% chance of cleansing 1 Curse, Disease, Magic or Poison effect from the pet each tick."
           ]
         },
         {
@@ -168,7 +183,11 @@ export const hunterData: ClassData = {
             19616
           ],
           "descriptions": [
-            "Increases the damage done by your pets and hawks by 20%."
+            "Increases the damage done by your pets by 4%.",
+            "Increases the damage done by your pets by 8%.",
+            "Increases the damage done by your pets by 12%.",
+            "Increases the damage done by your pets by 16%.",
+            "Increases the damage done by your pets by 20%."
           ]
         },
         {
@@ -198,6 +217,7 @@ export const hunterData: ClassData = {
             24443
           ],
           "descriptions": [
+            "Revive Pet's casting time is reduced by 3 sec, mana cost is reduced by 20%, and increases the health your pet returns with by an additional 15%.",
             "Revive Pet's casting time is reduced by 6 sec, mana cost is reduced by 40%, and increases the health your pet returns with by an additional 30%."
           ]
         },
@@ -213,6 +233,7 @@ export const hunterData: ClassData = {
             19559
           ],
           "descriptions": [
+            "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 3%.",
             "Increases the speed bonus of your Aspect of the Cheetah and Aspect of the Pack by 6%."
           ]
         },
@@ -228,7 +249,9 @@ export const hunterData: ClassData = {
             19549
           ],
           "descriptions": [
-            "Increases the Dodge bonus of your Aspect of the Monkey by 4%. Additionally, your pet gains 50% of the effect of your Aspect of the Monkey ability."
+            "Increases the Dodge bonus of your Aspect of the Monkey by 2%.",
+            "Increases the Dodge bonus of your Aspect of the Monkey by 4%.",
+            "Increases the Dodge bonus of your Aspect of the Monkey by 6%."
           ]
         },
         {
@@ -243,7 +266,8 @@ export const hunterData: ClassData = {
             1223755
           ],
           "descriptions": [
-            "Increases all damage you and your pet deal by 2% while your pet is active."
+            "All damage caused by you is increased by 1% while your pet is active and the critical strike chance of your Kill Command Ability is increased by 10%.",
+            "All damage caused by you is increased by 2% while your pet is active and the critical strike chance of your Kill Command Ability is increased by 20%."
           ]
         },
         {
@@ -258,7 +282,11 @@ export const hunterData: ClassData = {
             19583
           ],
           "descriptions": [
-            "Increases the Health and Armor of your pets by 15%."
+            "Increases the Health of your pets by 3%.",
+            "Increases the Health of your pets by 6%.",
+            "Increases the Health of your pets by 9%.",
+            "Increases the Health of your pets by 12%.",
+            "Increases the Health of your pets by 15%."
           ]
         }
       ]
@@ -298,6 +326,10 @@ export const hunterData: ClassData = {
             19507
           ],
           "descriptions": [
+            "Increases the damage you deal with ranged weapons by 1%.",
+            "Increases the damage you deal with ranged weapons by 2%.",
+            "Increases the damage you deal with ranged weapons by 3%.",
+            "Increases the damage you deal with ranged weapons by 4%.",
             "Increases the damage you deal with ranged weapons by 5%."
           ]
         },
@@ -313,6 +345,7 @@ export const hunterData: ClassData = {
             1223987
           ],
           "descriptions": [
+            "Hitting a target with your Serpent Sting ability grants you 25% and consuming Rapid Killing grants you 50% of your Mana regeneration while casting for the next 15 sec.",
             "Hitting a target with your Serpent Sting ability grants you 50% and consuming Rapid Killing grants you 100% of your Mana regeneration while casting for the next 15 sec."
           ],
           "requirements": {
@@ -348,7 +381,9 @@ export const hunterData: ClassData = {
             19461
           ],
           "descriptions": [
-            "Increases the damage done by your Multi-Shot, Aimed Shot, and Volley abilities by 15%."
+            "Increases the damage done by your Multi-Shot and Volley spells by 5%.",
+            "Increases the damage done by your Multi-Shot and Volley spells by 10%.",
+            "Increases the damage done by your Multi-Shot and Volley spells by 15%."
           ]
         },
         {
@@ -363,7 +398,11 @@ export const hunterData: ClassData = {
             19485
           ],
           "descriptions": [
-            "Increases the critical strike damage bonus on all ranged abilities by 30%."
+            "Increases your ranged weapon critical strike damage bonus by 6%.",
+            "Increases your ranged weapon critical strike damage bonus by 12%.",
+            "Increases your ranged weapon critical strike damage bonus by 18%.",
+            "Increases your ranged weapon critical strike damage bonus by 24%.",
+            "Increases your ranged weapon critical strike damage bonus by 30%."
           ],
           "requirements": {
             "talentId": 1223984,
@@ -398,7 +437,8 @@ export const hunterData: ClassData = {
             415405
           ],
           "descriptions": [
-            "Reduces the cooldown on your Rapid Fire ability by 2 min. In addition, when you kill a non-trivial enemy or it dies while afflicted by your Serpent Sting, you gain Rapid Killing, increasing the damage of your next Shot ability within 20 sec by 20%."
+            "Reduces the cooldown of your Rapid Fire ability by 1 min.  In addition, after killing an opponent that yields experience or honor, your next Aimed Shot, Arcane Shot or Auto Shot causes 10% additional damage.  Lasts 20 sec.",
+            "Reduces the cooldown of your Rapid Fire ability by 2 min.  In addition, after killing an opponent that yields experience or honor, your next Aimed Shot, Arcane Shot or Auto Shot causes 20% additional damage.  Lasts 20 sec."
           ]
         },
         {
@@ -413,7 +453,11 @@ export const hunterData: ClassData = {
             19454
           ],
           "descriptions": [
-            "Reduces the cooldown of your Arcane Shot by 2 sec. Does not affect the cooldown of abilities which share a cooldown with Arcane Shot."
+            "Reduces the cooldown of your Arcane Shot by 0.2 sec.",
+            "Reduces the cooldown of your Arcane Shot by 0.4 sec.",
+            "Reduces the cooldown of your Arcane Shot by 0.6 sec.",
+            "Reduces the cooldown of your Arcane Shot by 0.8 sec.",
+            "Reduces the cooldown of your Arcane Shot by 1 sec."
           ]
         },
         {
@@ -443,6 +487,10 @@ export const hunterData: ClassData = {
             1223984
           ],
           "descriptions": [
+            "Increases your Attack Power by 20% of your Intellect.",
+            "Increases your Attack Power by 40% of your Intellect.",
+            "Increases your Attack Power by 60% of your Intellect.",
+            "Increases your Attack Power by 80% of your Intellect.",
             "Increases your Attack Power by 100% of your Intellect."
           ]
         },
@@ -458,7 +506,11 @@ export const hunterData: ClassData = {
             19416
           ],
           "descriptions": [
-            "Reduces the Mana cost of your Shots, Stings, and melee abilities by 15%."
+            "Reduces the Mana cost of your Shots and Stings by 2%.",
+            "Reduces the Mana cost of your Shots and Stings by 4%.",
+            "Reduces the Mana cost of your Shots and Stings by 6%.",
+            "Reduces the Mana cost of your Shots and Stings by 8%.",
+            "Reduces the Mana cost of your Shots and Stings by 10%."
           ]
         },
         {
@@ -473,7 +525,11 @@ export const hunterData: ClassData = {
             19426
           ],
           "descriptions": [
-            "Increases your critical strike chance with all attacks by 1%."
+            "Increases your critical strike chance with all attacks by 1%.",
+            "Increases your critical strike chance with all attacks by 2%.",
+            "Increases your critical strike chance with all attacks by 3%.",
+            "Increases your critical strike chance with all attacks by 4%.",
+            "Increases your critical strike chance with all attacks by 5%."
           ]
         },
         {
@@ -488,7 +544,11 @@ export const hunterData: ClassData = {
             19407
           ],
           "descriptions": [
-            "Gives your Concussive Shot a 0% chance to stun the target for 3 sec."
+            "Gives your Concussive Shot a 4% chance to stun the target for 3 sec.",
+            "Gives your Concussive Shot a 8% chance to stun the target for 3 sec.",
+            "Gives your Concussive Shot a 12% chance to stun the target for 3 sec.",
+            "Gives your Concussive Shot a 16% chance to stun the target for 3 sec.",
+            "Gives your Concussive Shot a 20% chance to stun the target for 3 sec."
           ]
         },
         {
@@ -503,6 +563,8 @@ export const hunterData: ClassData = {
             19498
           ],
           "descriptions": [
+            "Increases the range of your ranged weapons by 2 yards.",
+            "Increases the range of your ranged weapons by 4 yards.",
             "Increases the range of your ranged weapons by 6 yards."
           ]
         },
@@ -518,7 +580,9 @@ export const hunterData: ClassData = {
             1310661
           ],
           "descriptions": [
-            "Increases the damage of your Serpent Sting ability by 20%, reduces the cooldown of your Viper Sting ability by 6 sec, and increases the duration of your Scorpid Sting ability by 45 sec."
+            "Increases the damage of your Serpent Sting ability by 20%, reduces the cooldown of your Viper Sting ability by 6 sec, and increases the duration of your Scorpid Sting ability by 45 sec.",
+            "Increases the damage of your Serpent Sting ability by 40%, reduces the cooldown of your Viper Sting ability by 6 sec, and increases the duration of your Scorpid Sting ability by 45 sec.",
+            "Increases the damage of your Serpent Sting ability by 60%, reduces the cooldown of your Viper Sting ability by 6 sec, and increases the duration of your Scorpid Sting ability by 45 sec."
           ]
         }
       ]
@@ -553,6 +617,7 @@ export const hunterData: ClassData = {
             440529
           ],
           "descriptions": [
+            "Reduces the mana cost of your Trap abilities and melee abilities by 30%. In addition, your critical strikes have a 30% chance to allow 25% of your Mana regeneration to continue while casting for 30 sec.",
             "Reduces the mana cost of your Trap abilities and melee abilities by 60%. In addition, your critical strikes have a 60% chance to allow 50% of your Mana regeneration to continue while casting for 30 sec."
           ]
         },
@@ -588,6 +653,7 @@ export const hunterData: ClassData = {
             1310532
           ],
           "descriptions": [
+            "Your attacks against targets with Hunter's Mark have a 5% chance to activate your Mongoose Bite for 10 sec.",
             "Your attacks against targets with Hunter's Mark have a 10% chance to activate your Mongoose Bite for 10 sec."
           ]
         },
@@ -618,7 +684,9 @@ export const hunterData: ClassData = {
             19290
           ],
           "descriptions": [
-            "Increases your hit chance by 3% and reduces the duration of movement impairing effects on you by 30%."
+            "Increases hit chance by 1% and increases the chance movement impairing effects will be resisted by an additional 5%.",
+            "Increases hit chance by 2% and increases the chance movement impairing effects will be resisted by an additional 10%.",
+            "Increases hit chance by 3% and increases the chance movement impairing effects will be resisted by an additional 15%."
           ]
         },
         {
@@ -633,7 +701,8 @@ export const hunterData: ClassData = {
             19376
           ],
           "descriptions": [
-            "Increases your chance to hit with your Trap and Feign Death abilities by 17%."
+            "Increases your chance to hit with your Trap and Feign Death abilities by 17%.",
+            "Increases your chance to hit with your Trap and Feign Death abilities by 34%."
           ]
         },
         {
@@ -668,6 +737,8 @@ export const hunterData: ClassData = {
             19228
           ],
           "descriptions": [
+            "Gives your Wing Clip ability a 7% chance to immobilize the target for 5 sec.",
+            "Gives your Wing Clip ability a 14% chance to immobilize the target for 5 sec.",
             "Gives your Wing Clip ability a 20% chance to immobilize the target for 5 sec."
           ]
         },
@@ -683,6 +754,7 @@ export const hunterData: ClassData = {
             19239
           ],
           "descriptions": [
+            "Increases the duration of Freezing and Frost trap effects by 15% and the damage of Immolation and Explosive trap effects by 15%.",
             "Increases the duration of Freezing and Frost trap effects by 30% and the damage of Immolation and Explosive trap effects by 30%."
           ]
         },
@@ -698,7 +770,11 @@ export const hunterData: ClassData = {
             19255
           ],
           "descriptions": [
-            "Increases your total Health by 10%."
+            "Increases total health by 2%.",
+            "Increases total health by 4%.",
+            "Increases total health by 6%.",
+            "Increases total health by 8%.",
+            "Increases total health by 10%."
           ]
         },
         {
@@ -713,7 +789,8 @@ export const hunterData: ClassData = {
             19159
           ],
           "descriptions": [
-            "Increases the critical strike chance of all your melee abilities by 20%."
+            "Increases the critical strike chance of Raptor Strike and Mongoose Bite by 10%.",
+            "Increases the critical strike chance of Raptor Strike and Mongoose Bite by 20%."
           ]
         },
         {
@@ -728,7 +805,11 @@ export const hunterData: ClassData = {
             19184
           ],
           "descriptions": [
-            "When your traps are triggered, all affected targets are Entrapped, preventing them from moving for 5 sec."
+            "Gives your Immolation Trap, Frost Trap, and Explosive Trap a 5% chance to entrap the target, preventing them from moving for 5 sec.",
+            "Gives your Immolation Trap, Frost Trap, and Explosive Trap a 10% chance to entrap the target, preventing them from moving for 5 sec.",
+            "Gives your Immolation Trap, Frost Trap, and Explosive Trap a 15% chance to entrap the target, preventing them from moving for 5 sec.",
+            "Gives your Immolation Trap, Frost Trap, and Explosive Trap a 20% chance to entrap the target, preventing them from moving for 5 sec.",
+            "Gives your Immolation Trap, Frost Trap, and Explosive Trap a 25% chance to entrap the target, preventing them from moving for 5 sec."
           ]
         },
         {
@@ -743,6 +824,10 @@ export const hunterData: ClassData = {
             19295
           ],
           "descriptions": [
+            "Increases your Parry chance by 1%.",
+            "Increases your Parry chance by 2%.",
+            "Increases your Parry chance by 3%.",
+            "Increases your Parry chance by 4%.",
             "Increases your Parry chance by 5%."
           ]
         },
@@ -758,7 +843,11 @@ export const hunterData: ClassData = {
             24293
           ],
           "descriptions": [
-            "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 5%."
+            "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 5%.",
+            "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 10%.",
+            "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 15%.",
+            "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 20%.",
+            "While tracking Beasts, Demons, Dragonkin, Elementals, Giants, Humanoids, or Undead, all damage you deal to the tracked creature type is increased by 25%."
           ]
         },
         {
@@ -773,7 +862,11 @@ export const hunterData: ClassData = {
             19168
           ],
           "descriptions": [
-            "Increases your Agility by 15%."
+            "Increases your Dodge chance by 1%.",
+            "Increases your Dodge chance by 2%.",
+            "Increases your Dodge chance by 3%.",
+            "Increases your Dodge chance by 4%.",
+            "Increases your Dodge chance by 5%."
           ]
         },
         {
@@ -788,6 +881,7 @@ export const hunterData: ClassData = {
             1310496
           ],
           "descriptions": [
+            "Reduces the cooldown of your Trap and Deterrence abilities by 20%.",
             "Reduces the cooldown of your Trap and Deterrence abilities by 40%."
           ]
         },
@@ -803,6 +897,10 @@ export const hunterData: ClassData = {
             1310627
           ],
           "descriptions": [
+            "Increases your melee critical strike damage by 6% and your Off Hand weapon damage by 10%.",
+            "Increases your melee critical strike damage by 12% and your Off Hand weapon damage by 20%.",
+            "Increases your melee critical strike damage by 18% and your Off Hand weapon damage by 30%.",
+            "Increases your melee critical strike damage by 24% and your Off Hand weapon damage by 40%.",
             "Increases your melee critical strike damage by 30% and your Off Hand weapon damage by 50%."
           ]
         }

@@ -66,13 +66,49 @@ export const Tooltip: React.FC<TooltipProps> = ({
       .replace(/<[^>]+>/g, "");
   };
 
-  const currDesc = cleanDescription(
-    talent.descriptions[rank > 0 ? rank - 1 : 0] || talent.descriptions[0] || ""
-  );
-  const nextDesc =
-    nextRank && talent.descriptions[rank]
-      ? cleanDescription(talent.descriptions[rank])
-      : "";
+  const getRankDescription = (targetRank: number): string => {
+    if (targetRank <= 0) return "";
+    // If explicit description exists for this rank
+    if (talent.descriptions && talent.descriptions[targetRank - 1]) {
+      return cleanDescription(talent.descriptions[targetRank - 1]);
+    }
+    // Fallback if only 1 description provided for multi-rank talent
+    const baseDesc = cleanDescription(talent.descriptions?.[0] || "");
+    if (!baseDesc || talent.maxRank <= 1) return baseDesc;
+
+    // Scale percentages
+    const pctMatches = [...baseDesc.matchAll(/(\d+(?:\.\d+)?)(%)/g)];
+    if (pctMatches.length > 0) {
+      const firstVal = parseFloat(pctMatches[0][1]);
+      const isMaxRankValue = firstVal >= talent.maxRank * 2 && firstVal % talent.maxRank === 0 && firstVal >= 10;
+      return baseDesc.replace(/(\d+(?:\.\d+)?)(%)/g, (_match, numStr, pct) => {
+        const num = parseFloat(numStr);
+        const rankVal = isMaxRankValue
+          ? Math.round(((num / talent.maxRank) * targetRank) * 10) / 10
+          : Math.round((num * targetRank) * 10) / 10;
+        return `${rankVal}${pct}`;
+      });
+    }
+
+    // Scale durations
+    const secMatches = [...baseDesc.matchAll(/(\d+(?:\.\d+)?)\s*(sec|seconds|minutes|min)/g)];
+    if (secMatches.length > 0) {
+      const firstVal = parseFloat(secMatches[0][1]);
+      const isMaxRankValue = firstVal >= talent.maxRank && firstVal % talent.maxRank === 0;
+      return baseDesc.replace(/(\d+(?:\.\d+)?)\s*(sec|seconds|minutes|min)/g, (_match, numStr, unit) => {
+        const num = parseFloat(numStr);
+        const rankVal = isMaxRankValue
+          ? Math.round(((num / talent.maxRank) * targetRank) * 10) / 10
+          : Math.round((num * targetRank) * 10) / 10;
+        return `${rankVal} ${unit}`;
+      });
+    }
+
+    return baseDesc;
+  };
+
+  const currDesc = rank > 0 ? getRankDescription(rank) : getRankDescription(1);
+  const nextDesc = nextRank ? getRankDescription(rank + 1) : "";
 
   const requiredTreePoints = talent.minPointsRequired ?? talent.y * 5;
 

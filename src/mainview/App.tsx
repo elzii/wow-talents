@@ -444,31 +444,6 @@ export const App: React.FC = () => {
         </div>
       </div>
 
-      {/* Class Selection */}
-      <ClassSelector
-        availableClasses={standardClasses}
-        selectedClass={selectedClass}
-        onSelectClass={setSelectedClass}
-      />
-
-      {/* Custom Class Banner & Controls */}
-      {selectedClass === "Custom" && (
-        <div className="mb-4 p-3 bg-neutral-900/90 border border-neutral-800 rounded-xl flex items-center justify-between text-xs text-neutral-200">
-          <div>
-            <span className="font-bold text-yellow-400 mr-2">
-              ✨ Custom Class Builder:
-            </span>
-            Click empty '?' slots to pick abilities directly, or hold/long-press chosen abilities to change them. Rename tree titles inline, or use '+' to copy an entire class spec!
-          </div>
-          <button
-            onClick={handleResetCustomClassToDefault}
-            className="px-2.5 py-1 bg-neutral-800 hover:bg-neutral-700 border border-neutral-700 rounded text-neutral-200 font-semibold transition"
-          >
-            Reset Tree Layout
-          </button>
-        </div>
-      )}
-
       {/* Notification Toast */}
       {notification && (
         <div className="fixed bottom-6 right-6 bg-yellow-500 text-black font-bold px-4 py-2 rounded-lg shadow-2xl z-50 animate-bounce text-sm">
@@ -476,30 +451,58 @@ export const App: React.FC = () => {
         </div>
       )}
 
-      {/* Main Trees Area */}
-      <div className="flex-1 flex justify-center items-start gap-4 flex-wrap">
-        {currentClassData?.talentTrees?.map((tree, idx) => (
-          <TalentTree
-            key={`${selectedClass}-${tree.name}-${idx}`}
-            index={idx}
-            classData={currentClassData}
-            treeData={tree}
-            points={points}
-            onSpend={handleSpendPoint}
-            onRefund={handleRefundPoint}
-            onReset={handleResetTree}
-            totalPoints={totalPoints}
-            maxPoints={maxPoints}
-            setTooltipData={setTooltipData}
-            isCustomClass={selectedClass === "Custom"}
-            onSlotLongPress={(treeIndex, talent) => {
-              setPickerSlot({ treeIndex, talent });
-            }}
-            onRenameTree={handleRenameTree}
-            onOpenColorPicker={(treeIndex) => setColorPickerTreeIndex(treeIndex)}
-            onOpenTreeCopy={(treeIndex) => setTreeCopyIndex(treeIndex)}
-          />
-        ))}
+      {/* Main Talent Calculator Inset Container */}
+      <div className="w-full p-6 bg-neutral-950/90 border border-gray-800 rounded-2xl shadow-2xl flex flex-col gap-6 select-none relative backdrop-blur">
+        {/* Class Selection at the top */}
+        <ClassSelector
+          availableClasses={standardClasses}
+          selectedClass={selectedClass}
+          onSelectClass={setSelectedClass}
+        />
+
+        {/* Main Trees Area */}
+        <div className="flex-1 flex justify-center items-start gap-4 flex-wrap">
+          {currentClassData?.talentTrees?.map((tree, idx) => (
+            <TalentTree
+              key={`${selectedClass}-${tree.name}-${idx}`}
+              index={idx}
+              classData={currentClassData}
+              treeData={tree}
+              points={points}
+              onSpend={handleSpendPoint}
+              onRefund={handleRefundPoint}
+              onReset={handleResetTree}
+              totalPoints={totalPoints}
+              maxPoints={maxPoints}
+              setTooltipData={setTooltipData}
+              isCustomClass={selectedClass === "Custom"}
+              onSlotLongPress={(treeIndex, talent) => {
+                setPickerSlot({ treeIndex, talent });
+              }}
+              onRenameTree={handleRenameTree}
+              onOpenColorPicker={(treeIndex) => setColorPickerTreeIndex(treeIndex)}
+              onOpenTreeCopy={(treeIndex) => setTreeCopyIndex(treeIndex)}
+            />
+          ))}
+        </div>
+
+        {/* Custom Class Banner & Controls at the bottom */}
+        {selectedClass === "Custom" && (
+          <div className="p-3 bg-neutral-900/90 border border-neutral-800 rounded-xl flex items-center justify-between text-xs text-neutral-200">
+            <div>
+              <span className="font-bold text-yellow-400 mr-2">
+                ✨ Custom Class Builder:
+              </span>
+              Click empty '?' slots to pick abilities directly, or hold/long-press chosen abilities to change them. Rename tree titles inline, or use '+' to copy an entire class spec!
+            </div>
+            <button
+              onClick={handleResetCustomClassToDefault}
+              className="px-2.5 py-1 bg-neutral-800 hover:bg-neutral-700 border border-neutral-700 rounded text-neutral-200 font-semibold transition shrink-0 ml-3"
+            >
+              Reset Tree Layout
+            </button>
+          </div>
+        )}
       </div>
 
       {/* Legacy Calculator (WoW Forever only) */}

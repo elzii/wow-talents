@@ -1,4 +1,4 @@
-import { ClassData } from "../../../types";
+import { ClassData } from "../../types";
 
 export const mageData: ClassData = {
   "name": "Mage",
@@ -38,7 +38,9 @@ export const mageData: ClassData = {
             15058
           ],
           "descriptions": [
-            "Increases the damage done by your spells by 1% and your critical strike chance by 1%."
+            "Increases your spell damage and critical strike chance by 1%.",
+            "Increases your spell damage and critical strike chance by 2%.",
+            "Increases your spell damage and critical strike chance by 3%."
           ]
         },
         {
@@ -53,7 +55,11 @@ export const mageData: ClassData = {
             11232
           ],
           "descriptions": [
-            "Increases your Intellect by 10% and increases the critical strike damage bonus of your Arcane spells by 100%."
+            "Increases your maximum Mana by 2%.",
+            "Increases your maximum Mana by 4%.",
+            "Increases your maximum Mana by 6%.",
+            "Increases your maximum Mana by 8%.",
+            "Increases your maximum Mana by 10%."
           ]
         },
         {
@@ -98,7 +104,9 @@ export const mageData: ClassData = {
             18462
           ],
           "descriptions": [
-            "Allows 50% of your Mana regeneration to continue while casting."
+            "Allows 5% of your Mana regeneration to continue while casting.",
+            "Allows 10% of your Mana regeneration to continue while casting.",
+            "Allows 15% of your Mana regeneration to continue while casting."
           ],
           "requirements": {
             "talentId": 11213,
@@ -118,7 +126,8 @@ export const mageData: ClassData = {
             11255
           ],
           "descriptions": [
-            "Your Counterspell also Silences the target for 4 sec."
+            "Gives your Counterspell a 50% chance to silence the target for 4 sec.",
+            "Gives your Counterspell a 100% chance to silence the target for 4 sec."
           ]
         },
         {
@@ -133,7 +142,8 @@ export const mageData: ClassData = {
             11252
           ],
           "descriptions": [
-            "Decreases the Mana lost per point of damage taken when your Mana Shield spell is active by 33% and increases the resistances granted by your Mage Armor spell by 50%."
+            "Decreases the Mana lost per point of damage taken when your Mana Shield spell is active by 33% and increases the resistances granted by your Mage Armor spell by 50%.",
+            "Decreases the Mana lost per point of damage taken when your Mana Shield spell is active by 66% and increases the resistances granted by your Mage Armor spell by 100%."
           ]
         },
         {
@@ -163,7 +173,9 @@ export const mageData: ClassData = {
             11242
           ],
           "descriptions": [
-            "Increases the critical strike chance of your Arcane spells by 6%."
+            "Increases the critical strike chance of your Arcane Explosion and Arcane Blast spells by an additional 2%.",
+            "Increases the critical strike chance of your Arcane Explosion and Arcane Blast spells by an additional 4%.",
+            "Increases the critical strike chance of your Arcane Explosion and Arcane Blast spells by an additional 6%."
           ]
         },
         {
@@ -178,6 +190,7 @@ export const mageData: ClassData = {
             11247
           ],
           "descriptions": [
+            "Increases the range of your Arcane spells by 6 yards.",
             "Increases the range of your Arcane spells by 6 yards."
           ]
         },
@@ -193,6 +206,7 @@ export const mageData: ClassData = {
             28574
           ],
           "descriptions": [
+            "Increases your Armor by an amount equal to 25% of your Intellect.",
             "Increases your Armor by an amount equal to 50% of your Intellect."
           ]
         },
@@ -208,7 +222,11 @@ export const mageData: ClassData = {
             11213
           ],
           "descriptions": [
-            "Gives you a 100% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+            "Gives you a 2% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.",
+            "Gives you a 4% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.",
+            "Gives you a 6% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.",
+            "Gives you a 8% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%.",
+            "Gives you a 10% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
           ]
         },
         {
@@ -223,7 +241,8 @@ export const mageData: ClassData = {
             29441
           ],
           "descriptions": [
-            "Increases all your resistances by 2 and causes all spells you fully resist to restore 1% of your total mana. Cannot trigger more often than 1 time per sec."
+            "Increases all your resistances by 2 and causes all spells you fully resist to restore 1% of your total mana. Cannot trigger more often than 1 time per sec.",
+            "Increases all your resistances by 2 and causes all spells you fully resist to restore 2% of your total mana. Cannot trigger more often than 1 time per sec."
           ]
         },
         {
@@ -238,7 +257,8 @@ export const mageData: ClassData = {
             11210
           ],
           "descriptions": [
-            "Reduces your target's resistance to all your spells by 15 and reduces the threat caused by your Arcane spells by 30%."
+            "Reduces your target's resistance to all your spells by 5 and reduces the threat caused by your Arcane spells by 20%.",
+            "Reduces your target's resistance to all your spells by 10 and reduces the threat caused by your Arcane spells by 40%."
           ]
         },
         {
@@ -253,6 +273,10 @@ export const mageData: ClassData = {
             11237
           ],
           "descriptions": [
+            "Gives you a 4% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 2.8% chance while casting Arcane Blast.",
+            "Gives you a 8% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 5.6% chance while casting Arcane Blast.",
+            "Gives you a 12% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 8.4% chance while casting Arcane Blast.",
+            "Gives you a 16% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 11.2% chance while casting Arcane Blast.",
             "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
           ]
         },
@@ -268,7 +292,11 @@ export const mageData: ClassData = {
             11222
           ],
           "descriptions": [
-            "Improves your chance to hit with Arcane spells by 2%."
+            "Reduces the chance that the opponent can resist your Arcane spells by 2%.",
+            "Reduces the chance that the opponent can resist your Arcane spells by 4%.",
+            "Reduces the chance that the opponent can resist your Arcane spells by 6%.",
+            "Reduces the chance that the opponent can resist your Arcane spells by 8%.",
+            "Reduces the chance that the opponent can resist your Arcane spells by 10%."
           ]
         },
         {
@@ -283,7 +311,8 @@ export const mageData: ClassData = {
             6057
           ],
           "descriptions": [
-            "Increases your damage with Wands by 13%."
+            "Increases your damage with Wands by 13%.",
+            "Increases your damage with Wands by 25%."
           ]
         }
       ]
@@ -323,7 +352,11 @@ export const mageData: ClassData = {
             11124
           ],
           "descriptions": [
-            "Increases the damage done by your Fire spells by 2%."
+            "Increases the damage done by your Fire spells by 2%.",
+            "Increases the damage done by your Fire spells by 4%.",
+            "Increases the damage done by your Fire spells by 6%.",
+            "Increases the damage done by your Fire spells by 8%.",
+            "Increases the damage done by your Fire spells by 10%."
           ]
         },
         {
@@ -353,7 +386,9 @@ export const mageData: ClassData = {
             11115
           ],
           "descriptions": [
-            "Increases the critical strike chance of your Fire spells by 2%."
+            "Increases the critical strike chance of your Fire spells by 2%.",
+            "Increases the critical strike chance of your Fire spells by 4%.",
+            "Increases the critical strike chance of your Fire spells by 6%."
           ]
         },
         {
@@ -368,7 +403,9 @@ export const mageData: ClassData = {
             29074
           ],
           "descriptions": [
-            "Your Fire and Frost critical strikes will refund 10% of their base mana cost."
+            "Your Fire and Frost spell criticals will refund 10% of their base mana cost.",
+            "Your Fire and Frost spell criticals will refund 20% of their base mana cost.",
+            "Your Fire and Frost spell criticals will refund 30% of their base mana cost."
           ]
         },
         {
@@ -403,6 +440,7 @@ export const mageData: ClassData = {
             11094
           ],
           "descriptions": [
+            "Causes your Fire Ward to have a 10% chance to reflect Fire spells while active.",
             "Causes your Fire Ward to have a 20% chance to reflect Fire spells while active."
           ]
         },
@@ -418,7 +456,9 @@ export const mageData: ClassData = {
             11095
           ],
           "descriptions": [
-            "Your Scorch spell has a 100% chance to cause your target to be vulnerable to Fire damage. This vulnerability increases all Fire damage you deal to your target by 3% and lasts 30 sec, stacking up to 5 times."
+            "Your Scorch spells have a 33% chance to cause your target to be vulnerable to Fire damage.  This vulnerability increases the Fire damage dealt to your target by 3% and lasts 30 sec.  Stacks up to 30001 times.",
+            "Your Scorch spells have a 66% chance to cause your target to be vulnerable to Fire damage.  This vulnerability increases the Fire damage dealt to your target by 3% and lasts 30 sec.  Stacks up to 30001 times.",
+            "Your Scorch spells have a 100% chance to cause your target to be vulnerable to Fire damage.  This vulnerability increases the Fire damage dealt to your target by 3% and lasts 30 sec.  Stacks up to 30001 times."
           ]
         },
         {
@@ -433,7 +473,9 @@ export const mageData: ClassData = {
             11083
           ],
           "descriptions": [
-            "Gives your Fire spells a 70% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 30%."
+            "Gives your Fire spells a 70% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 30%.",
+            "Gives your Fire spells a 140% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 60%.",
+            "Gives your Fire spells a 210% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 90%."
           ]
         },
         {
@@ -463,6 +505,8 @@ export const mageData: ClassData = {
             11108
           ],
           "descriptions": [
+            "Increases the critical strike chance of your Flamestrike spell by 5%.",
+            "Increases the critical strike chance of your Flamestrike spell by 10%.",
             "Increases the critical strike chance of your Flamestrike spell by 15%."
           ]
         },
@@ -478,7 +522,9 @@ export const mageData: ClassData = {
             11103
           ],
           "descriptions": [
-            "Gives your Fire spells a 10% chance to stun the target for 2 sec."
+            "Gives your Fire spells a 10% chance to stun the target for 2 sec.",
+            "Gives your Fire spells a 20% chance to stun the target for 2 sec.",
+            "Gives your Fire spells a 30% chance to stun the target for 2 sec."
           ]
         },
         {
@@ -493,6 +539,7 @@ export const mageData: ClassData = {
             11100
           ],
           "descriptions": [
+            "Increases the range of your Fire spells by 3 yards.",
             "Increases the range of your Fire spells by 6 yards."
           ]
         },
@@ -508,6 +555,10 @@ export const mageData: ClassData = {
             11119
           ],
           "descriptions": [
+            "Your critical strikes from Fire damage spells cause the target to burn for an additional 8% of your spell's damage over 4 sec.",
+            "Your critical strikes from Fire damage spells cause the target to burn for an additional 16% of your spell's damage over 4 sec.",
+            "Your critical strikes from Fire damage spells cause the target to burn for an additional 24% of your spell's damage over 4 sec.",
+            "Your critical strikes from Fire damage spells cause the target to burn for an additional 32% of your spell's damage over 4 sec.",
             "Your critical strikes from Fire damage spells cause the target to burn for an additional 40% of your spell's damage over 4 sec."
           ]
         },
@@ -523,7 +574,11 @@ export const mageData: ClassData = {
             11069
           ],
           "descriptions": [
-            "Reduces the casting time of your Fireball and Frostfire Bolt spells by 1 sec."
+            "Reduces the casting time of your Fireball spell by 0.1 sec.",
+            "Reduces the casting time of your Fireball spell by 0.2 sec.",
+            "Reduces the casting time of your Fireball spell by 0.3 sec.",
+            "Reduces the casting time of your Fireball spell by 0.4 sec.",
+            "Reduces the casting time of your Fireball spell by 0.5 sec."
           ]
         },
         {
@@ -538,7 +593,9 @@ export const mageData: ClassData = {
             18459
           ],
           "descriptions": [
-            "Increases the critical strike chance of your Fire Blast, Ice Lance, Arcane Blast, and Scorch spells by 6%."
+            "Increases the critical strike chance of your Fire Blast, Ice Lance, Arcane Blast, and Scorch spells by 6%.",
+            "Increases the critical strike chance of your Fire Blast, Ice Lance, Arcane Blast, and Scorch spells by 12%.",
+            "Increases the critical strike chance of your Fire Blast, Ice Lance, Arcane Blast, and Scorch spells by 18%."
           ]
         },
         {
@@ -553,6 +610,7 @@ export const mageData: ClassData = {
             11078
           ],
           "descriptions": [
+            "Reduces the cooldown of your Fire Blast spell by 2 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 30 sec by 25%.",
             "Reduces the cooldown of your Fire Blast spell by 2 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 30 sec by 50%."
           ]
         }
@@ -593,7 +651,11 @@ export const mageData: ClassData = {
             11180
           ],
           "descriptions": [
-            "Gives your Frost damage spells a 0% chance to apply the Winter's Chill effect, which increases the chance your Ice Lance and Frostbolt spells will critically hit the target by 2% for 15 sec. Stacks up to 5 times."
+            "Gives your Frost damage spells a 20% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 sec.  Stacks up to 15001 times.",
+            "Gives your Frost damage spells a 40% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 sec.  Stacks up to 15001 times.",
+            "Gives your Frost damage spells a 60% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 sec.  Stacks up to 15001 times.",
+            "Gives your Frost damage spells a 80% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 sec.  Stacks up to 15001 times.",
+            "Gives your Frost damage spells a 100% chance to apply the Winter's Chill effect, which increases the chance a Frost spell will critically hit the target by 2% for 15 sec.  Stacks up to 15001 times."
           ]
         },
         {
@@ -608,7 +670,8 @@ export const mageData: ClassData = {
             400647
           ],
           "descriptions": [
-            "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 2 <!--singular:spell:spells-->spells<!--singular--> cast as if the target were Frozen. Lasts 15 sec."
+            "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 2 <!--singular:spell:spells-->spells<!--singular--> cast as if the target were Frozen. Lasts 15 sec.",
+            "Gives your Chill effects a 30% chance to grant you the Fingers of Frost effect, which treats your next 2 <!--singular:spell:spells-->spells<!--singular--> cast as if the target were Frozen. Lasts 15 sec."
           ],
           "requirements": {
             "talentId": 1312002,
@@ -628,7 +691,9 @@ export const mageData: ClassData = {
             11190
           ],
           "descriptions": [
-            "Increases the damage dealt by your Cone of Cold spell by 15%."
+            "Increases the damage dealt by your Cone of Cold spell by 15%.",
+            "Increases the damage dealt by your Cone of Cold spell by 25%.",
+            "Increases the damage dealt by your Cone of Cold spell by 35%."
           ]
         },
         {
@@ -673,7 +738,9 @@ export const mageData: ClassData = {
             11170
           ],
           "descriptions": [
-            "Increases the critical strike chance of all your spells against Frozen targets by 1%."
+            "Increases the critical strike chance of all your spells against Frozen targets by 1%.",
+            "Increases the critical strike chance of all your spells against Frozen targets by 2%.",
+            "Increases the critical strike chance of all your spells against Frozen targets by 3%."
           ]
         },
         {
@@ -703,7 +770,8 @@ export const mageData: ClassData = {
             16757
           ],
           "descriptions": [
-            "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 10%."
+            "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 10%.",
+            "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 20%."
           ]
         },
         {
@@ -718,7 +786,9 @@ export const mageData: ClassData = {
             11185
           ],
           "descriptions": [
-            "Adds a Chill effect to your Blizzard spell. This effect lowers the target's movement speed by 40% for 1.5 sec."
+            "Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by 30%.  Lasts 2 sec.",
+            "Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by 50%.  Lasts 2 sec.",
+            "Adds a chill effect to your Blizzard spell.  This effect lowers the target's movement speed by 65%.  Lasts 2 sec."
           ]
         },
         {
@@ -733,6 +803,8 @@ export const mageData: ClassData = {
             11160
           ],
           "descriptions": [
+            "Reduces the mana cost of your Frost spells by 5% and reduces the threat caused by your Frost spells by 10%.",
+            "Reduces the mana cost of your Frost spells by 10% and reduces the threat caused by your Frost spells by 20%.",
             "Reduces the mana cost of your Frost spells by 15% and reduces the threat caused by your Frost spells by 30%."
           ]
         },
@@ -748,7 +820,9 @@ export const mageData: ClassData = {
             11151
           ],
           "descriptions": [
-            "Increases the damage done by your Frost spells by 2%."
+            "Increases the damage done by your Frost spells by 2%.",
+            "Increases the damage done by your Frost spells by 4%.",
+            "Increases the damage done by your Frost spells by 6%."
           ]
         },
         {
@@ -763,7 +837,9 @@ export const mageData: ClassData = {
             11071
           ],
           "descriptions": [
-            "Gives your Chill effects a 15% chance to Freeze the target for 5 sec."
+            "Gives your Chill effects a 5% chance to freeze the target for 5 sec.",
+            "Gives your Chill effects a 10% chance to freeze the target for 5 sec.",
+            "Gives your Chill effects a 15% chance to freeze the target for 5 sec."
           ]
         },
         {
@@ -778,6 +854,7 @@ export const mageData: ClassData = {
             11165
           ],
           "descriptions": [
+            "Reduces the cooldown of your Frost Nova spell by 2 sec.",
             "Reduces the cooldown of your Frost Nova spell by 4 sec."
           ]
         },
@@ -793,7 +870,9 @@ export const mageData: ClassData = {
             11175
           ],
           "descriptions": [
-            "Increases the duration of your Chill effects by 33% and reduces the target's speed by an additional 10%."
+            "Increases the duration of your Chill effects by 1 sec and reduces the target's speed by an additional 4%.",
+            "Increases the duration of your Chill effects by 2 secs and reduces the target's speed by an additional 7%.",
+            "Increases the duration of your Chill effects by 3 secs and reduces the target's speed by an additional 10%."
           ]
         },
         {
@@ -808,6 +887,10 @@ export const mageData: ClassData = {
             11207
           ],
           "descriptions": [
+            "Increases the critical strike damage bonus of your Frost spells by 20%.",
+            "Increases the critical strike damage bonus of your Frost spells by 40%.",
+            "Increases the critical strike damage bonus of your Frost spells by 60%.",
+            "Increases the critical strike damage bonus of your Frost spells by 80%.",
             "Increases the critical strike damage bonus of your Frost spells by 100%."
           ]
         },
@@ -823,7 +906,11 @@ export const mageData: ClassData = {
             29438
           ],
           "descriptions": [
-            "Improves your chance to hit with Frost and Fire spells by 6%."
+            "Improves your chance to hit with Frost and Fire spells by 6%.",
+            "Improves your chance to hit with Frost and Fire spells by 12%.",
+            "Improves your chance to hit with Frost and Fire spells by 18%.",
+            "Improves your chance to hit with Frost and Fire spells by 24%.",
+            "Improves your chance to hit with Frost and Fire spells by 30%."
           ]
         },
         {
@@ -838,7 +925,11 @@ export const mageData: ClassData = {
             11070
           ],
           "descriptions": [
-            "Reduces the casting time of your Frostbolt spell by 0 sec."
+            "Reduces the casting time of your Frostbolt spell by 0.1 sec.",
+            "Reduces the casting time of your Frostbolt spell by 0.2 sec.",
+            "Reduces the casting time of your Frostbolt spell by 0.3 sec.",
+            "Reduces the casting time of your Frostbolt spell by 0.4 sec.",
+            "Reduces the casting time of your Frostbolt spell by 0.5 sec."
           ]
         },
         {
@@ -853,7 +944,8 @@ export const mageData: ClassData = {
             11189
           ],
           "descriptions": [
-            "Increases the Armor and resistance given by your Frost Armor and Ice Armor spells by 15%. In addition, gives your Frost Ward a 10% chance to reflect Frost spells and effects while active."
+            "Increases the armor and resistances given by your Frost Armor and Ice Armor spells by 15%.  In addition, gives your Frost Ward a 10% chance to reflect Frost spells and effects while active.",
+            "Increases the armor and resistances given by your Frost Armor and Ice Armor spells by 30%.  In addition, gives your Frost Ward a 20% chance to reflect Frost spells and effects while active."
           ]
         }
       ]

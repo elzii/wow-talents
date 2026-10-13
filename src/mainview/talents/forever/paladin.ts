@@ -1,4 +1,4 @@
-import { ClassData } from "../../../types";
+import { ClassData } from "../../types";
 
 export const paladinData: ClassData = {
   "name": "Paladin",
@@ -38,7 +38,11 @@ export const paladinData: ClassData = {
             5923
           ],
           "descriptions": [
-            "Increases the critical strike chance of your Holy Shock and Holy Strike spells by 15%, and all other spells by 5%."
+            "Increases the critical effect chance of your Holy spells by 1%.",
+            "Increases the critical effect chance of your Holy spells by 2%.",
+            "Increases the critical effect chance of your Holy spells by 3%.",
+            "Increases the critical effect chance of your Holy spells by 4%.",
+            "Increases the critical effect chance of your Holy spells by 5%."
           ]
         },
         {
@@ -68,6 +72,8 @@ export const paladinData: ClassData = {
             1310904
           ],
           "descriptions": [
+            "Improves your chance to hit with Holy spells by 6%.",
+            "Improves your chance to hit with Holy spells by 12%.",
             "Improves your chance to hit with Holy spells by 18%."
           ],
           "requirements": {
@@ -103,7 +109,8 @@ export const paladinData: ClassData = {
             429144
           ],
           "descriptions": [
-            "Reduces the mana cost of your Cleanse and Purify spells by 20% and reduces the cooldown of your Exorcism and Holy Wrath spells by 50%."
+            "Reduces the mana cost of your Cleanse and Consecration spells by 5% and increases the critical strike chance of your Exorcism and Holy Wrath spells by 10%.",
+            "Reduces the mana cost of your Cleanse and Consecration spells by 10% and increases the critical strike chance of your Exorcism and Holy Wrath spells by 20%."
           ]
         },
         {
@@ -118,7 +125,11 @@ export const paladinData: ClassData = {
             20210
           ],
           "descriptions": [
-            "After getting a critical effect from your Flash of Light, Holy Light, Light's Vigil, or Holy Shock heal spell you have a 0% chance to gain Mana equal to 50% of the base cost of the spell."
+            "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 20% chance to gain Mana equal to the base cost of the spell.",
+            "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 40% chance to gain Mana equal to the base cost of the spell.",
+            "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 60% chance to gain Mana equal to the base cost of the spell.",
+            "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 80% chance to gain Mana equal to the base cost of the spell.",
+            "After getting a critical effect from your Flash of Light, Holy Light, or Holy Shock heal spell, gives you a 100% chance to gain Mana equal to the base cost of the spell."
           ],
           "requirements": {
             "talentId": 1310899,
@@ -153,7 +164,8 @@ export const paladinData: ClassData = {
             9453
           ],
           "descriptions": [
-            "Reduces the duration of Fear and Disorient effects on you by 30%."
+            "Increases your chance to resist Fear and Disorient effects by an additional 5%.",
+            "Increases your chance to resist Fear and Disorient effects by an additional 10%."
           ]
         },
         {
@@ -168,7 +180,11 @@ export const paladinData: ClassData = {
             20257
           ],
           "descriptions": [
-            "Increases your total Intellect by 2%."
+            "Increases your total Intellect by 2%.",
+            "Increases your total Intellect by 4%.",
+            "Increases your total Intellect by 6%.",
+            "Increases your total Intellect by 8%.",
+            "Increases your total Intellect by 10%."
           ]
         },
         {
@@ -183,7 +199,9 @@ export const paladinData: ClassData = {
             20237
           ],
           "descriptions": [
-            "Increases the amount healed by your Holy Light, Flash of Light, and Holy Shock spells by 4%."
+            "Increases the amount healed by your Holy Light and Flash of Light spells by 4%.",
+            "Increases the amount healed by your Holy Light and Flash of Light spells by 8%.",
+            "Increases the amount healed by your Holy Light and Flash of Light spells by 12%."
           ]
         },
         {
@@ -198,7 +216,9 @@ export const paladinData: ClassData = {
             20224
           ],
           "descriptions": [
-            "Increases the damage done by your Seals and Judgements by 3%."
+            "Increases the damage done by your Seals and Judgements by 3%.",
+            "Increases the damage done by your Seals and Judgements by 6%.",
+            "Increases the damage done by your Seals and Judgements by 9%."
           ]
         },
         {
@@ -213,6 +233,7 @@ export const paladinData: ClassData = {
             20205
           ],
           "descriptions": [
+            "Gives your Flash of Light, Holy Light, and Light's Vigil spells a 7% chance to not lose casting time when you take damage.",
             "Gives your Flash of Light, Holy Light, and Light's Vigil spells a 14% chance to not lose casting time when you take damage."
           ]
         },
@@ -228,7 +249,11 @@ export const paladinData: ClassData = {
             20262
           ],
           "descriptions": [
-            "Increases your Strength by 2%."
+            "Increases your Strength by 2%.",
+            "Increases your Strength by 4%.",
+            "Increases your Strength by 6%.",
+            "Increases your Strength by 8%.",
+            "Increases your Strength by 10%."
           ]
         },
         {
@@ -243,6 +268,8 @@ export const paladinData: ClassData = {
             1310899
           ],
           "descriptions": [
+            "Allows 10% of your Mana regeneration to continue while casting.",
+            "Allows 20% of your Mana regeneration to continue while casting.",
             "Allows 30% of your Mana regeneration to continue while casting."
           ]
         },
@@ -258,6 +285,7 @@ export const paladinData: ClassData = {
             1310905
           ],
           "descriptions": [
+            "Gives your Holy spells 5% increased damage against the first 4 enemies that enter your Consecration.",
             "Gives your Holy spells 10% increased damage against the first 4 enemies that enter your Consecration."
           ]
         },
@@ -273,7 +301,8 @@ export const paladinData: ClassData = {
             426065
           ],
           "descriptions": [
-            "Your Holy Shock and Flash of Light critical hits reduce the cast time of your next Holy Light cast within 15 sec by 1.0 sec."
+            "Your Holy Shock and Flash of Light critical hits reduce the cast time of your next Holy Light cast within 15 sec by 1 sec.",
+            "Your Holy Shock and Flash of Light critical hits reduce the cast time of your next Holy Light cast within 30 sec by 2 sec."
           ]
         }
       ]
@@ -308,7 +337,11 @@ export const paladinData: ClassData = {
             20127
           ],
           "descriptions": [
-            "Damaging melee attacks against you have a 10% chance to increase your chance to block by 0%.  Lasts 10 sec or 5 blocks."
+            "Increases your chance to block attacks with your shield by 6% after being the victim of a critical strike.  Lasts 10 sec or 5 blocks.",
+            "Increases your chance to block attacks with your shield by 12% after being the victim of a critical strike.  Lasts 10 sec or 5 blocks.",
+            "Increases your chance to block attacks with your shield by 18% after being the victim of a critical strike.  Lasts 10 sec or 5 blocks.",
+            "Increases your chance to block attacks with your shield by 24% after being the victim of a critical strike.  Lasts 10 sec or 5 blocks.",
+            "Increases your chance to block attacks with your shield by 30% after being the victim of a critical strike.  Lasts 10 sec or 5 blocks."
           ]
         },
         {
@@ -323,7 +356,11 @@ export const paladinData: ClassData = {
             20177
           ],
           "descriptions": [
-            "Gives you a 0% chance to gain an extra attack after Blocking a melee attack and a 0% chance to gain an extra attack after being the victim of a non-periodic critical strike. Cannot occur more often than once every 1.5 sec."
+            "Gives you a 20% chance to gain an extra attack after being the victim of a critical strike.",
+            "Gives you a 40% chance to gain an extra attack after being the victim of a critical strike.",
+            "Gives you a 60% chance to gain an extra attack after being the victim of a critical strike.",
+            "Gives you a 80% chance to gain an extra attack after being the victim of a critical strike.",
+            "Gives you a 100% chance to gain an extra attack after being the victim of a critical strike."
           ]
         },
         {
@@ -358,7 +395,9 @@ export const paladinData: ClassData = {
             20196
           ],
           "descriptions": [
-            "Increases the damage you deal with one-handed melee weapons by 2%."
+            "Increases the damage you deal with one-handed melee weapons by 2%.",
+            "Increases the damage you deal with one-handed melee weapons by 4%.",
+            "Increases the damage you deal with one-handed melee weapons by 6%."
           ]
         },
         {
@@ -373,7 +412,11 @@ export const paladinData: ClassData = {
             20143
           ],
           "descriptions": [
-            "Increases your armor value from items by 2%."
+            "Increases your armor value from items by 2%.",
+            "Increases your armor value from items by 4%.",
+            "Increases your armor value from items by 6%.",
+            "Increases your armor value from items by 8%.",
+            "Increases your armor value from items by 10%."
           ]
         },
         {
@@ -388,7 +431,8 @@ export const paladinData: ClassData = {
             1224697
           ],
           "descriptions": [
-            "Increases your total Stamina by 4% and reduces the cooldown of your Divine Shield, Divine Protection, and Templar's Bulwark spells by 60 sec."
+            "Increases your total Stamina by 3%, reduces the cooldown of your Divine Shield spell by 30 sec and reduces the attack speed penalty by 50%.",
+            "Increases your total Stamina by 6%, reduces the cooldown of your Divine Shield spell by 60 sec and reduces the attack speed penalty by 100%."
           ]
         },
         {
@@ -403,7 +447,9 @@ export const paladinData: ClassData = {
             20487
           ],
           "descriptions": [
-            "Decreases the cooldown of your Hammer of Justice spell by 5 sec."
+            "Decreases the cooldown of your Hammer of Justice spell by 5 sec.",
+            "Decreases the cooldown of your Hammer of Justice spell by 10 sec.",
+            "Decreases the cooldown of your Hammer of Justice spell by 15 sec."
           ]
         },
         {
@@ -418,7 +464,9 @@ export const paladinData: ClassData = {
             20468
           ],
           "descriptions": [
-            "While Righteous Fury is active, all damage taken is reduced by 6%."
+            "Increases the amount of threat generated by your Righteous Fury spell by 16%.",
+            "Increases the amount of threat generated by your Righteous Fury spell by 33%.",
+            "Increases the amount of threat generated by your Righteous Fury spell by 50%."
           ]
         },
         {
@@ -433,7 +481,11 @@ export const paladinData: ClassData = {
             20096
           ],
           "descriptions": [
-            "Increases your Defense Skill by 20."
+            "Increases your Defense skill by 2.",
+            "Increases your Defense skill by 4.",
+            "Increases your Defense skill by 6.",
+            "Increases your Defense skill by 8.",
+            "Increases your Defense skill by 10."
           ]
         },
         {
@@ -448,7 +500,8 @@ export const paladinData: ClassData = {
             20174
           ],
           "descriptions": [
-            "Reduces the cooldown of your Blessing of Protection by 1 min and increases the duration of your Blessing of Freedom by 3 sec."
+            "Reduces the cooldown of your Blessing of Protection by 60 sec and increases the duration of your Blessing of Freedom by 3 sec.",
+            "Reduces the cooldown of your Blessing of Protection by 120 sec and increases the duration of your Blessing of Freedom by 6 sec."
           ]
         },
         {
@@ -463,7 +516,9 @@ export const paladinData: ClassData = {
             20189
           ],
           "descriptions": [
-            "Improves your chance to hit by 1%."
+            "Increases your chance to hit with melee weapons by 1%.",
+            "Increases your chance to hit with melee weapons by 2%.",
+            "Increases your chance to hit with melee weapons by 3%."
           ]
         },
         {
@@ -478,7 +533,9 @@ export const paladinData: ClassData = {
             20150
           ],
           "descriptions": [
-            "Increases the amount of damage absorbed by your shield by 30%, and gives your blocks a 100% chance to restore 6% of your maximum Mana.  May only occur once every 3 sec."
+            "Increases the amount of damage absorbed by your shield by 10%.",
+            "Increases the amount of damage absorbed by your shield by 20%.",
+            "Increases the amount of damage absorbed by your shield by 30%."
           ],
           "requirements": {
             "talentId": 20127,
@@ -533,6 +590,10 @@ export const paladinData: ClassData = {
             1311034
           ],
           "descriptions": [
+            "Increases the threat generated by your Holy Strike ability by 6%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 3% for 6 sec.",
+            "Increases the threat generated by your Holy Strike ability by 12%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 6% for 6 sec.",
+            "Increases the threat generated by your Holy Strike ability by 18%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 9% for 6 sec.",
+            "Increases the threat generated by your Holy Strike ability by 24%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 12% for 6 sec.",
             "Increases the threat generated by your Holy Strike ability by 30%. While Righteous Fury is active, Holy Strike also reduces your damage taken by 15% for 6 sec."
           ]
         }
@@ -568,7 +629,9 @@ export const paladinData: ClassData = {
             20049
           ],
           "descriptions": [
-            "Increases your Physical and Holy damage dealt by 5% for 30 sec after landing a non-periodic critical strike.  Stacks up to 3 times."
+            "Increases your Physical and Holy damage dealt by 5% for 30 sec after landing a non-periodic critical strike.  Stacks up to 3 times.",
+            "Increases your Physical and Holy damage dealt by 10% for 30 sec after landing a non-periodic critical strike.  Stacks up to 3 times.",
+            "Increases your Physical and Holy damage dealt by 15% for 30 sec after landing a non-periodic critical strike.  Stacks up to 3 times."
           ],
           "requirements": {
             "talentId": 1311074,
@@ -618,7 +681,9 @@ export const paladinData: ClassData = {
             20111
           ],
           "descriptions": [
-            "Increases the damage you deal with two-handed melee weapons by 2%."
+            "Increases the damage you deal with two-handed melee weapons by 2%.",
+            "Increases the damage you deal with two-handed melee weapons by 4%.",
+            "Increases the damage you deal with two-handed melee weapons by 6%."
           ]
         },
         {
@@ -633,7 +698,8 @@ export const paladinData: ClassData = {
             9799
           ],
           "descriptions": [
-            "All critical strikes against you cause 15% of the damage taken to the attacker as well. The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
+            "All spell criticals against you cause 15% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health.",
+            "All spell criticals against you cause 30% of the damage taken to the caster as well.  The damage caused by Eye for an Eye will not exceed 50% of the Paladin's total health."
           ]
         },
         {
@@ -648,7 +714,8 @@ export const paladinData: ClassData = {
             26022
           ],
           "descriptions": [
-            "Increases movement speed and mounted movement speed by 15%.  This does not stack with other movement speed increasing effects."
+            "Increases movement and mounted movement speed by 4%.  This does not stack with other movement speed increasing effects.",
+            "Increases movement and mounted movement speed by 8%.  This does not stack with other movement speed increasing effects."
           ]
         },
         {
@@ -678,7 +745,9 @@ export const paladinData: ClassData = {
             1311074
           ],
           "descriptions": [
-            "Gives your Judgement ability a 100% chance to return 60% of the Mana cost of the judged seal."
+            "Gives your Judgement spell a 33% chance to return 80% of the mana cost of the judged seal.",
+            "Gives your Judgement spell a 66% chance to return 80% of the mana cost of the judged seal.",
+            "Gives your Judgement spell a 100% chance to return 80% of the mana cost of the judged seal."
           ]
         },
         {
@@ -693,7 +762,9 @@ export const paladinData: ClassData = {
             9452
           ],
           "descriptions": [
-            "Gives your damaging melee attacks a chance to reduce the target's Attack Power by (0 /- 3 * <!--ppl0:60:6:-350--> - 204), and increase your Attack Power by 0% for 30 sec."
+            "Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by 5% for 10 sec.",
+            "Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by 10% for 10 sec.",
+            "Gives the Paladin's damaging melee attacks a chance to reduce the target's Strength and Agility by 15% for 10 sec."
           ]
         },
         {
@@ -708,7 +779,11 @@ export const paladinData: ClassData = {
             20117
           ],
           "descriptions": [
-            "Improves your chance to get a critical strike with melee attacks by 5%."
+            "Increases your chance to get a critical strike with melee weapons by 1%.",
+            "Increases your chance to get a critical strike with melee weapons by 2%.",
+            "Increases your chance to get a critical strike with melee weapons by 3%.",
+            "Increases your chance to get a critical strike with melee weapons by 4%.",
+            "Increases your chance to get a critical strike with melee weapons by 5%."
           ]
         },
         {
@@ -723,6 +798,7 @@ export const paladinData: ClassData = {
             1237268
           ],
           "descriptions": [
+            "Reduces the mana cost of your Consecration, Holy Wrath, Exorcism, and Hammer of Wrath spells by 20%.",
             "Reduces the mana cost of your Consecration, Holy Wrath, Exorcism, and Hammer of Wrath spells by 40%."
           ]
         },
@@ -738,7 +814,8 @@ export const paladinData: ClassData = {
             25956
           ],
           "descriptions": [
-            "Decreases the cooldown of your Judgement ability by 1 sec."
+            "Decreases the cooldown of your Judgement spell by 1 sec.",
+            "Decreases the cooldown of your Judgement spell by 2 sec."
           ]
         },
         {
@@ -753,7 +830,11 @@ export const paladinData: ClassData = {
             20101
           ],
           "descriptions": [
-            "Reduces the Mana cost of all instant cast spells and abilities by 10%."
+            "Reduces the Mana cost of your Judgement and Seal spells by 3%.",
+            "Reduces the Mana cost of your Judgement and Seal spells by 6%.",
+            "Reduces the Mana cost of your Judgement and Seal spells by 9%.",
+            "Reduces the Mana cost of your Judgement and Seal spells by 12%.",
+            "Reduces the Mana cost of your Judgement and Seal spells by 15%."
           ]
         },
         {
@@ -768,7 +849,11 @@ export const paladinData: ClassData = {
             20060
           ],
           "descriptions": [
-            "Increases your Parry chance by 1%."
+            "Increases your Parry chance by 1%.",
+            "Increases your Parry chance by 2%.",
+            "Increases your Parry chance by 3%.",
+            "Increases your Parry chance by 4%.",
+            "Increases your Parry chance by 5%."
           ]
         },
         {
@@ -783,6 +868,7 @@ export const paladinData: ClassData = {
             1311085
           ],
           "descriptions": [
+            "Reduces the cast time of your Hammer of Wrath by 1.0 sec, and reduces all threat you generate by 10% while Righteous Fury is not active.",
             "Reduces the cast time of your Hammer of Wrath by 1.0 sec, and reduces all threat you generate by 20% while Righteous Fury is not active."
           ]
         },
@@ -798,7 +884,9 @@ export const paladinData: ClassData = {
             1311084
           ],
           "descriptions": [
-            "Increases your spell damage by up to 100% of your Intellect."
+            "Increases your spell damage by up to 100% of your Intellect.",
+            "Increases your spell damage by up to 200% of your Intellect.",
+            "Increases your spell damage by up to 300% of your Intellect."
           ]
         }
       ]

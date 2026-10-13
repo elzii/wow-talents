@@ -1,4 +1,4 @@
-import { ClassData } from "../../../types";
+import { ClassData } from "../../types";
 
 export const rogueData: ClassData = {
   "name": "Rogue",
@@ -33,7 +33,11 @@ export const rogueData: ClassData = {
             14186
           ],
           "descriptions": [
-            "Your critical strikes from abilities that add Combo Points have a 0% chance to add an additional Combo Point."
+            "Your critical strikes from abilities that add combo points  have a 20% chance to add an additional combo point.",
+            "Your critical strikes from abilities that add combo points  have a 40% chance to add an additional combo point.",
+            "Your critical strikes from abilities that add combo points  have a 60% chance to add an additional combo point.",
+            "Your critical strikes from abilities that add combo points  have a 80% chance to add an additional combo point.",
+            "Your critical strikes from abilities that add combo points  have a 100% chance to add an additional combo point."
           ]
         },
         {
@@ -48,6 +52,7 @@ export const rogueData: ClassData = {
             14174
           ],
           "descriptions": [
+            "Enemies Stunned by your Kidney Shot ability take 5% increased damage from your poisons and attacks.",
             "Enemies Stunned by your Kidney Shot ability take 10% increased damage from your poisons and attacks."
           ]
         },
@@ -83,7 +88,11 @@ export const rogueData: ClassData = {
             14113
           ],
           "descriptions": [
-            "Increases the chance to apply Poisons to your target by 10%, and gives Poison applications a 50% chance to not consume a charge."
+            "Increases the chance to apply poisons to your target by 2%.",
+            "Increases the chance to apply poisons to your target by 4%.",
+            "Increases the chance to apply poisons to your target by 6%.",
+            "Increases the chance to apply poisons to your target by 8%.",
+            "Increases the chance to apply poisons to your target by 10%."
           ]
         },
         {
@@ -98,6 +107,10 @@ export const rogueData: ClassData = {
             16513
           ],
           "descriptions": [
+            "Increases the damage dealt by your poisons by 4% and gives your poisons an additional 8% chance to resist dispel effects.",
+            "Increases the damage dealt by your poisons by 8% and gives your poisons an additional 16% chance to resist dispel effects.",
+            "Increases the damage dealt by your poisons by 12% and gives your poisons an additional 24% chance to resist dispel effects.",
+            "Increases the damage dealt by your poisons by 16% and gives your poisons an additional 32% chance to resist dispel effects.",
             "Increases the damage dealt by your poisons by 20% and gives your poisons an additional 40% chance to resist dispel effects."
           ]
         },
@@ -128,7 +141,11 @@ export const rogueData: ClassData = {
             14128
           ],
           "descriptions": [
-            "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Mutilate, Ghostly Strike, and Hemorrhage abilities by 6%."
+            "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by 6%.",
+            "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by 12%.",
+            "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by 18%.",
+            "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by 24%.",
+            "Increases the critical strike damage bonus of your Sinister Strike, Gouge, Backstab, Ghostly Strike, and Hemorrhage abilities by 30%."
           ],
           "requirements": {
             "talentId": 14138,
@@ -148,7 +165,8 @@ export const rogueData: ClassData = {
             14168
           ],
           "descriptions": [
-            "Reduces the Energy cost of your Expose Armor ability by 10, and refunds 2 Combo <!--singular:Point:Points-->Points<!--singular--> when cast with 5 Combo Points."
+            "Increases the armor reduced by your Expose Armor ability by 25%.",
+            "Increases the armor reduced by your Expose Armor ability by 50%."
           ]
         },
         {
@@ -163,6 +181,7 @@ export const rogueData: ClassData = {
             14983
           ],
           "descriptions": [
+            "Increases your maximum Energy by 10.",
             "Increases your maximum Energy by 10."
           ]
         },
@@ -178,7 +197,8 @@ export const rogueData: ClassData = {
             14158
           ],
           "descriptions": [
-            "Increases all damage dealt by 4% against Humanoid and Giant targets."
+            "Increases all damage caused against Humanoid, Giant, Beast and Dragonkin targets by 1%.",
+            "Increases all damage caused against Humanoid, Giant, Beast and Dragonkin targets by 2%."
           ]
         },
         {
@@ -193,7 +213,9 @@ export const rogueData: ClassData = {
             14156
           ],
           "descriptions": [
-            "Gives your finishing moves a 60% chance to add a Combo Point to your target."
+            "Gives your finishing moves a 20% chance to add a combo point to your target.",
+            "Gives your finishing moves a 40% chance to add a combo point to your target.",
+            "Gives your finishing moves a 60% chance to add a combo point to your target."
           ]
         },
         {
@@ -208,7 +230,11 @@ export const rogueData: ClassData = {
             14138
           ],
           "descriptions": [
-            "Increases your critical strike chance with all attacks and Poisons by 5%."
+            "Increases your critical strike chance by 1%.",
+            "Increases your critical strike chance by 2%.",
+            "Increases your critical strike chance by 3%.",
+            "Increases your critical strike chance by 4%.",
+            "Increases your critical strike chance by 5%."
           ]
         },
         {
@@ -223,7 +249,8 @@ export const rogueData: ClassData = {
             14144
           ],
           "descriptions": [
-            "After killing a non-trivial enemy, gives you a 0% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, Mutilate, or Ghostly Strike. Lasts 20 sec."
+            "After killing an opponent that yields experience or honor, gives you a 20% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 sec.",
+            "After killing an opponent that yields experience or honor, gives you a 40% increased critical strike chance on your next Sinister Strike, Backstab, Ambush, or Ghostly Strike.  Lasts 20 sec."
           ]
         },
         {
@@ -238,7 +265,9 @@ export const rogueData: ClassData = {
             14165
           ],
           "descriptions": [
-            "Increases the duration of your Slice and Dice ability by 15%."
+            "Increases the duration of your Slice and Dice ability by 15%.",
+            "Increases the duration of your Slice and Dice ability by 30%.",
+            "Increases the duration of your Slice and Dice ability by 45%."
           ]
         },
         {
@@ -253,7 +282,9 @@ export const rogueData: ClassData = {
             13741
           ],
           "descriptions": [
-            "Increases the duration of your Gouge ability by 2 sec."
+            "Increases the effect duration of your Gouge ability by 0.5 sec.",
+            "Increases the effect duration of your Gouge ability by 1 sec.",
+            "Increases the effect duration of your Gouge ability by 1.5 sec."
           ]
         },
         {
@@ -288,7 +319,9 @@ export const rogueData: ClassData = {
             14162
           ],
           "descriptions": [
-            "Increases the damage done by your Eviscerate ability by 20%."
+            "Increases the damage done by your Eviscerate ability by 5%.",
+            "Increases the damage done by your Eviscerate ability by 10%.",
+            "Increases the damage done by your Eviscerate ability by 15%."
           ]
         },
         {
@@ -303,7 +336,9 @@ export const rogueData: ClassData = {
             1224716
           ],
           "descriptions": [
-            "Increases the critical strike chance of your Backstab by 30% and your Mutilate by 15%, and gives Backstab a 45% chance to add an additional Combo Point."
+            "Increases the critical strike chance of your Backstab ability by 10%, and the critical strike chance of your Mutilate ability by 5%.",
+            "Increases the critical strike chance of your Backstab ability by 20%, and the critical strike chance of your Mutilate ability by 10%.",
+            "Increases the critical strike chance of your Backstab ability by 30%, and the critical strike chance of your Mutilate ability by 15%."
           ]
         },
         {
@@ -333,7 +368,8 @@ export const rogueData: ClassData = {
             30919
           ],
           "descriptions": [
-            "Reduces the chance for your attacks to be Dodged or Parried by 2%."
+            "Increases your skill with Sword, Fist and Dagger weapons by 3.",
+            "Increases your skill with Sword, Fist and Dagger weapons by 5."
           ],
           "requirements": {
             "talentId": 13877,
@@ -353,7 +389,11 @@ export const rogueData: ClassData = {
             13960
           ],
           "descriptions": [
-            "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Sword:</span> Your successful<br />    melee attacks have a 5% chance<br />    to trigger an extra attack on the <br />    target.<br /><br />    <span style=\"color: #FFFFFF\">Dagger/Fist:</span> Increases your<br />    critical strike chance by 5%.<br /><br />    <span style=\"color: #FFFFFF\">Mace:</span> Your attacks ignore 15% of<br />    your target's armor."
+            "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Sword:</span> Your successful<br />    melee attacks have a 5% chance<br />    to trigger an extra attack on the <br />    target.<br /><br />    <span style=\"color: #FFFFFF\">Dagger/Fist:</span> Increases your<br />    critical strike chance by 5%.<br /><br />    <span style=\"color: #FFFFFF\">Mace:</span> Your attacks ignore 15% of<br />    your target's armor.",
+            "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Sword:</span> Your successful<br />    melee attacks have a 10% chance<br />    to trigger an extra attack on the <br />    target.<br /><br />    <span style=\"color: #FFFFFF\">Dagger/Fist:</span> Increases your<br />    critical strike chance by 10%.<br /><br />    <span style=\"color: #FFFFFF\">Mace:</span> Your attacks ignore 30% of<br />    your target's armor.",
+            "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Sword:</span> Your successful<br />    melee attacks have a 15% chance<br />    to trigger an extra attack on the <br />    target.<br /><br />    <span style=\"color: #FFFFFF\">Dagger/Fist:</span> Increases your<br />    critical strike chance by 15%.<br /><br />    <span style=\"color: #FFFFFF\">Mace:</span> Your attacks ignore 45% of<br />    your target's armor.",
+            "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Sword:</span> Your successful<br />    melee attacks have a 20% chance<br />    to trigger an extra attack on the <br />    target.<br /><br />    <span style=\"color: #FFFFFF\">Dagger/Fist:</span> Increases your<br />    critical strike chance by 20%.<br /><br />    <span style=\"color: #FFFFFF\">Mace:</span> Your attacks ignore 60% of<br />    your target's armor.",
+            "Gives your melee weapon attacks a benefit depending on the weapon.<br /><br />    <span style=\"color: #FFFFFF\">Axe/Sword:</span> Your successful<br />    melee attacks have a 25% chance<br />    to trigger an extra attack on the <br />    target.<br /><br />    <span style=\"color: #FFFFFF\">Dagger/Fist:</span> Increases your<br />    critical strike chance by 25%.<br /><br />    <span style=\"color: #FFFFFF\">Mace:</span> Your attacks ignore 75% of<br />    your target's armor."
           ]
         },
         {
@@ -383,7 +423,9 @@ export const rogueData: ClassData = {
             18427
           ],
           "descriptions": [
-            "Increases the damage of your Sinister Strike, Backstab, and Eviscerate abilities by 2%."
+            "Increases the damage of your Sinister Strike and Eviscerate abilities by 2%.",
+            "Increases the damage of your Sinister Strike and Eviscerate abilities by 4%.",
+            "Increases the damage of your Sinister Strike and Eviscerate abilities by 6%."
           ]
         },
         {
@@ -398,6 +440,7 @@ export const rogueData: ClassData = {
             13743
           ],
           "descriptions": [
+            "Gives a 50% chance to remove all movement impairing effects when you activate your Sprint ability.",
             "Gives a 100% chance to remove all movement impairing effects when you activate your Sprint ability."
           ]
         },
@@ -413,7 +456,8 @@ export const rogueData: ClassData = {
             13754
           ],
           "descriptions": [
-            "Gives your Kick ability a 100% chance to Silence the target for 2 sec."
+            "Gives your Kick ability a 50% chance to silence the target for 2 sec.",
+            "Gives your Kick ability a 100% chance to silence the target for 2 sec."
           ]
         },
         {
@@ -448,7 +492,8 @@ export const rogueData: ClassData = {
             13742
           ],
           "descriptions": [
-            "Reduces the cooldown of your Sprint and Evasion abilities by 60%."
+            "Reduces the cooldown of your Sprint and Evasion abilities by 45 sec.",
+            "Reduces the cooldown of your Sprint and Evasion abilities by 1.5 min."
           ]
         },
         {
@@ -463,7 +508,9 @@ export const rogueData: ClassData = {
             13705
           ],
           "descriptions": [
-            "Improves your chance to hit by 1%."
+            "Increases your chance to hit with melee weapons by 1%.",
+            "Increases your chance to hit with melee weapons by 2%.",
+            "Increases your chance to hit with melee weapons by 3%."
           ]
         },
         {
@@ -478,7 +525,9 @@ export const rogueData: ClassData = {
             13713
           ],
           "descriptions": [
-            "Increases your Parry chance by 1%."
+            "Increases your Parry chance by 1%.",
+            "Increases your Parry chance by 2%.",
+            "Increases your Parry chance by 3%."
           ]
         },
         {
@@ -493,7 +542,11 @@ export const rogueData: ClassData = {
             13715
           ],
           "descriptions": [
-            "Increases the damage done by your off-hand weapon by 50%."
+            "Increases the damage done by your offhand weapon by 5%.",
+            "Increases the damage done by your offhand weapon by 10%.",
+            "Increases the damage done by your offhand weapon by 15%.",
+            "Increases the damage done by your offhand weapon by 20%.",
+            "Increases the damage done by your offhand weapon by 25%."
           ],
           "requirements": {
             "talentId": 13705,
@@ -513,6 +566,7 @@ export const rogueData: ClassData = {
             13732
           ],
           "descriptions": [
+            "Reduces the Energy cost of your Sinister Strike ability by 3.",
             "Reduces the Energy cost of your Sinister Strike ability by 5."
           ]
         },
@@ -543,6 +597,10 @@ export const rogueData: ClassData = {
             13712
           ],
           "descriptions": [
+            "Increases your Dodge chance by 1%.",
+            "Increases your Dodge chance by 2%.",
+            "Increases your Dodge chance by 3%.",
+            "Increases your Dodge chance by 4%.",
             "Increases your Dodge chance by 5%."
           ]
         }
@@ -578,7 +636,8 @@ export const rogueData: ClassData = {
             14082
           ],
           "descriptions": [
-            "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20, and your Garrote ability no longer requires you to be behind your target."
+            "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 10.",
+            "Reduces the Energy cost of your Cheap Shot and Garrote abilities by 20."
           ]
         },
         {
@@ -608,7 +667,8 @@ export const rogueData: ClassData = {
             30894
           ],
           "descriptions": [
-            "Increases your Stealth detection as if you were 3 <!--singular:level:levels-->levels<!--singular--> higher and reduces your chance to be hit by spells and ranged attacks by 6%."
+            "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 2%.",
+            "Increases your Stealth detection and reduces the chance you are hit by spells and ranged attacks by 4%.  More effective than Heightened Senses (Rank 1)."
           ]
         },
         {
@@ -643,6 +703,8 @@ export const rogueData: ClassData = {
             14079
           ],
           "descriptions": [
+            "Increases the critical strike chance of your Ambush ability by 15%.",
+            "Increases the critical strike chance of your Ambush ability by 30%.",
             "Increases the critical strike chance of your Ambush ability by 45%."
           ]
         },
@@ -658,6 +720,10 @@ export const rogueData: ClassData = {
             462708
           ],
           "descriptions": [
+            "Your Backstab has a 3% chance to cause your next Ambush within 10 sec to not require Stealth.",
+            "Your Backstab has a 6% chance to cause your next Ambush within 10 sec to not require Stealth.",
+            "Your Backstab has a 9% chance to cause your next Ambush within 10 sec to not require Stealth.",
+            "Your Backstab has a 12% chance to cause your next Ambush within 10 sec to not require Stealth.",
             "Your Backstab has a 15% chance to cause your next Ambush within 10 sec to not require Stealth."
           ]
         },
@@ -673,7 +739,9 @@ export const rogueData: ClassData = {
             13983
           ],
           "descriptions": [
-            "Gives you a 0% chance to add a Combo Point to your target after Dodging one of their attacks or fully resisting one of their spells."
+            "Gives you a 15% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
+            "Gives you a 30% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells.",
+            "Gives you a 45% chance to add a combo point to your target after dodging their attack or fully resisting one of their spells."
           ]
         },
         {
@@ -688,7 +756,9 @@ export const rogueData: ClassData = {
             14171
           ],
           "descriptions": [
-            "Causes your attacks to ignore 9% of your target's Armor and increases the damage dealt by your Rupture ability by 30%."
+            "Causes your attacks to ignore 0 of your target's Armor and increases the damage dealt by your Rupture ability by 10%.  The amount of Armor reduced increases with your level.",
+            "Causes your attacks to ignore 0 of your target's Armor and increases the damage dealt by your Rupture ability by 20%.  The amount of Armor reduced increases with your level.",
+            "Causes your attacks to ignore 0 of your target's Armor and increases the damage dealt by your Rupture ability by 30%.  The amount of Armor reduced increases with your level."
           ]
         },
         {
@@ -703,7 +773,8 @@ export const rogueData: ClassData = {
             13981
           ],
           "descriptions": [
-            "Reduces the cooldown of your Vanish and Blind abilities by 90 sec."
+            "Reduces the cooldown of your Vanish and Blind abilities by 45 sec.",
+            "Reduces the cooldown of your Vanish and Blind abilities by 1.5 min."
           ]
         },
         {
@@ -733,7 +804,9 @@ export const rogueData: ClassData = {
             13976
           ],
           "descriptions": [
-            "Gives you a 100% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
+            "Gives you a 25% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+            "Gives you a 50% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability.",
+            "Gives you a 75% chance to add an additional combo point to your target when using your Ambush, Garrote, or Cheap Shot ability."
           ]
         },
         {
@@ -748,7 +821,11 @@ export const rogueData: ClassData = {
             13975
           ],
           "descriptions": [
-            "Reduces your speed penalty from your Stealth ability by 15% and reduces its cooldown by 6 sec."
+            "Increases your speed while stealthed by 3% and reduces the cooldown of your Stealth ability by 1 sec.",
+            "Increases your speed while stealthed by 6% and reduces the cooldown of your Stealth ability by 2 sec.",
+            "Increases your speed while stealthed by 9% and reduces the cooldown of your Stealth ability by 3 sec.",
+            "Increases your speed while stealthed by 12% and reduces the cooldown of your Stealth ability by 4 sec.",
+            "Increases your speed while stealthed by 15% and reduces the cooldown of your Stealth ability by 5 sec."
           ]
         },
         {
@@ -763,7 +840,8 @@ export const rogueData: ClassData = {
             1224782
           ],
           "descriptions": [
-            "Reduces the Energy cost of your Sap and Blind abilities by 50%."
+            "Increases the range of your Blind and Sap abilities by 2 yards and reduces the energy cost of your Blind and Sap abilities by 25%.",
+            "Increases the range of your Blind and Sap abilities by 5 yards and reduces the energy cost of your Blind and Sap abilities by 50%."
           ]
         },
         {
@@ -778,6 +856,7 @@ export const rogueData: ClassData = {
             14057
           ],
           "descriptions": [
+            "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 5%.",
             "Increases the damage dealt by your Backstab, Garrote, Ambush, and Mutilate abilities by 10%."
           ]
         },
@@ -793,6 +872,8 @@ export const rogueData: ClassData = {
             13958
           ],
           "descriptions": [
+            "Reduces the chance enemies have to detect you while in Stealth mode as if you were 3 <!--singular:level:levels-->levels<!--singular--> higher.",
+            "Reduces the chance enemies have to detect you while in Stealth mode as if you were 3 <!--singular:level:levels-->levels<!--singular--> higher.",
             "Reduces the chance enemies have to detect you while in Stealth mode as if you were 3 <!--singular:level:levels-->levels<!--singular--> higher."
           ]
         },
@@ -828,6 +909,10 @@ export const rogueData: ClassData = {
             1310728
           ],
           "descriptions": [
+            "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 2% more damage against targets below 7% health.",
+            "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 4% more damage against targets below 14% health.",
+            "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 6% more damage against targets below 21% health.",
+            "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 8% more damage against targets below 28% health.",
             "Your Sinister Strike, Ghostly Strike, and Hemorrhage abilities cause 10% more damage against targets below 35% health."
           ],
           "requirements": {
@@ -848,6 +933,7 @@ export const rogueData: ClassData = {
             14084
           ],
           "descriptions": [
+            "Increases the radius of your Distract ability by 5 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 2 <!--singular:level:levels-->levels<!--singular--> lower.",
             "Increases the radius of your Distract ability by 5 yds, and further reduces the Stealth detection of distracted enemies as though they were an additional 2 <!--singular:level:levels-->levels<!--singular--> lower."
           ]
         }

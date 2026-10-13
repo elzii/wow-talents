@@ -1,4 +1,4 @@
-import { ClassData } from "../../../types";
+import { ClassData } from "../../types";
 
 export const druidData: ClassData = {
   "name": "Druid",
@@ -18,7 +18,11 @@ export const druidData: ClassData = {
             16814
           ],
           "descriptions": [
-            "Reduces the cast time of your Wrath spell by 0 sec and its Mana cost by 50%."
+            "Reduces the cast time of your Wrath spell by 0.1 sec.",
+            "Reduces the cast time of your Wrath spell by 0.2 sec.",
+            "Reduces the cast time of your Wrath spell by 0.3 sec.",
+            "Reduces the cast time of your Wrath spell by 0.4 sec.",
+            "Reduces the cast time of your Wrath spell by 0.5 sec."
           ]
         },
         {
@@ -33,7 +37,11 @@ export const druidData: ClassData = {
             1223081
           ],
           "descriptions": [
-            "Increases the periodic damage and healing done by your spells and abilities by 1%."
+            "Increases the periodic damage and healing done by your spells and abilities by 1%.",
+            "Increases the periodic damage and healing done by your spells and abilities by 2%.",
+            "Increases the periodic damage and healing done by your spells and abilities by 3%.",
+            "Increases the periodic damage and healing done by your spells and abilities by 4%.",
+            "Increases the periodic damage and healing done by your spells and abilities by 5%."
           ]
         },
         {
@@ -48,7 +56,9 @@ export const druidData: ClassData = {
             16845
           ],
           "descriptions": [
-            "Reduces the Mana cost of your damaging spells by 25%."
+            "Reduces the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by 3%.",
+            "Reduces the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by 6%.",
+            "Reduces the Mana cost of your Moonfire, Starfire, Wrath, Healing Touch, Regrowth and Rejuvenation spells by 9%."
           ]
         },
         {
@@ -63,7 +73,9 @@ export const druidData: ClassData = {
             16918
           ],
           "descriptions": [
-            "Increases the damage done by your Entangling Roots spell by 75%, and its victims can take up to 75% more damage without interrupting the effect."
+            "Gives you a 40% chance to avoid interruption caused by damage while casting Entangling Roots.",
+            "Gives you a 70% chance to avoid interruption caused by damage while casting Entangling Roots.",
+            "Gives you a 100% chance to avoid interruption caused by damage while casting Entangling Roots."
           ]
         },
         {
@@ -78,7 +90,8 @@ export const druidData: ClassData = {
             1223082
           ],
           "descriptions": [
-            "Increases your critical strike chance with spells and melee attacks by 1%."
+            "Increases your critical strike chance with spells and melee attacks by 1%.",
+            "Increases your critical strike chance with spells and melee attacks by 2%."
           ]
         },
         {
@@ -113,7 +126,8 @@ export const druidData: ClassData = {
             16819
           ],
           "descriptions": [
-            "Increases the range of your offensive Balance spells by 20% and improves your chance to hit by 4%."
+            "Increases the range of your Wrath, Entangling Roots, Faerie Fire, Moonfire, Starfire, and Hurricane spells by 10%.",
+            "Increases the range of your Wrath, Entangling Roots, Faerie Fire, Moonfire, Starfire, and Hurricane spells by 20%."
           ]
         },
         {
@@ -143,7 +157,8 @@ export const druidData: ClassData = {
             16821
           ],
           "descriptions": [
-            "Increases the damage and critical strike chance of your Moonfire spell by 2%."
+            "Increases the damage and critical strike chance of your Moonfire spell by 5%.",
+            "Increases the damage and critical strike chance of your Moonfire spell by 10%."
           ]
         },
         {
@@ -158,7 +173,11 @@ export const druidData: ClassData = {
             16909
           ],
           "descriptions": [
-            "Increases the critical strike damage bonus of your Arcane and Nature spells by 20%."
+            "Gives you a 3% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability.",
+            "Gives you a 6% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability.",
+            "Gives you a 9% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability.",
+            "Gives you a 12% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability.",
+            "Gives you a 15% bonus to Physical and Holy damage you deal for 8 sec after dealing a critical strike from a weapon swing, spell, or ability."
           ],
           "requirements": {
             "talentId": 16821,
@@ -178,7 +197,11 @@ export const druidData: ClassData = {
             16850
           ],
           "descriptions": [
-            "Reduces the cast time of Starfire by 1 sec and Starfire has a 15% chance to stun its target for 3 sec."
+            "Reduces the cast time of Starfire by 0.1 sec and has a 3% chance to stun the target for 3 sec.",
+            "Reduces the cast time of Starfire by 0.2 sec and has a 6% chance to stun the target for 3 sec.",
+            "Reduces the cast time of Starfire by 0.3 sec and has a 9% chance to stun the target for 3 sec.",
+            "Reduces the cast time of Starfire by 0.4 sec and has a 12% chance to stun the target for 3 sec.",
+            "Reduces the cast time of Starfire by 0.5 sec and has a 15% chance to stun the target for 3 sec."
           ]
         },
         {
@@ -208,7 +231,9 @@ export const druidData: ClassData = {
             408248
           ],
           "descriptions": [
-            "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.03 sec. Stores up to 4 charges. Lasts 15 sec."
+            "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0 sec. Stores up to 4 charges. Lasts 15 sec.",
+            "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.1 sec. Stores up to 4 charges. Lasts 30 sec.",
+            "Your Wrath spell reduces the cast time of your next 2 Starfire spells by 0.1 sec. Stores up to 4 charges. Lasts 45 sec."
           ]
         },
         {
@@ -223,7 +248,11 @@ export const druidData: ClassData = {
             16896
           ],
           "descriptions": [
-            "Increases the damage done by your Arcane and Nature spells by 2%."
+            "Increases the damage done by your Starfire, Moonfire and Wrath spells by 2%.",
+            "Increases the damage done by your Starfire, Moonfire and Wrath spells by 4%.",
+            "Increases the damage done by your Starfire, Moonfire and Wrath spells by 6%.",
+            "Increases the damage done by your Starfire, Moonfire and Wrath spells by 8%.",
+            "Increases the damage done by your Starfire, Moonfire and Wrath spells by 10%."
           ]
         },
         {
@@ -253,6 +282,7 @@ export const druidData: ClassData = {
             17245
           ],
           "descriptions": [
+            "Increases the maximum number of targets you may have affected by Entangling Roots by 2.",
             "Increases the maximum number of targets you may have affected by Entangling Roots by 2."
           ]
         }
@@ -273,7 +303,11 @@ export const druidData: ClassData = {
             16934
           ],
           "descriptions": [
-            "Reduces the cost of your Maul, Primal Bite, Swipe, Claw, and Rake abilities by 1 Rage or Energy."
+            "Reduces the cost of your Maul, Swipe, Claw, and Rake abilities by 1 Rage or Energy.",
+            "Reduces the cost of your Maul, Swipe, Claw, and Rake abilities by 2 Rage or Energy.",
+            "Reduces the cost of your Maul, Swipe, Claw, and Rake abilities by 3 Rage or Energy.",
+            "Reduces the cost of your Maul, Swipe, Claw, and Rake abilities by 4 Rage or Energy.",
+            "Reduces the cost of your Maul, Swipe, Claw, and Rake abilities by 5 Rage or Energy."
           ]
         },
         {
@@ -288,7 +322,11 @@ export const druidData: ClassData = {
             17003
           ],
           "descriptions": [
-            "Increases your Intellect by 10%.  In addition, while in Bear Form or Dire Bear Form your Stamina is increased by 20% and while in Cat Form your Strength is increased by 10%."
+            "Increases your Intellect by 4%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 4% and while in Cat Form your Strength is increased by 4%.",
+            "Increases your Intellect by 8%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 8% and while in Cat Form your Strength is increased by 8%.",
+            "Increases your Intellect by 12%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 12% and while in Cat Form your Strength is increased by 12%.",
+            "Increases your Intellect by 16%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 16% and while in Cat Form your Strength is increased by 16%.",
+            "Increases your Intellect by 20%.  In addition, while in Bear or Dire Bear Form your Stamina is increased by 20% and while in Cat Form your Strength is increased by 20%."
           ]
         },
         {
@@ -303,7 +341,9 @@ export const druidData: ClassData = {
             16947
           ],
           "descriptions": [
-            "Increases damage done by your Swipe ability by 3% and reduces the chance enemies have to detect you while Prowling as if you were 1 <!--singular:level:levels-->levels<!--singular--> higher."
+            "Increases threat caused in Bear and Dire Bear Form by 5% and reduces the chance enemies have to detect you while Prowling.",
+            "Increases threat caused in Bear and Dire Bear Form by 10% and reduces the chance enemies have to detect you while Prowling.",
+            "Increases threat caused in Bear and Dire Bear Form by 15% and reduces the chance enemies have to detect you while Prowling."
           ]
         },
         {
@@ -318,7 +358,8 @@ export const druidData: ClassData = {
             16940
           ],
           "descriptions": [
-            "Increases the stun duration of your Bash and Pounce abilities by 1 sec and reduces the cooldown of Bash by 30 sec."
+            "Increases the stun duration of your Bash and Pounce abilities by 0.5 sec.",
+            "Increases the stun duration of your Bash and Pounce abilities by 1 sec."
           ]
         },
         {
@@ -333,7 +374,9 @@ export const druidData: ClassData = {
             16929
           ],
           "descriptions": [
-            "While in Bear Form, Cat Form, Dire Bear Form, or Moonkin Form, you gain <!--ppl1:60:3:300-->180 additional base Armor per level and another 1.00 base Armor for each point of defense skill beyond five times your level. This amount can be further increased by multipliers from those forms."
+            "Increases the Armor rating of your pets by 10%.",
+            "Increases the Armor rating of your pets by 20%.",
+            "Increases the Armor rating of your pets by 30%."
           ]
         },
         {
@@ -348,7 +391,8 @@ export const druidData: ClassData = {
             17002
           ],
           "descriptions": [
-            "Increases your movement speed while in Cat Form by 30%, and increases your chance to Dodge by 4%."
+            "Increases your movement speed by 15% while outdoors in Cat Form and increases your chance to dodge while in Cat Form, Bear Form and Dire Bear Form by 2%.",
+            "Increases your movement speed by 30% while outdoors in Cat Form and increases your chance to dodge while in Cat Form, Bear Form and Dire Bear Form by 4%."
           ]
         },
         {
@@ -378,6 +422,8 @@ export const druidData: ClassData = {
             16966
           ],
           "descriptions": [
+            "Reduces the Energy cost of your Shred ability by 6 and reduces the Rage cost of your Lacerate ability by 6.",
+            "Reduces the Energy cost of your Shred ability by 6 and reduces the Rage cost of your Lacerate ability by 6.",
             "Reduces the Energy cost of your Shred ability by 6 and reduces the Rage cost of your Lacerate ability by 6."
           ]
         },
@@ -393,7 +439,8 @@ export const druidData: ClassData = {
             16942
           ],
           "descriptions": [
-            "Increases your critical strike chance while in Bear Form, Dire Bear Form, or Cat Form by 2%."
+            "Increases your critical strike chance while in Bear Form, Dire Bear Form, or Cat Form by 2%.",
+            "Increases your critical strike chance while in Bear Form, Dire Bear Form, or Cat Form by 4%."
           ]
         },
         {
@@ -408,7 +455,8 @@ export const druidData: ClassData = {
             16958
           ],
           "descriptions": [
-            "Gives you a 100% chance to gain an additional 5 Rage any time you get a critical strike while in Bear Form or Dire Bear Form. In addition, your non-periodic critical strikes from Cat Form abilities that generate Combo Points have a 0% chance to add an additional Combo Point."
+            "Your critical strikes from Cat Form abilities that add combo points  have a 50% chance to add an additional combo point.",
+            "Your critical strikes from Cat Form abilities that add combo points  have a 100% chance to add an additional combo point."
           ],
           "requirements": {
             "talentId": 16942,
@@ -428,7 +476,8 @@ export const druidData: ClassData = {
             16998
           ],
           "descriptions": [
-            "Increases the damage caused by your Claw, Rake, Shred, Maul, and Swipe abilities by 20%."
+            "Increases the damage caused by your Claw, Rake, Maul and Swipe abilities by 10%.",
+            "Increases the damage caused by your Claw, Rake, Maul and Swipe abilities by 20%."
           ]
         },
         {
@@ -463,6 +512,7 @@ export const druidData: ClassData = {
             1223242
           ],
           "descriptions": [
+            "Increases the critical strike damage bonus of your melee abilities by 10% and increases your spell healing by 12.5% of your Intellect.",
             "Increases the critical strike damage bonus of your melee abilities by 20% and increases your spell healing by 25% of your Intellect."
           ]
         },
@@ -498,7 +548,9 @@ export const druidData: ClassData = {
             16972
           ],
           "descriptions": [
-            "Increases your melee Attack Power in Cat Form, Bear Form, and Dire Bear Form by 50% of your level."
+            "Increases your melee attack power in Cat, Bear and Dire Bear Forms by 50% of your level.",
+            "Increases your melee attack power in Cat, Bear and Dire Bear Forms by 100% of your level.",
+            "Increases your melee attack power in Cat, Bear and Dire Bear Forms by 150% of your level."
           ]
         },
         {
@@ -513,6 +565,10 @@ export const druidData: ClassData = {
             1223246
           ],
           "descriptions": [
+            "Increases damage done by your melee abilities on Bleeding targets by 4%.",
+            "Increases damage done by your melee abilities on Bleeding targets by 8%.",
+            "Increases damage done by your melee abilities on Bleeding targets by 12%.",
+            "Increases damage done by your melee abilities on Bleeding targets by 16%.",
             "Increases damage done by your melee abilities on Bleeding targets by 20%."
           ],
           "requirements": {
@@ -533,7 +589,11 @@ export const druidData: ClassData = {
             417051
           ],
           "descriptions": [
-            "Increases your dodge chance by 0%, and gives you a 3% chance to gain 5 Rage each time you dodge."
+            "Increases your dodge chance by 0%, and gives you a 3% chance to gain 5 Rage each time you dodge.",
+            "Increases your dodge chance by 0%, and gives you a 6% chance to gain 5 Rage each time you dodge.",
+            "Increases your dodge chance by 0%, and gives you a 9% chance to gain 5 Rage each time you dodge.",
+            "Increases your dodge chance by 0%, and gives you a 12% chance to gain 5 Rage each time you dodge.",
+            "Increases your dodge chance by 0%, and gives you a 15% chance to gain 5 Rage each time you dodge."
           ]
         },
         {
@@ -583,6 +643,7 @@ export const druidData: ClassData = {
             1322670
           ],
           "descriptions": [
+            "Reduces the cooldown of your Shifting Power spell by 0 sec.",
             "Reduces the cooldown of your Shifting Power spell by 0 sec."
           ],
           "requirements": {
@@ -608,7 +669,8 @@ export const druidData: ClassData = {
             17123
           ],
           "descriptions": [
-            "Reduces threat caused by Tranquility by 100% and its cooldown by 60%."
+            "Reduces threat caused by Tranquility by 50%.",
+            "Reduces threat caused by Tranquility by 100%."
           ]
         },
         {
@@ -643,7 +705,9 @@ export const druidData: ClassData = {
             1309631
           ],
           "descriptions": [
-            "Increases your Spirit by 15%."
+            "Increases your total Spirit by 5%.",
+            "Increases your total Spirit by 10%.",
+            "Increases your total Spirit by 15%."
           ]
         },
         {
@@ -673,7 +737,11 @@ export const druidData: ClassData = {
             17074
           ],
           "descriptions": [
-            "Increases the critical effect chance of your Regrowth spell by 10%."
+            "Increases the critical effect chance of your Regrowth spell by 10%.",
+            "Increases the critical effect chance of your Regrowth spell by 20%.",
+            "Increases the critical effect chance of your Regrowth spell by 30%.",
+            "Increases the critical effect chance of your Regrowth spell by 40%.",
+            "Increases the critical effect chance of your Regrowth spell by 50%."
           ],
           "requirements": {
             "talentId": 17111,
@@ -693,7 +761,9 @@ export const druidData: ClassData = {
             17111
           ],
           "descriptions": [
-            "Increases the effect of your Rejuvenation spell by 5%."
+            "Increases the effect of your Rejuvenation spell by 5%.",
+            "Increases the effect of your Rejuvenation spell by 10%.",
+            "Increases the effect of your Rejuvenation spell by 15%."
           ]
         },
         {
@@ -708,7 +778,11 @@ export const druidData: ClassData = {
             24968
           ],
           "descriptions": [
-            "Reduces the mana cost of your Healing Touch and Tranquility spells by 2%."
+            "Reduces the mana cost of your Healing Touch and Tranquility spells by 2%.",
+            "Reduces the mana cost of your Healing Touch and Tranquility spells by 4%.",
+            "Reduces the mana cost of your Healing Touch and Tranquility spells by 6%.",
+            "Reduces the mana cost of your Healing Touch and Tranquility spells by 8%.",
+            "Reduces the mana cost of your Healing Touch and Tranquility spells by 10%."
           ]
         },
         {
@@ -723,7 +797,11 @@ export const druidData: ClassData = {
             17104
           ],
           "descriptions": [
-            "Increases the effect of all your healing spells by 2%."
+            "Increases the effect of all healing spells by 2%.",
+            "Increases the effect of all healing spells by 4%.",
+            "Increases the effect of all healing spells by 6%.",
+            "Increases the effect of all healing spells by 8%.",
+            "Increases the effect of all healing spells by 10%."
           ]
         },
         {
@@ -738,7 +816,9 @@ export const druidData: ClassData = {
             17106
           ],
           "descriptions": [
-            "Allows 50% of your Mana regeneration to continue while casting."
+            "Allows 5% of your Mana regeneration to continue while casting.",
+            "Allows 10% of your Mana regeneration to continue while casting.",
+            "Allows 15% of your Mana regeneration to continue while casting."
           ]
         },
         {
@@ -768,7 +848,9 @@ export const druidData: ClassData = {
             16833
           ],
           "descriptions": [
-            "Reduces the mana cost of all shapeshifting by 10%."
+            "Reduces the mana cost of all shapeshifting by 10%.",
+            "Reduces the mana cost of all shapeshifting by 20%.",
+            "Reduces the mana cost of all shapeshifting by 30%."
           ]
         },
         {
@@ -783,6 +865,8 @@ export const druidData: ClassData = {
             17118
           ],
           "descriptions": [
+            "Reduces the threat generated by your Nature and Arcane spells by 10%.",
+            "Reduces the threat generated by your Nature and Arcane spells by 20%.",
             "Reduces the threat generated by your Nature and Arcane spells by 30%."
           ]
         },
@@ -818,7 +902,11 @@ export const druidData: ClassData = {
             17069
           ],
           "descriptions": [
-            "Reduces the cast time of your Healing Touch spell by 0 sec and increases all damage you deal by 100%."
+            "Reduces the cast time of your Healing Touch spell by 0.1 sec and increases the damage you deal with physical attacks in all forms by 2%.",
+            "Reduces the cast time of your Healing Touch spell by 0.2 sec and increases the damage you deal with physical attacks in all forms by 4%.",
+            "Reduces the cast time of your Healing Touch spell by 0.3 sec and increases the damage you deal with physical attacks in all forms by 6%.",
+            "Reduces the cast time of your Healing Touch spell by 0.4 sec and increases the damage you deal with physical attacks in all forms by 8%.",
+            "Reduces the cast time of your Healing Touch spell by 0.5 sec and increases the damage you deal with physical attacks in all forms by 10%."
           ]
         },
         {
@@ -833,7 +921,11 @@ export const druidData: ClassData = {
             17063
           ],
           "descriptions": [
-            "Gives you a 14% chance to avoid interruption caused by damage while casting Arcane and Nature spells."
+            "Gives you a 14% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and Tranquility spells.",
+            "Gives you a 28% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and Tranquility spells.",
+            "Gives you a 42% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and Tranquility spells.",
+            "Gives you a 56% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and Tranquility spells.",
+            "Gives you a 70% chance to avoid interruption caused by damage while casting the Healing Touch, Regrowth and Tranquility spells."
           ]
         },
         {
@@ -848,7 +940,11 @@ export const druidData: ClassData = {
             17056
           ],
           "descriptions": [
-            "Gives you a 20% chance to gain 10 Rage when shapeshifting into Bear Form or Dire Bear Form. Shapeshifting into Cat Form restores 20% of the Energy you had when last in Cat Form, plus 2 Energy per sec spent outside Cat Form, up to 20 Energy.<br /><br />Bear Form and Dire Bear Form forfeit this Energy and halt its restoration while active."
+            "Gives you 20% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.",
+            "Gives you 40% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.",
+            "Gives you 60% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.",
+            "Gives you 80% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form.",
+            "Gives you 100% chance to gain 10 Rage when you shapeshift into Bear and Dire Bear Form or 40 Energy when you shapeshift into Cat Form."
           ]
         }
       ]

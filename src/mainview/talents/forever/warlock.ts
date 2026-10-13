@@ -1,4 +1,4 @@
-import { ClassData } from "../../../types";
+import { ClassData } from "../../types";
 
 export const warlockData: ClassData = {
   "name": "Warlock",
@@ -38,7 +38,11 @@ export const warlockData: ClassData = {
             18271
           ],
           "descriptions": [
-            "Increases the damage dealt or life drained by your Shadow spells by 2%."
+            "Increases the damage dealt or life drained by your Shadow spells by 2%.",
+            "Increases the damage dealt or life drained by your Shadow spells by 4%.",
+            "Increases the damage dealt or life drained by your Shadow spells by 6%.",
+            "Increases the damage dealt or life drained by your Shadow spells by 8%.",
+            "Increases the damage dealt or life drained by your Shadow spells by 10%."
           ]
         },
         {
@@ -53,6 +57,8 @@ export const warlockData: ClassData = {
             17804
           ],
           "descriptions": [
+            "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 4% per each of your other Affliction effects active on the target, up to a maximum increase of 12%.",
+            "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 8% per each of your other Affliction effects active on the target, up to a maximum increase of 24%.",
             "Increases the damage done or health drained by your Drain Life, Drain Soul, and Wrack spells by 12% per each of your other Affliction effects active on the target, up to a maximum increase of 36%."
           ]
         },
@@ -103,7 +109,8 @@ export const warlockData: ClassData = {
             18094
           ],
           "descriptions": [
-            "Gives your Corruption, Drain Soul, Drain Life, and Wrack spells a 4% chance to cause you to enter a Shadow Trance after damaging the opponent. The Shadow Trance reduces the casting time of your next Shadow Bolt spell by 100%."
+            "Gives your Corruption and Drain Life spells a 2% chance to cause you to enter a Shadow Trance state after damaging the opponent.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%.",
+            "Gives your Corruption and Drain Life spells a 4% chance to cause you to enter a Shadow Trance state after damaging the opponent.  The Shadow Trance state reduces the casting time of your next Shadow Bolt spell by 100%."
           ]
         },
         {
@@ -133,7 +140,9 @@ export const warlockData: ClassData = {
             427712
           ],
           "descriptions": [
-            "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Wrack spells by 100%."
+            "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Wrack spells by 100%.",
+            "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Wrack spells by 200%.",
+            "Increases the critical strike damage bonus of your Corruption, Bane of Agony, Bane of Doom, Drain Soul, Drain Life, Siphon Life, and Wrack spells by 300%."
           ]
         },
         {
@@ -148,7 +157,9 @@ export const warlockData: ClassData = {
             17783
           ],
           "descriptions": [
-            "Gives you a 70% chance to avoid interruption caused by damage while channeling or casting your Drain Life, Drain Mana, Drain Soul, or Wrack spells."
+            "Gives you a 70% chance to avoid interruption caused by damage while channeling or casting your Drain Life, Drain Mana, Drain Soul, or Wrack spells.",
+            "Gives you a 140% chance to avoid interruption caused by damage while channeling or casting your Drain Life, Drain Mana, Drain Soul, or Wrack spells.",
+            "Gives you a 210% chance to avoid interruption caused by damage while channeling or casting your Drain Life, Drain Mana, Drain Soul, or Wrack spells."
           ]
         },
         {
@@ -163,7 +174,8 @@ export const warlockData: ClassData = {
             18827
           ],
           "descriptions": [
-            "Increases the damage done by your Bane of Agony by 2%."
+            "Increases the damage done by your Bane of Agony by 2%.",
+            "Increases the damage done by your Bane of Agony by 4%."
           ]
         },
         {
@@ -178,7 +190,9 @@ export const warlockData: ClassData = {
             403511
           ],
           "descriptions": [
-            "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 20%."
+            "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 20%.",
+            "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 40%.",
+            "Increases health drained or damage done by your Drain Life, Drain Soul, and Wrack spells by 60%."
           ]
         },
         {
@@ -193,7 +207,8 @@ export const warlockData: ClassData = {
             18182
           ],
           "descriptions": [
-            "Increases the amount of Mana awarded by your Life Tap spell by 0%."
+            "Increases the amount of Mana awarded by your Life Tap spell by 10%.",
+            "Increases the amount of Mana awarded by your Life Tap spell by 20%."
           ]
         },
         {
@@ -208,6 +223,7 @@ export const warlockData: ClassData = {
             437032
           ],
           "descriptions": [
+            "Killing a non-trivial target afflicted by your Drain Soul increases your Mana regeneration by 50% for 10 sec and allows 50% of normal Mana regeneration to continue while casting.",
             "Killing a non-trivial target afflicted by your Drain Soul increases your Mana regeneration by 100% for 10 sec and allows 100% of normal Mana regeneration to continue while casting."
           ]
         },
@@ -223,6 +239,10 @@ export const warlockData: ClassData = {
             1225177
           ],
           "descriptions": [
+            "Increases all periodic damage done by your Warlock spells by 2%.",
+            "Increases all periodic damage done by your Warlock spells by 4%.",
+            "Increases all periodic damage done by your Warlock spells by 6%.",
+            "Increases all periodic damage done by your Warlock spells by 8%.",
             "Increases all periodic damage done by your Warlock spells by 10%."
           ]
         },
@@ -238,7 +258,11 @@ export const warlockData: ClassData = {
             17810
           ],
           "descriptions": [
-            "Reduces the casting time of your Corruption spell by 2 sec and increases the damage it deals by 10%."
+            "Reduces the casting time of your Corruption spell by 0.4 sec.",
+            "Reduces the casting time of your Corruption spell by 0.8 sec.",
+            "Reduces the casting time of your Corruption spell by 1.2 sec.",
+            "Reduces the casting time of your Corruption spell by 1.6 sec.",
+            "Reduces the casting time of your Corruption spell by 2 sec."
           ]
         },
         {
@@ -253,7 +277,11 @@ export const warlockData: ClassData = {
             18174
           ],
           "descriptions": [
-            "Improves your chance to hit by 5% and reduces all threat you generate by 20%."
+            "Reduces the chance for enemies to resist your Affliction spells by 2%.",
+            "Reduces the chance for enemies to resist your Affliction spells by 4%.",
+            "Reduces the chance for enemies to resist your Affliction spells by 6%.",
+            "Reduces the chance for enemies to resist your Affliction spells by 8%.",
+            "Reduces the chance for enemies to resist your Affliction spells by 10%."
           ]
         },
         {
@@ -268,7 +296,11 @@ export const warlockData: ClassData = {
             1310949
           ],
           "descriptions": [
-            "Increases the critical effect chance of your Shadow spells by 5%."
+            "Increases the critical effect chance of your Shadow spells by 5%.",
+            "Increases the critical effect chance of your Shadow spells by 10%.",
+            "Increases the critical effect chance of your Shadow spells by 15%.",
+            "Increases the critical effect chance of your Shadow spells by 20%.",
+            "Increases the critical effect chance of your Shadow spells by 25%."
           ]
         }
       ]
@@ -308,7 +340,11 @@ export const warlockData: ClassData = {
             23785
           ],
           "descriptions": [
-            "Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br /><br />Imp - Increases Fire damage done by 10%.<br /><br />Voidwalker - Reduces Physical damage taken by 10%.<br /><br />Succubus/Incubus - Increases Shadow damage done by 10%.<br /><br />Felhunter - Reduces Magic damage taken by 10%."
+            "Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br /><br />Imp - Reduces threat caused by 4%.<br /><br />Voidwalker - Reduces physical damage taken by 2%.<br /><br />Succubus - Increases all damage caused by 2%.<br /><br />Felhunter - Increases all resistances by .2 per level.",
+            "Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br /><br />Imp - Reduces threat caused by 8%.<br /><br />Voidwalker - Reduces physical damage taken by 4%.<br /><br />Succubus - Increases all damage caused by 4%.<br /><br />Felhunter - Increases all resistances by .4 per level.",
+            "Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br /><br />Imp - Reduces threat caused by 12%.<br /><br />Voidwalker - Reduces physical damage taken by 6%.<br /><br />Succubus - Increases all damage caused by 6%.<br /><br />Felhunter - Increases all resistances by .6 per level.",
+            "Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br /><br />Imp - Reduces threat caused by 16%.<br /><br />Voidwalker - Reduces physical damage taken by 8%.<br /><br />Succubus - Increases all damage caused by 8%.<br /><br />Felhunter - Increases all resistances by .8 per level.",
+            "Grants both the Warlock and the summoned demon an effect as long as that demon is active.<br /><br />Imp - Reduces threat caused by 20%.<br /><br />Voidwalker - Reduces physical damage taken by 10%.<br /><br />Succubus - Increases all damage caused by 10%.<br /><br />Felhunter - Increases all resistances by 1 per level."
           ]
         },
         {
@@ -343,7 +379,9 @@ export const warlockData: ClassData = {
             412732
           ],
           "descriptions": [
-            "Increases your spell damage and your Demon pet's spell damage by up to 100% of your level while you have a summoned Demon pet active."
+            "Increases your spell damage by an amount equal to 5% of the total of your active demon's Stamina plus Intellect.",
+            "Increases your spell damage by an amount equal to 10% of the total of your active demon's Stamina plus Intellect.",
+            "Increases your spell damage by an amount equal to 15% of the total of your active demon's Stamina plus Intellect."
           ]
         },
         {
@@ -358,6 +396,8 @@ export const warlockData: ClassData = {
             1225217
           ],
           "descriptions": [
+            "Increases the Attack Power reduction of your Felhunter's Tainted Blood, the healing of its Devour Magic, and the detection level of its Paranoia by 10%, and reduces the cooldown of its Spell Lock by 6 sec.",
+            "Increases the Attack Power reduction of your Felhunter's Tainted Blood, the healing of its Devour Magic, and the detection level of its Paranoia by 20%, and reduces the cooldown of its Spell Lock by 6 sec.",
             "Increases the Attack Power reduction of your Felhunter's Tainted Blood, the healing of its Devour Magic, and the detection level of its Paranoia by 30%, and reduces the cooldown of its Spell Lock by 6 sec."
           ]
         },
@@ -393,7 +433,9 @@ export const warlockData: ClassData = {
             1293695
           ],
           "descriptions": [
-            "Your Searing Pain generates 50% less threat and brands the target for 10 sec. Your pet's next 3 attacks against the target deal [(((<!--pl1293695:1:60-->60 - 26) * 1.5) + 14 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)] to [(((<!--pl1293695:1:60-->60 - 26) * 1.5) + 17 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)] Fire or Shadow damage based on the pet. If Shadow damage is dealt, it has high threat."
+            "Your Searing Pain generates 50% less threat and brands the target for 10 sec. Your pet's next 3 attacks against the target deal [(((<!--pl1293695:1:60-->60 - 26) * 1.5) + 14 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)] to [(((<!--pl1293695:1:60-->60 - 26) * 1.5) + 17 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)] Fire or Shadow damage based on the pet. If Shadow damage is dealt, it has high threat.",
+            "Your Searing Pain generates 100% less threat and brands the target for 10 sec. Your pet's next 3 attacks against the target deal [(((<!--pl1293695:1:60-->60 - 26) * 1.5) + 14 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)] to [(((<!--pl1293695:1:60-->60 - 26) * 1.5) + 17 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)] Fire or Shadow damage based on the pet. If Shadow damage is dealt, it has high threat.",
+            "Your Searing Pain generates 150% less threat and brands the target for 10 sec. Your pet's next 3 attacks against the target deal [(((<!--pl1293695:1:60-->60 - 26) * 1.5) + 14 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)] to [(((<!--pl1293695:1:60-->60 - 26) * 1.5) + 17 + (0.078 * ((Shadow spell power)))) * (<!--sp23759:0-->1<!--sp23759--> * <!--sp18769:0-->1<!--sp18769--> * <!--sp23761:0-->1<!--sp23761-->)] Fire or Shadow damage based on the pet. If Shadow damage is dealt, it has high threat."
           ]
         },
         {
@@ -408,6 +450,7 @@ export const warlockData: ClassData = {
             440870
           ],
           "descriptions": [
+            "Reduces the cooldown of your Soul Fire spell by 45%. When you cast Shadow Bolt or Searing Pain on an enemy below 17.5% health, they deal 0% increased damage, and for the next 10 sec your Soul Fire spell has its cast time reduced by 20% and costs no Soul Shards.",
             "Reduces the cooldown of your Soul Fire spell by 90%. When you cast Shadow Bolt or Searing Pain on an enemy below 35% health, they deal 0% increased damage, and for the next 10 sec your Soul Fire spell has its cast time reduced by 40% and costs no Soul Shards."
           ]
         },
@@ -423,7 +466,8 @@ export const warlockData: ClassData = {
             18709
           ],
           "descriptions": [
-            "Reduces the casting time of your Imp, Voidwalker, Succubus, Incubus, and Felhunter Summoning spells by 4 sec and the Mana cost by 40%."
+            "Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter Summoning spells by 2 sec and the Mana cost by 20%.",
+            "Reduces the casting time of your Imp, Voidwalker, Succubus, and Felhunter Summoning spells by 4 sec and the Mana cost by 40%."
           ]
         },
         {
@@ -438,7 +482,8 @@ export const warlockData: ClassData = {
             1225214
           ],
           "descriptions": [
-            "You heal your pet for 15% of all spell damage you deal. When you gain Mana from Life Tap, your summoned demon gains 100% of the Mana you gain."
+            "You heal your pet for 15% of all spell damage you deal. When you gain Mana from Life Tap, your summoned demon gains 100% of the Mana you gain.",
+            "You heal your pet for 30% of all spell damage you deal. When you gain Mana from Life Tap, your summoned demon gains 200% of the Mana you gain."
           ]
         },
         {
@@ -468,6 +513,8 @@ export const warlockData: ClassData = {
             18754
           ],
           "descriptions": [
+            "Increases the effect of your Succubus' and Incubus' Lash of Pain and Soothing Kiss spells by 10%, and increases the duration of your Succubus' and Incubus' Seduction and Lesser Invisibility spells by 10%.",
+            "Increases the effect of your Succubus' and Incubus' Lash of Pain and Soothing Kiss spells by 20%, and increases the duration of your Succubus' and Incubus' Seduction and Lesser Invisibility spells by 20%.",
             "Increases the effect of your Succubus' and Incubus' Lash of Pain and Soothing Kiss spells by 30%, and increases the duration of your Succubus' and Incubus' Seduction and Lesser Invisibility spells by 30%."
           ]
         },
@@ -483,6 +530,7 @@ export const warlockData: ClassData = {
             1235316
           ],
           "descriptions": [
+            "Increases the effectiveness of your Demon Skin and Demon Armor spells by 15%.",
             "Increases the effectiveness of your Demon Skin and Demon Armor spells by 30%."
           ]
         },
@@ -498,6 +546,8 @@ export const warlockData: ClassData = {
             18731
           ],
           "descriptions": [
+            "Increases the maximum health and Mana of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 5%, and increases your maximum Mana by 5%.",
+            "Increases the maximum health and Mana of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 10%, and increases your maximum Mana by 10%.",
             "Increases the maximum health and Mana of your Imp, Voidwalker, Succubus, Incubus, and Felhunter by 15%, and increases your maximum Mana by 15%."
           ]
         },
@@ -513,7 +563,9 @@ export const warlockData: ClassData = {
             18705
           ],
           "descriptions": [
-            "Increases the effectiveness of your Voidwalker's Torment, Consume Shadows, Sacrifice, and Suffering spells by 30%."
+            "Increases the effectiveness of your Voidwalker's Torment, Consume Shadows, Sacrifice and Suffering spells by 10%.",
+            "Increases the effectiveness of your Voidwalker's Torment, Consume Shadows, Sacrifice and Suffering spells by 20%.",
+            "Increases the effectiveness of your Voidwalker's Torment, Consume Shadows, Sacrifice and Suffering spells by 30%."
           ]
         },
         {
@@ -528,7 +580,8 @@ export const warlockData: ClassData = {
             18703
           ],
           "descriptions": [
-            "Increases the amount of health transferred by your Health Funnel spell by 40%, reduces its health cost by 30%, and reduces all threat your Health Funnel generates by 100%. Allows Health Funnel to be used regardless of your demon's health."
+            "Increases the amount of Health transferred by your Health Funnel spell by 10%.",
+            "Increases the amount of Health transferred by your Health Funnel spell by 20%."
           ]
         },
         {
@@ -543,7 +596,11 @@ export const warlockData: ClassData = {
             18769
           ],
           "descriptions": [
-            "Increases all damage done by your Imp, Voidwalker, Succubus, Incubus, and Felhunter pets by 10%."
+            "Increases the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 4%.",
+            "Increases the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 8%.",
+            "Increases the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 12%.",
+            "Increases the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 16%.",
+            "Increases the damage done by your Voidwalker, Succubus, and Felhunter's melee attacks by 20%."
           ]
         },
         {
@@ -558,7 +615,11 @@ export const warlockData: ClassData = {
             18697
           ],
           "descriptions": [
-            "Increases your total Stamina by 15%."
+            "Increases your total Stamina by 3% but reduces your total Spirit by 1%.",
+            "Increases your total Stamina by 6% but reduces your total Spirit by 2%.",
+            "Increases your total Stamina by 9% but reduces your total Spirit by 3%.",
+            "Increases your total Stamina by 12% but reduces your total Spirit by 4%.",
+            "Increases your total Stamina by 15% but reduces your total Spirit by 5%."
           ]
         },
         {
@@ -573,7 +634,9 @@ export const warlockData: ClassData = {
             18694
           ],
           "descriptions": [
-            "Increases the damage of your Imp's Firebolt spell by 30% and the effect of its Fire Shield spell by 30%."
+            "Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 10%.",
+            "Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 20%.",
+            "Increases the effect of your Imp's Firebolt, Fire Shield, and Blood Pact spells by 30%."
           ]
         }
       ]
@@ -613,7 +676,11 @@ export const warlockData: ClassData = {
             426316
           ],
           "descriptions": [
-            "Hitting an enemy with Conflagrate increases all Shadow damage you deal by 10% for 20 sec, and hitting an enemy with Shadowburn increases all Fire damage you deal by 10% for 20 sec. In addition, Conflagrate has a 100% chance not to consume Immolate, and Shadowburn has a 100% chance to instantly refund a Soul Shard."
+            "Your Shadow Bolt and Incinerate spells gain an additional 4% of your bonus spell damage effects.",
+            "Your Shadow Bolt and Incinerate spells gain an additional 8% of your bonus spell damage effects.",
+            "Your Shadow Bolt and Incinerate spells gain an additional 12% of your bonus spell damage effects.",
+            "Your Shadow Bolt and Incinerate spells gain an additional 16% of your bonus spell damage effects.",
+            "Your Shadow Bolt and Incinerate spells gain an additional 20% of your bonus spell damage effects."
           ]
         },
         {
@@ -643,7 +710,9 @@ export const warlockData: ClassData = {
             412751
           ],
           "descriptions": [
-            "Increases the critical strike chance of your Conflagrate spell by 25%."
+            "Increases the critical strike chance of your Conflagrate spell by 25%.",
+            "Increases the critical strike chance of your Conflagrate spell by 50%.",
+            "Increases the critical strike chance of your Conflagrate spell by 75%."
           ],
           "requirements": {
             "talentId": 1293817,
@@ -663,7 +732,8 @@ export const warlockData: ClassData = {
             18073
           ],
           "descriptions": [
-            "Gives your Soul Fire spell a 26% chance to Stun the target for 3 sec, and your Rain of Fire and Hellfire spells a 26% chance over their duration to Stun targets they damage for 3 sec."
+            "Gives your Rain of Fire, Hellfire, and Soul Fire spells a 13% chance to stun the target for 3 sec.",
+            "Gives your Rain of Fire, Hellfire, and Soul Fire spells a 26% chance to stun the target for 3 sec."
           ],
           "requirements": {
             "talentId": 18135,
@@ -683,7 +753,9 @@ export const warlockData: ClassData = {
             17927
           ],
           "descriptions": [
-            "Increases the critical strike chance of your Searing Pain spell by 10% and the damage done by all your Destruction spells by 10%."
+            "Increases the critical strike chance of your Searing Pain spell by 10% and the damage done by all your Destruction spells by 10%.",
+            "Increases the critical strike chance of your Searing Pain spell by 20% and the damage done by all your Destruction spells by 20%.",
+            "Increases the critical strike chance of your Searing Pain spell by 30% and the damage done by all your Destruction spells by 30%."
           ]
         },
         {
@@ -713,7 +785,8 @@ export const warlockData: ClassData = {
             17917
           ],
           "descriptions": [
-            "Increases the range of your damaging spells by 20%."
+            "Increases the range of your Destruction spells by 10%.",
+            "Increases the range of your Destruction spells by 20%."
           ]
         },
         {
@@ -728,7 +801,9 @@ export const warlockData: ClassData = {
             18135
           ],
           "descriptions": [
-            "Gives you a 70% chance to resist interruption caused by damage while casting or channeling any Destruction spell."
+            "Allows 10% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 4 rage.",
+            "Allows 20% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 7 rage.",
+            "Allows 30% of your Mana regeneration to continue while casting and causes your Enrage ability to instantly generate 10 rage."
           ]
         },
         {
@@ -743,6 +818,10 @@ export const warlockData: ClassData = {
             17959
           ],
           "descriptions": [
+            "Increases the critical strike damage bonus of your Destruction spells by 20%.",
+            "Increases the critical strike damage bonus of your Destruction spells by 40%.",
+            "Increases the critical strike damage bonus of your Destruction spells by 60%.",
+            "Increases the critical strike damage bonus of your Destruction spells by 80%.",
             "Increases the critical strike damage bonus of your Destruction spells by 100%."
           ]
         },
@@ -773,6 +852,10 @@ export const warlockData: ClassData = {
             1225220
           ],
           "descriptions": [
+            "Reduces all damage taken by 2%.",
+            "Reduces all damage taken by 4%.",
+            "Reduces all damage taken by 6%.",
+            "Reduces all damage taken by 8%.",
             "Reduces all damage taken by 10%."
           ]
         },
@@ -788,7 +871,11 @@ export const warlockData: ClassData = {
             18119
           ],
           "descriptions": [
-            "Increases the initial damage of your Immolate spell by 50% and your Conflagrate spell has a 100% chance to Daze the target, reducing the target's movement speed by 50% for 5 sec."
+            "Gives your Destruction spells a 2% chance to daze the target for 5 sec.",
+            "Gives your Destruction spells a 4% chance to daze the target for 5 sec.",
+            "Gives your Destruction spells a 6% chance to daze the target for 5 sec.",
+            "Gives your Destruction spells a 8% chance to daze the target for 5 sec.",
+            "Gives your Destruction spells a 10% chance to daze the target for 5 sec."
           ]
         },
         {
@@ -803,7 +890,9 @@ export const warlockData: ClassData = {
             17778
           ],
           "descriptions": [
-            "Reduces the Mana cost of your Destruction spells by 10%."
+            "Reduces the Mana cost of your Destruction spells by 10%.",
+            "Reduces the Mana cost of your Destruction spells by 20%.",
+            "Reduces the Mana cost of your Destruction spells by 30%."
           ]
         },
         {
@@ -818,7 +907,11 @@ export const warlockData: ClassData = {
             17788
           ],
           "descriptions": [
-            "Reduces the casting time of your Shadow Bolt, Immolate, and Incinerate spells by 1 sec and your Soul Fire spell by 2 sec."
+            "Reduces the casting time of your Shadow Bolt and Immolate spells by 0.1 sec and your Soul Fire spell by 0.4 sec.",
+            "Reduces the casting time of your Shadow Bolt and Immolate spells by 0.2 sec and your Soul Fire spell by 0.8 sec.",
+            "Reduces the casting time of your Shadow Bolt and Immolate spells by 0.3 sec and your Soul Fire spell by 1.2 sec.",
+            "Reduces the casting time of your Shadow Bolt and Immolate spells by 0.4 sec and your Soul Fire spell by 1.6 sec.",
+            "Reduces the casting time of your Shadow Bolt and Immolate spells by 0.5 sec and your Soul Fire spell by 2 sec."
           ]
         },
         {
@@ -833,7 +926,11 @@ export const warlockData: ClassData = {
             17793
           ],
           "descriptions": [
-            "Your Shadow Bolt critical strikes increase Shadow damage taken by the target from your attacks by 0% for 12 sec."
+            "Your Shadow Bolt critical strikes increase Shadow damage dealt to the target by 4% until 4 non-periodic damage sources are applied.  Effect lasts a maximum of 12 sec.",
+            "Your Shadow Bolt critical strikes increase Shadow damage dealt to the target by 8% until 4 non-periodic damage sources are applied.  Effect lasts a maximum of 12 sec.",
+            "Your Shadow Bolt critical strikes increase Shadow damage dealt to the target by 12% until 4 non-periodic damage sources are applied.  Effect lasts a maximum of 12 sec.",
+            "Your Shadow Bolt critical strikes increase Shadow damage dealt to the target by 16% until 4 non-periodic damage sources are applied.  Effect lasts a maximum of 12 sec.",
+            "Your Shadow Bolt critical strikes increase Shadow damage dealt to the target by 20% until 4 non-periodic damage sources are applied.  Effect lasts a maximum of 12 sec."
           ]
         }
       ]
