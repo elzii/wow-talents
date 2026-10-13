@@ -10,6 +10,9 @@ import { TalentTree } from "./components/TalentTree";
 import { Tooltip } from "./components/Tooltip";
 import { ClassSelector } from "./components/ClassSelector";
 import { TalentPickerModal } from "./components/TalentPickerModal";
+import { ColorPickerModal } from "./components/ColorPickerModal";
+import { TreeCopyModal } from "./components/TreeCopyModal";
+import { LegacyCalculator } from "./components/LegacyCalculator";
 
 import { allClassesData as classicData } from "./talents/classic";
 import { allClassesData as tbcData } from "./talents/tbc";
@@ -44,7 +47,10 @@ export const App: React.FC = () => {
   const [tooltipData, setTooltipData] = useState<any>(null);
   const [notification, setNotification] = useState<string | null>(null);
 
-  // Dynamic custom class state (allows user ability replacements)
+  // Legacy points calculator toggle (enabled by default for Forever)
+  const [showLegacyCalc, setShowLegacyCalc] = useState<boolean>(true);
+
+  // Dynamic custom class state (allows user ability replacements and tree custom colors)
   const [customClassState, setCustomClassState] = useState<ClassData>(() => {
     try {
       const saved = localStorage.getItem("wow_custom_class_data");
@@ -53,11 +59,15 @@ export const App: React.FC = () => {
     return initialCustomClassData;
   });
 
-  // Target slot for picker modal
+  // Target slot for talent picker modal
   const [pickerSlot, setPickerSlot] = useState<{
     treeIndex: number;
     talent: TalentData;
   } | null>(null);
+
+  // Modal states for Color Picker & Tree Copy
+  const [colorPickerTreeIndex, setColorPickerTreeIndex] = useState<number | null>(null);
+  const [treeCopyIndex, setTreeCopyIndex] = useState<number | null>(null);
 
   const maxPoints = useMemo(() => {
     if (selectedClass === "Custom") return 51;
@@ -252,6 +262,68 @@ export const App: React.FC = () => {
     showNotification("Custom class reset to template default!");
   };
 
+  const handleRenameTree = (treeIndex: number, newName: string) => {
+    setCustomClassState((prev) => {
+      const newTrees = prev.talentTrees.map((tree, tIdx) => {
+        if (tIdx !== treeIndex) return tree;
+        return { ...tree, name: newName };
+      });
+      const updated = { ...prev, talentTrees: newTrees };
+      try {
+        localStorage.setItem("wow_custom_class_data", JSON.stringify(updated));
+      } catch (e) {}
+      return updated;
+    });
+    showNotification(`Renamed tree to "${newName}"`);
+  };
+
+  const handleSetTreeColor = (treeIndex: number, colorRgba: string) => {
+    setCustomClassState((prev) => {
+      const newTrees = prev.talentTrees.map((tree, tIdx) => {
+        if (tIdx !== treeIndex) return tree;
+        return { ...tree, customColor: colorRgba };
+      });
+      const updated = { ...prev, talentTrees: newTrees };
+      try {
+        localStorage.setItem("wow_custom_class_data", JSON.stringify(updated));
+      } catch (e) {}
+      return updated;
+    });
+    showNotification("Tree color updated!");
+  };
+
+  const handleCopyTree = (
+    treeIndex: number,
+    selected: { treeName: string; talents: TalentData[] }
+  ) => {
+    // Reset points for old talents in this tree slot
+    setPoints((prev) => {
+      const next = { ...prev };
+      const oldTree = customClassState.talentTrees[treeIndex];
+      if (oldTree) {
+        oldTree.talents.forEach((t) => delete next[t.id]);
+      }
+      return next;
+    });
+
+    setCustomClassState((prev) => {
+      const newTrees = prev.talentTrees.map((tree, tIdx) => {
+        if (tIdx !== treeIndex) return tree;
+        return {
+          ...tree,
+          name: selected.treeName,
+          talents: selected.talents
+        };
+      });
+      const updated = { ...prev, talentTrees: newTrees };
+      try {
+        localStorage.setItem("wow_custom_class_data", JSON.stringify(updated));
+      } catch (e) {}
+      return updated;
+    });
+    showNotification(`Copied ${selected.treeName} tree!`);
+  };
+
   const handleExportBuild = () => {
     const buildEntries = Object.entries(points).map(([id, rank]) => [
       parseInt(id, 10),
@@ -291,7 +363,7 @@ export const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-neutral-950 text-gray-100 flex flex-col font-sans select-none p-4 overflow-x-auto">
       {/* Top Bar */}
-      <div className="flex flex-wrap items-center justify-between gap-4 mb-4 bg-gray-900/60 p-3 rounded-xl border border-gray-800">
+      <div className="flex flex-wrap items-center justify-between gap-4 mb-4 bg-neutral-900/90 p-3 rounded-xl border border-neutral-800/90 shadow-xl backdrop-blur">
         <div className="flex items-center gap-3">
           <span className="text-xl font-black tracking-wider text-yellow-400 uppercase">
             WoW Talents
@@ -300,7 +372,7 @@ export const App: React.FC = () => {
           <select
             value={wowVersion}
             onChange={(e) => setWoWVersion(e.target.value as WoWVersion)}
-            className="bg-gray-800 border border-gray-700 text-white font-semibold text-sm rounded-lg px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-yellow-500 cursor-pointer"
+            className="bg-neutral-800 border border-neutral-700 text-white font-semibold text-sm rounded-lg px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-yellow-500 cursor-pointer"
           >
             {availableVersions.map((v) => (
               <option key={v.id} value={v.id}>
@@ -308,6 +380,21 @@ export const App: React.FC = () => {
               </option>
             ))}
           </select>
+
+          {wowVersion === "forever" && (
+            <button
+              onClick={() => setShowLegacyCalc((prev) => !prev)}
+              className={`px-3 py-1.5 rounded-lg text-xs font-bold border transition flex items-center gap-1.5 ${
+                showLegacyCalc
+                  ? "bg-yellow-500/20 text-yellow-300 border-yellow-500/80 shadow-md shadow-yellow-500/10"
+                  : "bg-neutral-800 text-gray-400 border-neutral-700 hover:text-white"
+              }`}
+              title="Toggle Legacy Points Calculator"
+            >
+              <span>⚡</span>
+              <span>Legacy Points Calculator</span>
+            </button>
+          )}
         </div>
 
         {/* Stats */}
@@ -343,13 +430,13 @@ export const App: React.FC = () => {
             </button>
             <button
               onClick={handleExportBuild}
-              className="bg-gray-800 hover:bg-gray-700 text-yellow-300 text-xs font-semibold px-3 py-1.5 rounded-lg border border-gray-700 transition"
+              className="bg-neutral-800 hover:bg-neutral-700 text-yellow-300 text-xs font-semibold px-3 py-1.5 rounded-lg border border-neutral-700 transition"
             >
               Export
             </button>
             <button
               onClick={handleImportBuild}
-              className="bg-gray-800 hover:bg-gray-700 text-cyan-300 text-xs font-semibold px-3 py-1.5 rounded-lg border border-gray-700 transition"
+              className="bg-neutral-800 hover:bg-neutral-700 text-gray-200 text-xs font-semibold px-3 py-1.5 rounded-lg border border-neutral-700 transition"
             >
               Import
             </button>
@@ -366,20 +453,16 @@ export const App: React.FC = () => {
 
       {/* Custom Class Banner & Controls */}
       {selectedClass === "Custom" && (
-        <div className="mb-4 p-3 bg-fuchsia-950/40 border border-fuchsia-800/60 rounded-xl flex items-center justify-between text-xs text-fuchsia-200">
+        <div className="mb-4 p-3 bg-neutral-900/90 border border-neutral-800 rounded-xl flex items-center justify-between text-xs text-neutral-200">
           <div>
-            <span className="font-bold text-fuchsia-300 mr-2">
+            <span className="font-bold text-yellow-400 mr-2">
               ✨ Custom Class Builder:
             </span>
-            Modeled with full Mage-sized trees (17-19 abilities per tree).
-            <span className="ml-1 text-yellow-300 font-semibold underline">
-              Long-press / hold any talent icon
-            </span>{" "}
-            to open the search popup and customize with any ability!
+            Click empty '?' slots to pick abilities directly, or hold/long-press chosen abilities to change them. Rename tree titles inline, or use '+' to copy an entire class spec!
           </div>
           <button
             onClick={handleResetCustomClassToDefault}
-            className="px-2.5 py-1 bg-fuchsia-900/60 hover:bg-fuchsia-800 border border-fuchsia-700 rounded text-fuchsia-200 font-semibold transition"
+            className="px-2.5 py-1 bg-neutral-800 hover:bg-neutral-700 border border-neutral-700 rounded text-neutral-200 font-semibold transition"
           >
             Reset Tree Layout
           </button>
@@ -412,9 +495,17 @@ export const App: React.FC = () => {
             onSlotLongPress={(treeIndex, talent) => {
               setPickerSlot({ treeIndex, talent });
             }}
+            onRenameTree={handleRenameTree}
+            onOpenColorPicker={(treeIndex) => setColorPickerTreeIndex(treeIndex)}
+            onOpenTreeCopy={(treeIndex) => setTreeCopyIndex(treeIndex)}
           />
         ))}
       </div>
+
+      {/* Legacy Calculator (WoW Forever only) */}
+      {wowVersion === "forever" && showLegacyCalc && (
+        <LegacyCalculator />
+      )}
 
       {/* Tooltip */}
       {tooltipData && (
@@ -436,6 +527,44 @@ export const App: React.FC = () => {
         onClose={() => setPickerSlot(null)}
         onSelectTalent={handleReplaceCustomTalent}
         targetSlot={pickerSlot}
+      />
+
+      {/* Color Picker Modal */}
+      <ColorPickerModal
+        isOpen={colorPickerTreeIndex !== null}
+        onClose={() => setColorPickerTreeIndex(null)}
+        initialColor={
+          colorPickerTreeIndex !== null
+            ? customClassState.talentTrees[colorPickerTreeIndex]?.customColor || "rgba(10, 10, 10, 0.95)"
+            : "rgba(10, 10, 10, 0.95)"
+        }
+        treeName={
+          colorPickerTreeIndex !== null
+            ? customClassState.talentTrees[colorPickerTreeIndex]?.name || ""
+            : ""
+        }
+        onSaveColor={(rgba) => {
+          if (colorPickerTreeIndex !== null) {
+            handleSetTreeColor(colorPickerTreeIndex, rgba);
+          }
+        }}
+      />
+
+      {/* Tree Copy Modal */}
+      <TreeCopyModal
+        isOpen={treeCopyIndex !== null}
+        onClose={() => setTreeCopyIndex(null)}
+        targetTreeIndex={treeCopyIndex ?? 0}
+        currentTreeName={
+          treeCopyIndex !== null
+            ? customClassState.talentTrees[treeCopyIndex]?.name || ""
+            : ""
+        }
+        onSelectTree={(selected) => {
+          if (treeCopyIndex !== null) {
+            handleCopyTree(treeCopyIndex, selected);
+          }
+        }}
       />
     </div>
   );

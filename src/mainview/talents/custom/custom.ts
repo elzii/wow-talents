@@ -9,20 +9,17 @@ export const customClassData: ClassData = {
       "talents": [
         {
           "id": 90000,
-          "name": "Arcane Power",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 6,
           "maxRank": 1,
           "minPointsRequired": 30,
-          "iconName": "spell_nature_lightning",
-          "spellIds": [
-            12042
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "For the next 15 sec, your spells deal 30% more damage while costing 30% more mana to cast."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane",
+          "isUnchosen": true,
           "requirements": {
             "talentId": 12043,
             "talentRank": 1
@@ -31,88 +28,73 @@ export const customClassData: ClassData = {
         },
         {
           "id": 90001,
-          "name": "Arcane Instability",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 5,
           "maxRank": 3,
           "minPointsRequired": 25,
-          "iconName": "spell_shadow_teleport",
-          "spellIds": [
-            15058
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the damage done by your spells by 1% and your critical strike chance by 1%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90002,
-          "name": "Arcane Mind",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 4,
           "maxRank": 5,
           "minPointsRequired": 20,
-          "iconName": "spell_shadow_charm",
-          "spellIds": [
-            11232
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases your Intellect by 10% and increases the critical strike damage bonus of your Arcane spells by 100%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90003,
-          "name": "Presence of Mind",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 4,
           "maxRank": 1,
           "minPointsRequired": 20,
-          "iconName": "spell_nature_enchantarmor",
-          "spellIds": [
-            12043
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "When activated, your next Mage spell with a casting time less than 10 sec becomes an instant cast spell."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90004,
-          "name": "Missile Barrage",
+          "name": "Unchosen Talent",
           "x": 3,
           "y": 3,
           "maxRank": 1,
           "minPointsRequired": 15,
-          "iconName": "ability_mage_missilebarrage",
-          "spellIds": [
-            400588
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Gives your Arcane Blast spell a 40% chance, and your Fireball, Frostbolt, and Frostfire Bolt spells a 20% chance to reduce the channeled duration of your next Arcane Missiles spell by 50%, reduce the Mana cost by 100%, and missiles fire every 0.5 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90005,
-          "name": "Arcane Meditation",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 3,
           "maxRank": 3,
           "minPointsRequired": 15,
-          "iconName": "spell_shadow_siphonmana",
-          "spellIds": [
-            18462
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Allows 50% of your Mana regeneration to continue while casting."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane",
+          "isUnchosen": true,
           "requirements": {
             "talentId": 11213,
             "talentRank": 5
@@ -121,207 +103,171 @@ export const customClassData: ClassData = {
         },
         {
           "id": 90006,
-          "name": "Improved Counterspell",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 3,
           "maxRank": 2,
           "minPointsRequired": 15,
-          "iconName": "spell_frost_iceshock",
-          "spellIds": [
-            11255
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Your Counterspell also Silences the target for 4 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90007,
-          "name": "Arcane Shielding",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 3,
           "maxRank": 2,
           "minPointsRequired": 15,
-          "iconName": "spell_shadow_detectlesserinvisibility",
-          "spellIds": [
-            11252
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Decreases the Mana lost per point of damage taken when your Mana Shield spell is active by 33% and increases the resistances granted by your Mage Armor spell by 50%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90008,
-          "name": "Arcane Blast",
+          "name": "Unchosen Talent",
           "x": 3,
           "y": 2,
           "maxRank": 1,
           "minPointsRequired": 10,
-          "iconName": "spell_arcane_blast",
-          "spellIds": [
-            400574
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Blasts the target with energy, dealing <!--ppl20:28:54:90-->57 to 65 Arcane damage. Each time you cast Arcane Blast, the damage of all your other spells is increased by 10% and the mana cost of Arcane Blast is increased by 175%. Effect stacks up to 4 times and lasts 8 sec or until any other damage spell is cast."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90009,
-          "name": "Arcane Impact",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 2,
           "maxRank": 3,
           "minPointsRequired": 10,
-          "iconName": "spell_nature_wispsplode",
-          "spellIds": [
-            11242
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the critical strike chance of your Arcane spells by 6%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90010,
-          "name": "Arcane Geometry",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 2,
           "maxRank": 2,
           "minPointsRequired": 10,
-          "iconName": "inv_ability_mage_radiantspark",
-          "spellIds": [
-            11247
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the range of your Arcane spells by 6 yards."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90011,
-          "name": "Arcane Resilience",
+          "name": "Unchosen Talent",
           "x": 3,
           "y": 1,
           "maxRank": 2,
           "minPointsRequired": 5,
-          "iconName": "spell_arcane_arcaneresilience",
-          "spellIds": [
-            28574
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases your Armor by an amount equal to 50% of your Intellect."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90012,
-          "name": "Arcane Concentration",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 1,
           "maxRank": 5,
           "minPointsRequired": 5,
-          "iconName": "spell_shadow_manaburn",
-          "spellIds": [
-            11213
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Gives you a 100% chance of entering a Clearcasting state after any damage spell hits a target.  The Clearcasting state reduces the mana cost of your next damage spell by 100%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90013,
-          "name": "Magic Absorption",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 1,
           "maxRank": 2,
           "minPointsRequired": 5,
-          "iconName": "spell_nature_astralrecalgroup",
-          "spellIds": [
-            29441
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases all your resistances by 2 and causes all spells you fully resist to restore 1% of your total mana. Cannot trigger more often than 1 time per sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90014,
-          "name": "Arcane Subtlety",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 1,
           "maxRank": 2,
           "minPointsRequired": 5,
-          "iconName": "spell_holy_dispelmagic",
-          "spellIds": [
-            11210
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Reduces your target's resistance to all your spells by 15 and reduces the threat caused by your Arcane spells by 30%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90015,
-          "name": "Improved Channeling",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 0,
           "maxRank": 5,
           "minPointsRequired": 0,
-          "iconName": "spell_nature_starfall",
-          "spellIds": [
-            11237
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Gives you a 20% chance to avoid interruption caused by damage while channeling Arcane Missiles and a 14% chance while casting Arcane Blast."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90016,
-          "name": "Arcane Focus",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 0,
           "maxRank": 5,
           "minPointsRequired": 0,
-          "iconName": "spell_holy_devotion",
-          "spellIds": [
-            11222
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Improves your chance to hit with Arcane spells by 2%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         },
         {
           "id": 90017,
-          "name": "Wand Specialization",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 0,
           "maxRank": 2,
           "minPointsRequired": 0,
-          "iconName": "inv_wand_01",
-          "spellIds": [
-            6057
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases your damage with Wands by 13%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Arcane"
+          "isUnchosen": true
         }
       ]
     },
@@ -331,20 +277,17 @@ export const customClassData: ClassData = {
       "talents": [
         {
           "id": 90100,
-          "name": "Combustion",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 6,
           "maxRank": 1,
           "minPointsRequired": 30,
-          "iconName": "spell_fire_sealoffire",
-          "spellIds": [
-            11129
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "When activated, this spell causes each of your Fire damage spell hits to increase your critical strike chance with Fire damage spells by 10%.  This effect lasts until you have caused 3 non-periodic critical strikes with Fire spells."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire",
+          "isUnchosen": true,
           "requirements": {
             "talentId": 11115,
             "talentRank": 3
@@ -353,88 +296,73 @@ export const customClassData: ClassData = {
         },
         {
           "id": 90101,
-          "name": "Fire Power",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 5,
           "maxRank": 5,
           "minPointsRequired": 25,
-          "iconName": "spell_fire_immolation",
-          "spellIds": [
-            11124
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the damage done by your Fire spells by 2%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90102,
-          "name": "Blast Wave",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 4,
           "maxRank": 1,
           "minPointsRequired": 20,
-          "iconName": "spell_holy_excorcism_02",
-          "spellIds": [
-            11113
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "A wave of flame radiates outward from the caster, damaging all enemies caught within the blast for <!--ppl30:36:163:100-->154 to 184 Fire damage, and Dazing them for 50% reduced movement speed for 6 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90103,
-          "name": "Critical Mass",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 4,
           "maxRank": 3,
           "minPointsRequired": 20,
-          "iconName": "spell_nature_wispheal",
-          "spellIds": [
-            11115
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the critical strike chance of your Fire spells by 2%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90104,
-          "name": "Master of Elements",
+          "name": "Unchosen Talent",
           "x": 3,
           "y": 3,
           "maxRank": 3,
           "minPointsRequired": 15,
-          "iconName": "spell_fire_masterofelements",
-          "spellIds": [
-            29074
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Your Fire and Frost critical strikes will refund 10% of their base mana cost."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90105,
-          "name": "Heating Up",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 3,
           "maxRank": 1,
           "minPointsRequired": 15,
-          "iconName": "spell_fire_firebolt",
-          "spellIds": [
-            400624
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Non-periodic critical strikes with Fireball, Frostfire Bolt, Fire Blast, and Scorch reduce the cast time of your next Pyroblast cast within 20 sec by 25%, stacking up to 3 times."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire",
+          "isUnchosen": true,
           "requirements": {
             "talentId": 11366,
             "talentRank": 1
@@ -443,190 +371,157 @@ export const customClassData: ClassData = {
         },
         {
           "id": 90106,
-          "name": "Improved Fire Ward",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 3,
           "maxRank": 2,
           "minPointsRequired": 15,
-          "iconName": "spell_fire_firearmor",
-          "spellIds": [
-            11094
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Causes your Fire Ward to have a 20% chance to reflect Fire spells while active."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90107,
-          "name": "Improved Scorch",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 3,
           "maxRank": 3,
           "minPointsRequired": 15,
-          "iconName": "spell_fire_windsofwoe",
-          "spellIds": [
-            11095
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Your Scorch spell has a 100% chance to cause your target to be vulnerable to Fire damage. This vulnerability increases all Fire damage you deal to your target by 3% and lasts 30 sec, stacking up to 5 times."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90108,
-          "name": "Burning Soul",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 2,
           "maxRank": 3,
           "minPointsRequired": 10,
-          "iconName": "spell_fire_fire",
-          "spellIds": [
-            11083
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Gives your Fire spells a 70% chance to not lose casting time when you take damage and reduces the threat caused by your Fire spells by 30%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90109,
-          "name": "Pyroblast",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 2,
           "maxRank": 1,
           "minPointsRequired": 10,
-          "iconName": "spell_fire_fireball02",
-          "spellIds": [
-            11366
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Hurls an immense fiery boulder that causes <!--ppl20:24:110:150-->101 to 131 Fire damage and an additional 44 Fire damage over 12 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90110,
-          "name": "Improved Flamestrike",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 2,
           "maxRank": 3,
           "minPointsRequired": 10,
-          "iconName": "spell_fire_selfdestruct",
-          "spellIds": [
-            11108
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the critical strike chance of your Flamestrike spell by 15%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90111,
-          "name": "Impact",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 1,
           "maxRank": 3,
           "minPointsRequired": 5,
-          "iconName": "spell_fire_meteorstorm",
-          "spellIds": [
-            11103
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Gives your Fire spells a 10% chance to stun the target for 2 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90112,
-          "name": "Flame Throwing",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 1,
           "maxRank": 2,
           "minPointsRequired": 5,
-          "iconName": "spell_fire_flare",
-          "spellIds": [
-            11100
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the range of your Fire spells by 6 yards."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90113,
-          "name": "Ignite",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 1,
           "maxRank": 5,
           "minPointsRequired": 5,
-          "iconName": "spell_fire_incinerate",
-          "spellIds": [
-            11119
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Your critical strikes from Fire damage spells cause the target to burn for an additional 40% of your spell's damage over 4 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90114,
-          "name": "Improved Fireball",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 0,
           "maxRank": 5,
           "minPointsRequired": 0,
-          "iconName": "spell_fire_flamebolt",
-          "spellIds": [
-            11069
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Reduces the casting time of your Fireball and Frostfire Bolt spells by 1 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90115,
-          "name": "Incineration",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 0,
           "maxRank": 3,
           "minPointsRequired": 0,
-          "iconName": "spell_fire_flameshock",
-          "spellIds": [
-            18459
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the critical strike chance of your Fire Blast, Ice Lance, Arcane Blast, and Scorch spells by 6%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         },
         {
           "id": 90116,
-          "name": "Wake of Fire",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 0,
           "maxRank": 2,
           "minPointsRequired": 0,
-          "iconName": "spell_fire_lavaspawn",
-          "spellIds": [
-            11078
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Reduces the cooldown of your Fire Blast spell by 2 sec. Killing a non-trivial target increases the critical strike chance of your next Fire Blast cast within 30 sec by 50%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Fire"
+          "isUnchosen": true
         }
       ]
     },
@@ -636,20 +531,17 @@ export const customClassData: ClassData = {
       "talents": [
         {
           "id": 90200,
-          "name": "Ice Barrier",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 6,
           "maxRank": 1,
           "minPointsRequired": 30,
-          "iconName": "spell_ice_lament",
-          "spellIds": [
-            11426
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Instantly shields you, absorbing <!--ppl40:46:431:280-->448 damage. Lasts 1 min. While the shield holds, your spellcasts will not be interrupted or delayed from taking damage."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost",
+          "isUnchosen": true,
           "requirements": {
             "talentId": 12472,
             "talentRank": 1
@@ -658,37 +550,31 @@ export const customClassData: ClassData = {
         },
         {
           "id": 90201,
-          "name": "Winter's Chill",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 5,
           "maxRank": 5,
           "minPointsRequired": 25,
-          "iconName": "spell_frost_chillingblast",
-          "spellIds": [
-            11180
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Gives your Frost damage spells a 0% chance to apply the Winter's Chill effect, which increases the chance your Ice Lance and Frostbolt spells will critically hit the target by 2% for 15 sec. Stacks up to 5 times."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90202,
-          "name": "Fingers of Frost",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 4,
           "maxRank": 2,
           "minPointsRequired": 20,
-          "iconName": "ability_mage_wintersgrasp",
-          "spellIds": [
-            400647
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Gives your Chill effects a 15% chance to grant you the Fingers of Frost effect, which treats your next 2 <!--singular:spell:spells-->spells<!--singular--> cast as if the target were Frozen. Lasts 15 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost",
+          "isUnchosen": true,
           "requirements": {
             "talentId": 1312002,
             "talentRank": 1
@@ -697,275 +583,227 @@ export const customClassData: ClassData = {
         },
         {
           "id": 90203,
-          "name": "Improved Cone of Cold",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 4,
           "maxRank": 3,
           "minPointsRequired": 20,
-          "iconName": "spell_frost_glacier",
-          "spellIds": [
-            11190
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the damage dealt by your Cone of Cold spell by 15%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90204,
-          "name": "Cold Snap",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 4,
           "maxRank": 1,
           "minPointsRequired": 20,
-          "iconName": "spell_frost_wizardmark",
-          "spellIds": [
-            12472
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Finishes the remaining cooldown on all your other Frost spells."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90205,
-          "name": "Ice Lance",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 2,
           "maxRank": 1,
           "minPointsRequired": 10,
-          "iconName": "spell_frost_frostblast",
-          "spellIds": [
-            1312002
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Deals <!--ppl20:26:28:35-->28 to 32 Frost damage to an enemy target. Deals 300% increased damage to Frozen targets."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90206,
-          "name": "Shatter",
+          "name": "Unchosen Talent",
           "x": 3,
           "y": 3,
           "maxRank": 3,
           "minPointsRequired": 15,
-          "iconName": "spell_frost_frostshock",
-          "spellIds": [
-            11170
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the critical strike chance of all your spells against Frozen targets by 1%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90207,
-          "name": "Ice Block",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 3,
           "maxRank": 1,
           "minPointsRequired": 15,
-          "iconName": "spell_frost_frost",
-          "spellIds": [
-            11958
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "You become encased in a block of ice, protecting you from all physical attacks and spells for 10 sec, but during that time you cannot attack, move, or cast spells."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90208,
-          "name": "Arctic Reach",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 3,
           "maxRank": 2,
           "minPointsRequired": 15,
-          "iconName": "spell_shadow_darkritual",
-          "spellIds": [
-            16757
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the range of your Frostbolt and Blizzard spells and the radius of your Frost Nova and Cone of Cold spells by 10%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90209,
-          "name": "Improved Blizzard",
+          "name": "Unchosen Talent",
           "x": 3,
           "y": 2,
           "maxRank": 3,
           "minPointsRequired": 10,
-          "iconName": "spell_frost_icestorm",
-          "spellIds": [
-            11185
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Adds a Chill effect to your Blizzard spell. This effect lowers the target's movement speed by 40% for 1.5 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90210,
-          "name": "Frost Channeling",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 2,
           "maxRank": 3,
           "minPointsRequired": 10,
-          "iconName": "spell_frost_stun",
-          "spellIds": [
-            11160
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Reduces the mana cost of your Frost spells by 15% and reduces the threat caused by your Frost spells by 30%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90211,
-          "name": "Piercing Ice",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 2,
           "maxRank": 3,
           "minPointsRequired": 10,
-          "iconName": "spell_frost_frostbolt",
-          "spellIds": [
-            11151
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the damage done by your Frost spells by 2%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90212,
-          "name": "Frostbite",
+          "name": "Unchosen Talent",
           "x": 3,
           "y": 1,
           "maxRank": 3,
           "minPointsRequired": 5,
-          "iconName": "spell_frost_frostarmor",
-          "spellIds": [
-            11071
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Gives your Chill effects a 15% chance to Freeze the target for 5 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90213,
-          "name": "Improved Frost Nova",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 1,
           "maxRank": 2,
           "minPointsRequired": 5,
-          "iconName": "spell_frost_freezingbreath",
-          "spellIds": [
-            11165
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Reduces the cooldown of your Frost Nova spell by 4 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90214,
-          "name": "Permafrost",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 1,
           "maxRank": 3,
           "minPointsRequired": 5,
-          "iconName": "spell_frost_wisp",
-          "spellIds": [
-            11175
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the duration of your Chill effects by 33% and reduces the target's speed by an additional 10%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90215,
-          "name": "Ice Shards",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 1,
           "maxRank": 5,
           "minPointsRequired": 5,
-          "iconName": "spell_frost_iceshard",
-          "spellIds": [
-            11207
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the critical strike damage bonus of your Frost spells by 100%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90216,
-          "name": "Elemental Precision",
+          "name": "Unchosen Talent",
           "x": 2,
           "y": 0,
           "maxRank": 5,
           "minPointsRequired": 0,
-          "iconName": "spell_ice_magicdamage",
-          "spellIds": [
-            29438
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Improves your chance to hit with Frost and Fire spells by 6%."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90217,
-          "name": "Improved Frostbolt",
+          "name": "Unchosen Talent",
           "x": 1,
           "y": 0,
           "maxRank": 5,
           "minPointsRequired": 0,
-          "iconName": "spell_frost_frostbolt02",
-          "spellIds": [
-            11070
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Reduces the casting time of your Frostbolt spell by 0 sec."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         },
         {
           "id": 90218,
-          "name": "Frost Warding",
+          "name": "Unchosen Talent",
           "x": 0,
           "y": 0,
           "maxRank": 2,
           "minPointsRequired": 0,
-          "iconName": "spell_frost_frostward",
-          "spellIds": [
-            11189
-          ],
+          "iconName": "inv_misc_questionmark",
+          "spellIds": [],
           "descriptions": [
-            "Increases the Armor and resistance given by your Frost Armor and Ice Armor spells by 15%. In addition, gives your Frost Ward a 10% chance to reflect Frost spells and effects while active."
+            "Click to select an ability for this slot."
           ],
-          "sourceClass": "Mage",
-          "sourceTree": "Frost"
+          "isUnchosen": true
         }
       ]
     }

@@ -82,56 +82,81 @@ export const Tooltip: React.FC<TooltipProps> = ({
       className="fixed bg-gray-950/95 backdrop-blur border border-yellow-600/60 text-white p-3.5 rounded-lg shadow-2xl max-w-sm z-50 pointer-events-none transition-opacity duration-75"
       style={{ left: coords.x, top: coords.y }}
     >
-      <div className="flex items-center justify-between gap-2 border-b border-gray-700/80 pb-1.5 mb-2">
-        <h3 className="text-base font-bold text-yellow-300 leading-tight">
-          {talent.name}
-        </h3>
-        {talent.sourceClass && (
-          <span className="text-[10px] uppercase tracking-wider bg-yellow-900/40 text-yellow-300 px-1.5 py-0.5 rounded border border-yellow-700/50">
-            {talent.sourceClass}
-          </span>
-        )}
-      </div>
-
-      <div className="text-xs text-gray-300 mb-2 font-medium">
-        Rank {rank}/{talent.maxRank}
-      </div>
-
-      {rank > 0 && currDesc && (
-        <div className="text-xs text-green-300 leading-relaxed whitespace-pre-line mb-2">
-          {currDesc}
-        </div>
-      )}
-
-      {nextRank && (
-        <div className="pt-2 border-t border-gray-800">
-          <p className="text-[11px] uppercase tracking-wide text-gray-400 mb-1 font-semibold">
-            {rank === 0 ? "Description" : "Next Rank:"}
+      {talent.isUnchosen ? (
+        <>
+          <div className="flex items-center justify-between gap-2 border-b border-gray-700/80 pb-1.5 mb-2">
+            <h3 className="text-base font-bold text-yellow-300 leading-tight">
+              Empty Talent Slot
+            </h3>
+            <span className="text-[10px] uppercase tracking-wider bg-gray-800 text-gray-300 px-1.5 py-0.5 rounded border border-gray-700">
+              Unchosen
+            </span>
+          </div>
+          <p className="text-xs text-gray-300 leading-relaxed mb-2">
+            Click to select an ability from any class to populate this slot.
           </p>
-          <p className="text-xs text-green-300 leading-relaxed whitespace-pre-line">
-            {rank === 0 ? currDesc : nextDesc}
-          </p>
-        </div>
-      )}
+          {treeName &&
+            treePoints !== undefined &&
+            requiredTreePoints > treePoints && (
+              <p className="mt-2 text-red-400 text-xs">
+                Requires {requiredTreePoints} points in {treeName}
+              </p>
+            )}
+        </>
+      ) : (
+        <>
+          <div className="flex items-center justify-between gap-2 border-b border-gray-700/80 pb-1.5 mb-2">
+            <h3 className="text-base font-bold text-yellow-300 leading-tight">
+              {talent.name}
+            </h3>
+            {talent.sourceClass && (
+              <span className="text-[10px] uppercase tracking-wider bg-yellow-900/40 text-yellow-300 px-1.5 py-0.5 rounded border border-yellow-700/50">
+                {talent.sourceClass}
+              </span>
+            )}
+          </div>
 
-      {depTalent && talent.requirements && (
-        <p className="mt-2 text-red-400 text-xs">
-          Requires {talent.requirements.talentRank} pt(s) in {depTalent.name}
-        </p>
-      )}
+          <div className="text-xs text-gray-300 mb-2 font-medium">
+            Rank {rank}/{talent.maxRank}
+          </div>
 
-      {treeName &&
-        treePoints !== undefined &&
-        requiredTreePoints > treePoints && (
-          <p className="mt-2 text-red-400 text-xs">
-            Requires {requiredTreePoints} points in {treeName}
-          </p>
-        )}
+          {rank > 0 && currDesc && (
+            <div className="text-xs text-green-300 leading-relaxed whitespace-pre-line mb-2">
+              {currDesc}
+            </div>
+          )}
 
-      {isCustomClass && (
-        <p className="mt-2 text-[10px] text-fuchsia-300/80 italic border-t border-fuchsia-900/40 pt-1">
-          💡 Long-press / hold to replace ability
-        </p>
+          {nextRank && (
+            <div className="pt-2 border-t border-gray-800">
+              <p className="text-[11px] uppercase tracking-wide text-gray-400 mb-1 font-semibold">
+                {rank === 0 ? "Description" : "Next Rank:"}
+              </p>
+              <p className="text-xs text-green-300 leading-relaxed whitespace-pre-line">
+                {rank === 0 ? currDesc : nextDesc}
+              </p>
+            </div>
+          )}
+
+          {depTalent && talent.requirements && (
+            <p className="mt-2 text-red-400 text-xs">
+              Requires {talent.requirements.talentRank} pt(s) in {depTalent.name}
+            </p>
+          )}
+
+          {treeName &&
+            treePoints !== undefined &&
+            requiredTreePoints > treePoints && (
+              <p className="mt-2 text-red-400 text-xs">
+                Requires {requiredTreePoints} points in {treeName}
+              </p>
+            )}
+
+          {isCustomClass && (
+            <p className="mt-2 text-[10px] text-fuchsia-300/80 italic border-t border-fuchsia-900/40 pt-1">
+              💡 Long-press / hold to replace ability
+            </p>
+          )}
+        </>
       )}
     </div>
   );

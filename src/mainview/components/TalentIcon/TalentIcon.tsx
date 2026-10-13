@@ -56,6 +56,8 @@ export const TalentIcon: React.FC<Props> = ({
 
   const startPress = (e: React.MouseEvent | React.TouchEvent) => {
     if (!isCustomClass || !onLongPress) return;
+    // For unchosen talents, standard click directly selects ability, no long-press needed
+    if (talent.isUnchosen) return;
     // Only primary click/touch
     if ("button" in e && e.button !== 0) return;
     isLongPressTriggered.current = false;
@@ -73,6 +75,12 @@ export const TalentIcon: React.FC<Props> = ({
   };
 
   const handleClick = (e: React.MouseEvent) => {
+    if (talent.isUnchosen) {
+      e.preventDefault();
+      e.stopPropagation();
+      onLongPress?.();
+      return;
+    }
     if (isLongPressTriggered.current) {
       e.preventDefault();
       e.stopPropagation();
@@ -86,7 +94,9 @@ export const TalentIcon: React.FC<Props> = ({
       className="relative w-14 h-14 select-none group"
       onContextMenu={(e) => {
         e.preventDefault();
-        onRefund(talent.id);
+        if (!talent.isUnchosen) {
+          onRefund(talent.id);
+        }
       }}
       onMouseDown={startPress}
       onMouseUp={endPress}
@@ -95,14 +105,27 @@ export const TalentIcon: React.FC<Props> = ({
       onTouchEnd={endPress}
     >
       <div
-        className={`w-full h-full bg-gray-900 border-2 rounded-md flex items-center justify-center cursor-pointer transition-all duration-150 overflow-hidden ${borderColor} ${
-          locked ? "opacity-60" : "hover:scale-105 active:scale-95"
-        }`}
+        className={`w-full h-full bg-gray-900 border-2 rounded-md flex items-center justify-center cursor-pointer transition-all duration-150 overflow-hidden ${
+          talent.isUnchosen
+            ? "border-dashed border-gray-500/80 hover:border-yellow-400 hover:scale-105 active:scale-95 bg-gray-950/70"
+            : borderColor
+        } ${locked && !talent.isUnchosen ? "opacity-60" : (!talent.isUnchosen ? "hover:scale-105 active:scale-95" : "")}`}
         onClick={handleClick}
-        style={filterStyles}
-        title={isCustomClass ? "Click to spend, Right-click to refund, Hold/Long-press to customize ability" : undefined}
+        style={talent.isUnchosen ? undefined : filterStyles}
+        title={
+          talent.isUnchosen
+            ? "Click to choose ability for this slot"
+            : isCustomClass
+            ? "Click to spend, Right-click to refund, Hold/Long-press to customize ability"
+            : undefined
+        }
       >
-        {iconUrl && !imgError ? (
+        {talent.isUnchosen ? (
+          <div className="flex flex-col items-center justify-center w-full h-full text-gray-400 group-hover:text-yellow-400 transition-colors">
+            <span className="text-2xl font-black font-mono leading-none">?</span>
+            <span className="text-[9px] uppercase font-semibold tracking-wider text-gray-500 group-hover:text-yellow-500">Pick</span>
+          </div>
+        ) : iconUrl && !imgError ? (
           <img
             src={iconUrl}
             alt={talent.name}
@@ -116,7 +139,7 @@ export const TalentIcon: React.FC<Props> = ({
         )}
       </div>
 
-      {rank > 0 && (
+      {!talent.isUnchosen && rank > 0 && (
         <div
           className={`absolute -bottom-1.5 -right-1.5 min-w-[20px] h-5 px-1 bg-black/90 text-white rounded flex items-center justify-center text-xs font-bold border ${
             isMaxRank ? "border-yellow-400 text-yellow-300" : "border-green-400 text-green-300"

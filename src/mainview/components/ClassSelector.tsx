@@ -27,11 +27,11 @@ export const ClassSelector: React.FC<ClassSelectorProps> = ({
   onSelectClass
 }) => {
   return (
-    <div className="bg-gray-900/80 backdrop-blur border border-gray-800 p-2.5 rounded-xl flex flex-wrap justify-center items-center gap-2 mb-4 shadow-lg">
+    <div className="bg-neutral-900/90 backdrop-blur border border-neutral-800/90 p-2.5 rounded-xl flex flex-wrap justify-center items-center gap-2 mb-4 shadow-xl">
       {availableClasses.map((className) => {
         const isSelected = selectedClass === className;
         const iconSrc = getClassIconByClassName(className);
-        const borderColor = classColorMap[className] || "border-gray-600";
+        const borderColor = classColorMap[className] || "border-neutral-700";
 
         return (
           <button
@@ -39,8 +39,8 @@ export const ClassSelector: React.FC<ClassSelectorProps> = ({
             onClick={() => onSelectClass(className)}
             className={`relative px-3 py-1.5 rounded-lg border-2 transition-all duration-150 flex items-center gap-2 overflow-hidden ${borderColor} ${
               isSelected
-                ? "bg-gray-800/90 ring-2 ring-yellow-400 scale-105 shadow-md"
-                : "bg-gray-950/60 opacity-80 hover:opacity-100 hover:scale-102"
+                ? "bg-neutral-800 ring-2 ring-yellow-400 scale-105 shadow-md"
+                : "bg-black/60 opacity-80 hover:opacity-100 hover:scale-102"
             }`}
           >
             {iconSrc && (
