@@ -533,7 +533,7 @@ export const App: React.FC = () => {
       <ColorPickerModal
         isOpen={colorPickerTreeIndex !== null}
         onClose={() => setColorPickerTreeIndex(null)}
-        initialColor={
+        currentColor={
           colorPickerTreeIndex !== null
             ? customClassState.talentTrees[colorPickerTreeIndex]?.customColor || "rgba(10, 10, 10, 0.95)"
             : "rgba(10, 10, 10, 0.95)"
@@ -543,7 +543,7 @@ export const App: React.FC = () => {
             ? customClassState.talentTrees[colorPickerTreeIndex]?.name || ""
             : ""
         }
-        onSaveColor={(rgba) => {
+        onSelectColor={(rgba: string) => {
           if (colorPickerTreeIndex !== null) {
             handleSetTreeColor(colorPickerTreeIndex, rgba);
           }

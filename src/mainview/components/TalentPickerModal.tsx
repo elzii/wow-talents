@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect, useRef } from "react";
-import { TalentData } from "../../../types";
+import { TalentData } from "../../types";
 import poolData from "./allTalentsPool.json";
 
 export interface TalentPickerModalProps {

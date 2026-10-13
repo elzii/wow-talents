@@ -1,4 +1,4 @@
-import { TalentTree } from "src/types/index";
+import { TalentTreeData as TalentTree } from "../../types";
 
 
 // Converts JSON strings to/from your types

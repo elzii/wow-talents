@@ -1,4 +1,4 @@
-import { CharacterClass, ClassData, Talent, TalentData, TalentTreeData } from "../../../types";
+import { CharacterClass, ClassData, TalentData, TalentTreeData } from "../../../types";
 
 export const shamanData: ClassData = {
   name: "Shaman",
