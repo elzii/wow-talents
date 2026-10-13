@@ -4,7 +4,7 @@ export default {
   app: {
     name: "WoW Talent Calculator",
     identifier: "com.zizzo.wowtalents",
-    version: "1.0.1",
+    version: "1.0.2",
   },
   release: {
     baseUrl: "https://github.com/elzii/wow-talents/releases/latest/download",
