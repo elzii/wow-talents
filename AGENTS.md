@@ -148,8 +148,32 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
   - Enabled `generatePatch: true` for automatic binary delta patching across versions.
 - **GitHub Actions Release Workflow (`.github/workflows/release.yml`)**:
   - Created automated release pipeline triggered on `v*` git tag pushes or manual workflow dispatch.
+  - Prepares Cottontail environment (`cottontail-core` symlinks and `cottontail-stdlib`).
   - Generates DMG installer, compressed tarball update archive (`.app.tar.zst`), manifest (`update.json`), and ZIP bundle.
   - Signs bundles and publishes release assets directly to GitHub Releases.
+  - Eliminated headless launcher blocking execution by cleanly ad-hoc signing after cleaning `.cottontail-tmp`.
+
+### 14. Custom Mode Prerequisite Decoupling & Legacy Calculator Tooltips
+- **Prerequisite Decoupling in Custom Mode (`custom.ts`, `App.tsx`, `TalentTree.tsx`, `Tooltip.tsx`)**:
+  - Decoupled Custom Class Mode from hard-coded prerequisite dependencies (previously inherited from Mage template).
+  - Prerequisites are now dynamically determined solely by tier points spent (`y * 5`), allowing any talent to be placed and ranked without prerequisite blocking.
+  - Prerequisite requirement warning badges are hidden in Custom Mode tooltips.
+- **Legacy Points Calculator Tooltip Styling (`LegacyCalculator.tsx`)**:
+  - Unified the visual presentation of Legacy Points tooltips with the main talent calculator tooltips.
+  - Includes rank indicators, green rank effect descriptions, Next Rank previews, and tier point requirement indicators.
+
+### 15. Automated Semver Bumping & Production OTA Release Deployment
+- **Automated Semver Release Script (`scripts/release.ts` / `bun run release`)**:
+  - Script automatically increments semver patch in `package.json` and `electrobun.config.ts`.
+  - Stages, commits, tags, and pushes branch and tag to GitHub origin.
+- **Verified Production Release (`v1.0.3`)**:
+  - Successfully triggered GitHub Actions runner completing in 1m22s.
+  - Published release assets to GitHub Releases (`v1.0.3`):
+    - `macos-arm64-WoWTalentCalculator.dmg` (55.98 MiB)
+    - `stable-macos-arm64-update.json` (222 B)
+    - `stable-macos-arm64-WoWTalentCalculator.tar.zst` (53.84 MiB)
+    - `WoWTalentCalculator-macos-arm64.zip` (54.62 MiB)
+  - Verified remote update manifest queryable via `https://github.com/elzii/wow-talents/releases/latest/download/stable-macos-arm64-update.json`.
 
 ---
 
@@ -165,3 +189,4 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
 - [x] Implement `hutch` updater ingestion logic in `src/bun/index.ts` to check for new versions on startup.
 - [x] Generate `update.json` and bsdiff delta patches during CI workflow.
 - [x] Add in-app update notification and prompt for seamless user downloads and app restart.
+- [x] Verify release pipeline and OTA manifest deployment with automated patch bump (`v1.0.3`).
