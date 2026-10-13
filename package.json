@@ -8,7 +8,8 @@
     "build": "bun run css && electrobun build",
     "start": "bun run build && bun run dev",
     "static": "bun run scripts/build_static.ts",
-    "serve": "bunx serve build/static"
+    "serve": "bunx serve build/static",
+    "export": "mkdir -p ~/Source/HTML/wow-talents && cp -rv build/static/* ~/Source/HTML/wow-talents/"
   },
   "dependencies": {
     "@radix-ui/themes": "^3.3.0",
