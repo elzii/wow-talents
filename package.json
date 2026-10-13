@@ -1,6 +1,6 @@
 {
   "name": "wow-talents",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "WoW Talent Calculator for Classic, TBC, and Forever with Custom Class Builder, powered by ElectroBun",
   "scripts": {
     "css": "bunx @tailwindcss/cli -i src/mainview/styles.css -o src/mainview/index.css",
