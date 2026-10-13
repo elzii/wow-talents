@@ -103,6 +103,19 @@ This repository (`wow-talents`) is a desktop World of Warcraft Talent Calculator
   - Downloaded all missing legacy icon assets (`achievement_profession_chefhat`, `inv_misc_basket_04`, `ability_hunter_huntervswild`, `inv_fishingchair`, `achievement_guild_ridelikethewind`, `achievement_bg_winwsg`, `spell_misc_emotionhappy`).
   - Created `LegacyCalculator.tsx` rendering all 3 trees (*Professions*, *Adventure*, *Resourcefulness*) with 16 total account-wide points, 5/10 pt tier gating, edge prerequisite dependencies, and dynamic SVG connector arrows.
 
+### 10. Talent Chooser Virtual Scroller, Tooltip Rank Interpolation & Inset Container Layout
+- **Virtualized Row-Based Talent Picker (`TalentPickerModal.tsx`)**:
+  - Replaced the 6x4 icon grid / pagination with a row-based list matching the `TreeCopyModal` visual language (class crest, spell icon, title, class/spec badge, rank badge, and spell description).
+  - Implemented a custom lightweight virtual scroller (`ITEM_HEIGHT = 80`, container height 460px, overscan 4) to smoothly render all 728 abilities without DOM strain.
+  - Automatically persists the active class filter to `localStorage` under `wow_custom_picker_class_filter` across modal closures and app reloads.
+- **Dynamic Tooltip Multi-Rank Text Fix (`Tooltip.tsx`)**:
+  - Fixed rank interpolation so multi-rank talents dynamically display and scale percentage and numeric increments (e.g. 2%, 4%, 6%, 8%, 10%) per rank.
+  - Hydrated all 356 multi-rank talents across Forever dataset (`druid.ts`, `hunter.ts`, `mage.ts`, etc.), `allTalentsPool.json`, and `allTreesCatalog.json` with multi-rank descriptions.
+  - `Tooltip.tsx` now correctly previews the current rank description and "Next Rank:" description as points are allocated or unallocated.
+- **Padded & Inset Calculator Container Layout (`App.tsx`)**:
+  - Unified the main talent calculator with the visual aesthetic of the Legacy Points Calculator: styled in a padded, inset container (`bg-neutral-950/90 border border-gray-800 rounded-2xl shadow-2xl p-6`).
+  - Placed the `ClassSelector` at the top of the container and relocated the 'Custom Class Builder' toolbar to the bottom inside the container.
+
 ---
 
 ## TODO / Roadmap

@@ -1,4 +1,4 @@
-import { ClassData } from "../../types";
+import { ClassData } from "../../../types";
 
 export const paladinData: ClassData = {
   "name": "Paladin",
